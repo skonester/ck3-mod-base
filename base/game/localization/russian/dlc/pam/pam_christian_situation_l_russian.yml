@@ -131,7 +131,7 @@
  the_christian_church_christian_regular_secondary_powers_rulers: "$the_christian_church_participant_group_christian_regular_secondary_powers_rulers$"
  pam_christian_church_instability_tt: "[Concept('the_christian_church', 'Христианская церковь')|E] находится в фазе [Concept('the_christian_church_unstable', 'нестабильности')|E]"
  pam_christian_church_zeal_tt: "[Concept('the_christian_church', 'Христианская церковь')|E] находится в фазе [Concept('the_christian_church_zeal', 'фанатизма')|E]"
- pam_christian_church_stability_tt: "[Concept('the_christian_church', 'Христианская церковь')|E] находится в фазе [Concept('the_christian_church_stability', 'стабильности')|E]"
+ pam_christian_church_stability_tt: "[Concept('the_christian_church', 'Христианская церковь')|E] находится в фазе [GetSituationType('the_christian_church').GetPhaseType('concord').GetName], [GetSituationType('the_christian_church').GetPhaseType('crusade_phase').GetName] или [GetSituationType('the_christian_church').GetPhaseType('conversion_phase').GetName]"
  the_christian_church_phase_tt: "[GetSituation('the_christian_church').GetTopCurrentPhase.GetType.GetName]"
  the_christian_church_phase_value_tt: "[GetSituation('the_christian_church').GetTopCurrentPhase.GetType.GetName]: #P +$VALUE|0$#!"
  my_church_power_clerical_main: "[GetSituation('the_christian_church').GetTopParticipantGroupByKey( 'christian_clerical_main_power_rulers' ).GetName]"

@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "破門を要請する"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "対象"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "あなたは[recipient.GetCapitalLocation.GetName]に赴き、[recipient.GetTitledFirstName]に[secondary_recipient.GetTitledFirstName]を[excommunicate|E]するよう請願する"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUIName]は[recipient.GetCapitalLocation.GetName]に赴き、[recipient.GetTitledFirstName]に[secondary_recipient.GetTitledFirstName]を[excommunicate|E]するよう請願する"
  petition_head_of_faith_decision_option_repentance: "破門の解除"
  petition_head_of_faith_decision_option_excommunication: "破門の要請"
  petition_head_of_faith_decision_option_repentance_desc: "あなたの[excommunication|E]の解除を求める。"

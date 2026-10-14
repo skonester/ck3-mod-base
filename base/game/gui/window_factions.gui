@@ -65,6 +65,13 @@ window = {
 					#visible = "[PdxGuiTabs.AddTabIf( 'targeting_factions', Not( And( FactionsWindow.IsPrimaryTitleTitular, Not( GetPlayer.IsIndependentRuler ) ) ) )]" # Save for reference to fix visible trigger
 					#visible = "[PdxGuiTabs.AddTabIf( 'my_factions', Not( And( GetPlayer.IsIndependentRuler, Not( FactionsWindow.IsInAnyFaction ) ) ) )]" # Save for reference to fix visible trigger of tabs
 
+					# No tabs to pick from (e.g. after usurping your liege), so fall back to the factions against you
+					state = {
+						name = _hide
+						on_start = "[GetVariableSystem.Set( 'targeting_factions', 'true' )]"
+						on_start = "[GetVariableSystem.Clear( 'my_factions' )]"
+					}
+
 					button_tab = {
 						name = "open_factions_against_you_tab"
 						shortcut = "tab_1"

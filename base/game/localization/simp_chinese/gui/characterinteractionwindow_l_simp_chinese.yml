@@ -11,7 +11,7 @@
  interaction_category_diplomacy: "外交"
  interaction_category_friendly: "私人"
  interaction_category_friendly_filter_tag_desc: "个人互动"
- interaction_category_laamp: "无地冒险者 "
+ interaction_category_laamp: "冒险者"
  interaction_category_hostile: "敌对"
  interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
  interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]"

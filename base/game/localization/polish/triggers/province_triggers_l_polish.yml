@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "Ma pułk stacjonujący"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "Ma pułk stacjonujący typu: $MEN_AT_ARMS_TYPE$"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ jest dozwolone na mocy obowiązującego prawa państwowego"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ nie jest dozwolone na mocy obowiązującego prawa państwowego"
  IS_CAPITAL_BARONY_TRIGGER: "Baronia jest stolicą"
  IS_HOLY_SITE_TRIGGER: "Jest [Concept('holy_site', 'miejscem świętym')|E]"
  NOT_IS_HOLY_SITE_TRIGGER: "#bold Nie#! jest [Concept('holy_site', 'miejscem świętym')|E]"

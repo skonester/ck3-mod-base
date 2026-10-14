@@ -26,10 +26,10 @@
  chariot_team_whites_possessive_glossed: "[Glossary( 'Leukoi\\'s', 'WHITE_LEUKOI_GLOSS' )]"
  chariot_team_reds_possessive_glossed: "[Glossary( 'Rhousioi\\'s', 'RED_RHOUSIOI_GLOSS' )]"
 
- BLUE_VENETOI_GLOSS: "The #bold Venetoi#!, a period name for "the Blue" faction, were considered one the most prestigious teams that competed in the Hippodrome of Constantinople and were thought to be connected to the upper classes. The famous charioteer, Porphyrius, was an esteemed member of the Blues, although he briefly changed his membership to the Greens during the time of the Nika Riots."
+ BLUE_VENETOI_GLOSS: "The #bold Venetoi#!, a period name for "the Blue" faction, were considered one of the most prestigious teams that competed in the Hippodrome of Constantinople and were thought to be connected to the upper classes. The famous charioteer, Porphyrius, was an esteemed member of the Blues, although he briefly changed his membership to the Greens during the time of the Nika Riots."
  GREEN_PRASINOI_GLOSS: "The #bold Prasinoi#!, a period name for "the Green" faction, were considered a faction of the people. In the 6th century, the Greens slaughtered nearly 3,000 members of the Blues in Constantinople's amphitheater."
- WHITE_LEUKOI_GLOSS: "The #bold Leukoi#!, a period name for "the White" faction, were historically overshadowed by the Blues and the Greens, but by no means insignificant. By our period, they had already been incorporated by the Blues."
- RED_RHOUSIOI_GLOSS: "The #bold Rhousioi#!, a period name for "the Red" faction, were historically overshadowed by the Blues and the Greens, but by no means insignificant. By our period, they had already been incorporated by the Greens."
+ WHITE_LEUKOI_GLOSS: "The #bold Leukoi#!, a period name for "the White" faction, were historically overshadowed by the Blues and the Greens, but by no means insignificant. By our period, they had already been incorporated into the Blues."
+ RED_RHOUSIOI_GLOSS: "The #bold Rhousioi#!, a period name for "the Red" faction, were historically overshadowed by the Blues and the Greens, but by no means insignificant. By our period, they had already been incorporated into the Greens."
 
  chariot_wager_type_win: "win"
  chariot_wager_type_place: "place"
@@ -83,7 +83,7 @@
  chariot_comeback_propelling: "propelling from the end, determinedly vying with the leading charioteers"
 
  throne_room_chrysotriklinos: "[Glossary( 'chrysotriklinos', 'CHRYSOTRIKLINOS_GLOSS')]"
- CHRYSOTRIKLINOS_GLOSS: "The #bold Chrysotriklinos#!, or Golden Reception Hall, was the main ceremonial hall of the Great Palace of Constantinople"
+ CHRYSOTRIKLINOS_GLOSS: "The #bold Chrysotriklinos#!, or Golden Reception Hall, was the main ceremonial hall of the Great Palace of Constantinople."
  throne_room_default: "throne room"
 
  camp_purpose_type_wanderer: "wanderer"

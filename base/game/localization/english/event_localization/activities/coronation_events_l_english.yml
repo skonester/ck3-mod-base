@@ -415,7 +415,7 @@
  ach_coronation.0029.a.personal_hunt: "Your next [GetActivityType('activity_hunt').GetName] may grant [vassal|E] [guests|E] the [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E]"
  ach_coronation.0029.a.glorious_hunt: "Your next [GetActivityType('activity_hunt').GetName] will increase your [legitimacy|E]"
  ach_coronation.0029.b: "What if we falconed instead?"
- ach_coronation.0029.b.free_falconry: "Your next $hunt_type_falconry$ type [GetActivityType('activity_hunt').GetName] will not cost any [gold|E]"
+ ach_coronation.0029.b.free_falconry: "Your next $hunt_type_falconry$ type [GetActivityType('activity_hunt').GetName] will cost less [gold|E]"
  ach_coronation.0029.b.flavor: "And you two shall supply the birds, of course!"
  ach_coronation.0029.c: "Hah! I'll be far too busy!"
  ach_coronation.0029.c.virtuous: "What happened to 'temperance in all things'?"

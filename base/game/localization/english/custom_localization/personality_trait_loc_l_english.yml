@@ -19,7 +19,7 @@
  personality_traitdesc.negative.lazy:0 "lazy"
  personality_traitdesc.negative.wrathful:0 "wrathful"
  personality_traitdesc.negative.calm:0 "placid"
- personality_traitdesc.negative.deceitful:0 "guileless"
+ personality_traitdesc.negative.deceitful: "duplicitous"
  personality_traitdesc.negative.honest:0 "candid"
  personality_traitdesc.negative.craven:0 "cowardly"
  personality_traitdesc.negative.brave:0 "reckless"

@@ -28,5 +28,8 @@ province_id = {
 	special_building_slot = building_key		# Enables and sets the special building slot for building 'building_key'
 	special_building = building_key				# Same as special_building_slot, but also builds the actual building in the slot
 	duchy_capital_building = building_key		# Builds the capital duchy building 'building_key' (only for duchy capitals)
+
+	# Effect executed when this history entry is applied, after the holding type and regular buildings, before special/duchy capital buildings. Scope: province
+	effect = { ... }
 }
 

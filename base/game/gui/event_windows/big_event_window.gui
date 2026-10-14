@@ -108,7 +108,6 @@ types BigWindowTypes {
 			parentanchor = top|hcenter
 			position = { 0 34 }
 			size = { 100% 100% }
-			scissor = yes
 
 			## LEFT CHARACTER ###
 			widget = {

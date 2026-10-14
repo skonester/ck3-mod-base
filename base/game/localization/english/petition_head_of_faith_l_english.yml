@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "Request Excommunication"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "Target"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "You will travel to [recipient.GetCapitalLocation.GetName] and petition [recipient.GetTitledFirstName] to [excommunicate|E] [secondary_recipient.GetTitledFirstName]"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUIName] will travel to [recipient.GetCapitalLocation.GetName] and petition [recipient.GetTitledFirstName] to [excommunicate|E] [secondary_recipient.GetTitledFirstName]"
  petition_head_of_faith_decision_option_repentance: "Lift Excommunication"
  petition_head_of_faith_decision_option_excommunication: "Request Excommunication"
  petition_head_of_faith_decision_option_repentance_desc: "Ask for the lifting of your [excommunication|E]."

@@ -1009,17 +1009,7 @@ idle = {
 					add = {70 110}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}
@@ -1039,17 +1029,7 @@ idle = {
 					add = {80 120}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}
@@ -1069,17 +1049,7 @@ idle = {
 					add = {90 130}
 				}
 				modifier = {
-					AND = {
-						is_female = yes
-						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-					}
-					factor = 0
-				}
-				modifier = {
-					AND = {
-						is_male = yes
-						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-					}
+					NOT = { rite = { rite_has_dominant_ruling_gender = prev } }
 					factor = 0
 				}
 			}

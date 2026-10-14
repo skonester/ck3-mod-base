@@ -65,3 +65,5 @@
  confederations_desc: "#T 家族集团和部落联盟#!\n显示地图上的所有[blocs|E]和[confederations|E]。"
  clerical_regions: "圣职区"
  clerical_regions_desc: "#T 圣职区#!\n显示当前存在的所有[clerical_regions|E]，每一个都属于[clerical_title|E]的管辖范围。"
+ faith_mapmode_holy_sites_tt: "#T 显示圣地#!\n#I 点击查看#!"
+ faith_mapmode_religious_heads_tt: "#T 显示信仰领袖#!\n#I 点击查看#!"

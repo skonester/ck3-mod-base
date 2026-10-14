@@ -72,4 +72,4 @@
  BlocReasonBribeInfluence: "넉넉한 [influence_i][influence|E] 뇌물로 인해"
  BlocReasonBribeHook: "[hook_i][hook|E]의 사용으로 인해"
  BlocReasonKicked: "[leading_house|E]에 의해 밀려난 결과"
- BlocReasonFollowedLiege: "본인의 [house_heads_possessive] [liege|E]의 [bloc|E]에 가입하기 위해"
+ BlocReasonFollowedLiege: "본인의 [house_heads_possessive|E] [liege|E]의 [bloc|E]에 가입하기 위해"

@@ -3,11 +3,12 @@
  actor_secondary_puppet_excommunicate_interaction: "$theological_agent_puppet$"
  theological_agent_puppet: "Realm Priest Puppet"
  theological_agent_puppet_desc: "The [realm_priest|E] [puppet|E] acts as your voice inside the Church, allowing you to vote at [ecumenical_councils|E] and found [rites|E]."
+ theological_agent_puppet_concept_desc: "$game_concept_clerical_puppet_desc$"
  puppet_type_no_candidates: "You do not have available [PuppetType.GetName|V] [puppets|E]"
  puppet_action_description_puppet_action_give_gift: "Use #V [GetPlayer.GetPlayerInteractionName('gift_interaction')]#! [interaction|E] to spend [gold|E] for [opinion|E] with another [character|E]"
  puppet_action_description_puppet_action_ask_excommunicate_character: "Use #V [GetPlayer.GetPlayerInteractionName('request_excommunication_interaction')]#! [interaction|E] to have the [head_of_faith|E] [excommunicate|E] a sinful [character|E]"
  puppet_action_description_puppet_trigger_can_create_faith: "Create a new [faith|E]"
- puppet_action_description_puppet_trigger_can_create_rite: "Create a new [rite|E]"
+ puppet_action_description_puppet_trigger_can_create_rite: "Create or modify a [rite|E]"
  puppet_action_description_puppet_action_command_murder: "Use #V [GetPlayer.GetPlayerInteractionName('start_murder_interaction')]#! [interaction|E] against a target [character|E]"
  puppet_action_description_puppet_action_request_elevation: "Use #V [GetPlayer.GetPlayerInteractionName('request_elevation_interaction')]#! [interaction|E] to petition the [head_of_faith|E] for a more prestigious [clerical_title|E]"
 
@@ -48,8 +49,10 @@
  request_ecclesiastical_title_creation_interaction_desc: "Petition your [head_of_faith|E] to establish a new [clerical_title|E] within your [realm|E]\n\nYou choose the [title|E] that seats it and its first [holder|E]\n\n#weak The new [clerical_region|E] covers every [de_jure|E] [county|E] of the seat's [de_jure|E] [kingdom|E] that no [clerical_region|E] holds yet#!"
  request_ecclesiastical_title_creation_interaction_notification: "The faithful of my lands are shepherded from afar, by strangers who do not know them. Sanction a new see raised upon the seat I name, and it shall want for nothing."
  request_ecclesiastical_title_creation_accepted_tt: "[new_title.GetNameNoTooltip] Created"
- pam_request_ecclesiastical_title_creation_no_eligible_anchor_tt: "You hold no [duchy|E] or higher [title|E] whose [de_jure|E] [capital|E] can seat a new [clerical_region|E]"
- pam_request_ecclesiastical_title_creation_no_eligible_anchor_tt_puppeteer: "[puppet_or_actor.GetShortUINameNoTooltip] holds no [duchy|E] or higher [title|E] whose [de_jure|E] [capital|E] can seat a new [clerical_region|E]"
+ pam_request_ecclesiastical_title_creation_no_eligible_anchor_tt: "You hold no [title|E] of [SelectLocalization( puppet_or_actor.GetGovernment.IsType( 'ecclesiastical_government' ), 'pam_request_ecclesiastical_title_creation_anchor_tier_county', 'pam_request_ecclesiastical_title_creation_anchor_tier_duchy' )] [title_tier|E] or higher with a [de_jure|E] [capital|E] that is of your [faith|E], held within your [realm|E], and outside any [clerical_region|E]"
+ pam_request_ecclesiastical_title_creation_no_eligible_anchor_tt_puppeteer: "[puppet_or_actor.GetShortUINameNoTooltip] holds no [title|E] of [SelectLocalization( puppet_or_actor.GetGovernment.IsType( 'ecclesiastical_government' ), 'pam_request_ecclesiastical_title_creation_anchor_tier_county', 'pam_request_ecclesiastical_title_creation_anchor_tier_duchy' )] [title_tier|E] or higher with a [de_jure|E] [capital|E] of their [faith|E], held within their [realm|E], and outside any [clerical_region|E]"
+ pam_request_ecclesiastical_title_creation_anchor_tier_county: "[county|E]"
+ pam_request_ecclesiastical_title_creation_anchor_tier_duchy: "[duchy|E]"
  pam_new_clerical_region_invalid_anchor_tt: "The [de_jure|E] [capital|E] of this [title|E] must be of the petitioner's [faith|E], held within their [realm|E], and not already inside a [clerical_region|E]"
  pam_request_ecclesiastical_title_creation_needs_free_cleric_tt: "Requires a [clergy|E] candidate who does not already hold a [clerical_region|E]"
  recipient_secondary_request_ecclesiastical_title_creation_interaction: "Holder"
@@ -86,9 +89,11 @@
  external_clerical_puppet: "[external_clerical_puppet|E]"
  has_relation_external_clerical_puppet: "Already a [external_clerical_puppet|E]"
  external_theological_agent_puppet_desc: "The Clerical [puppet|E] is outside your [realm|E]; [archbishops|E], [cardinals|E], or the [head_of_faith|E]. They are powerful and can [excommunicate|E]."
+ external_theological_agent_puppet_concept_desc: "$game_concept_external_clerical_puppet_desc$"
 
  external_ruler_puppet: "Secular Ruler Puppet"
  external_ruler_puppet_desc: "A [ruler|E] held by love, fear, or obligation. Order them to [scheme|E] for you, and make their [realm|E] serve yours."
+ external_ruler_puppet_concept_desc: "$game_concept_external_ruler_puppet_desc$"
 
  # Religious - PAM (additions)
  puppet_action_description_puppet_action_request_ecclesiastical_title_split: "Use #V [GetPlayer.GetPlayerInteractionName('request_ecclesiastical_title_split_interaction')]#! [interaction|E] to petition the [head_of_faith|E] to split a new [clerical_title|E] from an existing [clerical_region|E]"
@@ -215,7 +220,7 @@
  PUPPET_RECIPIENT_MUCH_WEAKER_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] military is far weaker: $VALUE|=+0$"
  PUPPET_ZEALOUS_HEAD_OF_FAITH_REASON: "[recipient.GetSheHe|U] is [GetTrait('zealous').GetName( GetPlayer )] and you are [recipient.GetShortUINamePossessive] [head_of_faith|E]: $VALUE|=+0$"
 
-piety_level_dread_or_hook_tt: "[actor.GetShortUIName|U] must either:\n$EFFECT_LIST_BULLET$Have a [piety_level|E] of @piety_level_2_icon_christian![GetModifier( 'piety_level_2' ).GetNameWithTooltip] or higher\n$EFFECT_LIST_BULLET$Have a @weak_hook_icon![hook|E] on [recipient.GetShortUIName]\n$EFFECT_LIST_BULLET$Make [recipient.GetShortUIName] [intimidated_i][intimidated|E]"
+piety_level_dread_or_hook_tt: "[actor.GetShortUIName|U] must either:\n$EFFECT_LIST_BULLET$Have a [piety_level|E] of @piety_level_2_icon_christian![GetModifier( 'piety_level_2' ).GetNameWithTooltip] or higher\n$EFFECT_LIST_BULLET$Have a @weak_hook_icon![hook|E] on [recipient.GetShortUIName]\n$EFFECT_LIST_BULLET$Make [recipient.GetShortUIName] [terrified_i][cowed|E]"
 
  piety_level_3_dread_or_hook_tt: "[actor.GetShortUIName|U] must either:\n$EFFECT_LIST_BULLET$Have a [piety_level|E] of @piety_level_3_icon_christian![GetModifier( 'piety_level_3' ).GetNameWithTooltip] or higher\n$EFFECT_LIST_BULLET$Have a @weak_hook_icon![hook|E] on [recipient.GetShortUIName]\n$EFFECT_LIST_BULLET$Make [recipient.GetShortUIName] [terrified_i][cowed|E]\n$EFFECT_LIST_BULLET$Be [recipient.GetShortUINamePossessive] [head_of_faith|E] or [challenger_hof|E]"
  piety_level_4_dread_or_strong_hook_tt: "[actor.GetShortUIName|U] must either:\n$EFFECT_LIST_BULLET$Have a [piety_level|E] of @piety_level_4_icon_christian![GetModifier( 'piety_level_4' ).GetNameWithTooltip] or higher\n$EFFECT_LIST_BULLET$Have a @unspent_strong_hook_icon![strong_hook|E] on [recipient.GetShortUIName]\n$EFFECT_LIST_BULLET$Make [recipient.GetShortUIName] [terrified_i][cowed|E]\n$EFFECT_LIST_BULLET$Be [recipient.GetShortUINamePossessive] [head_of_faith|E] or [challenger_hof|E]"

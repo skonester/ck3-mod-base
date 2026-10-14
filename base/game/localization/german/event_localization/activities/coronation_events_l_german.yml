@@ -397,7 +397,7 @@
  ach_coronation.0029.a.personal_hunt: "Eure nächste [GetActivityType('activity_hunt').GetName] kann [Concept('vassal', 'Vasallen')|E]-[Concept('guests', 'Gästen')|E] die [trait|E] „[GetTrait('loyal').GetName(GetNullCharacter)|U]“ gewähren"
  ach_coronation.0029.a.glorious_hunt: "Eure nächste [GetActivityType('activity_hunt').GetName] wird Eure [legitimacy|E] verbessern"
  ach_coronation.0029.b: "Was, wenn wir stattdessen auf die Beizjagd gingen?"
- ach_coronation.0029.b.free_falconry: "Eure nächste $hunt_type_falconry$-[GetActivityType('activity_hunt').GetName] wird kein [gold|E] kosten"
+ ach_coronation.0029.b.free_falconry: "Eure nächste $hunt_type_falconry$-[GetActivityType('activity_hunt').GetName] wird weniger [gold|E] kosten"
  ach_coronation.0029.b.flavor: "Und Ihr beide sorgt natürlich für die Vögel!"
  ach_coronation.0029.c: "Ha! Ich werde viel zu beschäftigt sein!"
  ach_coronation.0029.c.virtuous: "Was ist nur mit „Maßhalten in allen Dingen“ geschehen?"

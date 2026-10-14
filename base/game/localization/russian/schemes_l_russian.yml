@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "Надеюсь, мне встретится [SCHEME.GetTargetFaith.GetAdherentNameNoTooltip|l], у которого можно будет учиться."
  find_follower_of_faith_desc_general: "Найти последователя — это [Concept('personal_scheme', 'личные происки')|E], позволяющие искать последователей конфессии, чтобы начать [Concept('scheme', 'происки')|E] по изучению течения. Эти происки в основном полагаются на [Concept('learning', 'ученость')|E] и [Concept('intrigue', 'интриги')|E], но ваши [Concept('spymaster', 'тайный советник')|E] и [Concept('court_chaplain', 'придворный капеллан')|E] также могут помочь. Происки идут успешнее, если ваша конфессия снисходительно относится к ним, или если речь о конфессии с той же [Concept('religious_family', 'религиозной концепцией')|E]. Поскольку это не [Concept('hostile_scheme', 'агрессивные происки')|E], они не являются [Concept('secret_scheme_single', 'секретом')|E] и не полагаются на [Concept('agents', 'соучастников')|E]."
  find_follower_of_faith_success_message: "Вам встретился [target.GetAdherentNameNoTooltip|l]"
+ find_follower_of_faith_SUCCESS_DESC: "Вы находите последователя выбранной [Concept('faith', 'веры')|E]"
  find_follower_of_faith_failed_message: "Вам не повстречался [target.GetAdherentNameNoTooltip|l]"
  find_follower_of_faith_continue: "Вы продолжаете попытки"
  find_follower_of_faith_try_again: "Вы предпримете еще одну попытку"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "Ваша [Concept('faith', 'конфессия')|E] принадлежит к той же [Concept('religious_family', 'религиозной концепции')|E], что и выбранная конфессия: $VALUE|+=0$"
  find_follower_of_faith_dead_faith: "[target.GetAdjective] больше не практикуется: $VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "[target.GetAdjective] практикуется в вашей державе: $VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "Ваш [Concept('realm_priest', 'державный священник')|E] помогает в поисках: $VALUE|+=0$"

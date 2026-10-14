@@ -10,6 +10,17 @@
 		}
 	}
 
+	### brief: group ( database key, optional )
+	# Court scene character group (gfx/court_scene/character_groups) this role belongs to.
+	# Court events requesting a role group pick a free role from the roles in that group,
+	# using the group's access_type.
+	group = group_name
+
+	### brief: is_low_priority ( bool, optional, default: no )
+	# If yes, the characters of this role are only shown when the game setting for
+	# low priority court scene characters is enabled
+	is_low_priority = no
+
 	# scripted animation block for animation selection based on triggers
 	# scope:ruler = character who owns the royal court
 	# scope:character = the character who is going to receive triggered animation
@@ -58,5 +69,7 @@
 		camera = camera_name
 	}
 }
+
+The roles "ruler" and "spouse" must exist; the code looks them up by key.
 
 Court events can override what roles are given to who in the court scene, the events override the default role. The court events can override the animation as well for the role.

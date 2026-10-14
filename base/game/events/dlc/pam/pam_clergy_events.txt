@@ -67,6 +67,7 @@ pam_clergy_events.0002 = {
 				is_ai = no
 			}
 			trigger_event = pam_clergy_events.0001
+			remove_variable = has_edited_a_rite
 		}
 		# Just became AI pope? choose your favorite tenet!
 		else = {
@@ -492,6 +493,21 @@ pam_clergy_events.0042 = {
 	}
 }
 
+##################################################
+## 0043 - Notify-only letter for a new cardinal ##
+##################################################
+
+pam_clergy_events.0043 = {
+	type = letter_event
+	opening = pam_clergy_events.0040.opening
+	desc = pam_clergy_events.0040.desc
+	sender = scope:head_of_faith
+
+	option = {
+		name = pam_clergy_events.0040.a
+	}
+}
+
 ###################################################################
 ## 0051 - Clerical region capital converts (player holder)       ##                                                    ##
 ###################################################################
@@ -502,7 +518,12 @@ scripted_effect pam_strip_personal_landed_titles_effect = {
 		limit = {
 			any_held_title = {
 				tier >= tier_county
-				has_clerical_region = no
+				trigger_if = {
+					limit = {
+						scope:reason != flag:character_converted
+					}
+					has_clerical_region = no
+				}
 			}
 		}
 		create_title_and_vassal_change = {
@@ -512,11 +533,24 @@ scripted_effect pam_strip_personal_landed_titles_effect = {
 		}
 
 		if = {
-			limit = { scope:reason ?= flag:character_converted }
+			limit = { exists = root.var:old_rite }
+			root.var:old_rite = { save_scope_as = pam_strip_see_rite }
+		}
+		else_if = {
+			limit = { exists = scope:county.rite }
+			scope:county.rite = { save_scope_as = pam_strip_see_rite }
+		}
+
+		if = {
+			limit = {
+				scope:reason ?= flag:character_converted
+				exists = scope:pam_strip_see_rite
+			}
 			if = {
 				limit = {
+					exists = primary_heir
 					primary_heir = {
-						rite ?= root.var:old_rite
+						rite ?= scope:pam_strip_see_rite
 						OR = {
 							is_ruler = no
 							government_has_flag = government_is_theocracy
@@ -527,8 +561,9 @@ scripted_effect pam_strip_personal_landed_titles_effect = {
 			}
 			else_if = {
 				limit = {
+					exists = player_heir
 					player_heir = {
-						rite ?= root.var:old_rite
+						rite ?= scope:pam_strip_see_rite
 						OR = {
 							is_ruler = no
 							government_has_flag = government_is_theocracy
@@ -569,9 +604,12 @@ scripted_effect pam_strip_personal_landed_titles_effect = {
 			}
 		}
 		if = {
-			limit = { scope:reason ?= flag:character_converted }
+			limit = {
+				scope:reason ?= flag:character_converted
+				exists = scope:pam_strip_see_rite
+			}
 			scope:heir = {
-				set_character_rite = root.var:old_rite
+				set_character_rite = scope:pam_strip_see_rite
 			}
 		}
 		every_held_title = {
@@ -591,7 +629,10 @@ scripted_effect pam_strip_personal_landed_titles_effect = {
 		}
 		resolve_title_and_vassal_change = scope:pam_strip_land_change
 		if = {
-			limit = { scope:reason = flag:character_converted }
+			limit = {
+				scope:reason = flag:character_converted
+				exists = scope:pam_strip_see_rite
+			}
 			scope:heir = {
 				change_government = faith.faith_theocratic_goverment_type
 				rite = { force_refresh_head_of_rite = yes }

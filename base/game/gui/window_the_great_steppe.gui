@@ -58,6 +58,7 @@
 					blockoverride "button_close"
 					{
 						onclick = "[SteppeWindow.Close]"
+						onclick = "[SetMapMode('realms')]"
 					}
 				}
 
@@ -89,7 +90,13 @@
 		}
 	}
 
-	situation_mini_map_mode = {}
+	situation_mini_map_mode = {
+		blockoverride "map_mode_button_expand" {}
+
+		blockoverride "map_mode_button_expand_menu" {
+			visible = no
+		}
+	}
 
 	window_herd_leaderboard = {
 		datacontext = "[SteppeWindow.GetCharacterList]"
@@ -348,7 +355,7 @@ types SituationTypes
 			size = { 52 52 }
 			parentanchor = center
 
-			texture = "gfx/interface/icons/struggle_banners/icon_background_blue_frame.dds"
+			texture = "gfx/interface/icons/struggle_banners/icon_background_dark.dds"
 		}
 
 		icon_flat_standard = {
@@ -1087,7 +1094,7 @@ types SituationTypes
 	type situation_mini_map_mode = mini_map_mode {
 		parentanchor = bottom|left
 		widgetanchor = bottom|right
-		position = { -170 -25 }
+		position = { -200 -87 }
 
 		blockoverride "widget_size"
 		{
@@ -1100,6 +1107,11 @@ types SituationTypes
 				blockoverride = "mm_datacontext"
 				{
 					datacontext = "[GetMapMode( 'realms' )]"
+				}
+
+				blockoverride "mm_icon"
+				{
+					size = { 40 40 }
 				}
 			}
 
@@ -1126,6 +1138,11 @@ types SituationTypes
 				blockoverride = "mm_datacontext"
 				{
 					datacontext = "[GetMapMode( 'cultures' )]"
+				}
+
+				blockoverride "mm_icon"
+				{
+					size = { 36 36 }
 				}
 
 				blockoverride "mm_button"

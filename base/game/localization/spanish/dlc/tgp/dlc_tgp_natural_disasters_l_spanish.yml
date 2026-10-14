@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName] ha comenzado el [great_project|lE] [great_project.GetName]"
  # Great Project
- great_project_type_great_project_earthquake: "Ayuda para el terremoto de [GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]"
+ great_project_type_great_project_earthquake: "Ayuda para el terremoto de [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]"
  great_project_type_great_project_earthquake_desc: "Han de tomarse medidas para reducir el impacto del [earthquake|El]. Para proteger el señorío y a sus gentes, los gobernantes deben aportar [great_project_contributions|El] y convocar a otros [situation_participant_groups|El] para que apoyen las labores de ayuda."
  great_project_type_great_project_earthquake_contribution_recovery: "Rescate de los supervivientes"
  great_project_type_great_project_earthquake_contribution_cleanup: "Retirada de escombros"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "Ayuda a las víctimas"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "Enviar [GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip|l]"
  great_project_type_great_project_earthquake_contribution_memorial: "Fortificaciones conmemorativas"
- great_project_type_great_project_flood: "Ayuda para la inundación de [GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
+ great_project_type_great_project_flood: "Ayuda para la inundación de [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
  great_project_type_great_project_flood_desc: "Han de tomarse medidas para reducir el impacto de la [flood|El]. Para proteger el señorío y a sus gentes, los gobernantes deben aportar [great_project_contributions|El] y convocar a otros [situation_participant_groups|El] para que apoyen las labores de ayuda."
  great_project_type_great_project_flood_contribution_recovery: "Rescate de los supervivientes"
  great_project_type_great_project_flood_contribution_drainage: "Drenaje del terreno"

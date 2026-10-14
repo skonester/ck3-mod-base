@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! Нет [Concept('armies', 'армий')|E], доступных для сбора#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! Нет [Concept( 'men_at_arms', 'профессиональных солдат' )|E], доступных для сбора#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Нельзя собрать, пока включен параметр «$ARMY_AUTOMATION_FEATURE_NAME$»#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Щелкните, зажав Ctrl, чтобы #bold не#! разделять [Concept( 'armies', 'армии' )|E] в зависимости от [Concept( 'supply_limit', 'максимума припасов')|E]#!\n#I Щелкните ПКМ, чтобы собрать [Concept('armies', 'войска')|E] в выбранной вами области#!"
+ RAISE_TROOPS_EXTRA_INFO: "[Concept( 'armies', 'Армии' )|E] могут быть разделены, если превышают [Concept( 'supply_limit', 'максимум припасов')|E].\n\n#I Щелкните, зажав Ctrl, чтобы собрать [Concept( 'armies', 'армии' )|E] без разделения из-за [Concept( 'supply_limit', 'припасов')|E]#!\n#I Щелкните ПКМ, чтобы собрать [Concept('armies', 'войска')|E] в выбранной вами области#!"

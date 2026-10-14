@@ -6,6 +6,7 @@
         }
 
         known = {
+            tenet_gnosticism
             tenet_inner_journey
             tenet_ritual_celebrations
         }
@@ -15,6 +16,7 @@
 mandaean_faith = {
     867.1.1 = {
         known = {
+            tenet_gnosticism
             tenet_communal_identity
             tenet_legalism
             tenet_ritual_celebrations
@@ -25,6 +27,7 @@ mandaean_faith = {
 manichaean_faith = {
     867.1.1 = {
         known = {
+            tenet_gnosticism
             tenet_pacifism
             tenet_vows_of_poverty
             tenet_legalism

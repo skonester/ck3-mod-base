@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "この苦痛が我らをより近づけんことを。"
  attempted_transcendence_together_opinion: "ともに超越の儀を試みた"
  monastic_donation_interaction: "修道会に寄進する"
- monastic_donation_interaction_desc: "[gold|E]と引き換えに、[recipient.GetShortUINamePossessive]の修道者たちがあなたの救済と[spiritual_fulfillment|E]のために祈る。"
+ monastic_donation_interaction_desc: "[gold|E]と引き換えに、[recipient.GetShortUINamePossessive]の修道者たちがあなたの救済と[spiritual_fulfillment|E]のために祈る"
  INTERACTION_CEREMONIAL_HUMBLING: "特別な執り成しを必死に請う"
  INTERACTION_HUGE_DONATION: "多額の寄進を行う"
  monastics_praying_for_grievous_sins_modifier: "修道者による執り成しの祈り"

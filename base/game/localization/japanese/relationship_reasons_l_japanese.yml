@@ -15,7 +15,7 @@
  lover_seduced: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]を誘惑した。"
  lover_seduced_corresponding: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]を誘惑した。"
  grudge_imprisonment_desc: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]の牢獄で何年も苦しみ、強い憎悪を抱いた。"
- grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]の牢獄で何年も苦しみ、[TARGET_CHARACTER.GetHerHis]に強い憎悪を抱くようになった。"
+ grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]の牢獄で何年も苦しみ、[CHARACTER.GetHerHis]に強い憎悪を抱くようになった。"
  grudge_too_good: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUIName]があまりに仕事ができすぎるので、強い憎悪を抱いた。"
  grudge_too_good_corresponding: "[TARGET_CHARACTER.GetShortUIName|U]は[CHARACTER.GetShortUIName]があまりに仕事ができすぎるので、強い憎悪を抱いた。"
  rival_daneland: "デーンランドの創設後、[CHARACTER.GetShortUIName|U]と[TARGET_CHARACTER.GetShortUIName]は好敵手になった。"

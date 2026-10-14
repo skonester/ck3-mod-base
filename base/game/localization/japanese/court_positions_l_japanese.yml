@@ -360,7 +360,7 @@
  court_physician_not_employed_or_away_tt: "あなたには[GetCourtPositionType('court_physician_court_position').GetName()]がいないか、または同行していません"
  hire_physician_decision: "侍医を探す"
  hire_physician_decision_tooltip: "使用人たちが[GetCourtPositionType('court_physician_court_position').GetName()]の立場にふさわしい候補者を何人か推薦してくれます"
- hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourtLower')]で病人や負傷者を治療するには、$court_physician_court_position$が不可欠だ。使用人に適当な候補者を何人か連れてくるように言っておこう。"
+ hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourt')]で病人や負傷者を治療するには、$court_physician_court_position$が不可欠だ。使用人に適当な候補者を何人か連れてくるように言っておこう。"
  hire_physician_decision_effect_tooltip: "数名の[GetCourtPositionType('court_physician_court_position').GetName()]候補者が推薦され、手数料と毎月の給与[gold_i][SCOPE.ScriptValue('court_position_physician_salary')]を支払ってその中の一人を雇うことができる"
  hire_physician_decision_confirm: "選定を始めよう"
  antiquarian_employer_custom_effect_description: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'antiquarian_employer_custom_effect_reforge_description', '' )]$BULLET$#V [decision|E]「$commission_artifact_decision$#!」をアンロックする\n$BULLET$[sieges|E]および[raids|E]中に[artifacts|E]を守る"

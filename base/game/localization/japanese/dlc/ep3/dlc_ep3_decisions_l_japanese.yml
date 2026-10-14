@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "いざ進め！"
  become_landless_adventurer_decision_hof_tt: "あなたは[head_of_faith|E]であってはならない"
  become_landless_adventurer_decision_tier_tt: "あなたは[count|E]または[duke|E]でなければならない"
- become_landless_adventurer_decision_domain_size_tt: "あなたの[domain|E]は[counties|E]#V 3#!つを超える規模であってはならない"
+ become_landless_adventurer_decision_domain_size_tt: "あなたの[domain|E]は[holdings|E]#V 3#!つを超える規模であってはならない"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value あなたのすべての[landed|E]の[titles|E]と[vassals|E]が[THIS.Char.GetName]に継承される#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value あなたのすべての[landed|E]の[titles|E]がこの地域の新しい[ruler|E]に継承される#!"
  wipe_slate_decision: "過去を清算する"

@@ -230,6 +230,11 @@
  CONVERTS_TO_DOMICILE: "The [yurt|E] converts to [FAITH.GetName|V]"
  CONVERTED_TO_DOMICILE: "The [yurt|E] converted to [FAITH.GetName|V]"
 
+ set_domicile_rite_third: "The [yurt|E] converts to [RITE.GetName|V]"
+ set_domicile_rite_third_past: "The [yurt|E] converted to [RITE.GetName|V]"
+ set_domicile_rite_global: "$set_domicile_rite_third$"
+ set_domicile_rite_global_past: "$set_domicile_rite_third_past$"
+
  CULTURE_CONVERTS_TO_DOMICILE: "The [yurt|E] adopts the [TARGET_CULTURE.GetName|V] [culture|E]"
  CULTURE_CONVERTED_TO_DOMICILE: "The [yurt|E] adopted the [TARGET_CULTURE.GetName|V] [culture|E]"
 
@@ -710,8 +715,8 @@
 
  ADD_GUEST_COURTIER_EFFECT: "[COURTIER.GetUIName], from [EMPLOYER.GetShortUINamePossessive] court, becomes a guest in [HOST.GetShortUINamePossessive] court"
  STRESS_IMPACT_TRAIT_LIST: "because [Select_CString( CHARACTER.IsLocalPlayer, 'you', 'they' )] are $TRAITS$"
- FULFILLMENT_IMPACT_TRAIT_SIN: "#weak ([TRAIT.GetName( CHARACTER.Self )] acts are [sinful|E] to [FAITH.GetAdherentNamePlural])#!"
- FULFILLMENT_IMPACT_TRAIT_VIRTUE: "#weak ([TRAIT.GetName( CHARACTER.Self )] acts are [virtuous|E] to [FAITH.GetAdherentNamePlural])#!"
+ FULFILLMENT_IMPACT_TRAIT_SIN: "#weak ([TRAIT.GetName( CHARACTER.Self )] acts are [sinful|E] to [RITE.GetAdherentNamePlural])#!"
+ FULFILLMENT_IMPACT_TRAIT_VIRTUE: "#weak ([TRAIT.GetName( CHARACTER.Self )] acts are [virtuous|E] to [RITE.GetAdherentNamePlural])#!"
  STRESS_IMPACT_ONLY: "only "
  STRESS_IMPACT_INCREASED: ""
 

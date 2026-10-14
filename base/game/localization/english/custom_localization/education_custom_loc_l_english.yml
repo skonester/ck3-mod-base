@@ -7,7 +7,7 @@
  education_martial_4_outcome_description:0 "It is impressive to see such skill in someone so young. [ROOT.Char.GetSheHe|U] displays a level of insight that's rare even among veteran commanders!"
  
  martial_good_trait_match_bad_outcome:0 "[ROOT.Char.GetFirstNamePossessive] energetic nature was thought to be a sign of an affinity for war and combat, but perhaps it was simply unruliness. "
- martial_bad_trait_match_bad_outcome:1 "[ROOT.Char.GetFirstName] has never displayed much interest for the subject of warfare, but I always hoped that might be a passing phase. I was naive."
+ martial_bad_trait_match_bad_outcome: "[ROOT.Char.GetFirstName] has never displayed much interest in the subject of warfare, but I always hoped that might be a passing phase. I was naive."
  martial_neutral_trait_match_bad_outcome:1 "For the longest time I was hoping that good tutelage would be enough to teach [ROOT.Char.GetFirstName] the intricacies of warfare. I was naive."
  education_martial_1_outcome_description:2 "[ROOT.Char.GetSheHe|U] has shown little understanding of the subject, but at least [ROOT.Char.GetSheHe] knows which way to hold a sword, and might even be able to tell a footman from a $knight_culture_player_no_tooltip_lowercase$."
  education_martial_2_outcome_description:1 "[ROOT.Char.GetSheHe|U] has only developed a basic understanding of the subject, but at least [ROOT.Char.GetSheHe] has learned the essentials of managing an army. I can only hope that the rest will come with experience."
@@ -20,7 +20,7 @@
  diplomacy_good_trait_match_good_outcome:0 "Even as a child, [ROOT.Char.GetFirstName] always had a way with words. It is therefore unsurprising that [ROOT.Char.GetSheHe] has taken well to the study of diplomatic relations."
  diplomacy_good_trait_match_bad_outcome:0 "Despite being a chatty child, [ROOT.Char.GetFirstName] at times finds it difficult to get along with people."
  diplomacy_bad_trait_match_good_outcome:0 "Despite rarely getting along with other children, [ROOT.Char.GetFirstName] has shown a surprising aptitude for diplomatic maneuvering."
- diplomacy_bad_trait_match_bad_outcome:0 "[ROOT.Char.GetFirstName] was always so focused on what #EMP [ROOT.Char.GetSheHe]#! wanted, so perhaps it should come as not great surprise that [ROOT.Char.GetSheHe] has had a hard time learning how to influence others."
+ diplomacy_bad_trait_match_bad_outcome: "[ROOT.Char.GetFirstName] was always so focused on what #EMP [ROOT.Char.GetSheHe]#! wanted, so perhaps it should come as no great surprise that [ROOT.Char.GetSheHe] has had a hard time learning how to influence others."
  diplomacy_neutral_trait_match_good_outcome:0 "With sufficient tutelage, even a child that has displayed little natural inclination towards diplomatic influence, such as [ROOT.Char.GetFirstName], can come to truly understand it."
  diplomacy_neutral_trait_match_bad_outcome:0 "For the longest time I was hoping that good tutelage would be enough to teach [ROOT.Char.GetFirstName] the intricacies of diplomacy. All efforts have come to naught, however."
 
@@ -52,17 +52,17 @@
  education_diplomacy_3_outcome_description:0 "With an excellent grasp of all manners of etiquette, an understanding of all kinds of entertainment, and the eloquence to go with it, [ROOT.Char.GetSheHe] will have little trouble navigating a life at court."
  education_diplomacy_4_outcome_description:0 "A true silver tongue, [ROOT.Char.GetSheHe] could sway the opinion of Counts and Kings alike! When [ROOT.Char.GetSheHe] speaks, the court listens in enraptured silence."
 
- education_stewardship_1_outcome_description:0 "Perhaps [ROOT.Char.GetSheHe] can be considered lucky for having mastered the art of counting coins, for most other aspects of a steward's work seems to have eluded [ROOT.Char.GetHerHim]."
+ education_stewardship_1_outcome_description: "Perhaps [ROOT.Char.GetSheHe] can be considered lucky for having mastered the art of counting coins, for most other aspects of a steward's work seem to have eluded [ROOT.Char.GetHerHim]."
  education_stewardship_2_outcome_description:1 "Few would be impressed by [ROOT.Char.GetHerHis] understanding of the subject, but [ROOT.Char.GetSheHe] has at least developed a sound grasp on the basics of management, and the beginnings of a sensible frugality."
  education_stewardship_3_outcome_description:0 "Displaying a thorough understanding of the flow of gold and the wanderings of people, [ROOT.Char.GetSheHe] even expresses a remarkable creativity in dealing with these matters."
  education_stewardship_4_outcome_description:0 "Not content with understanding the flow of wealth and people, [ROOT.Char.GetSheHe] seems capable of predicting it as if by instinct! [ROOT.Char.GetSheHe|U] always finds new ways of profiting off it, too."
 
  education_intrigue_1_outcome_description:0 "With a lack of subtlety and patience, [ROOT.Char.GetSheHe] finds it difficult to execute on [ROOT.Char.GetHerHis] long-term plans. At least [ROOT.Char.GetSheHe] tries to make plans."
- education_intrigue_2_outcome_description:1 "While [ROOT.Char.GetSheHe] has shown [ROOT.Char.GetHerselfHimself] fully capable of petty scheming few would call it refined, but refinement is not always what you need."
+ education_intrigue_2_outcome_description: "[ROOT.Char.GetSheHe|U] has shown [ROOT.Char.GetHerselfHimself] fully capable of petty scheming. Few would call it refined, but refinement is not always what you need."
  education_intrigue_3_outcome_description:0 "[ROOT.Char.GetSheHe|U] now knows a lot of ways to get what [ROOT.Char.GetSheHe] wants. Most importantly, [ROOT.Char.GetSheHe] is highly aware of the political implications of those wants."
  education_intrigue_4_outcome_description:0 "Now it is harder to say, however. Everything that is tasked of [ROOT.Char.GetHerHim] is done by others before [ROOT.Char.GetSheHe] gets to it, and [ROOT.Char.GetSheHe] never tells petty lies the way [ROOT.Char.GetSheHe] used to. Perhaps [ROOT.Char.GetSheHe] was not as clever as [ROOT.Char.GetSheHe] seemed after all."
 
- education_learning_1_outcome_description:0 "The pursuit of knowledge never seemed to properly fasten root in [ROOT.Char.GetHerHis] mind, and now time spent among books and tomes seems to be more of a chore for [ROOT.Char.GetHerHim] than a joy."
+ education_learning_1_outcome_description: "The pursuit of knowledge never seemed to properly take root in [ROOT.Char.GetHerHis] mind, and now time spent among books and tomes seems to be more of a chore for [ROOT.Char.GetHerHim] than a joy."
  education_learning_2_outcome_description:0 "Hardly studious, [ROOT.Char.GetSheHe] at least managed to memorize certain choice quotes from the classics. [ROOT.Char.GetSheHe|U] will probably never write any great theorems, but [ROOT.Char.GetSheHe] might read one or two."
  education_learning_3_outcome_description:0 "An avid learner, [ROOT.Char.GetSheHe] has become quite the purveyor of knowledge, and has proven [ROOT.Char.GetHerselfHimself] fully capable of structuring advanced theoretical and theological arguments."
  education_learning_4_outcome_description:0 "[ROOT.Char.GetHerHis|U] understanding of philosophical and theoretical works is impressive, and [ROOT.Char.GetSheHe] often engages in debate with [ROOT.Char.GetHerHis] former teachers. Even at such a young age [ROOT.Char.GetSheHe] can be heard quoting obscure passages to support new ideas and theories."

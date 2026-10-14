@@ -982,7 +982,7 @@
  nick_the_rotund: "圆润者"
  nick_the_rotund_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]几乎有[Select_CString(CHARACTER.IsLocalPlayer,'你',Select_CString(CHARACTER.IsFemale,'她','他'))]的身高那么宽，差不多成了个球！"
  nick_the_faith: "[CHARACTER.GetFaith.GetAdherentNameNoTooltip]"
- nick_the_faith_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U][CharAreIs(CHARACTER)]是一位格格不入的[CHARACTER.GetFaith.GetAdherentNameNoTooltip]信徒，这让[Select_CString(CHARACTER.IsLocalPlayer,'你',Select_CString(CHARACTER.IsFemale,'她','他'))]成了件别人眼中的新鲜事。"
+ nick_the_faith_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]是一位格格不入的[CHARACTER.GetFaith.GetAdherentNameNoTooltip]信徒，这让[Select_CString(CHARACTER.IsLocalPlayer,'你',Select_CString(CHARACTER.IsFemale,'她','他'))]成了件别人眼中的新鲜事。"
  nick_the_eunuch: "阉人"
  nick_the_eunuch_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]失去了男人的气概，人们总是乐于指出这一点。"
  nick_longsword: "长剑"

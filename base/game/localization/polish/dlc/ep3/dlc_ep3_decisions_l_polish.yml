@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "Naprzód!"
  become_landless_adventurer_decision_hof_tt: "Nie możesz być [Concept('head_of_faith', 'głową wiary')|E]"
  become_landless_adventurer_decision_tier_tt: "Musisz być [Concept('count', 'hrabią')|E] lub [Concept('duke', 'księciem')|E]"
- become_landless_adventurer_decision_domain_size_tt: "Twoja [domain|El] może obejmować maksymalnie #V 3#! [counties|El]"
+ become_landless_adventurer_decision_domain_size_tt: "Twoja [domain|El] może obejmować maksymalnie #V 3#! [holdings|El]"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value Wszystkie twoje [titles|El] [landed|El] oraz twoi [vassals|El] przechodzą na osobę znaną jako [THIS.Char.GetName]#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value Wszystkie twoje [titles|El] [landed|El] przechodzą na nowego [Concept('ruler', 'władcę')|E] lokalnego#!"
  wipe_slate_decision: "Zyskaj czystą kartę"

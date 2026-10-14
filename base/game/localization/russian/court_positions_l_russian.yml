@@ -360,7 +360,7 @@
  court_physician_not_employed_or_away_tt: "У вас отсутствует [GetCourtPositionType('court_physician_court_position').GetName()|l], или же обладатель этой должности сейчас не с вами"
  hire_physician_decision: "Искать врача"
  hire_physician_decision_tooltip: "Ваши слуги предложат несколько кандидатур, подходящих на должность #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position #L придворного врача#!#!"
- hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourtLower')|U] нуждается во враче, который будет ухаживать за больными и ранеными. Попрошу слуг привести несколько подходящих кандидатов."
+ hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourt')|U] нуждается во враче, который будет ухаживать за больными и ранеными. Попрошу слуг привести несколько подходящих кандидатов."
  hire_physician_decision_effect_tooltip: "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_physician_court_position').GetName()]», и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование в размере [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
  hire_physician_decision_confirm: "Начать поиски"
  antiquarian_employer_custom_effect_description: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'antiquarian_employer_custom_effect_reforge_description', '' )]$BULLET$Открывает [Concept('decision', 'решение')|E] #V $commission_artifact_decision$#!\n$BULLET$Защищает [Concept('artifacts', 'артефакты')|E] во время [Concept('sieges', 'осад')|E] и [Concept('raids', 'налетов')|E]"

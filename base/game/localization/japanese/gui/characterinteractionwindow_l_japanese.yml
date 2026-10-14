@@ -11,7 +11,7 @@
  interaction_category_diplomacy: "外交"
  interaction_category_friendly: "対人"
  interaction_category_friendly_filter_tag_desc: "個人的な交流"
- interaction_category_laamp: "所領無しの冒険者"
+ interaction_category_laamp: "冒険者"
  interaction_category_hostile: "敵対"
  interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
  interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]"

@@ -10,6 +10,13 @@ example_group = {
 	# Sets whether this modifier group can be used only by game logic (e.g. prison bars), only customization (e.g. customazible hair), both or none. Both by default
 	usage = customization/game/both/none
 
+	## Portrait type group (common/portrait_types) that the genes of this group's modifiers belong to.
+	#
+	# Must be set before any modifiers or add_accessory_modifiers, as those are read using it.
+	#
+	# Default: the default portrait type group
+	portrait_group = human
+
 	## Where in the barbershop should this set appear.
 	#
 	# Higher positions will be listed after the lower ones (multiple sets can have the same value,
@@ -71,6 +78,13 @@ example_group = {
 		# If this is set, the modifier doesn't care whether any outfit tags are set or not (good for e.g. the prison bars)
 		#
 		ignore_outfit_tags = yes
+
+		## Skip if overridden?
+		#
+		# If this is set, and a portrait modifier override (e.g. from an animation or event) selects a modifier from this
+		# same group, this modifier is not applied from game logic at all. Default: no
+		#
+		skip_if_overridden = yes
 
 		## DNA modifier
 		#
@@ -158,6 +172,10 @@ example_group = {
 	add_accessory_modifiers = {
 		gene = beards
 		template = all_beards
+
+		# Optional, used for all the generated modifiers (same as for a normal modifier)
+		is_valid_custom = ...
+		weight = { ... }
 	}
 }
 

@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "연대를 주둔시킴"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "$MEN_AT_ARMS_TYPE$ 연대를 주둔시킴"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$(이)가 현재 봉역법에서 허용됨"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$(이)가 현재 봉역법에서 허용되지 않음"
  IS_CAPITAL_BARONY_TRIGGER: "남작령이 수도임"
  IS_HOLY_SITE_TRIGGER: "[holy_site|E]임"
  NOT_IS_HOLY_SITE_TRIGGER: "[holy_site|E]가 #bold 아님#!"

@@ -27,19 +27,28 @@
 	}
 
 	on_setup = {
-		story_owner = {
-			trigger_event = {
-				id = slavic_rite.1000
-				days = { 30 90 } # The realm priest introduces the backstory of the brothers, and that we may expect them soon.
-			}
-			trigger_event = {
-				id = slavic_rite.0001
-				days = 630 # This way, we receive the event that spawns the rite in 869, and Cyril dies at the exact month and year he died in real life afte travelling to rome
-			}
-		}
 		set_variable = {
 			name = slavic_rite_story_initiated
 			value = yes
+		}
+		# The Intro and Brothers Leave for Rome effect groups send their events to whoever owns the story by then
+		set_variable = {
+			name = slavic_rite_intro_pending
+			value = yes
+		}
+		set_variable = {
+			name = slavic_rite_intro_countdown
+			value = yes
+			days = 30 # The realm priest introduces the backstory of the brothers, and that we may expect them soon.
+		}
+		set_variable = {
+			name = slavic_rite_brothers_pending
+			value = yes
+		}
+		set_variable = {
+			name = slavic_rite_brothers_countdown
+			value = yes
+			days = 630 # This way, we receive the event that spawns the rite in 869, and Cyril dies at the exact month and year he died in real life afte travelling to rome
 		}
 		if = {
 			limit = {
@@ -182,6 +191,40 @@
 					trigger_event = slavic_rite.0006
 				}
 				end_story = yes
+			}
+		}
+	}
+
+	effect_group = { # Intro
+		days = 30
+		chance = 100
+		triggered_effect = {
+			trigger = {
+				has_variable = slavic_rite_intro_pending
+				NOT = { has_variable = slavic_rite_intro_countdown }
+			}
+			effect = {
+				remove_variable = slavic_rite_intro_pending
+				story_owner = {
+					trigger_event = slavic_rite.1000
+				}
+			}
+		}
+	}
+
+	effect_group = { # Brothers Leave for Rome
+		days = 30
+		chance = 100
+		triggered_effect = {
+			trigger = {
+				has_variable = slavic_rite_brothers_pending
+				NOT = { has_variable = slavic_rite_brothers_countdown }
+			}
+			effect = {
+				remove_variable = slavic_rite_brothers_pending
+				story_owner = {
+					trigger_event = slavic_rite.0001
+				}
 			}
 		}
 	}

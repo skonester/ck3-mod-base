@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "Frisch voran!"
  become_landless_adventurer_decision_hof_tt: "Ihr dürft nicht [head_of_faith|E] sein"
  become_landless_adventurer_decision_tier_tt: "Ihr müsst ein [count|E] oder [duke|E] sein"
- become_landless_adventurer_decision_domain_size_tt: "Eure [domain|E] darf nicht größer sein als #V 3#! [counties|E]"
+ become_landless_adventurer_decision_domain_size_tt: "Eure [domain|E] darf nicht größer sein als #V 3#! [holdings|E]"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value Alle Eure [Concept('landed', 'Landbesitz')|E]-[titles|E] und [vassals|E] gehen auf [THIS.Char.GetName] über#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value Alle Eure [Concept('landed', 'Landbesitz')|E]-[titles|E] und [vassals|E] gehen auf den örtlichen [ruler|E] über#!"
  wipe_slate_decision: "Reiner Tisch"

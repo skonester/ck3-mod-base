@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! 소집할 [armies|E]가 없습니다#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! 소집할 [men_at_arms|E]이 없습니다#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! $ARMY_AUTOMATION_FEATURE_NAME$가 활성화된 동안에는 소집할 수 없습니다#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Ctrl+클릭하여 [Concept( 'supply_limit', '보급 한계')|E]를 #bold 적용하지 않고#! [armies|E] 분할하기#!\n#I 우클릭하여 [armies|E]을 선택한 특정 위치로 소집하기#!"
+ RAISE_TROOPS_EXTRA_INFO: "[armies|E]가 [Concept( 'supply_limit', '보급 한계')|E]보다 크면 분할될 수 있습니다.\n\n#I Ctrl+클릭하여 [Concept( 'supply_limit', '보급')|E]에 따른 분할 없이 [armies|E] 소집하기#!\n#I 우클릭하여 [armies|E]을 선택한 특정 위치로 소집하기#!"

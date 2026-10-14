@@ -285,7 +285,25 @@
 
 	widget_map_mode_banner = {
 		blockoverride "banner_visibility" {
-			visible = "[And4( Not( IsGameViewOpen( 'barbershop' ) ), Not( IsMapMode( 'realms' ) ), Not( IsGameViewOpen( 'struggle' ) ), Or( IsGameViewOpen( 'christian_church' ), Not( IsAnySituationViewOpen ) ) )]"
+			visible = "[And3( Not( IsGameViewOpen( 'barbershop' ) ), Not( IsMapMode( 'realms' ) ), Or3( IsGameViewOpen( 'christian_church' ), IsGameViewOpen( 'the_great_steppe' ), Not( IsAnySituationViewOpen ) ) )]"
+		}
+
+		blockoverride "map_mode_banner_sub_modes" {
+			# Added widget to hide the faith sub map mode buttons when inspecting faiths in the struggle map mode to not show those buttons underneath
+			widget = {
+				visible = "[Not( IsGameViewOpen( 'struggle' ) )]"
+				size = { 100% 100% }
+				allow_outside = yes
+
+				faith_mini_map_mode_icon_selection_container = {
+					parentanchor = top|hcenter
+					position = { -40 -68 }
+				}
+				faith_mini_map_mode = {
+					parentanchor = top|hcenter
+					position = { 0 -27 }
+				}
+			}
 		}
 
 		blockoverride "map_mode_banner_background" {
@@ -310,13 +328,7 @@
 				}
 			}
 		}
-
-		blockoverride "back_to_realms_shortcut" {
-			visible = "[Not( IsAnySituationViewOpen )]"
-			shortcut = "close_window"
-		}
 	}
-
 
 	## PAUSE BORDER
 	icon = {

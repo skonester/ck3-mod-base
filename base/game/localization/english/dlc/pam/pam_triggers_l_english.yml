@@ -132,3 +132,12 @@
  not_is_papabile_third: "[Character.GetShortUIName|V] is #bold not#! a candidate in the [college_of_cardinals|E]"
  is_papabile_global: "Is a candidate in the [college_of_cardinals|E]"
  not_is_papabile_global: "Is #bold not#! a candidate in the [college_of_cardinals|E]"
+
+ religious_head_or_challenger_equal_first: "[TARGET_CHARACTER.GetShortUIName|U] is your [head_of_faith|E] or [challenger_hof|E]"
+ not_religious_head_or_challenger_equal_first: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! your [head_of_faith|E] or [challenger_hof|E]"
+ religious_head_or_challenger_equal_third: "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] [head_of_faith|E] or [challenger_hof|E]"
+ not_religious_head_or_challenger_equal_third: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! [CHARACTER.GetShortUINamePossessive] [head_of_faith|E] or [challenger_hof|E]"
+ religious_head_or_challenger_equal_global: "[TARGET_CHARACTER.GetShortUIName|U] is their [head_of_faith|E] or [challenger_hof|E]"
+ not_religious_head_or_challenger_equal_global: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! their [head_of_faith|E] or [challenger_hof|E]"
+ religious_head_or_challenger_equal_none: "$religious_head_or_challenger_equal_global$"
+ not_religious_head_or_challenger_equal_none: "$not_religious_head_or_challenger_equal_global$"

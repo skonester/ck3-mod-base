@@ -27,3 +27,4 @@
  generic_badge_prosperity_desc: "반짝이는 순례자 휘장입니다. [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]에서 획득했으며, 착용자에게 번영을 가져다준다는 소문이 있습니다."
  generic_badge_virility_desc: "열성의 빛을 담은 순례자 휘장입니다. [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]에서 획득했으며, 착용자에게 활력을 가져다준다는 소문이 있습니다."
  generic_badge_wisdom_desc: "신비로운 순례자 휘장입니다. [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]에서 획득했으며, 착용자에게 지혜와 명상의 힘을 가져다준다는 소문이 있습니다."
+ pilgrim_badge_holy_site_faith_tt: "당신의 [faith|E]에서 [artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip](을)를 [holy_site|E](으)로 여기지 않으므로 장착할 수 없음"

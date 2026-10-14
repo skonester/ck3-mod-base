@@ -26,7 +26,7 @@
  study_faith_outcome.1000.t: "$study_faith$: прорыв"
  study_faith_outcome.1000.desc: "После долгого и упорного труда всё наконец встало на свои места. Бесчисленные часы изучения писаний, бессонные ночи отправления обрядов, бесконечное постижение #L [target.GetFaith.GetName|l]ого#! богословия… Всё это позволило мне вникнуть в самые глубины #L [target.GetRite.GetName|l]ой#! веры!\n\nВо время учёбы образцом для меня [Select_CString(target.IsFemale, 'была', 'был')] [target.GetTitledFirstName|l], и теперь, кажется, я начинаю понимать, почему [target.GetRite.GetAdjective|l] привлекает к себе столь многих людей."
  study_faith_outcome.1000.a: "Мне под силу познать любое верование!"
- study_faith_outcome.1000.b: "Теперь [scheme.GetTargetCharacter.GetFaith.GetAdjectiveNoTooltip|l] кажется мне разумнее, чем моя собственная вера…"
+ study_faith_outcome.1000.b: "Теперь течение «[scheme.GetTargetCharacter.GetRite.GetNameNoTooltip]» кажется мне разумнее, чем моё собственное…"
  study_faith_outcome.1200.t: "$study_faith$: понимание догмата"
  study_faith_outcome.1200.desc: "Стены моего кабинета стали свидетелями моего скромного триумфа: я начинаю понемногу понимать тонкости такого загадочного #L [target.GetRite.GetName|l]ого#! понятия, как «[discovered_tenet.GetName( target.GetRite )|l]». И хотя для этого приходится несколько напрягать воображение, я всё же могу представить, как [target.GetTitledFirstName|l] со своими родственниками совершает этот диковинный обряд.\n\nКонечно, это лишь небольшой шаг в изучении [target.GetRite.GetNameNoTooltip|l]ой веры и мне ещё предстоит долгий путь, однако мой труд определённо приносит свои плоды."
  study_faith_outcome.1200.a: "Я хочу узнать ещё больше о [target.GetRite.GetNameNoTooltip|l]их практиках!"

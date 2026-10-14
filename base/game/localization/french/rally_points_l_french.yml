@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! Aucune [army|El] à lever#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! Pas d’[men_at_arms|El] à lever#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Impossible de lever tant que les $ARMY_AUTOMATION_FEATURE_NAME|l$ sont activées#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Ctrl-clic pour ne pas diviser les [armies|El] en fonction des [Concept('supply_limit', 'limites d’approvisionnement')|E]#!\n#I Clic droit pour lever les [armies|El] à un lieu spécifique#!"
+ RAISE_TROOPS_EXTRA_INFO: "Les [armies|El] peuvent être divisées si elles dépassent les [Concept('supply_limit', 'limites d’approvisionnement')|E].\n\n#I Ctrl-clic pour lever les [armies|El] sans les diviser en raison de l’[Concept('supply_limit', 'approvisionnement')|E]#!\n#I Clic droit pour lever les [armies|El] à un lieu spécifique#!"

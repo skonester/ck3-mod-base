@@ -872,7 +872,7 @@ a_perfect_circle_achievement = {
 	happened = {
 		custom_description = {
 			text = a_perfect_circle_achievement_trigger
-			parent_relatedness >= 0.8
+			parent_relatedness >= 0.75
 		}
 	}
 }

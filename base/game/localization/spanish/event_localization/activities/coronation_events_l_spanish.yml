@@ -397,7 +397,7 @@
  ach_coronation.0029.a.personal_hunt: "Tu próxima [GetActivityType('activity_hunt').GetName|l] puede otorgar a tus [guests|lE] [vassal|lE]s el [trait|lE] [GetTrait('loyal').GetName( GetNullCharacter )]"
  ach_coronation.0029.a.glorious_hunt: "Tu próxima [GetActivityType('activity_hunt').GetName|l] aumentará tu [legitimacy|lE]"
  ach_coronation.0029.b: "¿Y si mejor vamos de cetrería?"
- ach_coronation.0029.b.free_falconry: "Tu próxima [GetActivityType('activity_hunt').GetName|l] de tipo $hunt_type_falconry$ no te costará [gold|lE]"
+ ach_coronation.0029.b.free_falconry: "Tu próxima [GetActivityType('activity_hunt').GetName|l] de tipo $hunt_type_falconry$ te costará menos [gold|lE]"
  ach_coronation.0029.b.flavor: "¡Y [Select_CString(And(first.IsFemale, second.IsFemale), 'vosotras', 'vosotros')] dos pondréis las aves, por supuesto!"
  ach_coronation.0029.c: "¡Ja! ¡Estaré demasiado ocupad[ROOT.Char.Custom('ES_OA')]!"
  ach_coronation.0029.c.virtuous: "¿Qué ha pasado con lo de «moderación en todo»?"

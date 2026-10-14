@@ -1,8 +1,8 @@
 ﻿l_english:
- fire_court_physician_effect.tt:1 "[THIS.Char.GetShortUIName] is no longer [GetCourtPositionType('court_physician_court_position').GetName()]"
+ fire_court_physician_effect.tt: "[THIS.Char.GetShortUIName] is no longer [GetCourtPositionType('court_physician_court_position').GetName()]"
 
  #Recovery events, by Linnéa Thimrén and Petter Vilberg
- health.0001.desc:0 "My Wound Has Healed"
+ health.0001.desc: "My Wound Has Healed"
 
  health_wounded_title:0 "Wounded:"
  health.0002.t:1 "$health_wounded_title$ Healing"
@@ -272,23 +272,25 @@
  health.2202.a.neutral:0 "Fortunate."
 
  # Recruit physician event
- health.3001.disease.t:0 "[SCOPE.Custom('EventTitleDisease')]:"
- health.3001.t:1 "[ROOT.Char.Custom('GetCourt')|U] Physician"
- health.3001.fallback_reason.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l]. .\n\nI have asked around for recommendations, and have assembled a few options to chose from."
- health.3001.decision.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourtierPlural')|l]. At my behest, my servants have inquired after recommendations. Now they have assembled a few options to choose from."
- health.3001.already_sick.desc:0 "Finally, my servants have found some people who might be fit to serve as my physician. Either way, I fear I cannot afford to be picky now."
- health.3001.a:0 "Apparently, [high_skill_option.GetFirstNameNoTooltip] is quite experienced."
- health.3001.a.tt:1 "A [GetCourtPositionType('court_physician_court_position').GetName()] also has a monthly salary of [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
- health.3001.a.aptitude:0 "[high_skill_option.GetUINamePossessive|U] [aptitude|E] is [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
- health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip] seems enthusiastic, if nothing else."
- health.3001.b.aptitude:0 "[low_skill_option.GetUINamePossessive|U] [aptitude|E] is [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
- health.3001.c:0 "[mystic_option.GetFirstNameNoTooltip] claims to be trained in "alternative medicine.""
- health.3001.c.aptitude:0 "[mystic_option.GetUINamePossessive|U] [aptitude|E] is [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
- health.3001.d.two:0 "Both of them fail to impress me."
- health.3001.d.more:0 "They all fail to impress me."
- health.3001.e:0 "[excellent_skill_option.GetFirstNameNoTooltip] is widely known in scholarly circles."
- health.3001.e.aptitude:0 "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] is [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
- health.3001.d.tt:1 "I do not recruit anyone as my [GetCourtPositionType('court_physician_court_position').GetName()]"
+ health.3001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
+ health.3001.t: "[ROOT.Char.Custom('GetCourt')|U] Physician"
+ health.3001.fallback_reason.desc: "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l]. .\n\nI have asked around for recommendations, and have assembled a few options to chose from."
+ health.3001.decision.desc: "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourtierPlural')|l]. At my behest, my servants have inquired after recommendations. Now they have assembled a few options to choose from."
+ health.3001.already_sick.desc: "Finally, my servants have found some people who might be fit to serve as my physician. Either way, I fear I cannot afford to be picky now."
+ health.3001.a: "Apparently, [high_skill_option.GetFirstNameNoTooltip] is quite experienced."
+ health.3001.a.tt: "A [GetCourtPositionType('court_physician_court_position').GetName()] also has a monthly salary of [SelectLocalization( GetPlayer.HasTreasury, 'health.3001.upkeep.treasury', 'health.3001.upkeep.gold' )][SCOPE.ScriptValue('court_position_physician_salary')]"
+ health.3001.upkeep.treasury: "[treasury_i]"
+ health.3001.upkeep.gold: "[gold_i]"
+ health.3001.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] is [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.b: "[low_skill_option.GetFirstNameNoTooltip] seems enthusiastic, if nothing else."
+ health.3001.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] is [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.c: "[mystic_option.GetFirstNameNoTooltip] claims to be trained in \"alternative medicine\"."
+ health.3001.c.aptitude: "[mystic_option.GetUINamePossessive|U] [aptitude|E] is [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.d.two: "Both of them fail to impress me."
+ health.3001.d.more: "They all fail to impress me."
+ health.3001.e: "[excellent_skill_option.GetFirstNameNoTooltip] is widely known in scholarly circles."
+ health.3001.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] is [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.d.tt: "I do not recruit anyone as my [GetCourtPositionType('court_physician_court_position').GetName()]"
 
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson
  health.3101.t:1 "[SCOPE.Custom('EventTitleDisease')]: Time For Treatment"

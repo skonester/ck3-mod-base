@@ -59,6 +59,7 @@
  SITUATION_PARTICIPANT_MILITARY_TT: "#T Military Strength: #!\n$MILITARY_DATA_BREAKDOWN$"
 
  NATURAL_DISASTER_PARTICIPANT_HEADER: "Affected [characters|E]"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic You are not affected by this [natural_disaster|E].#!"
  SITUATION_RECOMMENDATIONS_HEADER: "Recommendations"
 
  natural_disaster_flood_severity_type: "Flood severity:"

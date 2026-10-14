@@ -12191,8 +12191,8 @@
  dynn_Thanthoong: "탄퉁"
  #House Name Rules:
  cadet_name_style_primary_title: "[new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
- cadet_name_style_barony_dynasty: "[location.GetBaronyNameExplicitlyNoTooltip] [new_house_head.GetHouse.GetDynasty.GetNameNoTooltip]"
- cadet_name_style_county_dynasty: "[location.GetCounty.GetTitle.GetBaseNameNoTierNoTooltip] [new_house_head.GetHouse.GetDynasty.GetNameNoTooltip]"
+ cadet_name_style_barony_dynasty: "[location.GetBaronyNameExplicitlyNoTooltip] [new_house_head.GetHouse.GetDynasty.GetBaseNameNoTooltip]"
+ cadet_name_style_county_dynasty: "[location.GetCounty.GetTitle.GetBaseNameNoTierNoTooltip] [new_house_head.GetHouse.GetDynasty.GetBaseNameNoTooltip]"
  dynn_Padmavamsa: "파드마밤사"
  dynn_Vorovangsa: "보로방사"
  dynn_phra: "프라"

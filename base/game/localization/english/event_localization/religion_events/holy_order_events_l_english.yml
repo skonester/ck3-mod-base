@@ -3,7 +3,7 @@
  holy_order.hired_message:1 "[holy_order.GetName] has been called by [actor.GetUIName]"
  holy_order_hired_by_enemy_message:0 "Enemy Military Order"
  holy_order.hired_by_enemy:1 "[holy_order.GetName] has been called by [actor.GetUIName], and now stand against us"
- holy_order.destroyed_message:1 "The [title.GetName] has been destroyed"
+ holy_order.destroyed_message:1 "[title.GetName|U] has been destroyed"
  holy_order_expanded:0 "Military Order Expands"
  holy_order.new_lease:1 "[holy_order.GetName] is now leasing [barony.GetName] from [former_holder.GetTitledFirstName]"
 
@@ -97,6 +97,7 @@
  holy_order.2005.a:0 "Oh, you're... here to stay?"
 
  holy_order.destroyed_title:0 "Military Order Disbanded"
+ holy_order.destroyed_title_monastic: "Monastic Order Disbanded"
 
 holy_order.2010.t: "A New Monastic Order"
 holy_order.2010.desc: "Hermits, mystics, and dissatisfied disciples from older orders have gathered in [barony.GetNameNoTier] and labored, for years, to build their new home in the wilderness. A [leader.GetWomanMan] named [leader.Custom('SisterBrother')|U] [leader.GetFirstName] has risen as the natural head of this burgeoning Order, '[leader.GetPrimaryTitle.GetName]'... but #EMP my#! august voice has yet to be heard on this matter. I have yet, also, to propose a holy precept to enshrine as the heart of this Order's way of life.\n\nWhat shall this chorus of pure devotees sing of in [barony.GetNameNoTierNoTooltip]? What shall they labor to live in full, to think and write on? And who shall lead them in this?"

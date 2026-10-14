@@ -17,9 +17,6 @@
 			curtain_walls_01
 		}
 	}
-	1054.7.16 = {
-		rite = byzantine_rite
-	}
 	1066.1.1 = {
 		buildings = {
 			#common_tradeport_02
@@ -53,15 +50,15 @@
 ###c_messina
 2633 = {	#MESSINA
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	869.1.1 = {
 		culture = maghrebi
 		rite = maliki
 	}
 	1057.1.1 = {
-		culture = sicilian
-		rite = roman_rite
+		culture = greek
+		rite = byzantine_rite
 	}
 	1178.1.1 = {
 		culture = greek # "an overwhelmingly Greek city, whose character only began to change through immigration from the mainland in the later twelfth century"
@@ -78,7 +75,7 @@
 ###c_siracusa
 2638 = {	#SYRACUSE
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	904.1.1 = {
 		culture = maghrebi
@@ -106,7 +103,7 @@
 ###c_agrigento
 2640 = {	#CASTROGIOVANNI
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	874.1.24 = {
 		culture = maghrebi
@@ -216,7 +213,7 @@
 ###c_napoli
 2608 = {	#NAPOLI
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -262,7 +259,7 @@
 ###c_apulia
 2619 = {	#TRANI
 	culture = lombard
-	rite = byzantine_rite
+	rite = beneventan_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = roman_rite
@@ -289,7 +286,7 @@
 ###c_bari
 2623 = {	#BARI
 	culture = lombard
-	rite = byzantine_rite
+	rite = beneventan_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = roman_rite
@@ -377,7 +374,7 @@
 ###c_reggio_calabria
 2627 = {
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -409,7 +406,7 @@
 ###c_cosenza
 2628 = {	#COSENZA
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -432,7 +429,7 @@
 ###c_rossano
 2629 = {	#ROSSANO
 	culture = greek
-	rite = roman_rite
+	rite = byzantine_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = byzantine_rite

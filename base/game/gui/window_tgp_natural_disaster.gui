@@ -454,6 +454,15 @@ window = {
 								}
 							}
 
+							text_multi = {
+								visible = "[Not( SituationParticipantGroup.IsValid )]"
+								layoutpolicy_horizontal = expanding
+
+								text = "NATURAL_DISASTER_NO_PARTICIPANT_GROUP"
+								default_format = "#low"
+								align = nobaseline
+							}
+
 							vbox_participant_group_summary = { }
 
 							expand = {}
@@ -823,6 +832,8 @@ types NaturalDisaster
 	{
 		margin_left = 10
 		ignoreinvisible = yes
+
+		visible = "[SituationParticipantGroup.IsValid]"
 
 		text_single = {
 			layoutpolicy_horizontal = expanding

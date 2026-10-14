@@ -603,32 +603,9 @@ heresy_dangerous_rite.0011 = {
 				}
 			}
 
-			# Sober notification to nearby same-faith players.
-			every_player = {
-				limit = {
-					faith = scope:origin_faith
-					NOR = {
-						this = scope:convert_ruler
-						this = scope:founder
-					}
-					capital_county ?= {
-						squared_distance = {
-							target = scope:convert_ruler.capital_county
-							value <= squared_distance_medium
-						}
-					}
-				}
-				send_interface_message = {
-					type = msg_pam_heresy_spread
-					title = heresy_dangerous_rite.spread.title
-					left_icon = scope:convert_ruler
-					right_icon = scope:new_rite
-					show_as_tooltip = {
-						scope:convert_ruler = {
-							set_character_rite = scope:new_rite
-						}
-					}
-				}
+			if = {
+				limit = { scope:convert_ruler ?= { rite = scope:new_rite } }
+				pam_heresy_send_spread_message_effect = { TITLE = heresy_dangerous_rite.spread.title }
 			}
 		}
 		else = {

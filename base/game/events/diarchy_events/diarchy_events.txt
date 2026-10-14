@@ -12138,12 +12138,13 @@ diarchy.9031 = {
 	immediate = {
 		# Try to grab some suitable co-conspirators.
 		liege = {
-			every_powerful_vassal = {
+			every_vassal = {
 				limit = {
 					# No players, they add too much complication.
 					is_ai = yes
 					# Plus the obvious.
 					this != scope:actor
+					is_powerful_vassal_or_house_head_trigger = yes
 					# Block a few things the player might expect to save them.
 					NOR = {
 						# High opinion.

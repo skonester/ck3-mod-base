@@ -81,6 +81,7 @@
  holy_order.2005.desc: "[child.GetTitledFirstNamePossessive] 방문이 평소보다 길어지고 있다. 문제는 [child.Custom('DaughterSon')](이)란 녀석이 내 [ROOT.Char.Custom('GetCourt')]에 틀어박혀서는 음식이나 축내면서 하인들을 괴롭히고 있기에, [holy_order.GetName]에는 언제 돌아갈 생각인지에 대해서 물어봤다. 그런데 그렇게 열렬한 목소리로 답할 줄이야, 유감스러운 상황이었다.\n\n\"전에 말씀드렸지 않나요, [ROOT.Char.Custom('MotherFather')]? [grandmaster.GetTitledFirstName](이)가 아량을 베풀어서 [child.GetFaith.GetName](을)를 위해 짊어져야 덜어줬다고 그랬잖아요! 마침내 집에 돌아온 겁니다! 가문을 섬길 수 있게 되었다고요!\""
  holy_order.2005.a: "그러니까... 여기에 계속 머무른단 얘기지?"
  holy_order.destroyed_title: "기사수도회 해산"
+ holy_order.destroyed_title_monastic: "수도회 해산"
  holy_order.2010.t: "새로운 수도회"
  holy_order.2010.desc: "옛 수도회의 은수자, 신비주의자, 만족하지 못한 제자들이 [barony.GetNameNoTier]에 모여들어 황야에 새로운 집을 짓고자 수년 동안 노력했다. [leader.GetFirstName] [leader.Custom('SisterBrother')|U]라는 [leader.GetWomanMan]이 자연스럽게 이 신흥 수도회 '[leader.GetPrimaryTitle.GetName]'의 우두머리가 되었다... 하지만 이 사안에 대해 아직 #EMP 내#! 위엄 있는 의견을 내지 않았다. 또한 이 수도회에서 생활 방식의 중심으로 소중히 여길 신성한 계율도 아직 제안하지 않은 상황이다.\n\n이 순수한 신자들의 합창이 [barony.GetNameNoTierNoTooltip]에서 무엇을 노래로 불러야 할까? 저들은 무엇을 위해 노력하며 충만한 삶을 살고, 생각하고, 글을 써야 할까? 또한 누가 이들을 이끌어야 할 것인가?"
  holy_order.2010.4: "[tenet_4.GetName( order_rite )], 그리고 [monk_tenet_1.GetFirstNameNoTooltip] [monk_tenet_1.Custom('SisterBrother')|U]다."

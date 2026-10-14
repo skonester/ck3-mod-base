@@ -69,7 +69,7 @@
  leatherbound_journal:0 "leather-bound journal"
 
  died_simply:0 "died"
- died_house_arrest:0 "died in house arrest"
+ died_house_arrest: "died under house arrest"
  
  private_object_finest_leather_shoes:0 "finest leather shoes"
  private_object_favorite_embroidered_cloak:0 "favorite embroidered cloak"

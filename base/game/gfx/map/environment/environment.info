@@ -98,7 +98,7 @@ Implemented in restorescene.shader
 - `"Reinhard"`
 - `"FilmicACES_Narkowicz"`
 - `"FilmicACES_Hill"`
-- `"Filmic"`
+- `"Filmic_Hable"`
 - `"Uncharted"`
 
 #### Settings that apply only to the "Uncharted" curve:
@@ -146,6 +146,8 @@ if done globally, or in the posteffects volumes, if local.
 
 ### Bloom
 
+`bloom_enabled = yes`               - Enable/disable bloom (default yes)
+
 `bloom_width = 0.5`                 - Width of the bloom effect
 
 `bloom_scale = 0.5`                 - Scale/intensity of the bloom effect
@@ -169,6 +171,9 @@ depthoffield = {
     dof_blurexponent = 1.3
     dof_heightmin = 0.0
     dof_heightmax = 1000.0
+
+    dof_use_center_depth = yes      # Use the center texel of the depth buffer as focus depth (default yes)
+    dof_focusdepth = 0.0            # Manual focus depth, used when dof_use_center_depth = no
 }
 ```
 

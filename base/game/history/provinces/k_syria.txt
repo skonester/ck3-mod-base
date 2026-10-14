@@ -168,7 +168,7 @@
 	
 	# Misc
 	culture = greek
-	rite = antiochian_rite
+	rite = byzantine_rite
 	
 	1268.1.1 = { culture = levantine }
 	1268.1.1 = { rite = shafii }
@@ -229,7 +229,7 @@
 	
 	# Misc
 	culture = greek
-	rite = antiochian_rite
+	rite = byzantine_rite
 
 	holding = castle_holding
 	# History

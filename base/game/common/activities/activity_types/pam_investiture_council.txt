@@ -219,16 +219,8 @@ activity_investiture_council = {
 				if = {
 					limit = {
 						this = scope:host
-						has_multiple_players = no
 					}
 					scope:activity = { progress_activity_phase_after = { months = 3 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}
 
@@ -279,21 +271,6 @@ activity_investiture_council = {
 					}
 					# Host debate starting event (host champions Spiritual).
 					trigger_event = pam_investiture_council_events.0010
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
-				}
-				# Progress phase
-				if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = no
-					}
-					scope:activity = { progress_activity_phase_after = { months = 1 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
 					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}

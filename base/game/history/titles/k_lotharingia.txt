@@ -2553,7 +2553,10 @@ c_koblenz = {
 	}
 	867.1.1 = {
 		government = ecclesiastical_government
-		holder = 163051
+		holder = et_trier_867_1 # Theutgaud
+	}
+	869.1.1 = {
+		holder = 163051 # Bertolf
 	}
 	903.1.1 = {
 		liege = "d_lower_lorraine"

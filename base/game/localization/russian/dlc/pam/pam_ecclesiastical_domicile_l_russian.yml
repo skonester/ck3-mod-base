@@ -424,7 +424,7 @@
  domicile_building_parameter_estate_cheaper_divorce: "Стоимость #V #TOOLTIP:pam_estate_interaction_tt_demand_divorce_interaction #L требования о разводе#!#!#!: @piety_icon!#P -25%#!"
  domicile_building_parameter_estate_cheaper_chastity: "Стоимость #V #TOOLTIP:pam_estate_interaction_tt_request_clerical_chastity_interaction #L требования о соблюдении целомудрия#!#!#!: @piety_icon!#P -50%#!"
  domicile_building_parameter_estate_cheaper_treasury_request: "Стоимость #V #TOOLTIP:pam_estate_interaction_tt_request_ecclesiastical_treasury_interaction #L запроса средств для казны#!#!#!: @piety_icon!#P -50%#!"
- domicile_building_parameter_estate_cheaper_pilgrimage_cost: "Стоимость #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage #L паломничества#!#!: @gold_icon!#P -[EmptyScope.ScriptValue('estate_cheaper_pilgrimage_cost_value')|0%]#!"
+ domicile_building_parameter_estate_cheaper_pilgrimage_cost: "Базовая стоимость #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage #L паломничества#!#!: @gold_icon!#P -[EmptyScope.ScriptValue('estate_cheaper_pilgrimage_cost_value')|0%]#!"
  domicile_building_parameter_estate_cheaper_university_visit: "Стоимость #TOOLTIP:ACTIVITY_TYPE,activity_adult_education #L визита в университет#!#!: @gold_icon!#P -25%#!"
  domicile_building_parameter_estate_study_scripture_success_1: "Повышает шанс успеха [Concept('scheme', 'происков')|E] #V «[GetScheme('study_scripture').GetTypeName]»#!: #P +[EmptyScope.ScriptValue('ecclesiastical_domicile_study_scripture_success_value_1')]#!"
  domicile_building_parameter_estate_study_scripture_success_2: "Повышает шанс успеха [Concept('scheme', 'происков')|E] #V «[GetScheme('study_scripture').GetTypeName]»#!: #P +[EmptyScope.ScriptValue('ecclesiastical_domicile_study_scripture_success_value_2')]#!"

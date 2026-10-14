@@ -74,7 +74,7 @@
  rich_presence_admin_scheming: "Verschwört sich im Reich ([ROOT.Char.GetLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip]) als"
  rich_presence_landless_camp: "Lagert im Reich ([ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetDefinitiveNameNoTooltip]) als"
  rich_presence_landless_travel: "Durchstreift landlos das Reich ([ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetDefinitiveNameNoTooltip]) als"
- rich_presence_nomad: "Beherrscht nomadische [ROOT.Char.GetDomicile.GetFaith.GetAdjectiveNoTooltip|l]e [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNounNoTooltip] als"
+ rich_presence_nomad: "Beherrscht nomadische [ROOT.Char.GetDomicile.GetRite.GetAdjectiveNoTooltip|l]e [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNounNoTooltip] als"
  rich_presence_world_conquest: "Erobert die Welt als"
  rich_presence_mandate_of_heaven: "Regiert mit dem Mandat des Himmels als"
  rich_presence_mandate_of_heaven_unstable: "Hat ein angezweifeltes Mandat des Himmels als"

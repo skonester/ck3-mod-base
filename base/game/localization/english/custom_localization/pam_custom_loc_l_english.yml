@@ -2,7 +2,7 @@
 #GetMotherFatherPossessive
  motherpossessive: "$mother$'s"
  fatherpossessive: "$father$'s"
- parentpossessive: "$parent$'s"
+ parentpossessive: "parent's"
 
  religious_head_headgear_tiara: "tiara"
  religious_head_headgear_tiara_plural: "tiaras"

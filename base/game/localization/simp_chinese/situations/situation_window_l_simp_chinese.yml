@@ -51,6 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T 持有的土地：$LAND_HELD_PERCENTAGE|V%$#!\n[Character.GetShortUINameNoTooltip|U]和[Character.GetHerHisYour]的[tributaries|E]持有[Situation.GetNameNoTooltip]地区内$OWNED_COUNTIES|V0$/$TOTAL_COUNTIES|V0$个[counties|E]"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T 军力：#!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "受影响的[characters|E]"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic 你未受此[natural_disaster|E]影响。#!"
  SITUATION_RECOMMENDATIONS_HEADER: "建议"
  natural_disaster_flood_severity_type: "洪水严重程度："
  natural_disaster_earthquake_severity_type: "地震严重程度："

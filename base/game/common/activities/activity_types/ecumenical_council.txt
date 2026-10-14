@@ -13,6 +13,7 @@
 	
 	can_start_showing_failures_only = {
 		is_available_adult = yes
+		is_landless_adventurer = no
 		NOT = { is_activity_type_on_cooldown = activity_ecumenical_council }
 		# Same guard as is_shown: block a routine council while the special one is pending.
 		NOT = { faith = { has_variable = investiture_council_pending } }
@@ -414,16 +415,8 @@
 				if = {
 					limit = {
 						this = scope:host
-						has_multiple_players = no
 					}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}
 
@@ -467,16 +460,8 @@
 				if = {
 					limit = {
 						this = scope:host
-						has_multiple_players = no
 					}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}
 
@@ -528,16 +513,8 @@
 				if = {
 					limit = {
 						this = scope:host
-						has_multiple_players = no
 					}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}
 
@@ -836,16 +813,8 @@
 				if = {
 					limit = {
 						this = scope:host
-						has_multiple_players = no
 					}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
-				}
-				else_if = {
-					limit = {
-						this = scope:host
-						has_multiple_players = yes
-					}
-					scope:activity = { progress_activity_phase_after = { days = 3 } }
 				}
 			}
 
@@ -897,22 +866,15 @@
 		religion = scope:host.religion
 		# Must be the right gender or a player
 		trigger_if = {
-			limit = {
-				scope:host = {
-					rite = { rite_has_doctrine = doctrine_gender_female_dominated }
-				}
+			limit = { is_ai = yes }
+			trigger_if = {
+				limit = { is_clergy = yes }
+				scope:host.rite = { rite_has_allowed_gender_for_clergy = prev }
 			}
-			is_female = yes
-		}
-		trigger_else_if = {
-			limit = {
-				scope:host = {
-					rite = { rite_has_doctrine = doctrine_gender_male_dominated }
-				}
+			trigger_else = {
+				scope:host.rite = { rite_has_dominant_ruling_gender = prev }
 			}
-			is_female = no
 		}
-		trigger_else = { always = yes }
 	}
 
 	host_intents = {

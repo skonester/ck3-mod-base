@@ -120,7 +120,7 @@
  mpo_nerge.1015.c: "逃走は本能だ。野生に帰してやれ。"
  mpo_nerge.1015.d: "[hunter_1.GetFirstNameNoTooltip]と[hunter_2.GetFirstNameNoTooltip]にはこの損失のツケを払ってもらおう。"
  mpo_nerge.1020.t: "散り散りになった獲物"
- mpo_nerge.1020.desc: "「我々の成果を示す確かな証とはいえ、あまりにも多くの[activity.Custom('GetAnimalPlural')]を狩りすぎることになってしまうのではないかと懸念しております」と、[master_of_hunt.GetFirstName]は説明する。「大地を我らの手で不毛にしたくはありません」\n\n我々は、幾月も食いつなげるほどの十分な数の[activity.Custom('GetAnimal')]を仕留めることができたが、数が減るにつれて、狩りは退屈なものになりつつある。[master_of_hunt.GetFirstNameNoTooltip]は騎兵たちに別の群生地を探すよう指示したが、[activity.Custom('GetAnimalPlural')]の数はもはやまばらとなってきた。"
+ mpo_nerge.1020.desc: "「我々の成果を示す確かな証とはいえ、あまりにも多くの[activity.Custom('GetAnimalPlural')]を狩りすぎることになってしまうのではないかと懸念しております」と、[master_of_hunt.GetFirstName]は説明する。「大地を我らの手で不毛にしたくはありません」\n\n我々は、幾月も食いつなげるほどの十分な数の[activity.Custom('GetAnimalPlural')]を仕留めることができたが、数が減るにつれて、狩りは退屈なものになりつつある。[master_of_hunt.GetFirstNameNoTooltip]は騎兵たちに別の群生地を探すよう指示したが、[activity.Custom('GetAnimalPlural')]の数はもはやまばらとなってきた。"
  mpo_nerge.1020.a: "必要な分だけを確保し、残りは見逃そう。"
  mpo_nerge.1020.a.tt: "一部の[activity.Custom('GetAnimalPlural')]は繁殖のために残された"
  mpo_nerge.1020.b: "手加減は弱さだ。狩りを続けよ！"

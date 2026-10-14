@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "고통으로 더 가까워지자."
  attempted_transcendence_together_opinion: "함께 초월을 시도함"
  monastic_donation_interaction: "수도회에 기부하기"
- monastic_donation_interaction_desc: "[gold|E]를 주면 [recipient.GetShortUINamePossessive] 수도자들이 당신의 구원과 [spiritual_fulfillment|E]을 위해 기도하게 됩니다."
+ monastic_donation_interaction_desc: "[gold|E]를 주면 [recipient.GetShortUINamePossessive] 수도자들이 당신의 구원과 [spiritual_fulfillment|E]을 위해 기도하게 됩니다"
  INTERACTION_CEREMONIAL_HUMBLING: "특별 중보기도를 위해 간절히 애원하기"
  INTERACTION_HUGE_DONATION: "상당한 기부를 하기"
  monastics_praying_for_grievous_sins_modifier: "수도회 중보기도"

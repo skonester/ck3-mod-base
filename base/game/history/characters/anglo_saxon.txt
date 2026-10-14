@@ -7320,15 +7320,34 @@ walpurga_6 = {
 	trait = zealous
 	trait = stubborn
 	trait = diligent
-	673.1.1 = {
+	675.1.1 = {
 		birth = yes
 	}
 	700.1.1 = {
-		name = "Boniface"
+		name = "Boniface_regnal"
 	}
-	754.6.5 = {
-		trait = saint
-		death = { death_reason = death_fight }
+	754.1.1 = {
+		death = yes
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {	
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2924 #Fulda
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 

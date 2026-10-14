@@ -80,7 +80,7 @@
  ep3_laamp_apprehend_adventurer_cb: "Resist Capture"
  ep3_laamp_apprehend_adventurer_cb_victory_desc: "[attacker.GetShortUIName|U] will depose [defender.GetShortUIName]"
  ep3_laamp_apprehend_adventurer_cb_white_peace_desc: "[attacker.GetShortUIName|U] will gain a [truce|E] with [defender.GetShortUIName]"
- ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U] will imprison [attacker.GetShortUIName], seizing all possessions, and disbanding the [camp|E]"
+ ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U] will imprison [attacker.GetShortUIName] and seize all possessions"
 
  CLAIMED_TITLES_DESC: "[claimed|E] [titles|E]"
  CLAIMED_DE_JURE_TITLES_DESC: "[claimed|E] [de_jure|E] [titles|E]"

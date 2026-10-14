@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName|U] hat das [great_project|E] „[great_project.GetName]“ begonnen"
  # Great Project
- great_project_type_great_project_earthquake: "„[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]“-Erdbeben-Hilfsmaßnahmen"
+ great_project_type_great_project_earthquake: "„[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]“-Erdbeben-Hilfsmaßnahmen"
  great_project_type_great_project_earthquake_desc: "Maßnahmen müssen ergriffen werden, um die Auswirkungen des [Concept('earthquake', 'Erdbebens')|E] zu lindern. Um das Reich und sein Volk zu schützen, müssen Herrscher [great_project_contributions|E] finanzieren und andere [situation_participant_groups|E] zusammentrommeln, um die Hilfsmaßnahmen zu unterstützen."
  great_project_type_great_project_earthquake_contribution_recovery: "Überlebendenbergung"
  great_project_type_great_project_earthquake_contribution_cleanup: "Trümmerräumung"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "Opferhilfe"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "[GetCourtPositionType('minister_bureaucrat_court_position').GetNameNoTooltip] entsenden"
  great_project_type_great_project_earthquake_contribution_memorial: "Denkmalbefestigungen"
- great_project_type_great_project_flood: "„[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]“-Flut-Hilfsmaßnahmen"
+ great_project_type_great_project_flood: "„[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]“-Flut-Hilfsmaßnahmen"
  great_project_type_great_project_flood_desc: "Maßnahmen müssen ergriffen werden, um die Auswirkungen der [flood|E] zu lindern. Um das Reich und sein Volk zu schützen, müssen Herrscher [great_project_contributions|E] finanzieren und andere [situation_participant_groups|E] zusammentrommeln, um die Hilfsmaßnahmen zu unterstützen."
  great_project_type_great_project_flood_contribution_recovery: "Überlebendenbergung"
  great_project_type_great_project_flood_contribution_drainage: "Entwässerung"

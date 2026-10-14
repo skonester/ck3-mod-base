@@ -19,6 +19,7 @@
 	button_normal = {
 		size = { 100% 100% }
 		onclick = "[SaveGameWindow.Cancel]"
+		onclick = "[PdxGuiTriggerAllAnimations('bookmarks_reset')]"
 	}
 
 	widget = {
@@ -43,6 +44,7 @@
 
 				blockoverride "button_close" {
 					onclick = "[SaveGameWindow.Cancel]"
+					onclick = "[PdxGuiTriggerAllAnimations('bookmarks_reset')]"
 				}
 			}
 

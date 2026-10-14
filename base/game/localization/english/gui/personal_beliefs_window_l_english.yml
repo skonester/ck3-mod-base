@@ -1,13 +1,17 @@
 ﻿l_english: 
- PERSONAL_TENET_COOLTIP_HEADER: "[TenetType.GetNameNoTooltip( Rite.Self )]"
- PERSONAL_TENET_COOLTIP_DESCRIPTION: "$FAITH_TENET_ITEM_POPULARITY_SHORT$\n[TenetType.GetPersonalTenetDescription( Character.Self )]"
+ PERSONAL_TENET_COOLTIP_HEADER: "[TenetType.GetBaseNameNoTooltip]"
+ PERSONAL_TENET_COOLTIP_DESCRIPTION: "[TenetType.GetPersonalTenetDescription( Character.Self )]"
  PERSONAL_TENET_COOLTIP_SF_VALUE_POSITIVE: "[spiritual_fulfillment|E] Gain on adoption: @spiritual_fulfillment_gain_icon!#P +#!$VALUE|+0$"
  PERSONAL_TENET_COOLTIP_SF_VALUE_NEGATIVE: "[spiritual_fulfillment|E] Loss on adoption: @spiritual_fulfillment_loss_icon!$VALUE|+0$"
  PERSONAL_TENET_COOLTIP_SF_VALUE_SWAP_POSITIVE: "[spiritual_fulfillment|E] Gain on swap: @spiritual_fulfillment_gain_icon!#P +#!$VALUE|+0$"
  PERSONAL_TENET_COOLTIP_SF_VALUE_SWAP_NEGATIVE: "[spiritual_fulfillment|E] Loss on swap: @spiritual_fulfillment_loss_icon!$VALUE|+0$"
- PERSONAL_TENET_COOLTIP_EFFECTS: "#S Personal Tenet Effects:#!"
  PERSONAL_TENET_BANNER_FULFILLMENT: "@spiritual_fulfillment_icon![TenetItem.GetSpiritualFulfillmentCurrent]"
- PERSONAL_TENET_COOLTIP_RITE_TENET_EFFECTS: "#L [TenetType.GetNameNoTooltip( Rite.Self )] Effects as Rite Tenet#!"
+ PERSONAL_TENET_COOLTIP_RITE_TENET_EFFECTS: "#L Effects as Rite Tenet#!"
+ confirm_add_personal_tenet_title: "Adopt Personal Tenet"
+ confirm_add_personal_tenet_description: "You are about to adopt $NEW_TENET|V$ as [personal_tenet|E]."
+ confirm_add_personal_tenet_effect_intro: "Adopting $NEW_TENET|V$ as [personal_tenet|E] will have the following effect:"
+ confirm_add_personal_tenet_accept: "Adopt"
+
  confirm_remove_personal_tenet_title: "Remove Personal Tenet"
  confirm_remove_personal_tenet_description: "You are about to stop following $OLD_TENET$ as [personal_tenet|E]."
  confirm_remove_personal_tenet_effect_intro: "Removing $OLD_TENET|V$ as [personal_tenet|E] will have the following effect:"
@@ -19,14 +23,6 @@
  confirm_swap_personal_tenet_accept: "Swap"
 
  confirm_personal_tenet_change_cooldown_warning: "@warning_icon! #X You will not be able to remove or swap a [personal_tenet|E] again for $COOLDOWN_DAYS$ days.#!"
-
- TENET_ITEM_STATUS_PERSONAL: "Your [personal_tenet|E]"
- TENET_ITEM_STATUS_UNKNOWN: "[unknown_tenet_status|E] to [Faith.GetNameNoTooltip]"
- TENET_ITEM_STATUS_KNOWN: "[known_tenet_status|E] to [Faith.GetNameNoTooltip]"
- TENET_ITEM_STATUS_PROHIBITED: "[prohibited_tenet_status|E] by [Faith.GetNameNoTooltip]"
- TENET_ITEM_STATUS_PERMITTED: "[permitted_tenet_status|E] by [Faith.GetNameNoTooltip]"
- TENET_ITEM_STATUS_CORE: "[core_tenet_status|E] to [Faith.GetNameNoTooltip]"
- TENET_ITEM_STATUS_INVALID: "Invalid Tenet"
 
  TENET_GROUP_ITEM_UNKNOWN: "[unknown_tenet_status|E] Tenets"
  TENET_GROUP_ITEM_KNOWN: "[known_tenet_status|E] Tenets"

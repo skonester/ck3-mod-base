@@ -51,6 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T 보유한 토지: $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNoTooltip|U](와)과 [Character.GetHerHisYour] [tributaries|E]이 [Situation.GetNameNoTooltip] 지역 내 [Concept( 'counties', '영지' )|E] $TOTAL_COUNTIES|V0$개 중 $OWNED_COUNTIES|V0$개를 보유함"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T 군사력: #!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "영향받은 [characters|E]"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic 당신은 이 [natural_disaster|E]의 영향을 받지 않습니다.#!"
  SITUATION_RECOMMENDATIONS_HEADER: "권장"
  natural_disaster_flood_severity_type: "홍수 심각성:"
  natural_disaster_earthquake_severity_type: "지진 심각성:"

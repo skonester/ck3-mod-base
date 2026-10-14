@@ -75,7 +75,7 @@
  ep3_laamp_apprehend_adventurer_cb: "Oprzyj się pojmaniu"
  ep3_laamp_apprehend_adventurer_cb_victory_desc: "[attacker.GetShortUINameNotMe] zdetronizuje osobę, którą jest [defender.GetShortUINameNotMe]"
  ep3_laamp_apprehend_adventurer_cb_white_peace_desc: "[attacker.GetShortUINameNotMe] osiągnie [truce|El] z osobą, którą jest [defender.GetShortUINameNotMe]"
- ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUINameNotMe] uwięzi osobę, którą jest [attacker.GetShortUINameNotMe], konfiskując całe jej mienie i rozwiązując [camp|El]"
+ ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUINameNotMe] uwięzi osobę, którą jest [attacker.GetShortUINameNotMe], konfiskując całe jej mienie"
  CLAIMED_TITLES_DESC: "[claimed|E] [titles|El]"
  CLAIMED_DE_JURE_TITLES_DESC: "[claimed|E] [titles|El] [de_jure|El]"
  GREEK_ANARCHY_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetName] przejmuje należące do imperium miejsce znane jako [TITLE.GetBaseName]"

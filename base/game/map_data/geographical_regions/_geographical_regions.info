@@ -13,9 +13,8 @@ new_region_key = {
 
 	provinces = { }			# takes province id numbers declared in /history/provinces
 
-	# a region can also include other regions, however the subregions needs to be declared before the parent region
-	# E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared
-	# as a region before (i.e. higher up in this file) world_europe.
+	# a region can also include other regions. Declaration order does not matter; sub-regions are set up on demand.
+	# Nesting deeper than 20 levels is reported as an error (probable loop).
 	regions = { }
 
 	# (bool) is this region used to determine type of graphics used on the map

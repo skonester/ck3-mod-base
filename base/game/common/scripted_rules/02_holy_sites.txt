@@ -31,7 +31,7 @@ can_enshrine_artifact = {
 # scope:holy_site_type = the holy site type being created
 # scope:faith          = the faith the holy site is created for
 can_create_dynamic_holy_site = {
-	can_manage_faith_holy_sites_trigger = yes
+	can_create_faith_holy_site_trigger = { BARONY = scope:title }
 
 	# This is a command, not a decision, so the variable cooldown is set in on_character_holy_site_created
 	custom_description = {

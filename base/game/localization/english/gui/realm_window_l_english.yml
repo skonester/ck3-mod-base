@@ -92,7 +92,7 @@
  REALM_WINDOW_SIZE_TT:3 "#T [realm_size|E]: [Character.RealmSize|V] [counties|E]\n#!Counties in [Character.GetShortUINamePossessive] [domain|E]: [Character.NumberOfDirectlyHeldCounties|V]\nCounties in [vassal|E] Realms: [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
  DIFFERENT_CULTURE_THAN_LIEGE:0 "Different Culture than Liege"
  DIFFERENT_RELIGION_THAN_LIEGE:0 "Different Religion than Liege"
- REALM_WINDOW_DOMICILE_CULTURE_FAITH: "[Domicile.GetFaith.GetAdjective] [Domicile.GetCulture.GetName]"
+ REALM_WINDOW_DOMICILE_CULTURE_FAITH: "[Domicile.GetRite.GetAdjective] [Domicile.GetCulture.GetName]"
 
  LIEGE_STRENGTH_RATIO:0 "Total [soldiers|E] compared to Liege"
  REALM_OF_CHARACTER:0 "Realm of [CHARACTER.GetUIName]"

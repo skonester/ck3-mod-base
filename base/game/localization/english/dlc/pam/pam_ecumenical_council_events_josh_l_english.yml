@@ -72,7 +72,7 @@
  ecumenical_council_events_josh.0022.a: "Let the Church bless our alliance."
  ecumenical_council_events_josh.0022.a.flavor: "I will use my pious standing to seal the alliance."
  ecumenical_council_events_josh.0022.b: "The alliance will be built on mutual understanding."
- ecumenical_council_events_josh.0022.b.toast.success: "[alliance_target.GetHerHim|U] agrees to the alliance."
+ ecumenical_council_events_josh.0022.b.toast.success: "[alliance_target.GetSheHe|U] agrees to the alliance."
  ecumenical_council_events_josh.0022.b.toast.failure: "[alliance_target.GetSheHe|U] feels offended by your advances."
  ecumenical_council_events_josh.0022.b.flavor: "My charming way with people, will surely be enough."
  ecumenical_council_events_josh.0022.c: "A council is not the place."

@@ -32,6 +32,12 @@ macro = {
 }
 
 macro = {
+	description = "Can this Tenet be picked while the head of faith edits the mainline Rite?"
+	definition = "TenetPickableForEditedRite"
+	replace_with = "Or( Not( And3( RiteCreationWindow.IsEditing, Rite.IsMain, IsUsingTenetPopularity( Faith ) ) ), Or( Rite.HasTenet( TenetType.Self ), TenetPopularityIsVeryPopular( TenetType, Faith ) ) )"
+}
+
+macro = {
 	description = "Is faith window in compact mode?"
 	definition = "IsCompactFaith"
 	replace_with = "GetVariableSystem.Exists( 'compact_faith_window' )"

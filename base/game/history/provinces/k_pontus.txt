@@ -131,12 +131,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -167,12 +168,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -184,12 +186,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -201,12 +204,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -218,12 +222,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -235,12 +240,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -252,12 +258,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite
@@ -269,12 +276,13 @@
 	
 	# Misc
 	culture = greek
+	rite = byzantine_rite
 	
 	# History
 	#1000.1.1 = {
 	#	culture = armenian
 	#	religion = miaphysitism
-	rite = armenian_rite
+	#	rite = armenian_rite
 	#}
 	1054.7.16 = {
 		rite = byzantine_rite

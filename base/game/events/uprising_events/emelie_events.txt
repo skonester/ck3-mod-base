@@ -225,6 +225,7 @@ blotsven.0002 = {
 		name = blotsven.0002.c
 		flavor = blotsven.0002.c.tt
 		set_character_faith = scope:eskil.faith
+		set_character_rite = scope:eskil.rite
 		add_character_flag = { flag = changed_religion_blot_flag }
 		scope:eskil = {
 			add_opinion = {
@@ -297,6 +298,7 @@ blotsven.0003 = {
 		name = blotsven.0003.b
 		flavor = blotsven.0003.b.tt
 		set_character_faith = scope:eskil.faith
+		set_character_rite = scope:eskil.rite
 		add_character_flag = { flag = changed_religion_blot_flag }
 		every_vassal = { # Asatru vassals will dislike this
 			limit = {

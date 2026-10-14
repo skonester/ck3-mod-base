@@ -51,6 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T Tierras en posesión: $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNoTooltip|U] y sus [tributaries|El] tienen $OWNED_COUNTIES|V0$ de los $TOTAL_COUNTIES|V0$ [counties|El] en la zona de [Situation.GetNameNoTooltip]"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T Fuerza militar: #!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "[characters|E] afectados"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic No te afecta esta [natural_disaster|El].#!"
  SITUATION_RECOMMENDATIONS_HEADER: "Recomendaciones"
  natural_disaster_flood_severity_type: "Gravedad de la inundación:"
  natural_disaster_earthquake_severity_type: "Gravedad del terremoto:"

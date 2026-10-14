@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "出发！"
  become_landless_adventurer_decision_hof_tt: "你不能是[head_of_faith|E]"
  become_landless_adventurer_decision_tier_tt: "你必须是[count|E]或[duke|E]"
- become_landless_adventurer_decision_domain_size_tt: "你的[domain|E]不能超过#V 3#!个[counties|E]"
+ become_landless_adventurer_decision_domain_size_tt: "你的[domain|E]不能超过#V 3#!个[holdings|E]"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value 你所有的[landed|E][titles|E]和[vassals|E]传给[THIS.Char.GetName]#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value 你所有的[landed|E][titles|E]传给一位新的当地[ruler|E]#!"
  wipe_slate_decision: "洗心革面"

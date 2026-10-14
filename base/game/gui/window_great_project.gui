@@ -412,7 +412,7 @@ types Project
 		blockoverride "contributor_slot"
 		{
 			# sigils for mandatory contributions
-			coa_character_sigil = {
+			coa_house_sigil = {
 				name = "contributor_house_coa_player"
 				visible = "[And( Character.IsValid, Character.IsLocalPlayer )]"
 
@@ -426,7 +426,7 @@ types Project
 				}
 			}
 
-			coa_character_sigil = {
+			coa_house_sigil = {
 				name = "contributor_house_coa_other"
 				visible = "[And( Character.IsValid, Not( Character.IsLocalPlayer ) )]"
 				alpha = 0.6
@@ -468,7 +468,7 @@ types Project
 
 		blockoverride "contributor_slot"
 		{
-			coa_character_sigil = {
+			coa_house_sigil = {
 				name = "contributor_house_coa_player"
 				visible = "[And( Character.IsValid, Character.IsLocalPlayer )]"
 
@@ -482,7 +482,7 @@ types Project
 				}
 			}
 
-			coa_character_sigil = {
+			coa_house_sigil = {
 				name = "contributor_house_coa_other"
 				visible = "[And( Character.IsValid, Not( Character.IsLocalPlayer ) )]"
 				alpha = 0.6

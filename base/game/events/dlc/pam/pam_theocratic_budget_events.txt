@@ -4,13 +4,16 @@
 ## pam_theocratic_budget_events.0001 - Yearly budget enact (maintenance)
 ###########################
 
-# Fired from yearly_playable_pulse, which already guarantees top liege + has_treasury
+# Fired from yearly_playable_pulse for theocracy treasury-holders (top superiors)
 pam_theocratic_budget_events.0001 = {
 	type = character_event
 	hidden = yes
 
 	trigger = {
-		this = top_liege
+		or = {
+			is_independent_ruler = yes
+			top_superior ?= this
+		}
 		has_treasury = yes
 		government_has_mechanic = theocracy
 		OR = {

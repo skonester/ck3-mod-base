@@ -44,7 +44,7 @@
 
  GOVERNMENT_ADJECTIVE: "[Character.GetGovernment.GetAdjective]"
  GOVERNMENT_ADJECTIVE_ICON: "[Character.Custom('GetGovernmentIcon')] [Character.GetGovernment.GetAdjective] [realm|E]"
- GOVERNMENT_ADJECTIVE_ICON_NOMAD: "[Character.Custom('GetGovernmentIcon')] [Character.GetGovernment.GetAdjective] [realm|E] - [Character.GetDomicile.GetFaith.GetAdjective] [Character.GetDomicile.GetCulture.GetCollectiveNoun]"
+ GOVERNMENT_ADJECTIVE_ICON_NOMAD: "[Character.Custom('GetGovernmentIcon')] [Character.GetGovernment.GetAdjective] [realm|E] - [Character.GetDomicile.GetRite.GetAdjective] [Character.GetDomicile.GetCulture.GetCollectiveNoun]"
  GOVERNMENT_ADJECTIVE_ICON_ADVENTURER: "[Character.Custom('GetGovernmentIcon')] [Character.GetGovernment.GetAdjective]"
  GOVERNORSHIP_TOOLTIP: "[ROOT.Char.GetVassalContract.GetAdminDivisionTextIcon] [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )] [governorship|E]"
  VASSAL_TOOLTIP: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [vassal|E]"
@@ -97,7 +97,7 @@
  CREATE_ACTIVITY_CONFIRMATION_DESC:0 "Are you sure you want to start your [ActivityType.GetNameNoTooltip]?\n\nThe following $ACTIVITY_SPECIAL_GUESTS$ will not join:\n$DECLINING_GUESTS$"
  CREATE_ACTIVITY_CONFIRMATION_CONFIRM:0 "$START$"
 
- ACTIVITY_PLANNER_PHASE_REPLACE_TOOLTIP:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, PlannedActivityPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddTextIf( Not( ActivityPlanner.CanPlanMorePhasesOfType( ActivityPhase.Self ) ), AddLine( '$ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE|q$' ) )][AddLine( ActivityPhase.GetDescription( Activity.Self ) )]"
+ ACTIVITY_PLANNER_PHASE_REPLACE_TOOLTIP:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, PlannedActivityPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddTextIf( Not( ActivityPlanner.CanPlanMorePhasesOfType( ActivityPhase.Self ) ), AddLine( '$ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE|q$' ) )][AddLine( ActivityPhase.GetSimpleDescription )]"
 
  activity_planner_clear_selected_tenet: "#I Click to clear selected [core_tenet|E]#!"
  activity_planner_clear_selected_doctrine: "#I Click to clear selected [doctrine|E]#!"

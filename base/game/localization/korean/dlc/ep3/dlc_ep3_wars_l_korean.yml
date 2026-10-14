@@ -75,7 +75,7 @@
  ep3_laamp_apprehend_adventurer_cb: "생포 저항"
  ep3_laamp_apprehend_adventurer_cb_victory_desc: "[attacker.GetShortUIName|U](이)가 [defender.GetShortUIName](을)를 축출할 것임"
  ep3_laamp_apprehend_adventurer_cb_white_peace_desc: "[attacker.GetShortUIName|U](이)가 [defender.GetShortUIName](와)과 [truce|E]을 맺을 것임"
- ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U](이)가 [attacker.GetShortUIName](을)를 투옥한 후, 모든 자산을 압수하고 [camp|E]를 해산시킴"
+ ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U](이)가 [attacker.GetShortUIName](을)를 투옥하고 모든 자산을 압수함"
  CLAIMED_TITLES_DESC: "[claimed|E] [titles|E]"
  CLAIMED_DE_JURE_TITLES_DESC: "[claimed|E] [de_jure|E] [titles|E]"
  GREEK_ANARCHY_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective]의 제국 [TITLE.GetBaseName] 점령"

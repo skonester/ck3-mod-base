@@ -517,15 +517,8 @@
 ###c_ragusa
 468 = {		#Ragusa
 	culture = serbian
-	rite = slavic_pagan	
+	rite = roman_rite	
 	holding = castle_holding
-	870.1.1 = {
-		rite = byzantine_rite
-		#Serbs convert in 870
-	}
-	1054.7.16 = {
-		rite = byzantine_rite
-	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02

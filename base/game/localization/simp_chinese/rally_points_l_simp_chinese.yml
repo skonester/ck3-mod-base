@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon!没有可集结的[armies|E]#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon!没有可集结的[men_at_arms|E]#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon!启用$ARMY_AUTOMATION_FEATURE_NAME$时无法集结#!"
- RAISE_TROOPS_EXTRA_INFO: "#I 按住Ctrl点击将#bold 不会#!基于[Concept( 'supply_limit', '补给上限')|E]分割[armies|E]#!\n#I 右键点击在选定地点集结[armies|E]#!"
+ RAISE_TROOPS_EXTRA_INFO: "[armies|E]的规模超过[Concept( 'supply_limit', '补给上限')|E]时可能会被分割。\n\n#I 按住Ctrl点击可集结[armies|E]，而不会因[Concept( 'supply_limit', '补给')|E]被分割#!\n#I 右键点击在选定地点集结[armies|E]#!"

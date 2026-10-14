@@ -103,7 +103,7 @@
  lover_activity_present_particle_dinner:0 "having romantic dinners with [ROOT.Char.GetFirstName]"
  lover_activity_present_particle_buy_gift:0 "picking out the perfect gifts for [ROOT.Char.GetFirstName]"
  lover_activity_present_particle_social_events:0 "attending exclusive feasts with [ROOT.Char.GetFirstName]"
- lover_activity_present_particle_play_games:0 "losing in cards to [ROOT.Char.GetFirstName]"
+ lover_activity_present_particle_play_games: "losing at cards to [ROOT.Char.GetFirstName]"
  lover_activity_present_particle_drink:0 "getting recklessly intoxicated with [ROOT.Char.GetFirstName]"
  lover_activity_present_particle_go_hunting:0 "going on hunts with [ROOT.Char.GetFirstName]"
  lover_activity_present_particle_stargaze:0 "gazing at the stars alongside [ROOT.Char.GetFirstName]"

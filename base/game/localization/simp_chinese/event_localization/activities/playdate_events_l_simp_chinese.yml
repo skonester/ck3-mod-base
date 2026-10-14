@@ -242,7 +242,7 @@
  playdate.5009.c.success: "骚乱的足球运动员们引起了注意"
  playdate.5009.c.failure: "没人搭理你"
  playdate.5010.t: "那是我的[embarrassed_child.Custom('GirlBoy')|U]！"
- playdate.5010.desc: "“抓住他！把她挤进人墙！对啦！”[obnoxious_parent.GetFirstNamePossessive]的声音响彻整个庭院。[obnoxious_parent.GetSheHe|U]守在角落看着[embarrassed_child.GetFirstName]在足球赛中踢球，显然非常偏心这个[embarrassed_child.Custom('GirlBoy')]。\n\n可以说，[obnoxious_parent.GetFirstNameNoTooltip]有#EMP 点#!太当真了。\n\n“嘿！别推[embarrassed_child.Custom('HerHim')]，那是在作弊！”[obnoxious_parent.GetFirstNamePossessiveNoTooltip]的装腔作势真的开始令人恼火了。"
+ playdate.5010.desc: "“抓住他！把她挤进人墙！对啦！”[obnoxious_parent.GetFirstNamePossessive]的声音响彻整个庭院。[obnoxious_parent.GetSheHe|U]守在角落看着[embarrassed_child.GetFirstName]在足球赛中踢球，显然非常偏心这个[embarrassed_child.Custom('GirlBoy')]。\n\n可以说，[obnoxious_parent.GetFirstNameNoTooltip]有#EMP 点#!太当真了。\n\n“嘿！别推[embarrassed_child.GetHerHim]，那是在作弊！”[obnoxious_parent.GetFirstNamePossessiveNoTooltip]的装腔作势真的开始令人恼火了。"
  playdate.5010.a: "[obnoxious_parent.GetHerHis|U]的手臂像风车一样拼命转着……"
  playdate.5010.a_flavor: "我会假装[obnoxious_parent.GetFirstNameNoTooltip]打了我！"
  playdate.5010.a.tt: "我要是装作被这一通乱舞打到了，也许[obnoxious_parent.GetSheHe]就会滚蛋了？"

@@ -51,6 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T 保有する領土：$LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNoTooltip|U]およびその[tributaries|E]は[Situation.GetNameNoTooltip]地域内の$TOTAL_COUNTIES|V0$個の[counties|E]のうち$OWNED_COUNTIES|V0$個を保有している"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T 軍事力：#!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "影響を受ける[characters|E]"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic あなたはこの[natural_disaster|E]の影響を受けていない。#!"
  SITUATION_RECOMMENDATIONS_HEADER: "推薦"
  natural_disaster_flood_severity_type: "洪水の規模："
  natural_disaster_earthquake_severity_type: "地震の規模："

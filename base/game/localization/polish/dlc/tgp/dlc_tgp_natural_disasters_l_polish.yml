@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName] zaczyna [great_project|El] o nazwie [great_project.GetName]"
  # Great Project
- great_project_type_great_project_earthquake: "Pomoc dla ofiar trzęsienia ziemi w miejscu znanym jako [GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]"
+ great_project_type_great_project_earthquake: "Pomoc dla ofiar trzęsienia ziemi w miejscu znanym jako [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]"
  great_project_type_great_project_earthquake_desc: "Trzeba podjąć odpowiednie kroki, aby złagodzić skutki [Concept('earthquake', 'trzęsienia ziemi')|E]. Aby chronić państwo i jego lud, władcy muszą fundować [great_project_contributions|El] i zebrać inne [situation_participant_groups|El], aby wspierały akcję pomocy."
  great_project_type_great_project_earthquake_contribution_recovery: "Pomoc medyczna dla ocalałych"
  great_project_type_great_project_earthquake_contribution_cleanup: "Usuwanie gruzu"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "Pomoc dla ofiar"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "Wyślij osobę zajmującą stanowisko o nazwie [GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip|l]"
  great_project_type_great_project_earthquake_contribution_memorial: "Fortyfikacje ku pamięci"
- great_project_type_great_project_flood: "Pomoc dla ofiar powodzi w miejscu znanym jako [GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
+ great_project_type_great_project_flood: "Pomoc dla ofiar powodzi w miejscu znanym jako [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
  great_project_type_great_project_flood_desc: "Trzeba podjąć odpowiednie kroki, aby złagodzić skutki [Concept('flood', 'powodzi')|E]. Aby chronić państwo i jego lud, władcy muszą fundować [great_project_contributions|El] i zebrać inne [situation_participant_groups|El], aby wspierały akcję pomocy."
  great_project_type_great_project_flood_contribution_recovery: "Pomoc medyczna dla ocalałych"
  great_project_type_great_project_flood_contribution_drainage: "Odwadnianie terenu"

@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "Есть размещенный полк"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "Есть размещенный полк типа «$MEN_AT_ARMS_TYPE$»"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ считается допустимым по нынешним законам державы"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ #bold не#! считается допустимым по нынешним законам державы"
  IS_CAPITAL_BARONY_TRIGGER: "Баронство является столицей"
  IS_HOLY_SITE_TRIGGER: "Является [Concept('holy_site', 'святым местом')|E]"
  NOT_IS_HOLY_SITE_TRIGGER: "#bold Не#! является [Concept('holy_site', 'святым местом')|E]"

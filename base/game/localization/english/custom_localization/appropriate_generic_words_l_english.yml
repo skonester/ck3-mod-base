@@ -36,7 +36,7 @@
  expensive_food_baked_truffles:0 "baked truffles"
  expensive_food_spiced_breads:0 "spiced breads"
  expensive_food_mustard_rolls:0 "mustard rolls"
- expensive_food_sturgeon_cheese: "sturgeon and cheeses stew"
+ expensive_food_sturgeon_cheese: "sturgeon and cheese stew"
  expensive_food_honey_pork: "honey-roasted pork"
  expensive_food_roast_peacock: "roast peacock"
  expensive_food_braised_bear_paws: "braised bear paws"
@@ -133,7 +133,7 @@
  expensive_drink_medicinal_rice_wine: "medicinal rice wine"
  expensive_drink_ice_chrysanthemum_beer: "ice [Glossary( 'chrysanthemum beer', 'CHRYSANTHEMUM_BEER_GLOSS' )]"
  expensive_drink_coconut_milk_elixir: "coconut milk elixir"
- expensive_drink_tamarind_spiced_sharbat: "tamarind spice [Glossary( 'sharbat', 'SHARBAT_GLOSS' )]"
+ expensive_drink_tamarind_spiced_sharbat: "tamarind-spiced [Glossary( 'sharbat', 'SHARBAT_GLOSS' )]"
  #GetExpensiveDrink_Singular
  expensive_drink_singular_hippocras:0 "$expensive_drink_hippocras$"
  expensive_drink_singular_piment: "fine [Glossary( 'piment', 'PIMENT_GLOSS' )]"
@@ -160,7 +160,7 @@
  expensive_drink_singular_medicinal_rice_wine: "medicinal rice wine"
  expensive_drink_singular_ice_chrysanthemum_beer: "ice [Glossary( 'chrysanthemum beer', 'CHRYSANTHEMUM_BEER_GLOSS' )]"
  expensive_drink_singular_coconut_milk_elixir: "coconut milk elixir"
- expensive_drink_singular_tamarind_spiced_sharbat: "tamarind spice [Glossary( 'sharbat', 'SHARBAT_GLOSS' )]"
+ expensive_drink_singular_tamarind_spiced_sharbat: "tamarind-spiced [Glossary( 'sharbat', 'SHARBAT_GLOSS' )]"
 
  #Food and drink glosses
  ABALONE_GLOSS: "A prized shellfish with firm, meaty flesh."

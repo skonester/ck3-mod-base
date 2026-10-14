@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "Niech cierpienie nas zbliży."
  attempted_transcendence_together_opinion: "Próba wspólnej transcendencji"
  monastic_donation_interaction: "Przekaż datek na zakon monastyczny"
- monastic_donation_interaction_desc: "W zamian za [gold|El], zakonnicy osoby znanej jako [recipient.GetShortUINameNotMe] będą modlić się o twoje zbawienie i [spiritual_fulfillment|El]."
+ monastic_donation_interaction_desc: "W zamian za [gold|El], zakonnicy osoby znanej jako [recipient.GetShortUINameNotMe] będą modlić się o twoje zbawienie i [spiritual_fulfillment|El]"
  INTERACTION_CEREMONIAL_HUMBLING: "Błagaj rozpaczliwie o specjalne wstawiennictwo"
  INTERACTION_HUGE_DONATION: "Przekaż hojny datek"
  monastics_praying_for_grievous_sins_modifier: "Wstawiennictwo zakonu"

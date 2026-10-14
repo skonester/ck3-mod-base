@@ -1383,6 +1383,7 @@ decision_restore_carantania_effect = {
 	title:d_krain = { add_to_list = carantania_de_jure_list }
 	title:d_carinthia = { add_to_list = carantania_de_jure_list }
 	title:d_steyermark = { add_to_list = carantania_de_jure_list }
+	title:d_carinthia.de_jure_liege = { save_scope_as = previous_kingdom }
 
 	dynasty = { add_dynasty_prestige = monumental_dynasty_prestige_gain }
 	create_title_and_vassal_change = {
@@ -1397,6 +1398,14 @@ decision_restore_carantania_effect = {
 		}
 	}
 	resolve_title_and_vassal_change = scope:title_change
+	hidden_effect = {
+		if = {
+			limit = { exists = scope:previous_kingdom.de_jure_liege }
+			title:k_carantania = {
+				set_de_jure_liege_title = scope:previous_kingdom.de_jure_liege
+			}
+		}
+	}
 
 	if = {
 		limit = {
@@ -2301,6 +2310,7 @@ promote_hungarian_settlement_decision_scripted_effect = {
 							}
 						}
 						set_county_faith = root.faith
+						set_county_rite = root.rite
 					}
 					30 = {
 						trigger = {
@@ -2331,6 +2341,7 @@ promote_hungarian_settlement_decision_scripted_effect = {
 							save_scope_as = neighboring_county
 						}
 						set_county_faith = scope:neighboring_county.faith
+						set_county_rite = scope:neighboring_county.rite
 					}
 				}
 			}

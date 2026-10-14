@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "連隊を駐留させている"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "$MEN_AT_ARMS_TYPE$タイプの連隊を駐留させている"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$は現行の領国法で許可されている"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$は現行の領国法で許可されていない"
  IS_CAPITAL_BARONY_TRIGGER: "男爵領が首都である"
  IS_HOLY_SITE_TRIGGER: "[holy_site|E]である"
  NOT_IS_HOLY_SITE_TRIGGER: "[holy_site|E]では#bold ない#!"

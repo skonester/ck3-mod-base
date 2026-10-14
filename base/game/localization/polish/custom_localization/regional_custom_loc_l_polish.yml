@@ -677,7 +677,7 @@
  mythical_creature_north_europe_giant_lower: "giganta"
  ##Gotland
  mythical_creature_north_europe_bysn_lower: "bysn"
- mythical_creature_north_europe_disma_lower: "gobliny"
+ mythical_creature_north_europe_disma_lower: "goblin"
  #South Europe
  mythical_creature_south_europe_basilisk_lower: "bazyliszka"
  mythical_creature_south_europe_lhombri_lower: "L’hombri"
@@ -957,7 +957,7 @@
  NINKI_NANKA_GLOSS: "Straszliwy, przypominający smoka duch z zachodnioafrykańskich bagien. Uważa się, że sam jego widok przynosi śmierć."
  trickster_spirit_africa_east: "[Glossary( 'popo bawa', 'POPOBAWA_GLOSS' )]"
  POPOBAWA_GLOSS: "Przypominająca nietoperza istota w folklorze społeczności posługujących się językiem suahili. W nocy rozsiewa strach, zmieniając kształt i dręcząc ludzi."
- trickster_spirit_steppe: "[Glossary( 'Gulyabani', 'GULYABANI_GLOSS' )]"
+ trickster_spirit_steppe: "[Glossary( 'gulyabani', 'GULYABANI_GLOSS' )]"
  GULYABANI_GLOSS: "Ogromny, włochaty ghul z folkloru tureckiego. Nawiedza nocną porą odosobnione miejsca i napada samotnych podróżników."
  trickster_spirit_siberia: "[Glossary( 'kutch', 'KUTKH_GLOSS' )]"
  KUTKH_GLOSS: "Kruczy duch w tradycji syberyjskiej, będący jednocześnie stworzycielem, jak i psotnym szachrajem."

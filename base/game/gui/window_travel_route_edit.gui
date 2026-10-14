@@ -1,12 +1,8 @@
 ﻿window = {
 	name = "travel_route_edit_window"
-	parentanchor = top|right
-	position = { 0 70 }
-	size = { 500 780 }
-	movable = no
-
-	using = Window_Background
-	using = Window_Decoration
+	alwaystransparent = yes
+	size = { 100% 100% }
+	layer = top
 
 	datacontext = "[TravelRouteEditWindow.GetTravelPlanData]"
 
@@ -22,168 +18,191 @@
 		position_x = 200
 	}
 
-	vbox = {
-		using = Window_Margins
+	window = {
+		visible = "[Nor4( IsRightWindowOpen, IsGameViewOpen( 'ledger' ), IsGameViewOpen( 'find_title' ), IsGameViewOpen( 'character_finder' ) )]"
+		parentanchor = top|right
+		position = { 0 70 }
+		size = { 500 780 }
+		movable = no
 
-		header_pattern = {
-			layoutpolicy_horizontal = expanding
-
-			blockoverride "header_text"
-			{
-				text = "TRAVEL_EDIT_ROUTE_HEADER"
-			}
-
-			blockoverride "button_close"
-			{
-				onclick = "[TravelRouteEditWindow.Close]"
-				shortcut = "close_window"
-			}
+		state = {
+			name = _show
+			using = Animation_FadeIn_Quick
+			position_x = 0
 		}
 
+		state = {
+			name = _hide
+			using = Animation_FadeOut_Standard
+			position_x = 200
+		}
+
+		using = Window_Background
+		using = Window_Decoration
+
 		vbox = {
-			name = "contents"
-			layoutpolicy_horizontal = expanding
-			layoutpolicy_vertical = expanding
+			using = Window_Margins
 
-			spacing = 10
-
-			text_multi = {
-				name = "instruction_text"
-				visible = "[Not( TravelRouteEditWindow.IsInQuickEditMode )]"
-
-				text = "TRAVEL_EDIT_ROUTE_INSTRUCTION"
-				align = center|nobaseline
-				autoresize = yes
-				default_format = "#I"
-				max_width = 380
-
-				margin = { 15 10 }
-
-				background = {
-					using = Background_Area_Dark
-				}
-			}
-
-			text_multi = {
-				name = "instruction_text_multi_edit"
-				visible = "[TravelRouteEditWindow.IsInQuickEditMode]"
-
-				text = "TRAVEL_EDIT_ROUTE_QUICK_EDIT_INSTRUCTION"
-				align = center|nobaseline
-				autoresize = yes
-				default_format = "#I"
-				max_width = 380
-
-				margin = { 15 10 }
-
-				background = {
-					using = Background_Area_Dark
-				}
-			}
-
-			scrollbox = {
-				name = "route_scroll"
-				layoutpolicy_vertical = expanding
+			header_pattern = {
 				layoutpolicy_horizontal = expanding
 
-				blockoverride "scrollbox_content"
+				blockoverride "header_text"
 				{
-					vbox = {
-						layoutpolicy_horizontal = expanding
-						spacing = 4
+					text = "TRAVEL_EDIT_ROUTE_HEADER"
+				}
 
-						datamodel = "[TravelPlanData.GetDestinations]"
-
-						vbox = {
-							layoutpolicy_horizontal = expanding
-							spacing = 8
-
-							button_fixed_departure = {
-								layoutpolicy_horizontal = expanding
-							}
-						}
-
-						item = {
-							vbox = {
-								layoutpolicy_horizontal = expanding
-								spacing = 4
-
-								vbox = {
-									name = "detours_between_destinations"
-									visible = "[Not( IsDataModelEmpty( TravelPlanDestination.GetWaypoints ) )]"
-
-									layoutpolicy_horizontal = expanding
-									datamodel = "[TravelPlanDestination.GetWaypoints]"
-
-									item = {
-										vbox = {
-											layoutpolicy_horizontal = expanding
-
-											hbox_add_detour_here = {
-												visible = "[TravelRouteEditWindow.IsSelectingProvinceAt( TravelPlanDestination.GetIndex, TravelPlanWaypoint.GetIndex )]"
-
-												layoutpolicy_horizontal = expanding
-											}
-
-											hbox_added_detour = {
-												layoutpolicy_horizontal = expanding
-											}
-										}
-									}
-								}
-
-								hbox_add_detour_here = {
-									visible = "[TravelRouteEditWindow.IsSelectingProvinceBeforeDestination( TravelPlanDestination.GetIndex )]"
-									layoutpolicy_horizontal = expanding
-								}
-
-								button_fixed_destination = {
-									layoutpolicy_horizontal = expanding
-								}
-							}
-						}
-					}
+				blockoverride "button_close"
+				{
+					onclick = "[TravelRouteEditWindow.Close]"
+					shortcut = "close_window"
 				}
 			}
 
 			vbox = {
+				name = "contents"
 				layoutpolicy_horizontal = expanding
-				margin = { 15 0 }
-				margin_bottom = 15
+				layoutpolicy_vertical = expanding
 
 				spacing = 10
 
 				text_multi = {
-					name = "error_text"
-					visible = "[Not( TravelRouteEditWindow.IsRouteValid )]"
+					name = "instruction_text"
+					visible = "[Not( TravelRouteEditWindow.IsInQuickEditMode )]"
 
-					text = "[TravelRouteEditWindow.GetRouteValidDesc]"
+					text = "TRAVEL_EDIT_ROUTE_INSTRUCTION"
 					align = center|nobaseline
 					autoresize = yes
+					default_format = "#I"
 					max_width = 380
 
-					margin = { 10 10 }
+					margin = { 15 10 }
 
 					background = {
 						using = Background_Area_Dark
 					}
 				}
 
-				hbox = {
-				 	spacing = 10
+				text_multi = {
+					name = "instruction_text_multi_edit"
+					visible = "[TravelRouteEditWindow.IsInQuickEditMode]"
 
-					button_standard = {
-						visible = "[TravelRouteEditWindow.HasTravelStarted]"
-						onclick = "[TravelRouteEditWindow.Close]"
-						text = CANCEL
+					text = "TRAVEL_EDIT_ROUTE_QUICK_EDIT_INSTRUCTION"
+					align = center|nobaseline
+					autoresize = yes
+					default_format = "#I"
+					max_width = 380
+
+					margin = { 15 10 }
+
+					background = {
+						using = Background_Area_Dark
+					}
+				}
+
+				scrollbox = {
+					name = "route_scroll"
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+
+					blockoverride "scrollbox_content"
+					{
+						vbox = {
+							layoutpolicy_horizontal = expanding
+							spacing = 4
+
+							datamodel = "[TravelPlanData.GetDestinations]"
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+								spacing = 8
+
+								button_fixed_departure = {
+									layoutpolicy_horizontal = expanding
+								}
+							}
+
+							item = {
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									spacing = 4
+
+									vbox = {
+										name = "detours_between_destinations"
+										visible = "[Not( IsDataModelEmpty( TravelPlanDestination.GetWaypoints ) )]"
+
+										layoutpolicy_horizontal = expanding
+										datamodel = "[TravelPlanDestination.GetWaypoints]"
+
+										item = {
+											vbox = {
+												layoutpolicy_horizontal = expanding
+
+												hbox_add_detour_here = {
+													visible = "[TravelRouteEditWindow.IsSelectingProvinceAt( TravelPlanDestination.GetIndex, TravelPlanWaypoint.GetIndex )]"
+
+													layoutpolicy_horizontal = expanding
+												}
+
+												hbox_added_detour = {
+													layoutpolicy_horizontal = expanding
+												}
+											}
+										}
+									}
+
+									hbox_add_detour_here = {
+										visible = "[TravelRouteEditWindow.IsSelectingProvinceBeforeDestination( TravelPlanDestination.GetIndex )]"
+										layoutpolicy_horizontal = expanding
+									}
+
+									button_fixed_destination = {
+										layoutpolicy_horizontal = expanding
+									}
+								}
+							}
+						}
+					}
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 15 0 }
+					margin_bottom = 15
+
+					spacing = 10
+
+					text_multi = {
+						name = "error_text"
+						visible = "[Not( TravelRouteEditWindow.IsRouteValid )]"
+
+						text = "[TravelRouteEditWindow.GetRouteValidDesc]"
+						align = center|nobaseline
+						autoresize = yes
+						max_width = 380
+
+						margin = { 10 10 }
+
+						background = {
+							using = Background_Area_Dark
+						}
 					}
 
-					button_primary = {
-						enabled = "[TravelRouteEditWindow.IsRouteValid]"
-						onclick = "[TravelRouteEditWindow.ApplyChanges]"
-						onclick = "[TravelRouteEditWindow.Close]"
+					hbox = {
+						spacing = 10
 
-						text = "APPLY"
+						button_standard = {
+							visible = "[TravelRouteEditWindow.HasTravelStarted]"
+							onclick = "[TravelRouteEditWindow.Close]"
+							text = CANCEL
+						}
+
+						button_primary = {
+							enabled = "[TravelRouteEditWindow.IsRouteValid]"
+							onclick = "[TravelRouteEditWindow.ApplyChanges]"
+							onclick = "[TravelRouteEditWindow.Close]"
+
+							text = "APPLY"
+						}
 					}
 				}
 			}

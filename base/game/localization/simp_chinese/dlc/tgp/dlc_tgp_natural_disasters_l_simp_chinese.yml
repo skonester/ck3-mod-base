@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName]开始了[great_project.GetName][great_project|E]"
  # Great Project
- great_project_type_great_project_earthquake: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]地震救援"
+ great_project_type_great_project_earthquake: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]地震救援"
  great_project_type_great_project_earthquake_desc: "必须采取措施减轻[earthquake|E]的影响。为了保护国家与人民，统治者必须资助[great_project_contributions|E]，并号召其他[situation_participant_groups|E]参与赈灾。"
  great_project_type_great_project_earthquake_contribution_recovery: "幸存者救助"
  great_project_type_great_project_earthquake_contribution_cleanup: "清理废墟"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "援助受灾者"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "派遣[GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip]"
  great_project_type_great_project_earthquake_contribution_memorial: "纪念性防御工事"
- great_project_type_great_project_flood: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]洪水救援"
+ great_project_type_great_project_flood: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]洪水救援"
  great_project_type_great_project_flood_desc: "必须采取措施减轻[flood|E]的影响。为了保护国家与人民，统治者必须资助[great_project_contributions|E]，并号召其他[situation_participant_groups|E]参与赈灾。"
  great_project_type_great_project_flood_contribution_recovery: "幸存者救助"
  great_project_type_great_project_flood_contribution_drainage: "排干积水"

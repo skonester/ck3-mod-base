@@ -1,9 +1,29 @@
 ﻿# Great Schism progress shown in every Christian Church phase until the schism happens or is prevented
 pam_great_schism_progress_gui = {
-	scope = character
-
 	is_shown = {
 		pam_great_schism_progress_can_change_trigger = yes
+	}
+}
+
+# the crisis chapter shows the schism icon when it can be started by it
+pam_great_schism_can_start_gui = {
+	is_shown = {
+		pam_great_schism_progress_can_change_trigger = yes
+		situation:the_christian_church ?= {
+			has_variable = pam_great_schism_status
+			var:pam_great_schism_status = flag:threshold_reached
+		}
+	}
+}
+
+# schism is active, so we show a tab for it
+pam_great_schism_ongoing_gui = {
+	is_shown = {
+		pam_great_schism_progress_can_change_trigger = yes
+		situation:the_christian_church ?= {
+			has_variable = pam_great_schism_status
+			var:pam_great_schism_status = flag:ongoing
+		}
 	}
 }
 
@@ -76,6 +96,30 @@ pam_is_papabile = {
 
 	is_shown = {
 		is_papabile = yes
+	}
+}
+
+pam_is_papabile_pious = {
+	scope = character
+
+	is_shown = {
+		pam_is_college_election_candidate_trigger = { SOURCE = theocratic_elective_pious }
+	}
+}
+
+pam_is_papabile_populist = {
+	scope = character
+
+	is_shown = {
+		pam_is_college_election_candidate_trigger = { SOURCE = theocratic_elective_populist }
+	}
+}
+
+pam_is_papabile_powerful = {
+	scope = character
+
+	is_shown = {
+		pam_is_college_election_candidate_trigger = { SOURCE = theocratic_elective_powerful }
 	}
 }
 

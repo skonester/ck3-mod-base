@@ -65,3 +65,5 @@
  confederations_desc: "#T Блоки и конфедерации#!\nПоказать все [blocs|El] и [confederations|El] на карте."
  clerical_regions: "Церковные округа"
  clerical_regions_desc: "#T Церковные округа#!\nПоказать все существующие [Concept('clerical_regions', 'церковные округа')|E], каждый из которых находится в юрисдикции [Concept('clerical_title', 'церковного титула')|E]."
+ faith_mapmode_holy_sites_tt: "#T Показать святые места#!\n#I Щёлкните для просмотра#!"
+ faith_mapmode_religious_heads_tt: "#T Показать глав конфессий#!\n#I Щёлкните для просмотра#!"

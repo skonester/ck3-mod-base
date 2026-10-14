@@ -148,7 +148,7 @@
  building_farm_estates_07_desc: "裕福な家族は貧しい家族を買収し、その資産を私有地へと統合していく。すべてが同じ方向で働き、さらに、税金も一緒に支払っている。"
  building_farm_estates_08: "大邸宅"
  building_farm_estates_08_desc: "稀に見る大きさのこの邸宅には、数千人もの人が住むことができる。"
- farm_estates_3_4_trigger: "以下の条件のうち1つ：\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に#V $innovation_manorialism$#!の[innovation|E]があり、この[holding|E]が[GetTerrain( 'farmlands' ).GetName]で、かつレベル2の[holding|E]を保有している\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に[GetCultureTradition('tradition_pastoralists').GetName|V]の[tradition|E]があり、この[holding|E]に[GetBuilding('pastures_04').GetName]の[building|E]がある\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に#V $innovation_manorialism$#!および#V $innovation_champa_rice$#!の[innovations|E]があり、この[holding|E]にレベル2の[holding|E]があって、さらに[GetBuilding('paddy_fields_01').GetName]系の[buildings|E]にアクセスできる"
+ farm_estates_3_4_trigger: "以下の条件のうち1つ：\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に#V $innovation_manorialism$#!の[innovation|E]があり、この[barony|E]が[GetTerrain( 'farmlands' ).GetName]で、かつレベル2の[holding|E]を保有している\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に[GetCultureTradition('tradition_pastoralists').GetName|V]の[tradition|E]があり、この[holding|E]に[GetBuilding('pastures_04').GetName]の[building|E]がある\n$EFFECT_LIST_BULLET$[holder_possessive|E]の[culture|E]に#V $innovation_manorialism$#!および#V $innovation_champa_rice$#!の[innovations|E]があり、この[barony|E]にレベル2の[holding|E]があって、さらに[GetBuilding('paddy_fields_01').GetName]系の[buildings|E]にアクセスできる"
  building_type_regimental_grounds_01: "連隊訓練場"
  building_type_regimental_grounds_01_desc: "連隊訓練場には大勢の兵士が入れる建物だけでなく、訓練のできる広大な土地にも隣接している。"
  building_regimental_grounds_01: "軍の野営地"

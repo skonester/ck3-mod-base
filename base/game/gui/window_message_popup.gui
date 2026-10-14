@@ -42,7 +42,9 @@
 
 			blockoverride "header_text"
 			{
+				margin = { 50 0 }
 				text = "[PlayerMessageItem.GetTitle]"
+				tooltip = "[PlayerMessageItem.GetTitle]"
 			}
 
 			blockoverride "extra_buttons"
@@ -195,13 +197,14 @@
 
 						text_single = {
 							name = "date"
+							layoutpolicy_horizontal = expanding
+							autoresize = no
+							margin = { 20 0 }
+
 							text = "[PlayerMessageItem.GetArrivalDate.GetStringLong]"
 							default_format = "#weak"
 							align = nobaseline
 
-							margin = { 20 0 }
-							layoutpolicy_horizontal = expanding
-							expand = {}
 						}
 
 						text_multi = {

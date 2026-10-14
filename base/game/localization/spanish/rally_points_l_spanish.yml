@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! No hay [armies|lE] que reclutar#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! No hay [men_at_arms|lE] que reclutar#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! No se puede reclutar mientras $ARMY_AUTOMATION_FEATURE_NAME$ esté activado#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Ctrl + clic del ratón para #bold no#! dividir los [armies|lE] según los [Concept( 'supply_limit', 'límites de suministros')|E]#!\n#I Clic secundario para reclutar los [armies|lE] en una ubicación elegida específica.#!"
+ RAISE_TROOPS_EXTRA_INFO: "Los [armies|lE] se pueden dividir si superan los [Concept( 'supply_limit', 'límites de suministros')|E].\n\n#I Ctrl + clic del ratón para reclutar los [armies|lE] sin dividirlos por [Concept( 'supply_limit', 'suministros')|E]#!\n#I Clic secundario para reclutar los [armies|lE] en una ubicación elegida específica.#!"

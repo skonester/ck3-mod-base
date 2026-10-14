@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "배움을 얻을 [SCHEME.GetTargetFaith.GetAdherentNameNoTooltip](을)를 찾아봅니다."
  find_follower_of_faith_desc_general: "신자 찾기는 $study_faith$ [scheme|E]을 시작하기 위해 신앙을 따르는 이들을 찾을 수 있게 해 주는 [personal_scheme|E]입니다. 이 모략은 주로 당신의 [learning|E] 및 [intrigue|E]에 의존하지만, [spymaster|E]과 [court_chaplain|E]의 도움을 받을 수도 있습니다. 관대한 신앙을 믿거나 찾는 대상과 같은 [religious_family|E]에 속해 있는 경우에도 지속적으로 도움이 됩니다. [hostile_scheme|E]이 아니므로 [secret_scheme_single|E]가 아니며 [agents|E]를 사용하지 않습니다."
  find_follower_of_faith_success_message: "[target.GetAdherentNameNoTooltip](을)를 발견했습니다"
+ find_follower_of_faith_SUCCESS_DESC: "대상 [faith|E]의 신자를 찾습니다"
  find_follower_of_faith_failed_message: "[target.GetAdherentNameNoTooltip](을)를 발견하지 못했습니다"
  find_follower_of_faith_continue: "계속 노력합니다"
  find_follower_of_faith_try_again: "다시 시도할 것입니다"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "당신의 [faith|E]이 대상 신앙과 같은 [religious_family|E]에 속함: $VALUE|+=0$"
  find_follower_of_faith_dead_faith: "[target.GetName](이)가 더 이상 믿는 사람이 없음: $VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "[target.GetName](이)가 당신의 봉역에서 신자가 있음: $VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "당신의 [realm_priest|E]가 돕고 있음: $VALUE|+=0$"

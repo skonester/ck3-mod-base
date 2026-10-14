@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "请求绝罚"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "目标"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "你将前往[recipient.GetCapitalLocation.GetName]，请求[recipient.GetTitledFirstName][excommunicate|E][secondary_recipient.GetTitledFirstName]"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUIName]将前往[recipient.GetCapitalLocation.GetName]，请求[recipient.GetTitledFirstName][excommunicate|E][secondary_recipient.GetTitledFirstName]"
  petition_head_of_faith_decision_option_repentance: "撤销绝罚"
  petition_head_of_faith_decision_option_excommunication: "请求绝罚"
  petition_head_of_faith_decision_option_repentance_desc: "请求撤销你的[excommunication|E]。"

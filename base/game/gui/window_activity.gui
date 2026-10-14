@@ -1810,6 +1810,13 @@ types ActivityWindowTypes
 			{
 				onclick = "[EventWindowViewInsert.Reload]"
 			}
+
+			blockoverride "debug_spacer" {
+				spacer = {
+					visible = "[Activity.MakeScope.Var( 'body_to_bury' ).IsSet]"
+					size = { 130 0 }
+				}
+			}
 		}
 		
 		widget = {

@@ -6299,7 +6299,7 @@ et_867_aquileia_region = {
 
 et_1066_esztergom_region = {
 	counties = {
-		c_esztergom c_jihlava c_brno c_olomouc c_opava c_prerov c_trenscen c_orava c_lipto c_gemer c_hont c_komarom c_poszony c_vas c_kolon c_sopron c_znojmo c_nyitra c_bars c_zolyom c_gyor c_abauj c_veszprem c_somogy c_tolna c_vukovar c_pozega c_szekesfehervar c_baranya c_bodrog c_bacs c_keve c_krasso c_temes c_hunyad c_feher c_fogaras c_barcasag c_szekelyfold c_beszterce c_marmaros c_bereg c_ungvar c_zemplen c_borsod c_hewes c_visegrad c_csongrad c_csanad c_arad c_zarand c_torda c_szatmar c_szabolcs c_bihar c_bekes
+		c_esztergom c_trenscen c_orava c_lipto c_gemer c_hont c_komarom c_poszony c_vas c_kolon c_sopron c_nyitra c_bars c_zolyom c_gyor c_abauj c_veszprem c_somogy c_tolna c_vukovar c_pozega c_szekesfehervar c_baranya c_bodrog c_bacs c_keve c_krasso c_temes c_hunyad c_feher c_fogaras c_barcasag c_szekelyfold c_beszterce c_marmaros c_bereg c_ungvar c_zemplen c_borsod c_hewes c_visegrad c_csongrad c_csanad c_arad c_zarand c_torda c_szatmar c_szabolcs c_bihar c_bekes
 	}
 }
 
@@ -6371,7 +6371,7 @@ et_867_mainz_region = {
 
 et_1066_mainz_region = {
 	counties = {
-		c_mainz c_nassau c_arnsberg c_waldeck c_paderborn c_lippe c_minden c_wolpe c_luneburg c_dannenberg c_stendal c_halberstadt c_mansfeld c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_brunswick c_hannover c_hildesheim c_gottingen c_blankenburg c_gleichenstein c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_kempten c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_hohenberg c_praha c_zatec c_plzen c_doudleby c_caslav c_hradec c_boleslav c_vogtland c_naumburg c_zurich
+		c_mainz c_nassau c_arnsberg c_waldeck c_paderborn c_lippe c_minden c_wolpe c_luneburg c_dannenberg c_stendal c_halberstadt c_mansfeld c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_brunswick c_hannover c_hildesheim c_gottingen c_blankenburg c_gleichenstein c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_kempten c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_hohenberg c_praha c_zatec c_plzen c_doudleby c_caslav c_hradec c_boleslav c_jihlava c_brno c_olomouc c_opava c_prerov c_znojmo c_vogtland c_naumburg c_zurich
 	}
 }
 

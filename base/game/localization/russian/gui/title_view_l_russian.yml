@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "Скидка за [Concept( 'legitimacy_level', 'уровень легитимности' )|E]"
  TITLE_VIEW_APPOINTMENT: "Посмотреть наследование"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Обзор наследования через назначение#!\nТитул последует за титулом [Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "Титул [Title.GetNameNoTooltip] будет унаследован вместе с [Concept('primary_title', 'первым титулом')|E] [Select_CString(Title.GetHolder.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', Title.GetHolder.GetShortUIName))] #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Наследуется вместе с этим [Concept('title', 'титулом')|E]:"
  ADD_LAWS_TOOLTIP: "#T Добавить закон о наследовании"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X [Concept('government', 'Тип правительства')|E] вашего [Concept('top_liege_possessive', 'верховного сюзерена')|E] не позволяет [Concept('vassals', 'вассалам')|E] иметь [Concept('royal_court', 'монарший двор')|E]#!"
  CREATE_TITLE_PIETY_LEVEL: "Требуется [GetPietyLevelName('(int32)$LEVEL|q$')]"

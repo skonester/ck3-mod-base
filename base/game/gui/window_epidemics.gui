@@ -313,11 +313,12 @@ types EpidemicsWindowTypes
 				default_format = "#weak"
 				align = nobaseline
 			}
+
 			hbox = {
-				spacing = -4
+				spacing = -5
 
 				icon_flat_standard_red = {
-					size = { 24 24 }
+					size = { 30 30 }
 					texture = "gfx/interface/icons/flat_icons/epidemics.dds"
 
 					glow = {
@@ -329,9 +330,8 @@ types EpidemicsWindowTypes
 				}
 
 				icon_flat_standard_red = {
-
 					visible = "[Or(Epidemic.HasOutbreakIntensity( 'major' ),Epidemic.HasOutbreakIntensity( 'apocalyptic' ))]"
-					size = { 24 24 }
+					size = { 30 30 }
 					texture = "gfx/interface/icons/flat_icons/epidemics.dds"
 
 					glow = {
@@ -345,7 +345,7 @@ types EpidemicsWindowTypes
 
 				icon_flat_standard_red = {
 					visible = "[Epidemic.HasOutbreakIntensity( 'apocalyptic' )]"
-					size = { 24 24 }
+					size = { 30 30 }
 					texture = "gfx/interface/icons/flat_icons/epidemics.dds"
 
 					glow = {
@@ -358,8 +358,9 @@ types EpidemicsWindowTypes
 
 				icon_flat_standard_black = {
 					visible = "[Not(Or(Epidemic.HasOutbreakIntensity( 'major' ),Epidemic.HasOutbreakIntensity( 'apocalyptic' )))]"
-					size = { 24 24 }
+					size = { 30 30 }
 					texture = "gfx/interface/icons/flat_icons/epidemics.dds"
+					
 					glow = {
 						glow_radius = 3
 						using = Glow_Standard
@@ -370,7 +371,7 @@ types EpidemicsWindowTypes
 
 				icon_flat_standard_black = {
 					visible = "[Not(Epidemic.HasOutbreakIntensity( 'apocalyptic' ))]"
-					size = { 24 24 }
+					size = { 30 30 }
 					texture = "gfx/interface/icons/flat_icons/epidemics.dds"
 
 					glow = {

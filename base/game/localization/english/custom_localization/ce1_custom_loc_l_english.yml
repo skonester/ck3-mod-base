@@ -10,10 +10,10 @@
  GetRandomExteriorDetail_fishing: "I see a fisherman, crouched down to sort his bait"
  GetRandomExteriorDetail_snow: "I see the snow, barely melting, still fresh"
  
- pantler_carrying_supplies: "the planter carrying supplies in an unstable pile"
+ pantler_carrying_supplies: "the pantler carrying supplies in an unstable pile"
  cook_scolding_servants: "the cook scolding two young servants"
  lady_in_waiting_embroidering: "a lady-in-waiting embroidering a floral pattern"
- page_brandishing_armor: "a page brandishing an armor"
+ page_brandishing_armor: "a page brandishing a piece of armor"
  draft_from_window: "a cold draft banging the shutters"
  
  GetWritingMaterial_parchment: "parchment"
@@ -35,7 +35,7 @@
  GetPlagueEffect_limbs: "sprout another limb"
  GetPlagueEffect_thirdeye: "grow a third eye"
  GetPlagueEffect_nipple: "grow a third nipple"
- GetPlagueEffect_blue: "made their skin of a rich, dark blue"
+ GetPlagueEffect_blue: "turn their skin a rich, dark blue"
  GetPlagueEffect_hairy: "grow hair all over their body"
  GetPlagueEffect_fingernails: "turn their fingernails to claws"
  GetPlagueEffect_eyes: "turn their eyes feline"

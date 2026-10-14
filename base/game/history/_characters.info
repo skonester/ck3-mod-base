@@ -41,14 +41,12 @@
 	culture = ...
 	dynasty = ...
 	dynasty_house = ...
+	ethnicity = ...
 	give_nickname = ...
 	sexuality = ...
 	health = ...
 	fertility = ...
-	set_house = ...
-	set_culture = ...
-	set_character_faith_no_effect = ...
-	add_spouse/add_matrilineal_spouse/add_same_sex_spouse = ...
+	# NOTE: set_house/set_culture/set_character_faith_no_effect are errors here and in date entries; use dynasty_house/culture/faith instead.
 	
 	portrait_override = {	# Will override the character's appearance
 		portrait_modifier_overrides={
@@ -64,16 +62,28 @@
 	}
 	# All date entries must be between birth and death, except ones that only contain effect_even_if_dead, those may also happen after death.
 	1099.01.01 = {
+		# The following can be changed in a date entry: faith, rite, culture, dynasty, dynasty_house, ethnicity,
+		# give_nickname, sexuality, health, fertility, portrait_override, name, trait (adds a trait)
+		add_spouse/add_matrilineal_spouse/add_same_sex_spouse = <character id> # Only one per date entry
+		remove_spouse = <character id>
+		add_concubine = <character id>
+		remove_concubine = <character id>
+		employer = <character id>
+		give_council_position = <council position key>
+		capital = <title key>
+
 		effect = { # Executes if the character is alive during the selected start date.
 			...
 		}
+		# Any other key in a date entry is read as an effect statement, as if it was inside 'effect'.
 		effect_even_if_dead = { # Executes regardless of the character's life status.
 			...
 		}
 	}
 	1150.01.01 = {
-		death = {
+		death = { # or death = yes
 			death_reason = death_duel
+			killer = <character id>
 		}
 	}
 }

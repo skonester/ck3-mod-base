@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "Je vais chercher un [SCHEME.GetTargetFaith.GetAdherentNameNoTooltip] auprès duquel apprendre."
  find_follower_of_faith_desc_general: "[personal_scheme|E] qui vous permet de rechercher des pratiquants d’une [faith|El] dans le but de lancer un [scheme|El] d’$study_faith|l$. Ce complot repose principalement sur votre [learning|El] et [intrigue|El], mais votre [spymaster|El] et votre [court_chaplain|El] peuvent vous apporter leur aide. Le fait d’avoir une foi tolérante ou d’appartenir à la même [religious_family|El] constitue également un atout constant. Comme il ne s’agit pas d’un [hostile_scheme|El], il n’est pas [secret_scheme_single|El] et ne fait pas appel à des [agents|El]."
  find_follower_of_faith_success_message: "Vous avez trouvé un [target.GetAdherentNameNoTooltip]"
+ find_follower_of_faith_SUCCESS_DESC: "Vous trouvez un adepte de la [faith|El] ciblée"
  find_follower_of_faith_failed_message: "Vous n’avez pas trouvé de [target.GetAdherentNameNoTooltip]"
  find_follower_of_faith_continue: "Vous poursuivez vos efforts"
  find_follower_of_faith_try_again: "Vous allez faire une autre tentative"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "Votre [faith|El] est de la même [religious_family|El] que la foi ciblée : $VALUE|+=0$"
  find_follower_of_faith_dead_faith: "[target.GetName] n’est plus pratiqué : $VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "[target.GetName] est pratiqué dans votre pays : $VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "Votre [realm_priest|El] vous prête main-forte : $VALUE|+=0$"

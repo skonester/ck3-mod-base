@@ -7,6 +7,7 @@ besiege			- The unit is besieging a holding
 combat_won		- The unit is celebrating after winning in combat (should not be looped)
 siege_won		- The unit is celebrating after successful siege (should not be looped)
 move_retreat	- The unit is retreating
+defeated		- The unit is retreating from a combat that just ended (falls back to move if missing)
 move_attack		- The unit is moving into a province with an enemy unit
 move_start		- The unit got a movement order and is walking towards the edge of the province (can be looped or just switch to move_continue after being done)
 move_continue	- The unit is on the move, after it left the original province

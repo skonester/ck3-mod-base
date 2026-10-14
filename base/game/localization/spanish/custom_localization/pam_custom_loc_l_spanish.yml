@@ -2,7 +2,7 @@
  #GetMotherFatherPossessive
  motherpossessive: "de la $mother$"
  fatherpossessive: "del $father$"
- parentpossessive: "del $parent$"
+ parentpossessive: "del progenitor"
  religious_head_headgear_tiara: "tiara"
  religious_head_headgear_tiara_plural: "tiaras"
  religious_head_headgear_mitre: "mitra"

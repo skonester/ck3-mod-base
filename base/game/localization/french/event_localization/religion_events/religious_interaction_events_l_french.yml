@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "Que la douleur nous rapproche."
  attempted_transcendence_together_opinion: "Tentative de transcendance conjointe"
  monastic_donation_interaction: "Faire un don à l’ordre monastique"
- monastic_donation_interaction_desc: "En échange d’[gold|El], les religieux [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] prieront pour votre salut et votre [spiritual_fulfillment|El]."
+ monastic_donation_interaction_desc: "En échange d’[gold|El], les religieux [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] prieront pour votre salut et votre [spiritual_fulfillment|El]"
  INTERACTION_CEREMONIAL_HUMBLING: "Implorer désespérément une intercession"
  INTERACTION_HUGE_DONATION: "Faire un don important"
  monastics_praying_for_grievous_sins_modifier: "Intercession monastique"

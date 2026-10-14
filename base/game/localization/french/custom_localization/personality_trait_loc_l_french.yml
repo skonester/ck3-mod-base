@@ -18,7 +18,7 @@
  personality_traitdesc.negative.lazy: "paresseu[ROOT.Char.Custom('FR_XSe')]"
  personality_traitdesc.negative.wrathful: "courroucé[ROOT.Char.Custom('FR_E')]"
  personality_traitdesc.negative.calm: "placide"
- personality_traitdesc.negative.deceitful: "naï[ROOT.Char.Custom('FR_FVe')]"
+ personality_traitdesc.negative.deceitful: "fourbe"
  personality_traitdesc.negative.honest: "[Select_CString(ROOT.Char.IsFemale,'crue','cru')]"
  personality_traitdesc.negative.craven: "poltro[ROOT.Char.Custom('FR_NNne')]"
  personality_traitdesc.negative.brave: "risque-tout"

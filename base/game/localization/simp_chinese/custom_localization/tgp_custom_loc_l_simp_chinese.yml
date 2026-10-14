@@ -72,4 +72,4 @@
  BlocReasonBribeInfluence: "由于慷慨的[influence_i][influence|E]贿赂"
  BlocReasonBribeHook: "由于使用了[hook_i][hook|E]"
  BlocReasonKicked: "由于被[leading_house|E]踢出"
- BlocReasonFollowedLiege: "为了加入其[house_heads_possessive]的[liege|E]的[bloc|E]"
+ BlocReasonFollowedLiege: "为了加入其[house_heads_possessive|E]的[liege|E]的[bloc|E]"

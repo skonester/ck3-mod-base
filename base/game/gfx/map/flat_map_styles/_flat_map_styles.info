@@ -13,7 +13,7 @@
 name_of_paper_map_style = {
 	# If this table style is dynamically selected for the current character.
 	# Auto-style selection will return the first style.
-	# Scope: character (may be empty character when no character has been selected yet)
+	# Scope: character (not evaluated when no character has been selected yet; the default style is used then)
 	is_shown = {}
 
 	# If set require this DLC feature for the table style to be selected by a player via settings

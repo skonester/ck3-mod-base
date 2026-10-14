@@ -1,7 +1,7 @@
 ﻿l_english:
  CARDINALS_VIEW_TITLE: "[college_of_cardinals]"
- CARDINALS_VIEW_HEAD_OF_FAITH: "[head_of_faith|E]: [Character.GetShortUINameNotMeNoTooltip]"
- CARDINALS_VIEW_HEAD_OF_RITE: "[head_of_rite|E]: [Character.GetShortUINameNotMeNoTooltip]"
+ CARDINALS_VIEW_HEAD_OF_FAITH: "[head_of_faith|E]"
+ CARDINALS_VIEW_HEAD_OF_RITE: "[head_of_rite|E]"
  CARDINALS_VIEW_HEAD_OF_PAPACY: "[SelectLocalization( Character.GetFaith.GetReligiousHead.IsValid, 'CARDINALS_VIEW_HEAD_OF_FAITH', 'CARDINALS_VIEW_HEAD_OF_RITE' )]"
  CARDINALS_VIEW_HEAD_OF_PAPACY_VACANT: "[Title.GetNameNoTooltip]: Vacant"
  CARDINALS_VIEW_TAB_COLLEGE: "College"
@@ -12,7 +12,6 @@
  CARDINALS_VIEW_POPE_PREDICTION: "Likelihood of being the next Pope: [CardinalItem.GetPrediction|V0%]"
  CARDINALS_VIEW_VOTE_FOR: "Will vote for:"
  CARDINALS_VIEW_VOTE_UNDECIDED: "Undecided"
- CARDINALS_VIEW_WILL_VOTE_FOR: "[cardinals|E] voting for [Character.GetShortUINameNoTooltip|U] in the Papal Election"
  CARDINALS_VIEW_WILL_CHANGE_TENET: "If [Character.GetShortUINameNoTooltip|U] [CharAreIs( Character )] elected to [Character.GetFaith.GetCollegeElectionTitle.GetNameNoTooltip], [CharYouSheHe( Character )] will replace [CardinalCandidateItem.GetSwappedOutTenet.GetName( Character.GetRite )] with [CharYourHerHis( Character )] preferred [core_tenet|E], [CardinalCandidateItem.GetPreferredTenet.GetName( Character.GetRite )]"
  CARDINALS_VIEW_YOU_WILL_CHANGE_RITE: "If elected to [Character.GetFaith.GetCollegeElectionTitle.GetNameNoTooltip], you will be able to modify [Faith.GetMainRite.GetName] and change its [core_tenets|E] and [doctrines|E]"
  CARDINALS_VIEW_SUPPORTED_CANDIDATE_TT: "#bold Supported Candidate #!"
@@ -22,6 +21,21 @@
 
  CARDINALS_VIEW_CANDIDATE_ARCHETYPE_TT: "#T [CardinalCandidateItem.GetArchetypeName]#!\n[CardinalCandidateItem.GetArchetypeDescription]\n\n[Character.GetShortUINameNoTooltip|U] [CharFollowFollows( Character )] [Rite.GetName].\n\n[CardinalCandidateItem.GetScoreBreakdown]"
  CARDINALS_VIEW_SELECTION_REASONS_SUM: "#T Candidate Score: $VALUE|0$#!"
+ CARDINALS_VIEW_CANDIDATE_PAPABILE_SCORE: "@clerical_score![Character.MakeScope.ScriptValue( 'pam_papal_powerful_priority_value' )|V0]"
+ CARDINALS_VIEW_CANDIDATE_PAPABILE_SCORE_POPULIST: "@clerical_score![Character.MakeScope.ScriptValue( 'pam_papal_populist_priority_value' )|V0]"
+ CARDINALS_VIEW_CANDIDATE_PAPABILE_SCORE_PIOUS: "@clerical_score![Character.MakeScope.ScriptValue( 'pam_papal_pious_priority_value' )|V0]"
+ CARDINALS_VIEW_PAPABILE_SCORE_POWERFUL_TT: "[papabile_score|E] for #L #TOOLTIP:theocratic_elective_powerful_desc $theocratic_elective_powerful$#!#!"
+ CARDINALS_VIEW_PAPABILE_SCORE_PIOUS_TT: "[papabile_score|E] for #L #TOOLTIP:theocratic_elective_pious_desc $theocratic_elective_pious$#!#!"
+ CARDINALS_VIEW_PAPABILE_SCORE_POWERFUL_VALUE: "#V [Character.MakeScope.ScriptValue( 'pam_papal_powerful_priority_value' )|0]#!"
+ CARDINALS_VIEW_PAPABILE_SCORE_POPULIST_VALUE: "#V [Character.MakeScope.ScriptValue( 'pam_papal_populist_priority_value' )|0]#!"
+ CARDINALS_VIEW_PAPABILE_SCORE_PIOUS_VALUE: "#V [Character.MakeScope.ScriptValue( 'pam_papal_pious_priority_value' )|0]#!"
+ CARDINALS_VIEW_PAPABILE_SCORE_POPULIST_TT: "[papabile_score|E] for #L #TOOLTIP:theocratic_elective_populist_desc $theocratic_elective_populist$#!#!"
+ 
+ CARDINALS_VIEW_PAPABILE_SCORE_POWERFUL_HEADER: "#L #TOOLTIP:theocratic_elective_powerful_desc Powerful#!#!:"
+ CARDINALS_VIEW_PAPABILE_SCORE_POPULIST_HEADER: "#L #TOOLTIP:theocratic_elective_populist_desc Populist#!#!:"
+ CARDINALS_VIEW_PAPABILE_SCORE_PIOUS_HEADER: "#L #TOOLTIP:theocratic_elective_pious_desc Pious#!#!:"
+
+ CARDINALS_VIEW_COLLEGE_DESCRIPTION: "Upon the death of the Pope, the most Popular, Pious, or Powerful [cardinal|e] with the highest number of supporters will ascend to The Papacy."
 
  theocratic_elective_pious: "The Pious"
  theocratic_elective_pious_desc: "#flavor The College must put forward a name no one can call unworthy, a cardinal whose life already reads like a saint's.#!\n\nTo become #EMP $theocratic_elective_pious$#!, stand above every other [cardinal|E] in holiness. [piety_level|E] weighs heaviest by far, followed by [learning|E] and how far you have advanced as a [GetTrait('lifestyle_scholar').GetName( GetPlayer )], a [GetTrait('pilgrim').GetName( GetPlayer )], or a [GetTrait('lifestyle_mystic').GetName( GetPlayer )]. A single [sin|E] on your name costs more than a [virtue|E] earns.[GetPlayer.Custom('GetPamPapabileOwnScorePious')]"
@@ -36,4 +50,3 @@
  CARDINALS_VIEW_DEBUG_CANDIDATE: "#T Entry Index: [CardinalCandidateItem.GetArchetypeName]#!\n\n[CardinalCandidateItem.GetScoreBreakdown]"
 
  papabile_filter_tag_desc: "[cardinal|E] Interactions"
- CARDINALS_VIEW_INTERACTIONS_BUTTON_TT: "#T Show [cardinal|E] Interactions#!"

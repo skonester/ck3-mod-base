@@ -191,7 +191,7 @@
  random_religious_text_god_and_christ: "#EMP Sur Dieu et le Christ#!"
  #Random Entertainment texts
  random_entertainment_text_beowulf: "le #EMP Beowulf#!"
- random_entertainment_text_niebelungenlied: "le #EMP Niebelungenlied#!"
+ random_entertainment_text_niebelungenlied: "le #EMP Nibelungenlied#!"
  random_entertainment_text_song_of_roland: "la #EMP Chanson de Roland#!"
  random_entertainment_text_mabinogi: "les #EMP Mabinogion#!"
  random_entertainment_text_travels_to_jerusalem: "#EMP Voyages vers Jérusalem#!"
@@ -429,12 +429,12 @@
  flower_type_chinese_primrose: "une primevère"
  flower_type_plum_blossom: "une fleur de prunier"
  flower_type_cherry_blossom: "une fleur de cerisier"
- flower_type_japanese_iridaceae: "une iridacée"
+ flower_type_japanese_iridaceae: "un iris"
  flower_type_korean_bellflower: "une campanule"
  flower_type_korean_rhododendron: "un rhododendron"
- flower_type_hokkaido_alpine: "un hokkaido alpin"
+ flower_type_hokkaido_alpine: "une fleur alpine d’Hokkaido"
  flower_type_tropical_rafflesia: "une rafflésie"
- flower_type_nepenthes_pitcher: "une sarracénie"
+ flower_type_nepenthes_pitcher: "un népenthès"
  flower_type_jade_vine: "une liane de jade"
  flower_type_medinilla: "une medinilla"
  flower_type_tiger_orchid: "une orchidée tigre"
@@ -466,12 +466,12 @@
  flower_type_chinese_primrose_plural: "primevères"
  flower_type_plum_blossom_plural: "fleurs de prunier"
  flower_type_cherry_blossom_plural: "fleurs de cerisier"
- flower_type_japanese_iridaceae_plural: "iridacées"
+ flower_type_japanese_iridaceae_plural: "iris"
  flower_type_korean_bellflower_plural: "campanules"
  flower_type_korean_rhododendron_plural: "rhododendrons"
- flower_type_hokkaido_alpine_plural: "hokkaido alpins"
+ flower_type_hokkaido_alpine_plural: "fleurs alpines d’Hokkaido"
  flower_type_tropical_rafflesia_plural: "rafflésies"
- flower_type_nepenthes_pitcher_plural: "sarracénies"
+ flower_type_nepenthes_pitcher_plural: "népenthès"
  flower_type_jade_vine_plural: "lianes de jade"
  flower_type_medinilla_plural: "medinillas"
  flower_type_tiger_orchid_plural: "orchidées tigres"
@@ -608,7 +608,7 @@
  horned_mythical_creature_keewakw: "un kee-wakw"
  #Regional Mythical Creatures
  #Britannia
- mythical_creature_britannia_water_leper: "un lépreux d’eau"
+ mythical_creature_britannia_water_leper: "un sauteur d’eau"
  mythical_creature_britannia_fomorian: "un fomoire"
  mythical_creature_britannia_fachan: "un fachan"
  #West Europe
@@ -645,7 +645,7 @@
  #India
  mythical_creature_india_makara: "un makara"
  mythical_creature_india_yali: "un yali"
- mythical_creature_india_rakshasha: "un rakshasha"
+ mythical_creature_india_rakshasha: "un rakshasa"
  #East Asia
  mythical_creature_east_asia_manaul: "un manaul"
  mythical_creature_east_asia_bashee: "une banshie"
@@ -666,7 +666,7 @@
  mythical_creature_other_dragon: "un dragon"
  #Lowercase
  #Britannia
- mythical_creature_britannia_water_leper_lower: "un lépreux d’eau"
+ mythical_creature_britannia_water_leper_lower: "un sauteur d’eau"
  mythical_creature_britannia_fomorian_lower: "un fomoire"
  mythical_creature_britannia_fachan_lower: "un fachan"
  #West Europe
@@ -701,7 +701,7 @@
  #India
  mythical_creature_india_makara_lower: "un makara"
  mythical_creature_india_yali_lower: "un yali"
- mythical_creature_india_rakshasha_lower: "un rakshasha"
+ mythical_creature_india_rakshasha_lower: "un rakshasa"
  #East Asia
  mythical_creature_east_asia_manaul_lower: "un manaul"
  mythical_creature_east_asia_bashee_lower: "une banshie"

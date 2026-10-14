@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "Demander l’excommunication"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "Cible"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "Vous voyagerez à [recipient.GetCapitalLocation.GetName] et demanderez officiellement [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName] d’[excommunicate|El] [secondary_recipient.Custom('FR_le_Char_Pi')][secondary_recipient.GetTitledFirstName]"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.Custom('FR_le_Char_U_Pi')|U][excom_request.GetShortUIName] [Select_CString(excom_request.IsLocalPlayer,'voyagerez','voyagera')] à [recipient.GetCapitalLocation.GetName] et [Select_CString(excom_request.IsLocalPlayer,'demanderez','demandera')] officiellement [recipient.Custom('FR_au_Char_Pi')][recipient.GetTitledFirstName] d’[excommunicate|El] [secondary_recipient.Custom('FR_le_Char_Pi')][secondary_recipient.GetTitledFirstName]"
  petition_head_of_faith_decision_option_repentance: "Lever l’excommunication"
  petition_head_of_faith_decision_option_excommunication: "Demander l’excommunication"
  petition_head_of_faith_decision_option_repentance_desc: "Demandez la levée de votre [excommunication|El]."

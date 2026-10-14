@@ -108,6 +108,7 @@
 
 								text_label_center = {
 									layoutpolicy_horizontal = expanding
+									autoresize = no
 
 									text = "[SelectLocalization( ObjectsEqual( Legend.Self, LegendsWindow.GetPromotedLegend.GetLegend.Self ), SelectLocalization( ObjectsEqual( Legend.GetOwner.Self, GetPlayer.Self ), 'PROMOTED_OWNED_LEGEND', 'PROMOTED_LEGEND'), 'FOCUSED_LEGEND' )]"
 									margin_left = 30
@@ -493,6 +494,7 @@ types LegendTypes
 		text_single = {
 			name = "no_promoters"
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			visible = "[IsDataModelEmpty( Legend.GetPromoters )]"
 			text = LEGEND_PROMOTERS
 		}
@@ -500,6 +502,7 @@ types LegendTypes
 		text_single = {
 			name = "promoters"
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			visible = "[DataModelHasItems( Legend.GetPromoters )]"
 
 			text = LEGEND_PROMOTERS
@@ -512,12 +515,14 @@ types LegendTypes
 		text_single = {
 			name = "spread"
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			text = "LEGEND_SPREAD"
 		}
 
 		text_single = {
 			name = "owner"
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			text = "LEGEND_OWNER_DESCRIPTION"
 		}
 
@@ -531,6 +536,7 @@ types LegendTypes
 
 		text_multi = {
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			margin_right = 5
 
 			visible = "[GreaterThan_int32( Legend.GetCurrentNumProvinces, '(int32)0' )]"
@@ -542,6 +548,7 @@ types LegendTypes
 		text_single = {
 			name = "spread"
 			layoutpolicy_horizontal = expanding
+			max_width = 240
 			text = "LEGEND_SPREAD"
 		}
 
@@ -586,33 +593,33 @@ types LegendTypes
 		blockoverride "header_top_contents"
 		{
 			layoutpolicy_vertical = expanding
+			layoutpolicy_horizontal = expanding
+			margin_right = 10
 
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
+			text_single = {
+				autoresize = no
+				size = { 100% 100% }
 
-				text_single = {
-					text = "[Legend.GetNameNoTooltip]"
-					default_format = "#high"
+				text = "[Legend.GetNameNoTooltip]"
+				default_format = "#high"
 
-					using = Font_Size_Medium
-					align = nobaseline
-					max_width = 350
-
-				}
-				expand = {}
+				using = Font_Size_Medium
+				align = nobaseline
 			}
 		}
 		blockoverride "header_bottom_contents"
 		{
 			layoutpolicy_vertical = expanding
+			margin_right = 10
 
 			text_single = {
+				autoresize = no
+				size = { 100% 100% }
+
 				text = "LEGEND_HEADER_SUBTITLE"
 				default_format = "#weak"
 				align = nobaseline
 				parentanchor = vcenter|left
-				max_width = 350
 			}
 		}
 		blockoverride "header_post_contents"
@@ -623,7 +630,12 @@ types LegendTypes
 				layoutpolicy_vertical = expanding
 
 				hbox = {
+					layoutpolicy_horizontal = expanding
+
+					expand = {}
+
 					text_single  = {
+						max_width = 90
 						text = "[Legend.GetQualityLevel]"
 						default_format = "#weak"
 						align = nobaseline
@@ -683,7 +695,9 @@ types LegendTypes
 					layoutpolicy_horizontal = expanding
 
 					expand = {}
+
 					text_single  = {
+						max_width = 120
 						text = "LEGEND_DURATION_COMPLETED"
 						default_format = "#weak"
 						align = nobaseline
@@ -754,28 +768,32 @@ types LegendTypes
 		blockoverride "header_top_contents"
 		{
 			layoutpolicy_vertical = expanding
+			margin_right = 10
 
 			text_single = {
+				autoresize = no
+				size = { 100% 100% }
+
 				text = "[Legend.GetNameNoTooltip]"
 				default_format = "#high"
 
 				using = Font_Size_Medium
 				align = nobaseline
-				max_width = 350
 
-				parentanchor = vcenter|left
 			}
 		}
 		blockoverride "header_bottom_contents"
 		{
 			layoutpolicy_vertical = expanding
+			margin_right = 10
 
 			text_single = {
+				autoresize = no
+				size = { 100% 100% }
+
 				text = "LEGEND_HEADER_SUBTITLE"
 				default_format = "#weak"
 				align = nobaseline
-				parentanchor = vcenter|left
-				max_width = 350
 			}
 		}
 		blockoverride "header_post_contents"
@@ -783,6 +801,7 @@ types LegendTypes
 			using = GenericObjectCardDefaultHeaderPostProperties
 
 			text_single  = {
+				max_width = 90
 				text = "[Legend.GetQualityLevel]"
 				default_format = "#weak"
 				align = nobaseline
@@ -885,7 +904,8 @@ types LegendTypes
 
 					min_width = 240
 					maximumsize = { 250 -1 }
-					margin_left = 24
+					margin_left = 20
+					margin_right = 6
 					margin_bottom = 5
 					margin_top = 5
 
@@ -899,8 +919,9 @@ types LegendTypes
 					expand = {}
 
 					text_single = {
-						text = AFFECTING_MODIFIERS_LABEL
 						layoutpolicy_horizontal = expanding
+						max_width = 240
+						text = AFFECTING_MODIFIERS_LABEL
 					}
 
 					hbox = {
@@ -933,6 +954,7 @@ types LegendTypes
 				expand = {}
 
 				divider_light = {
+					visible = "[GreaterThan_int32( PdxGuiWidget.AccessParent.FindChild( 'legend_upgrades' ).CountVisibleChildren, '(int32)2' )]"
 					layoutpolicy_vertical = expanding
 					modify_texture = {
 						texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick_vertical.dds"
@@ -942,7 +964,8 @@ types LegendTypes
 
 				vbox = {
 					datacontext = "[GetPlayer]"
-
+					name = "legend_upgrades"
+					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 
 					visible = "[Not( Legend.IsCompleted )]"
@@ -955,39 +978,45 @@ types LegendTypes
 					text_label_right = {
 						visible = "[ObjectsEqual( Legend.GetOwner.Self, GetPlayer.Self )]"
 						layoutpolicy_horizontal = expanding
+						autoresize = no
 
 						text = "LEGEND_UPGRADE_LABEL"
+						align = right|nobaseline
 						margin_left = 10
 						margin_right = 10
-						max_width = 170
 					}
 
 					text_single = {
 						visible = "[ObjectsEqual( Legend.GetOwner.Self, GetPlayer.Self )]"
 						layoutpolicy_horizontal = expanding
+						autoresize = no
 
 						text = "LEGEND_UPGRADE_COST"
 						align = right|nobaseline
 						margin_left = 10
 						margin_right = 10
-						max_width = 160
-						margin_bottom = 20
+					}
+
+					spacer = {
+						visible = "[ObjectsEqual( Legend.GetOwner.Self, GetPlayer.Self )]"
+						size { 0 20 }
 					}
 
 					text_label_right = {
 						layoutpolicy_horizontal = expanding
 
 						visible = "[Or( Legend.IsCharacterPromotingLegend( GetPlayer ), IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]"
+						autoresize = no
 
 						text = "LEGEND_MAINTENANCE_LABEL"
 						align = right|nobaseline
 						margin_left = 10
 						margin_right = 10
-						max_width = 170
 					}
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
+						autoresize = no
 
 						visible = "[Or( Legend.IsCharacterPromotingLegend( GetPlayer ), IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]"
 
@@ -995,7 +1024,6 @@ types LegendTypes
 						align = right|nobaseline
 						margin_left = 10
 						margin_right = 10
-						max_width = 170
 					}
 
 					expand = {}
@@ -1302,12 +1330,15 @@ types LegendSeedTypes
 		blockoverride "header_top_contents"
 		{
 			text_single = {
+				margin_right = 10
+				autoresize = no
+				size = { 100% 100% }
+
 				block "legend_seed_name"
 				{
 					text = "[LegendSeed.GetName( Character.Self )]"
 				}
 				default_format = "#high"
-				max_width = 320
 
 				using = Font_Size_Medium
 				align = nobaseline
@@ -1319,9 +1350,12 @@ types LegendSeedTypes
 		blockoverride "header_bottom_contents"
 		{
 			text_single = {
+				autoresize = no
+				margin_right = 10
+				size = { 100% 100% }
+
 				text = "[LegendSeed.GetType.GetName]"
 				default_format = "#weak"
-				max_width = 320
 
 				using = Font_Size_Small
 				align = nobaseline
@@ -1335,10 +1369,10 @@ types LegendSeedTypes
 			using = GenericObjectCardDefaultHeaderPostProperties
 
 			text_single  = {
+				max_width = 90
 				text = "[LegendSeed.GetQualityLevel]"
 				default_format = "#weak"
 				align = nobaseline
-				max_width = 80
 			}
 
 			hbox = {

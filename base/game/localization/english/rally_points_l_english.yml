@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! No [armies|E] to raise#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! No [men_at_arms|E] to raise#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Cannot raise while $ARMY_AUTOMATION_FEATURE_NAME$ is enabled#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Ctrl-click to #bold not#! split the [armies|E] based on [Concept( 'supply_limit', 'Supply Limits')|E]#!\n#I Right-click to raise the [armies|E] at a specific selected location#!"
+ RAISE_TROOPS_EXTRA_INFO: "[armies|E] may be split if they are larger than the [Concept( 'supply_limit', 'Supply Limits')|E].\n\n#I Ctrl-click to raise [armies|E] without splitting due to [Concept( 'supply_limit', 'Supply')|E]#!\n#I Right-click to raise [armies|E] at a specific selected location#!"

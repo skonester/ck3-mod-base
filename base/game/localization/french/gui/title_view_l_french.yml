@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "Remise sur le [legitimacy_level|El]"
  TITLE_VIEW_APPOINTMENT: "Voir la succession"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Afficher la succession de nomination#!\nLe titre suivra [Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "Le titre [Title.GetNameNoTooltip] sera transmis avec le [primary_title|El] [Title.GetHolder.Custom('FR_du_Char_U_Pi')][Title.GetHolder.GetShortUIName] #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Transmis avec ce [title|El] :"
  ADD_LAWS_TOOLTIP: "#T Ajoute la loi de succession"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X Le [government|El] de votre [top_liege|El] n’autorise pas les [vassals|El] à avoir une [royal_court|E]#!"
  CREATE_TITLE_PIETY_LEVEL: "Requiert [GetPietyLevelName('(int32)$LEVEL|q$')]"

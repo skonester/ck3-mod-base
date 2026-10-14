@@ -31,10 +31,14 @@
  GREAT_PROJECT_CONTRIBUTOR_TYPE_TOP_LIEGE: "[CHARACTER.GetShortUINamePossessive] [top_liege|E]"
  GREAT_PROJECT_CONTRIBUTOR_TYPE_ALLIES: "[CHARACTER.GetShortUINamePossessive] [allies|E]"
  GREAT_PROJECT_CONTRIBUTOR_TYPE_OWNER: "[CHARACTER.GetShortUIName]"
+ GREAT_PROJECT_CONTRIBUTOR_TYPE_PUPPETEER: "the [puppeteer|E] of [CHARACTER.GetShortUIName] or of the Founder"
+ GREAT_PROJECT_CONTRIBUTOR_TYPE_COUNCILLOR: "the [councillors|E] of [CHARACTER.GetShortUIName] or of the Founder"
  GREAT_PROJECT_FOUNDER_NEEDED: "Only a valid [ruler|E] may plan a [great_project|E]"
  GREAT_PROJECT_LOCATION_NEEDED: "[great_projects|E] may only be planned in a valid location"
  GREAT_PROJECT_CONTRIBUTION_UNAVAILABLE_TT: "#T Cannot contribute#!\n[ContributionItem.GetContributionUnavailableReason( GetPlayer )]\n\n[ContributionItem.GetPreviewTooltip]"
  GREAT_PROJECT_PLAN_EXPECTED_TIME: "Expected to be finished in [PlanGreatProjectWindow.GetExpectedEndDate.GetTimeDiffFromNow]"
+ GREAT_PROJECT_PLAN_OWNER: "$GREAT_PROJECT_OWNER_LABEL$ [CHARACTER.GetUINameNoTooltip]"
+ GREAT_PROJECT_PLAN_OWNER_MISSING: "@warning_icon! #X No [ruler|E] can own a [great_project|E] planned here#!"
 
  GREAT_PROJECT_CAN_PLAN: "You can plan this [great_project|E]"
  GREAT_PROJECT_CANNOT_PLAN_REQUIREMENT_MISSING: "Requirements not met"
@@ -81,6 +85,8 @@
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_FOUNDER: "$EFFECT_LIST_BULLET$ They are the Founder of the Project"
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_CLERICAL_REGION: "$EFFECT_LIST_BULLET$ They are in the same [clerical_region|E] as the Project"
  GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_DUCHY: "$EFFECT_LIST_BULLET$ They are in the same [duchy|E] as the Project"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_PUPPETEER: "$EFFECT_LIST_BULLET$ They are the [puppeteer|E] of the Project owner or of the Founder"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_COUNCILLOR: "$EFFECT_LIST_BULLET$ They are a [councillor|E] of the Project owner or of the Founder"
  CAN_AFFORD_CONTRIBUTION: "$EFFECT_LIST_BULLET$ They can afford it"
 
  great_project_list_optional_contributions: "Optional Contributions"

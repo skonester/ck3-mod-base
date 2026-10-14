@@ -898,13 +898,13 @@ d_et_tingitana = { # Tingitana
 
 d_et_york = { # York
 	735.11.19 = {
-		holder = et_york_867_7 # Ecgbert
+		holder = 205223 # Ecgbert
 		government = ecclesiastical_government
 		clerical_region = et_867_york_region
 	}
-	761.11.8 = { holder = et_york_867_6 } # Æthelbert
-	765.8.10 = { holder = et_york_867_5 } # Eanbald
-	792.1.1 = { holder = et_york_867_4 } # Eanbald
+	767.4.24 = { holder = et_york_867_6 } # Æthelbert
+	779.8.10 = { holder = et_york_867_5 } # Eanbald
+	796.8.14 = { holder = et_york_867_4 } # Eanbald
 	808.1.1 = { holder = et_york_867_3 } # Wulfsige
 	837.1.1 = { holder = et_york_867_2 } # Wigmund
 	854.1.1 = { holder = et_york_867_1 } # Wulfhere
@@ -921,14 +921,17 @@ d_et_york = { # York
 	1051.1.1 = { holder = et_york_1066_2 } # Cynesige
 	1061.1.1 = { holder = et_york_1066_1 } # Ealdred
 	# 1178
-	1070.5.23 = { holder = et_york_1178_7 } # Thomas
+	1070.5.23 = {
+		holder = et_york_1178_7 # Thomas
+		liege = k_england
+	}
 	1100.12.1 = { holder = et_york_1178_6 } # Gerard
 	1114.1.1 = { holder = et_york_1178_5 } # Thurstan
 	1141.1.1 = { holder = et_york_1178_4 } # William
 	1147.1.1 = { holder = et_york_1178_3 } # Henry
 	1153.12.20 = { holder = et_york_1178_2 } # William
 	1154.1.1 = {
-		holder = et_york_1178_1 # Roger
+		holder = pont_leveque_1 # Roger de Pont L'Évêque
 		clerical_region = et_1178_york_region
 	}
 }

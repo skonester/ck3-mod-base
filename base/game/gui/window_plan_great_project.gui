@@ -188,6 +188,14 @@
 							text = "[GreatProjectType.GetPlanRequirementsInProvinceDesc( Province.Self, PlanGreatProjectWindow.GetPlanner.Self )]"
 						}
 
+						text_multi = {
+							layoutpolicy_horizontal = expanding
+							autoresize = yes
+							max_width = 520
+							margin = { 5 5 }
+							text = "[GreatProjectType.GetProjectOwnerDescription( Province.Self, PlanGreatProjectWindow.GetPlanner.Self )]"
+						}
+
 						text_label_center = {
 							max_width = 520
 							text = "GREAT_PROJECT_EFFECTS_HEADER"

@@ -43,6 +43,7 @@ shortcutbindings = {
 	screenshot = "F11"
 	screenshot_map = "shift+F11"
 	situations = "0"
+	royal_court = "shift+F2"
 
 # Extra Menus
 	character_finder = "C"

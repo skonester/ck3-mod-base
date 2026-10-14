@@ -159,7 +159,7 @@
  admin_liege_modify_vassal_contract_interaction_extra_icon: "$hook_extra_icon$"
  OPTION_DOMINANT_FAMILY: "Tirer parti de la position de [dominant_family|El]"
  OPTION_CLEAR_DEBT: "Effacer la [treasury_debt|El][treasury_i]"
- AI_POWERFUL_FAMILY: "[recipient.Custom('FR_le_Char_U_Pi')|U][recipient.GetShortUIName|U] [Select_CString(recipient.IsLocalPlayer,'appartenez','appartient')] à une [powerful_family|El] : $VALUE|=+0$"
+ AI_POWERFUL_FAMILY: "[puppet_or_actor.Custom('FR_le_Char_U_Pi')|U][puppet_or_actor.GetShortUIName|U] [Select_CString(puppet_or_actor.IsLocalPlayer,'appartenez','appartient')] à une [powerful_family|El] : $VALUE|=+0$"
  AI_GOVERNOR_EFFICIENCY: "[Select_CString(puppet_or_actor.IsLocalPlayer,'Votre ','L’')][Concept('governor_efficiency','efficacité de gouverneur')|E][puppet_or_actor.LocalPlayerString('', 'Loc_FR_du_GetShortUIName')] : $VALUE|=+0$"
  AI_SAME_HOUSE: "[puppet_or_actor.Custom('FR_le_Char_U_Pi')|U][puppet_or_actor.GetShortUIName|U] [Select_CString(puppet_or_actor.IsLocalPlayer,'êtes','est')] membre de la [house|E] [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUIName] : $VALUE|=+0$"
  transfer_county_interaction: "Transférer le comté"

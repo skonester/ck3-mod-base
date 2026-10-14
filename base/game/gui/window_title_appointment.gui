@@ -546,6 +546,7 @@ types TitleAppointment
 									text_single = {
 										text = "TITLE_APPOINTMENT_SCORE"
 										align = nobaseline
+										min_width = 22
 									}
 
 									tooltipwidget = {
@@ -562,6 +563,7 @@ types TitleAppointment
 								}
 
 								### INTERACTIONS ###
+								# ordinary candidacy
 								button_round = {
 									name = "support_candidacy"
 									visible = "[Character.IsPlayerInteractionShownAndCanPickTitle( 'influence_candidacy_interaction', Title.Self )]"
@@ -578,15 +580,67 @@ types TitleAppointment
 									}
 								}
 
-								### CLERICAL INVESTMENT ###
+								# clerical regions
 								button_round = {
 									name = "support_clerical"
-									visible = "[Character.IsPlayerInteractionShownAndCanPickTitle( 'influence_clerical_candidacy_interaction', Title.Self )]"
+									visible = "[And( Character.IsPlayerInteractionShownAndCanPickTitle( 'influence_clerical_candidacy_interaction', Title.Self ), Title.IsClericalRegion )]"
 									size = { 32 32 }
 
 									onclick = "[Character.OpenPlayerInteractionWithTargetTitle( 'influence_clerical_candidacy_interaction', Title.Self )]"
 									enabled = "[Character.IsPlayerInteractionWithTargetTitleValid( 'influence_clerical_candidacy_interaction', Title.Self )]"
 									tooltip = "[Character.GetPlayerInteractionWithTargetTitleTooltip( 'influence_clerical_candidacy_interaction', Title.Self )]"
+
+									button_promote_candidate = {
+										size = { 24 24 }
+										parentanchor = center
+										alwaystransparent = yes
+									}
+								}
+
+								# bishoprics
+								button_round = {
+									name = "increase_theocratic_heir_candidacy"
+									visible = "[And( Character.IsPlayerInteractionShownAndCanPickTitle( 'increase_theocratic_heir_candidacy', Title.Self ), Not( Title.IsClericalRegion ) )]"
+									size = { 32 32 }
+
+									onclick = "[Character.OpenPlayerInteractionWithTargetTitle( 'increase_theocratic_heir_candidacy', Title.Self )]"
+									enabled = "[Character.IsPlayerInteractionWithTargetTitleValid( 'increase_theocratic_heir_candidacy', Title.Self )]"
+									tooltip = "[Character.GetPlayerInteractionWithTargetTitleTooltip( 'increase_theocratic_heir_candidacy', Title.Self )]"
+
+									button_icon = {
+										size = { 24 24 }
+										parentanchor = center
+										alwaystransparent = yes
+										texture = "gfx/interface/icons/flat_icons/clerical_score.dds"
+									}
+								}
+
+								# celestial circuits
+								button_round = {
+									name = "influence_meritorious_career_interaction"
+									visible = "[Character.IsPlayerInteractionShown( 'influence_meritorious_career_interaction' )]"
+									size = { 32 32 }
+
+									onclick = "[Character.OpenPlayerInteraction( 'influence_meritorious_career_interaction' )]"
+									enabled = "[Character.IsPlayerInteractionValid( 'influence_meritorious_career_interaction' )]"
+									tooltip = "[Character.GetPlayerInteractionTooltip( 'influence_meritorious_career_interaction')]"
+
+									button_promote_candidate = {
+										size = { 24 24 }
+										parentanchor = center
+										alwaystransparent = yes
+									}
+								}
+
+								# heads of faith, hiding if it's disabled so it doesn't clutter the list
+								button_round = {
+									name = "influence_head_of_faith_candidacy_interaction"
+									visible = "[And3( Character.IsPlayerInteractionShownAndCanPickTitle( 'influence_head_of_faith_candidacy_interaction', Title.Self ), Character.IsPlayerInteractionWithTargetTitleValid( 'influence_head_of_faith_candidacy_interaction', Title.Self ), GreaterThan_int32( Title.GetTierFrame, '(int32)3') )]"
+									size = { 32 32 }
+
+									onclick = "[Character.OpenPlayerInteractionWithTargetTitle( 'influence_head_of_faith_candidacy_interaction', Title.Self )]"
+									enabled = "[Character.IsPlayerInteractionWithTargetTitleValid( 'influence_head_of_faith_candidacy_interaction', Title.Self )]"
+									tooltip = "[Character.GetPlayerInteractionWithTargetTitleTooltip( 'influence_head_of_faith_candidacy_interaction', Title.Self )]"
 
 									button_promote_candidate = {
 										size = { 24 24 }

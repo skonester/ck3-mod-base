@@ -83,31 +83,13 @@
  # Component 1 - Light divergence  #
  ###################################
  heresy_light.0010.t: "Heretical Divergence"
- heresy_light.0010.desc.intro.descriptor_archbishop: "The [founder.GetCulture.GetName] Archbishop [founder.GetFirstName] "
  heresy_light.0010.desc.intro.descriptor_ruler: "[founder.GetTitledFirstName] "
- heresy_light.0010.desc.opener.archbishopric: "of the [founder_clerical_title.GetNameNoTier] "
- heresy_light.0010.desc.opener.lands: "of [founder.GetPrimaryTitle.GetBaseNameNoTier] "
  heresy_light.0010.desc.body.uneasy: "has bent [new_rite.GetName] further still from [source_rite.GetAdjective], "
  heresy_light.0010.desc.body.alarming: "has pulled [new_rite.GetName] dangerously far from accepted [source_rite.GetAdjective] practice, "
  heresy_light.0010.desc.body.dangerous: "has diverged [new_rite.GetName] into something [source_rite.GetAdjective] can barely recognise as kin, "
  heresy_light.0010.desc.differing.tenet: "with the most striking departure being [differing_tenet.GetBaseName]."
  heresy_light.0010.desc.differing.doctrine: "with the most striking departure being [differing_doctrine.GetDescriptiveName( source_rite.GetFaith.Self )]."
  heresy_light.0010.desc.differing.fallback: "the new emphases too subtle for any single name."
- heresy_light.0010.desc.outro: "\n\nThey are not heretics yet. The line, however, is no longer far off."
- heresy_light.0010.desc.outro.own_rite: "\n\nWe are not heretics yet. The line, however, is no longer far off."
- heresy_light.0010.a: "I will pray for guidance."
- heresy_light.0010.b: "There is wisdom in [new_rite.GetNameNoTooltip]. I will walk that path."
- heresy_light.0010.c: "Smells like heresy to me..."
- heresy_light.0010.c.own_rite: "Onward, then. The path is ours."
-
- heresy_light.notification.member.title: "Our Rite Drifts"
- heresy_light.notification.member.tt: "[new_rite.GetName] has drifted further from [source_rite.GetAdjective] under [founder.GetTitledFirstName]."
-
- heresy_light.notification.hof.title: "A Rite Drifts Toward Heresy"
- heresy_light.notification.hof.tt: "[new_rite.GetName] has lurched deeper from [source_rite.GetAdjective] under [founder.GetTitledFirstName]."
-
- heresy_light.notification.mainline.title: "A Neighbouring Rite Drifts"
- heresy_light.notification.mainline.tt: "[new_rite.GetName] has drifted further from [source_rite.GetAdjective] under [founder.GetTitledFirstName]."
 
  ###################################################
  # Component 2 - New dangerously divergent rite    #

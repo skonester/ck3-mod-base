@@ -22,8 +22,6 @@ window = {
 		using = Sound_WindowShow_Standard
 		using = Window_Position_MainTab
 
-		on_start = "[GetVariableSystem.Set( 'christian_church_tab', 'overview' )]"
-
 		on_start = "[GetVariableSystem.Set( 'page_turn_animation_forward', 'yes' )]"
 		on_start = "[PdxGuiWidget.FindChild( 'page_turn_animation_forward' ).GfxVideoControl.Restart]"
 		on_start = "[PdxGuiWidget.FindChild( 'page_left' ).TriggerAnimation('fade_out_left')]"
@@ -39,6 +37,20 @@ window = {
 		on_start = "[VariableSystem.Clear( 'situation_catalysts_history_window' )]"
 		on_start = "[GetVariableSystem.Clear( 'page_turn_animation_forward' )]"
 		on_start = "[GetVariableSystem.Clear( 'page_turn_animation_backward' )]"
+	}
+
+	# set overview on start only
+	state = {
+		name = "auto-set tab"
+		trigger_when = "[Not( GetVariableSystem.Exists( 'christian_church_tab' ) )]"
+		on_start = "[GetVariableSystem.Set( 'christian_church_tab', 'overview' )]"
+	}
+
+	# if schism ends, reset tabs
+	state = {
+		name = "close_schism"
+		trigger_when = "[Not( GetScriptedGui( 'pam_great_schism_ongoing_gui' ).IsShown( GuiScope.End ) )]"
+		on_start = "[GetVariableSystem.Set( 'christian_church_tab', 'overview' )]"
 	}
 
 	margin_widget = {
@@ -74,61 +86,145 @@ window = {
 					{
 						onclick = "[SituationChristianChurchWindow.Close]"
 						onclick = "[SituationParticipantCharacterList.Close]"
+						onclick = "[SetMapMode('realms')]"
 					}
 				}
 
-				### Top Section | Current "Chapter" (Phase Type)
-				widget_christian_church_phase_wide = {
+				vbox = {
+					layoutpolicy_horizontal = expanding
 					datacontext = "[Situation.GetTopSubRegion.GetCurrentPhase.GetType]"
+
+					background = {
+						texture = "[SituationPhaseType.GetTexture]"
+						using = Mask_Rough_Edges
+						fittype = centercrop
+					}
+
+					tooltipwidget = {
+						cooltip_situation_phase_type = {}
+					}
+
+					using = tooltip_ws
+					tooltip_offset = { 20 0 }
+
+					### Top Section | Current "Chapter" (Phase Type)
+					widget_christian_church_phase_wide = {}
+
+					### Great Schism progress. Hidden once the schism has happened or been prevented.
+					hbox = {
+						visible = "[And( GetScriptedGui( 'pam_great_schism_progress_gui' ).IsShown( GuiScope.End ), Not( GetScriptedGui( 'pam_great_schism_ongoing_gui' ).IsShown( GuiScope.End ) ) )]"
+						layoutpolicy_horizontal = expanding
+						spacing = 5
+						margin = { 10 2 }
+
+						tooltipwidget = tooltip_schism_progress
+						using = tooltip_ws
+						tooltip_offset = { 20 0 }
+
+						background = {
+							using = Background_Area_Light
+							alpha = 0.8
+							modify_texture = {
+								texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+								mirror = vertical
+								blend_mode = alphamultiply
+							}
+						}
+
+						background = {
+							using = Background_Area_Solid
+							margin = { 5 5 }
+							alpha = 0.7
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							spacing = 5
+
+							proportional_icon = {
+								name = "great_schism_progress_button"
+								size = { 32 32 }
+
+								texture = "gfx/interface/icons/struggle_banners/icon_background_dark.dds"
+
+								icon = {
+									parentanchor = center
+									size = { 28 28 }
+									alwaystransparent = yes
+
+									texture = "gfx/interface/icons/icon_schism.dds"
+								}
+							}
+
+							text_single = {
+								max_width = 205
+								text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS"
+								align = nobaseline
+							}
+
+							expand = {}
+
+							progressbar_segmented_target = {
+								datamodel = "[GetSegmentedProgressTargetBar( FixedPointToInt( Situation.MakeScope.ScriptValue( 'pam_great_schism_progress_threshold_value' ) ), FixedPointToInt( Min_CFixedPoint( Situation.MakeScope.ScriptValue( 'pam_great_schism_progress_value' ), Situation.MakeScope.ScriptValue( 'pam_great_schism_progress_threshold_value' ) ) ), '(int32)0' )]"
+								spacing = 1
+
+								background = {
+									using = Background_Area
+									margin = { 5 5 }
+								}
+
+								blockoverride "segmented_size" {
+									size = { 21 20 }
+								}
+								blockoverride "segmented_frame" {
+									frame = "[Min_int32( int32.GetInt, '(int32)2' )]" # to make it red
+								}
+							}
+						}
+					}
 				}
+
 
 				### Tabs Section
-				hbox = {
-					layoutpolicy_horizontal = expanding
+				# two tabs with wider text
+				hbox_church_tabs = {
+					visible = "[Not( GetScriptedGui( 'pam_great_schism_ongoing_gui' ).IsShown( GuiScope.End ) )]"
+				}
 
-					button_tab = {
-						shortcut = "tab_1"
-						name = "christian_church_button_tab_1"
-
-						onclick = "[VariableSystem.Set( 'christian_church_tab', 'overview' )]"
-						down = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
-
-						alwaystransparent = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
-
-						blockoverride "tab_label"
-						{
-							text = "CHRISTIAN_CHURCH_VIEW_TAB_OVERVIEW"
-						}
-
-						blockoverride "icon_visible" {}
-
-						blockoverride "tab_icon"
-						{
-							texture = "gfx/interface/icons/flat_icons/outliner.dds"
-							down = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
-						}
+				# three tabs with smaller text width
+				hbox_church_tabs = {
+					visible = "[GetScriptedGui( 'pam_great_schism_ongoing_gui' ).IsShown( GuiScope.End )]"
+					blockoverride "participants_tab_shortcut" {
+						shortcut = "tab_3"
 					}
+					blockoverride "tab_text_width" {
+						max_width = 145
+					}
+					blockoverride "schism_tab" {
+						button_tab = {
+							name = "christian_church_button_tab_schism"
 
-					button_tab = {
-						shortcut = "tab_2"
-						name = "christian_church_button_tab_2"
+							onclick = "[VariableSystem.Set( 'christian_church_tab', 'schism' )]"
+							down = "[VariableSystem.HasValue( 'christian_church_tab', 'schism' )]"
+							shortcut = "tab_2"
 
-						onclick = "[VariableSystem.Set( 'christian_church_tab', 'participants' )]"
-						down = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+							alwaystransparent = "[VariableSystem.HasValue( 'christian_church_tab', 'schism' )]"
 
-						alwaystransparent = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+							blockoverride "tab_label"
+							{
+								max_width = 145
+								text = "game_concept_schism"
+							}
 
-						blockoverride "tab_label"
-						{
-							text = "CHRISTIAN_CHURCH_VIEW_TAB_PARTICIPANTS"
-						}
+							blockoverride "icon_visible" {}
 
-						blockoverride "icon_visible" {}
-
-						blockoverride "tab_icon"
-						{
-							texture = "gfx/interface/icons/flat_icons/multiplayer.dds"
-							down = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+							blockoverride "tab_icon"
+							{
+								texture = "gfx/interface/icons/flat_icons/schism.dds"
+								down = "[VariableSystem.HasValue( 'christian_church_tab', 'schism' )]"
+								scale = 0.9
+								position = { 0 2 }
+							}
 						}
 					}
 				}
@@ -148,6 +244,212 @@ window = {
 
 					using = Animation_Tab_Switch
 				}
+
+				vbox = {
+					name = "christian_church_tab_schism"
+					widgetid = "christian_church_tab_schism"
+					datacontext = "[Situation.GetTopParticipantGroupByKey( 'christian_clerical_main_power_rulers' )]"
+					datacontext = "[SituationParticipantGroup.GetType]"
+
+					visible = "[VariableSystem.HasValue( 'christian_church_tab', 'schism' )]"
+
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					margin = { 5 5 }
+					spacing = 2
+
+					hbox = {
+						datacontext = "[GetPlayer]"
+						layoutpolicy_horizontal = expanding
+						margin = { 10 5 }
+						spacing = 10
+
+						background = {
+							using = Background_Area
+						}
+
+						### Selected Group Icons
+						icon_flat_standard = {
+							size = { 50 50 }
+							allow_outside = yes
+
+							texture = "[SituationParticipantGroupType.GetIcon]"
+						}
+
+						### Selected Group Name
+						vbox = {
+							layoutpolicy_horizontal = expanding
+
+							text_single = {
+								layoutpolicy_horizontal = expanding
+								autoresize = no
+
+								text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_NAME"
+								using = Font_Size_Medium
+								align = nobaseline
+							}
+
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								spacing = 5
+
+								text_single = {
+									max_width = 220
+									text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_TYPE"
+									align = nobaseline
+								}
+
+								text_single = {
+									visible = "[ObjectsEqual( SituationChristianChurchWindow.GetSituation.GetTopCharacterParticipantGroup( Character.Self ).GetType.Self, SituationParticipantGroupType.Self )]"
+									max_width = 150
+									text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_TAB_YOURS_TAG"
+									align = nobaseline
+									default_format = "#weak"
+								}
+
+								expand = {}
+							}
+						}
+
+						expand = {}
+
+						button_round = {
+							size = { 50 50 }
+
+							onclick = "[SituationParticipantCharacterList.Toggle]"
+							tooltip = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_LIST_TT"
+
+							button_icon = {
+								parentanchor = center
+								widgetanchor = center
+								position = { 1 -1 }
+								size = { 40 40 }
+								alwaystransparent = yes
+
+								texture = "gfx/interface/icons/flat_icons/three_people.dds"
+							}
+
+							text_single = {
+								parentanchor = bottom|hcenter
+								position = { 0 5 }
+
+								text = "[GetDataModelSize( SituationParticipantGroup.GetCharacters )|V]"
+								align = nobaseline
+								default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
+
+								background = {
+									margin = { 6 0 }
+									using = Background_Area_Dark
+								}
+							}
+							using = tooltip_sw
+						}
+					}
+
+					# hors
+					hbox = {
+						layoutpolicy_horizontal = expanding
+
+						vbox_schism_side = {
+							datacontext = "[Situation.MakeScope.Var( 'schism_mainline_rite' )]"
+							blockoverride "supporters" {
+								text = "[SituationParticipantGroup.MakeScope.ScriptValue( 'schism_mainline_supporters_gui' )]"
+							}
+						}
+
+						vbox = {
+							layoutpolicy_vertical = expanding
+							margin = { 1 10 }
+
+							divider = {
+								layoutpolicy_vertical = expanding
+								size = { 3 0 }
+							}
+						}
+
+						vbox_schism_side = {
+							datacontext = "[Situation.MakeScope.Var( 'schism_competitor_rite' )]"
+							blockoverride "supporters" {
+									text = "[SituationParticipantGroup.MakeScope.ScriptValue( 'schism_competitor_supporters_gui' )]"
+								}
+						}
+					}
+
+					spacer = {}
+
+					scrollbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						blockoverride "scrollbox_margins" {
+							margin_left = 10
+							margin_right = 10
+							margin_top = 8
+						}
+
+						blockoverride "scrollbox_content" {
+							hbox = {
+								layoutpolicy_horizontal = expanding
+
+								vbox_schism_supporters = {
+									datacontext = "[Situation.MakeScope.Var( 'schism_mainline_rite' )]"
+									blockoverride "show_schism_supporter" {
+										visible = "[ObjectsEqual( Character.MakeScope.Var( 'pam_schism_stance' ).GetFlagName, 'mainline' )]"
+									}
+								}
+
+								vbox = {
+									layoutpolicy_vertical = expanding
+									margin = { 1 10 }
+
+									divider_light = {
+										layoutpolicy_vertical = expanding
+										size = { 3 0 }
+									}
+								}
+
+								vbox_schism_supporters = {
+									datacontext = "[Situation.MakeScope.Var( 'schism_competitor_rite' )]"
+									blockoverride "righttoleft_schism" {
+										righttoleft = yes
+									}
+									blockoverride "align_schism" {
+										align = nobaseline|right
+									}
+									blockoverride "show_schism_supporter" {
+										visible = "[ObjectsEqual( Character.MakeScope.Var( 'pam_schism_stance' ).GetFlagName, 'competitor' )]"
+									}
+								}
+							}
+						}
+					}
+
+					vbox = {
+						visible = "[Or( GetDecisionWithKey( 'pam_prevent_great_schism_decision' ).IsShownForPlayer, GetDecisionWithKey( 'pam_cause_great_schism_decision' ).IsShownForPlayer )]"
+						layoutpolicy_horizontal = expanding
+						margin = { 10 8 }
+						spacing = 5
+
+						button_decision_entry = {
+							datacontext = "[GetDecisionWithKey( 'pam_prevent_great_schism_decision' )]"
+							visible = "[Decision.IsShownForPlayer]"
+							layoutpolicy_horizontal = expanding
+
+							onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
+							using = tooltip_se
+						}
+						button_decision_entry = {
+							datacontext = "[GetDecisionWithKey( 'pam_cause_great_schism_decision' )]"
+							visible = "[Decision.IsShownForPlayer]"
+							layoutpolicy_horizontal = expanding
+
+							onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
+							using = tooltip_se
+						}
+					}
+				}
+
+				expand = {}
 			}
 		}
 	}
@@ -189,6 +491,10 @@ window = {
 
 		blockoverride "history_data" {
 			datamodel = "[SituationChristianChurchWindow.GetCurrentHistoryPage]"
+		}
+
+		blockoverride "history_empty_visible" {
+			visible = "[IsDataModelEmpty( SituationChristianChurchWindow.GetCurrentHistoryPage )]"
 		}
 
 		blockoverride "navigation_buttons"
@@ -243,7 +549,9 @@ types ChristianChurchTypes
 				size = { 40 40 }
 			}
 
-			texture = "[SituationPhaseType.GetIcon]"
+			block "icon_type" {
+				texture = "[SituationPhaseType.GetIcon]"
+			}
 		}
 	}
 
@@ -259,21 +567,6 @@ types ChristianChurchTypes
 	type widget_christian_church_phase_wide = widget
 	{
 		size = { 562 160 }
-
-		proportional_icon = {
-			name = "illustration"
-			size = { 100% 100% }
-
-			texture = "[SituationPhaseType.GetTexture]"
-			using = Mask_Rough_Edges
-
-			tooltipwidget = {
-				cooltip_situation_phase_type = {}
-			}
-
-			using = tooltip_ws
-			tooltip_offset = { 20 0 }
-		}
 
 		vbox = {
 			margin_top = 5
@@ -351,7 +644,7 @@ types ChristianChurchTypes
 						color = { 0 0 0 0.8 }
 						texture_density = 2
 						margin = { 0 5 }
-						
+
 						modify_texture = {
 							texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
 							blend_mode = alphamultiply
@@ -398,50 +691,23 @@ types ChristianChurchTypes
 				expand = {}
 			}
 
-			### Great Schism progress. Hidden once the schism has happened or been prevented.
+			### Active Great Schism tip
 			hbox = {
-				visible = "[GetScriptedGui( 'pam_great_schism_progress_gui' ).IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+				visible = "[GetScriptedGui( 'pam_great_schism_ongoing_gui' ).IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 				layoutpolicy_horizontal = expanding
 				spacing = 10
 
 				hbox = {
+					datacontext = "[GetGameConcept( 'schism' )]"
 					margin = { 10 2 }
-					min_width = 300
+					min_width = 180
 					spacing = 5
 
 					tooltipwidget = {
-						container = {
-							alwaystransparent = no
-
-							object_tooltip_pop_out = {
-								blockoverride "title_text"
-								{
-									text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS"
-								}
-
-								blockoverride "concept_link" {}
-
-								blockoverride "description_text"
-								{
-									text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS_TT"
-								}
-
-								blockoverride "header_additions"
-								{
-									hbox = {
-										margin_right = 10
-										margin_top = 8
-										margin_left = -4
-
-										icon = {
-											texture = "gfx/interface/icons/icon_schism.dds"
-											size = { 35 35 }
-										}
-									}
-								}
-							}
-						}
+						using = game_concept_tooltip
 					}
+
+					using = tooltip_se
 
 					background = {
 						texture = "gfx/interface/component_masks/mask_rough_edges.dds"
@@ -450,13 +716,13 @@ types ChristianChurchTypes
 						color = { 0 0 0 0.8 }
 						texture_density = 2
 						margin = { 0 5 }
-						
+
 						modify_texture = {
 							texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
 							blend_mode = alphamultiply
 						}
 					}
-					# Progress ring; accumulated total heads the tooltip
+
 					proportional_icon = {
 						name = "great_schism_progress_button"
 						size = { 32 32 }
@@ -471,23 +737,13 @@ types ChristianChurchTypes
 							texture = "gfx/interface/icons/icon_schism.dds"
 						}
 
-						progresspie = {
-							name = "progress"
-							size = { 32 32 }
-							parentanchor = center
-
-							texture = "gfx/interface/progressbars/action_progress_thin.dds"
-							framesize = { 128 128 }
-							frame = 2
-
-							min = 0
-							max = 10
-							value = "[Situation.MakeScope.ScriptValue( 'pam_great_schism_progress_fraction_value' )]"
-						}
+						tooltipwidget = tooltip_schism_progress
+						using = tooltip_ws
 					}
 
 					text_single = {
-						text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS"
+						text = "game_concept_schism"
+						default_format = "#E"
 						align = nobaseline
 					}
 
@@ -496,6 +752,7 @@ types ChristianChurchTypes
 
 				expand = {}
 			}
+
 			expand = {}
 		}
 
@@ -607,7 +864,7 @@ types ChristianChurchTypes
 						layoutpolicy_horizontal = expanding
 
 						text = "[SituationPhaseType.GetNameNoTooltip]"
-						max_width = 300
+						max_width = 250
 						using = Font_Size_Medium
 					}
 
@@ -616,7 +873,7 @@ types ChristianChurchTypes
 
 						text = "CHRISTIAN_CHURCH_PHASE_CHAPTER_TYPE"
 						align = nobaseline
-						max_width = 300
+						max_width = 250
 					}
 
 					expand = {}
@@ -765,6 +1022,7 @@ types ChristianChurchTypes
 				text_single = {
 					parentanchor = hcenter
 					text = "[SituationPhaseType.GetNameNoTooltip]"
+					align = nobaseline
 					max_width = 220
 					using = Font_Size_Medium
 				}
@@ -786,13 +1044,56 @@ types ChristianChurchTypes
 				using = tooltip_above
 			}
 
-			### Effects
-			text_single = {
-				parentanchor = hcenter
-				position = { 0 50 }
-				text = "CHRISTIAN_CHURCH_PHASE_CHAPTER_TYPE"
-				align = nobaseline
-				max_width = 220
+			widget = {
+				parentanchor = hcenter|bottom
+				size = { 100% 36 }
+				alwaystransparent = yes
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 5 0 }
+
+					widget = {
+						name = "great_schism"
+						visible = "[And( SituationPhaseType.HasParameter( 'the_christian_church_great_schism' ), GetScriptedGui( 'pam_great_schism_can_start_gui' ).IsShown( GuiScope.End ) )]"
+						size = { 30 30 }
+
+						tooltipwidget = tooltip_schism_progress
+
+						using = tooltip_ws
+						tooltip_offset = { 20 0 }
+
+						icon = {
+							parentanchor = center
+							size = { 28 28 }
+							alwaystransparent = yes
+
+							texture = "gfx/interface/icons/icon_schism.dds"
+
+							background = {
+								using = Background_Area_Dark
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+									blend_mode = alphamultiply
+								}
+							}
+						}
+					}
+
+					### Effects
+					text_single = {
+						layoutpolicy_horizontal = expanding
+						autoresize = no
+
+						text = "CHRISTIAN_CHURCH_PHASE_CHAPTER_TYPE"
+						align = nobaseline|center
+					}
+
+					spacer = {
+						visible = "[And( SituationPhaseType.HasParameter( 'the_christian_church_great_schism' ), GetScriptedGui( 'pam_great_schism_can_start_gui' ).IsShown( GuiScope.End ) )]"
+						size = { 30 30 }
+					}
+				}
 			}
 		}
 
@@ -826,7 +1127,7 @@ types ChristianChurchTypes
 		onclick = "[SituationParticipantCharacterList.SetSelectedParticipantGroup( SituationParticipantGroup.Self )]"
 		onclick = "[SituationChristianChurchWindow.SetSelectedParticipantGroupType( SituationParticipantGroup.GetType.Self )]"
 		down = "[ObjectsEqual( SituationParticipantCharacterList.GetSelectedParticipantGroup.Self, SituationParticipantGroup.Self )]"
-		
+
 		tooltip = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_TAB_TT"
 		using = tooltip_sw
 
@@ -930,50 +1231,130 @@ types ChristianChurchTypes
 			vbox = {
 				layoutpolicy_horizontal = expanding
 
-				text_single = {
-					visible = "[Not( StringIsEmpty( SituationPhaseType.GetParameterDesc ) )]"
-					layoutpolicy_horizontal = expanding
-					text = "CHRISTIAN_CHURCH_EFFECTS_HEADER"
-				}
-
-				text_multi = {
-					visible = "[Not( StringIsEmpty( SituationPhaseType.GetParameterDesc ) )]"
-					margin_bottom = 20
-
-					text = "[SituationPhaseType.GetParameterDesc]"
-					autoresize = yes
-					max_width = 520
-					min_width = 520
-					align = left
-				}
 
 				vbox = {
 					layoutpolicy_horizontal = expanding
 					spacing = 5
 
-					text_single = {
+					hbox = {
 						layoutpolicy_horizontal = expanding
+						spacing = 10
+						margin_right = 4
 
-						text = "CHRISTIAN_CHURCH_VIEW_CHAPTER_EFFECTS"
-						align = nobaseline
+						text_single = {
+							layoutpolicy_horizontal = expanding
+							autoresize = no
+
+							text = "CHRISTIAN_CHURCH_VIEW_CHAPTER_EFFECTS"
+							align = nobaseline
+						}
+
+						expand = {}
+
+						text_single = {
+							visible = "[Not( StringIsEmpty( SituationPhaseType.GetParameterDesc ) )]"
+							max_width = 200
+
+							text = "CHRISTIAN_CHURCH_EFFECTS_HEADER"
+							align = nobaseline|right
+						}
 					}
 
-					fixedgridbox = {
+					hbox = {
 						layoutpolicy_horizontal = expanding
 
-						addcolumn = 56
-						addrow = 52
-						setitemsizefromcell = yes
-						datamodel_wrap = 6
-						flipdirection = yes
-						layoutanchor = bottomleft
+						fixedgridbox = {
+							layoutpolicy_horizontal = expanding
 
-						datamodel = "[SituationPhaseType.GetParentSituationType.GetParticipantGroupTypes]"
+							addcolumn = 56
+							addrow = 52
+							setitemsizefromcell = yes
+							datamodel_wrap = 6
+							flipdirection = yes
+							layoutanchor = bottomleft
 
-						item = {
-							icon_situation_phase_effect_participant_group_item = {
-								datacontext = "[Situation.GetTopSubRegion]"
-								using = tooltip_se
+							datamodel = "[SituationPhaseType.GetParentSituationType.GetParticipantGroupTypes]"
+
+							item = {
+								icon_situation_phase_effect_participant_group_item = {
+									datacontext = "[Situation.GetTopSubRegion]"
+									using = tooltip_se
+								}
+							}
+						}
+
+						expand = {}
+
+						icon = {
+							visible = "[Not( StringIsEmpty( SituationPhaseType.GetParameterDesc ) )]"
+							datacontext = "[GetPlayer]"
+							size = { 56 52 }
+
+							tooltipwidget = {
+								container = {
+									alwaystransparent = no
+
+									object_tooltip_pop_out = {
+										blockoverride "header_additions"
+										{
+											hbox = {
+												margin_right = 13
+												margin_top = 8
+												margin_left = -4
+
+												icon_flat_standard = {
+													size = { 48 48 }
+													texture = "gfx/interface/icons/flat_icons/three_people.dds"
+												}
+											}
+										}
+
+										blockoverride "title_text"
+										{
+											text = "CHRISTIAN_CHURCH_VIEW_ALL_PARTICIPANTS"
+										}
+
+										blockoverride "concept_link"
+										{
+										}
+
+										blockoverride "subtitle_text"
+										{
+											text = "SITUATION_PARTICIPANT_GROUP_IN_PHASE_TYPE_SUBHEADER"
+											default_format = "#weak"
+										}
+
+										blockoverride "main_description"
+										{
+											cooltip_paragraph = {
+												text = "[SituationPhaseType.GetParameterDesc]"
+											}
+										}
+									}
+								}
+							}
+
+							### Selected with double outer blue ring
+							highlight_icon = {
+								size = { 58 58 }
+								parentanchor = center
+
+								texture = "gfx/interface/icons/struggle_banners/icon_background_blue_frame.dds"
+							}
+
+							### Blue ring outline
+							icon = {
+								size = { 52 52 }
+								parentanchor = center
+
+								texture = "gfx/interface/icons/struggle_banners/icon_background_dark.dds"
+							}
+
+							icon_flat_standard = {
+								size = { 35 35 }
+								parentanchor = center
+
+								texture = "gfx/interface/icons/flat_icons/three_people.dds"
 							}
 						}
 					}
@@ -986,6 +1367,7 @@ types ChristianChurchTypes
 			margin_top = 5
 
 			text_label_center = {
+				max_width = 500
 				text = "CHRISTIAN_CHURCH_VIEW_FUTURE_CHAPTERS"
 			}
 		}
@@ -1072,7 +1454,7 @@ types ChristianChurchTypes
 					visible = "[GetScriptedGui( 'pam_investiture_crisis_chapter_unavailable_gui' ).IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 					parentanchor = center
 					position = { 0 -2 }
-					spacing = 20
+					spacing = -12
 					ignoreinvisible = yes
 					allow_outside = yes
 
@@ -1135,11 +1517,24 @@ types ChristianChurchTypes
 						size = { 100% 100% }
 						visible = "[SituationChristianChurchWindow.CanTurnPhaseBookLeft]"
 						alwaystransparent = yes
+
+						modify_texture = {
+							texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+							blend_mode = alphamultiply
+						}
+
+						blockoverride "button_standard_mouseover"
+						{
+							modify_texture = {
+								texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+								blend_mode = alphamultiply
+							}
+						}
 					}
 
 					button_icon_christian_church_turn_page = {
 						parentanchor = center
-						position = { -3 0 }
+						position = { -2 0 }
 						size = { 30 30 }
 						alwaystransparent = yes
 					}
@@ -1167,11 +1562,26 @@ types ChristianChurchTypes
 						size = { 100% 100% }
 						visible = "[SituationChristianChurchWindow.CanTurnPhaseBookRight]"
 						alwaystransparent = yes
+
+						modify_texture = {
+							texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+							blend_mode = alphamultiply
+							mirror = horizontal
+						}
+
+						blockoverride "button_standard_mouseover"
+						{
+							modify_texture = {
+								texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+								blend_mode = alphamultiply
+								mirror = horizontal
+							}
+						}
 					}
 
 					button_icon_christian_church_turn_page = {
 						parentanchor = center
-						position = { 3 0 }
+						position = { 1 0 }
 						size = { 30 30 }
 						mirror = horizontal
 						alwaystransparent = yes
@@ -1250,6 +1660,7 @@ types ChristianChurchTypes
 						spacing = 5
 
 						datamodel = "[SituationChristianChurchWindow.GetSituationDecisions]"
+
 						item = {
 							button_decision_entry = {
 								visible = "[Decision.IsShownForPlayer]"
@@ -1258,6 +1669,15 @@ types ChristianChurchTypes
 								onclick = "[SituationChristianChurchWindow.OnDecisionClick( Decision.Self )]"
 								using = tooltip_ne
 							}
+						}
+
+						button_decision_entry = {
+							datacontext = "[GetDecisionWithKey( 'pam_kowtow_to_pope_decision' )]"
+							visible = "[Decision.IsShownForPlayer]"
+							layoutpolicy_horizontal = expanding
+
+							onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
+							using = tooltip_se
 						}
 					}
 				}
@@ -1412,6 +1832,7 @@ types ChristianChurchTypes
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
+					autoresize = no
 
 					text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_NAME"
 					using = Font_Size_Medium
@@ -1423,12 +1844,14 @@ types ChristianChurchTypes
 					spacing = 5
 
 					text_single = {
+						max_width = 220
 						text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_TYPE"
 						align = nobaseline
 					}
 
 					text_single = {
 						visible = "[ObjectsEqual( SituationChristianChurchWindow.GetSituation.GetTopCharacterParticipantGroup( Character.Self ).GetType.Self, SituationParticipantGroupType.Self )]"
+						max_width = 150
 						text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_TAB_YOURS_TAG"
 						align = nobaseline
 						default_format = "#weak"
@@ -1475,19 +1898,17 @@ types ChristianChurchTypes
 
 		### Selected Group Effects - Header
 		vbox = {
-			margin = { 20 10 }
 			layoutpolicy_horizontal = expanding
+			margin = { 10 0 }
 
-			background = {
-				using = Background_Area_Dark
-			}
-
-			text_single = {
+			text_label_left = {
 				datacontext = "[Situation.GetTopSubRegion.GetCurrentPhase.GetType]"
 				layoutpolicy_horizontal = expanding
+				autoresize = no
 
 				text = "CHRISTIAN_CHURCH_VIEW_PARTICIPANT_GROUP_EFFECTS_HEADER"
 				align = nobaseline
+				margin_left = 10
 			}
 		}
 
@@ -1521,12 +1942,14 @@ types ChristianChurchTypes
 
 					text_multi = {
 						visible = "[StringIsEmpty( SituationPhaseType.GetParticipantGroupEffectTooltipBreakdown( SituationParticipantGroupType.Self ) )]"
-						min_width = 500
-						max_width = 500
-						autoresize = yes
-						using = Font_Size_Small
+						layoutpolicy_vertical = expanding
 
 						text = "SITUATION_PHASE_PARTICIPANT_GROUP_NO_EFFECTS"
+						align = center
+						autoresize = yes
+						min_width = 500
+						max_width = 500
+						using = Font_Size_Small
 					}
 				}
 			}
@@ -1833,7 +2256,7 @@ types ChristianChurchTypes
 			alpha = 0.15
 			fittype = centercrop
 
-			margin_top = -51
+			margin_top = -57
 
 			using = Mask_Rough_Edges
 
@@ -1852,7 +2275,6 @@ types ChristianChurchTypes
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
-
 			margin = { 19 5 }
 			margin_right = 15
 			spacing = 5
@@ -1910,9 +2332,11 @@ types ChristianChurchTypes
 
 			vbox = {
 				margin_left = 5
+				layoutpolicy_horizontal = expanding
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
+					autoresize = no
 
 					text = "[SituationPhaseType.GetNameNoTooltip]"
 					using = Font_Size_Medium
@@ -1920,6 +2344,7 @@ types ChristianChurchTypes
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
+					autoresize = no
 					
 					text = "CHRISTIAN_CHURCH_PHASE_CHAPTER_TYPE"
 					align = nobaseline
@@ -1930,6 +2355,7 @@ types ChristianChurchTypes
 
 			text_single = {
 				visible = "[ObjectsEqual(Situation.GetTopCurrentPhase.GetType, SituationPhaseType.Self)]"
+				max_width = 200
 				text = "CHRISTIAN_CHURCH_VIEW_CURRENT_CHAPTER_TAG"
 				default_format = "#weak"
 			}
@@ -2078,7 +2504,7 @@ types ChristianChurchTypes
 						layoutpolicy_horizontal = expanding
 
 						text_single = {
-							max_width = 460
+							max_width = 420
 
 							text = "[Character.GetUINameNoTooltip|U]"
 							align = nobaseline
@@ -2333,6 +2759,230 @@ types ChristianChurchTypes
 			}
 		}
 	}
+
+	type hbox_schism_rite = hbox
+	{
+		datacontext = "[Situation.GetTopParticipantGroupByKey( 'christian_clerical_main_power_rulers' )]"
+		datacontext = "[Scope.Rite]"
+		visible = "[Scope.IsSet]"
+
+		spacing = 5
+
+		button_rite_icon = {
+			size = { 32 32 }
+		}
+
+		text_single = {
+			min_width = 10
+			max_width = 30
+			block "supporters" {
+				text = "[SituationParticipantGroup.MakeScope.ScriptValue( 'schism_mainline_supporters_gui' )]"
+			}
+			align = nobaseline|center
+			default_format = "#bold"
+		}
+
+		spacer = {}
+
+		text_single = {
+			max_width = 120
+			text = "[Rite.GetAdherentNamePluralNoTooltip]"
+			align = nobaseline
+		}
+	}
+
+	type vbox_schism_side = vbox {
+		layoutpolicy_horizontal = expanding
+		visible = "[Scope.IsSet]"
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			datacontext = "[Scope.Rite]"
+			datacontext = "[Rite.GetHeadOfRite]"
+			margin_top = 15
+			datacontext = "[GetIllustration( 'character_view_bg' )]"
+
+			background = {
+				texture = "[Illustration.GetTexture( Character.MakeScope )]"
+				alpha = 0.35
+
+				using = Mask_Rough_Edges
+			}
+
+			portrait_shoulders = {
+				visible = "[Character.IsValid]"
+				allow_outside = yes
+				blockoverride "portrait_mask" {
+					mask = "gfx/portraits/portrait_mask_character_view.dds"
+				}
+				blockoverride "coa" {
+					coa_realm_tiny_crown = {
+						visible = "[Character.HasLandedTitles]"
+						parentanchor = bottom
+						position = { -63 -8 }
+					}
+				}
+
+				blockoverride "opinion_box"
+				{
+					portrait_opinion = {
+						parentanchor = bottom|hcenter
+						position = { 4 -8 }
+					}
+				}
+				blockoverride "schism_stance" {
+					widget_schism_stance = {}
+				}
+				blockoverride "extra_info_post_faith" {
+					hbox_cooltip_schism_stance = {}
+				}
+			}
+		}
+
+		hbox = {
+			datacontext = "[Scope.Rite]"
+			layoutpolicy_horizontal = expanding
+			spacing = 5
+			margin = { 5 4 }
+			margin_right = 20
+
+			block "righttoleft_schism" {}
+
+			background = {
+				using = Background_Area
+			}
+
+			button_rite_icon = {
+				size = { 45 45 }
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				autoresize = no
+
+				text = "[Rite.GetName]"
+				block "align_schism" {
+					align = nobaseline
+				}
+			}
+
+			expand = {}
+
+			text_single = {
+				block "supporters" {}
+				using = Font_Size_Medium
+				default_format = "#bold"
+			}
+		}
+	}
+
+	type vbox_schism_supporters = vbox {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+
+		spacing = 5
+
+		flowcontainer = {
+			datamodel = "[SituationParticipantGroup.GetCharacters]"
+			ignoreinvisible = yes
+			wrap_count = 3
+
+			item = {
+				portrait_head_small = {
+					block "show_schism_supporter" {}
+					blockoverride "extra_info_post_faith" {
+						hbox_cooltip_schism_stance = {}
+					}
+				}
+			}
+		}
+
+		expand = {}
+	}
+
+	type hbox_cooltip_schism_stance = hbox {
+		datacontext = "[GetSituation( 'the_christian_church' ).MakeScope.Var( JoinText( Character.MakeScope.Var( 'pam_schism_stance' ).GetFlagName,  'schism_', '_rite' ) ).Rite]"
+		visible = "[GetScriptedGui( 'pam_has_schism_stance' ).IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+		layoutpolicy_horizontal = expanding
+		margin_top = 5
+		margin_bottom = 10
+
+		hbox = {
+			spacing = 5
+			button_rite_icon = {
+				size = { 30 30 }
+			}
+
+			text_multi = {
+				text = "CHRISTIAN_CHURCH_VIEW_CHARACTER_SCHISM_STANCE_TT"
+				autoresize = yes
+				max_width = 340
+				align = nobaseline
+			}
+		}
+
+		expand = {}
+	}
+
+	type hbox_church_tabs = hbox {
+		layoutpolicy_horizontal = expanding
+
+		button_tab = {
+			name = "christian_church_button_tab_1"
+
+			onclick = "[VariableSystem.Set( 'christian_church_tab', 'overview' )]"
+			down = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
+			shortcut = "tab_1"
+
+			alwaystransparent = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
+
+			blockoverride "tab_label"
+			{
+				block "tab_text_width" {
+					max_width = 220
+				}
+				text = "CHRISTIAN_CHURCH_VIEW_TAB_OVERVIEW"
+			}
+
+			blockoverride "icon_visible" {}
+
+			blockoverride "tab_icon"
+			{
+				texture = "gfx/interface/icons/flat_icons/outliner.dds"
+				down = "[VariableSystem.HasValue( 'christian_church_tab', 'overview' )]"
+			}
+		}
+
+		block "schism_tab" {}
+
+		button_tab = {
+			name = "christian_church_button_tab_2"
+			block "participants_tab_shortcut" {
+				shortcut = "tab_2"
+			}
+
+			onclick = "[VariableSystem.Set( 'christian_church_tab', 'participants' )]"
+			down = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+
+			alwaystransparent = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+
+			blockoverride "tab_label"
+			{
+				block "tab_text_width" {
+					max_width = 220
+				}
+				text = "CHRISTIAN_CHURCH_VIEW_TAB_PARTICIPANTS"
+			}
+
+			blockoverride "icon_visible" {}
+
+			blockoverride "tab_icon"
+			{
+				texture = "gfx/interface/icons/flat_icons/multiplayer.dds"
+				down = "[VariableSystem.HasValue( 'christian_church_tab', 'participants' )]"
+			}
+		}
+	}
 }
 
 template Background_Area_Christian_Church_Participant_Group_Button {
@@ -2405,4 +3055,38 @@ template Background_Area_Christian_Church_Participant_Group_Button_Secondary_Pow
 template Background_Area_Christian_Church_Participant_Group_Button_Heretical_Power {
 	texture = "gfx/interface/colors/grey.dds"
 	color = { 0.7 0.3 0.2 0.45 }
+}
+
+template tooltip_schism_progress {
+	container = {
+		alwaystransparent = no
+
+		object_tooltip_pop_out = {
+			blockoverride "title_text"
+			{
+				text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS"
+			}
+
+			blockoverride "concept_link" {}
+
+			blockoverride "description_text"
+			{
+				text = "CHRISTIAN_CHURCH_SCHISM_PROGRESS_TT"
+			}
+
+			blockoverride "header_additions"
+			{
+				hbox = {
+					margin_right = 10
+					margin_top = 8
+					margin_left = -4
+
+					icon = {
+						texture = "gfx/interface/icons/icon_schism.dds"
+						size = { 35 35 }
+					}
+				}
+			}
+		}
+	}
 }

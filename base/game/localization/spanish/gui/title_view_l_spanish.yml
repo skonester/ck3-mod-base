@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "Descuento de [legitimacy_level|El]"
  TITLE_VIEW_APPOINTMENT: "Ver sucesión"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Ver sucesión del nombramiento#!\nEl título seguirá [Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "[Title.GetNameNoTooltip] se heredará junto con el [primary_title|El] de [Title.GetHolder.GetShortUIName] #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Se hereda con este [title|El]:"
  ADD_LAWS_TOOLTIP: "#T Añadir ley de sucesión"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X El [government|El] de tu [top_liege|El] no permite que los [vassals|El] tengan [royal_court|El]#!"
  CREATE_TITLE_PIETY_LEVEL: "Se necesita [GetPietyLevelName('(int32)$LEVEL|q$')]"

@@ -215,6 +215,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[legitimacy_level|E] discount"
  TITLE_VIEW_APPOINTMENT: "View Succession"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T View appointment succession#!\nTitle will follow [Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "[Title.GetNameNoTooltip] will be inherited along with [Title.GetHolder.GetShortUINamePossessive] [primary_title|E] #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Inherited with this [title|E]:"
  ADD_LAWS_TOOLTIP: "#T Add Succession Law"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X Your [top_liege_possessive|E] [government|E] does not allow [vassals|E] to have a [royal_court|E]#!"
 

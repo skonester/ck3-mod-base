@@ -72,4 +72,4 @@
  BlocReasonBribeInfluence: "惜しみない[influence_i] [influence|E]の賄賂のため"
  BlocReasonBribeHook: "[hook_i] [hook|E]が使用されたため"
  BlocReasonKicked: "[leading_house|E]によって追放されたため"
- BlocReasonFollowedLiege: "彼らの[house_heads_possessive]の[liege|E]の[bloc|E]に参加するため"
+ BlocReasonFollowedLiege: "彼らの[house_heads_possessive|E]の[liege|E]の[bloc|E]に参加するため"

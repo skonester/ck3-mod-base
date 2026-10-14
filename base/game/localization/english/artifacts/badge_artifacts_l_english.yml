@@ -29,3 +29,4 @@
  generic_badge_prosperity_desc: "A shiny pilgrim's badge, acquired in [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] and rumored to bring prosperity to its wearer."
  generic_badge_virility_desc: "A pilgrim's badge gleaming with fervor, acquired in [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] and rumored to bring virility to its wearer."
  generic_badge_wisdom_desc: "An enigmatic pilgrim's badge, acquired in [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] and rumored to inspire wisdom and contemplation in its wearer."
+ pilgrim_badge_holy_site_faith_tt: "Cannot equip as your [faith|E] does not consider [artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] a [holy_site|E]"

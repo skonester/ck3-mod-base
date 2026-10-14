@@ -137,7 +137,7 @@
  mpo_nerge.1015.d: "[hunter_1.GetFirstNameNoTooltip] and [hunter_2.GetFirstNameNoTooltip] will pay for the losses."
 
  mpo_nerge.1020.t: "Scattered Prey"
- mpo_nerge.1020.desc: ""Though solid proof of our progress, I worry that we will leave too few [activity.Custom('GetAnimalPlural')] alive," [master_of_hunt.GetFirstName] explains. "I do not wish to leave the land barren."\n\nWe've managed slay enough [activity.Custom('GetAnimal')] to feed us for many moons, but the hunt has become tedious as their numbers dwindle. [master_of_hunt.GetFirstNameNoTooltip] has directed the riders to search for more enclaves, but the [activity.Custom('GetAnimalPlural')] are becoming few and far between."
+ mpo_nerge.1020.desc: ""Though solid proof of our progress, I worry that we will leave too few [activity.Custom('GetAnimalPlural')] alive," [master_of_hunt.GetFirstName] explains. "I do not wish to leave the land barren."\n\nWe've managed to slay enough [activity.Custom('GetAnimalPlural')] to feed us for many moons, but the hunt has become tedious as their numbers dwindle. [master_of_hunt.GetFirstNameNoTooltip] has directed the riders to search for more enclaves, but the [activity.Custom('GetAnimalPlural')] are becoming few and far between."
  mpo_nerge.1020.a: "Take what we need, and let the rest go."
  mpo_nerge.1020.a.tt: "Some [activity.Custom('GetAnimalPlural')] are left to repopulate"
  mpo_nerge.1020.b: "To relent is weakness. We must hunt!"

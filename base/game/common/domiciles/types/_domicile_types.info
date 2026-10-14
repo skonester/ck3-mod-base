@@ -6,8 +6,8 @@
 	}
 
 	# Shortcut to rename the domicile window
-	# Rename windows are: 'primary_title' or 'house'. Default type is 'none'
-	rename_window = none
+	# Rename windows are: 'primary_title' or 'house'. If unset, there is no rename shortcut
+	rename_window = primary_title
 
 	# Texture used in the realm tab access
 	illustration = "path/to/image.dds"
@@ -19,10 +19,10 @@
 	map_pin_texture = "path/to/image.dds"
 
 	# Where to anchor the domicile map pin in relation to it's province
-	# Anchor types are: 'up' or 'right'. Default type is 'right'
+	# Anchor types are: 'up', 'down', 'left' or 'right'. Default type is 'right'
 	map_pin_anchor = right
 
-	# Will this domicile show up in the game lobby
+	# Will this domicile show up in the game lobby (default: yes)
 	map_pin_lobby = yes
 
 	# Does this domicile manage the provisions resource
@@ -41,7 +41,7 @@
 	# Should this domicile also move when you move your realm capital? (default: no)
 	move_with_realm_capital = no
 
-	# Can you move this domicile without bespoke features?
+	# Can you move this domicile without bespoke features? (default: no)
 	#
 	can_move_manually = yes
 
@@ -61,6 +61,9 @@
 	# Modifier applied to the domicile owner when liked by the majority of their court
 	# Can take a "scale" parameter to scale by (a script value; see _script_values.info)
 	domicile_temperament_high_modifier = {}
+
+	# Sound effect played when clicking a building slot that is under construction (optional)
+	construction_soundeffect = "event:/path/to/sound"
 
 	# How many unlocked external building slots domicile starts out with
 	base_external_slots = 2

@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[legitimacy_level|E]无折扣"
  TITLE_VIEW_APPOINTMENT: "查看继承"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T 查看任命继承制#!\n头衔会遵循[Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "[Title.GetNameNoTooltip]将随[Title.GetHolder.GetShortUINamePossessive]的[primary_title|E]一同继承#low （[Title.GetHolder.GetPrimaryTitle.GetName]）#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "随此[title|E]一同继承："
  ADD_LAWS_TOOLTIP: "#T 添加继承法"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon!#X 你的[top_liege_possessive|E]的[government|E]不允许[vassals|E]拥有[royal_court|E]#!"
  CREATE_TITLE_PIETY_LEVEL: "需要[GetPietyLevelName('(int32)$LEVEL|q$')]"

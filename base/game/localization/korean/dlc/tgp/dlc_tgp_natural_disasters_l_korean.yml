@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName](이)가 [great_project.GetName] [great_project|E]을 시작함"
  # Great Project
- great_project_type_great_project_earthquake: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip] 지진 재건"
+ great_project_type_great_project_earthquake: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip] 지진 재건"
  great_project_type_great_project_earthquake_desc: "[earthquake|E]의 영향을 완화하기 위한 조치가 필요하다. 봉역와 백성을 보호하기 위해, 영주들은 [great_project_contributions|E]을 제공하고 다른 [situation_participant_groups|E]들을 모아 구호 활동을 지원해야 한다."
  great_project_type_great_project_earthquake_contribution_recovery: "생존자 회복"
  great_project_type_great_project_earthquake_contribution_cleanup: "잔해 제거"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "피해자 지원"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "[GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip] 보내기"
  great_project_type_great_project_earthquake_contribution_memorial: "추모 요새"
- great_project_type_great_project_flood: "[GreatProject.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip] 홍수 재건"
+ great_project_type_great_project_flood: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip] 홍수 재건"
  great_project_type_great_project_flood_desc: "[flood|E]의 영향을 완화하기 위한 조치가 필요하다. 봉역와 백성을 보호하기 위해, 영주들은 [great_project_contributions|E]을 제공하고 다른 [situation_participant_groups|E]들을 모아 구호 활동을 지원해야 한다."
  great_project_type_great_project_flood_contribution_recovery: "생존자 회복"
  great_project_type_great_project_flood_contribution_drainage: "토지 배수"

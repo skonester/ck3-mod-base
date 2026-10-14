@@ -20,17 +20,11 @@
  doctrine_parameter_children_less_likely_to_be_burdened: "Es menos probable que los [children|lE] obtengan el [trait|lE] [GetTrait('burdened').GetName( GetNullCharacter )]"
  ### HOLYSITES
  holy_site_tiantai_name: "Monte Tiantai"
- holy_site_hiei_name: "Monte Hiei" # 比叡山
- holy_site_koya_name: "Monte Kōya" # 高野山
  holy_site_nara_name: "Nara" # 奈良
  holy_site_ise_jingu_name: "Ise Jingū" # 伊勢神宮
- holy_site_haguro_name: "Monte Haguro" # 羽黒山
- holy_site_haku_name: "Monte Haku" # 白山
  holy_site_fuji_name: "Monte Fuji" # 富士山
  holy_site_omine_name: "Monte Ōmine"
- holy_site_ishizuchi_name: "Monte Ishizuchi" # 石鎚山
  holy_site_itsukushima_name: "Itsukushima jinja" # 厳島神社
  holy_site_hachimangu_name: "Hachimangū" # 八幡宮
- holy_site_heiankyo_name: "Heian-kyō" # 平安京
  holy_site_kizuki_name: "Kizuki-taisha" # 杵築大社
  holy_site_kashima_name: "Kashima Jingū" # 鹿島神宮

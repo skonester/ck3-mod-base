@@ -65,3 +65,5 @@
  confederations_desc: "#T Blocs et confédérations#!\nAffiche les [blocs|El] et les [confederations|El] sur la carte."
  clerical_regions: "Régions cléricales"
  clerical_regions_desc: "#T Régions cléricales#!\nAffiche les [clerical_regions|El] qui existent actuellement, chacune relevant de la juridiction d’un [clerical_title|El]."
+ faith_mapmode_holy_sites_tt: "#T Afficher les lieux saints#!\n#I Cliquez pour voir#!"
+ faith_mapmode_religious_heads_tt: "#T Afficher les chefs religieux#!\n#I Cliquez pour voir#!"

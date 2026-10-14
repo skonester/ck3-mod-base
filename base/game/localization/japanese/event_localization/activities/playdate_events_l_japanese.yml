@@ -242,7 +242,7 @@
  playdate.5009.c.success: "暴れていたフットボールの選手は、ピタリと立ち止まり注目する"
  playdate.5009.c.failure: "あなたの言葉には耳を傾けてもらえない"
  playdate.5010.t: "それでこそ私の[appropriate_child.Custom('GirlBoy')]だ！"
- playdate.5010.desc: "「やっちまえ！あの子を壁に押し付けろ！そうだ、それでいい！」[obnoxious_parent.GetFirstNamePossessive]の声が中庭に響き渡る。[obnoxious_parent.GetSheHe|U]は、[embarrassed_child.GetFirstName]のフットボールの試合を見守るため、隅に陣取っているが、[embarrassed_child.Custom('GirlBoy')]へのひいきが明らかだ。\n\n言うまでもなく、[obnoxious_parent.GetFirstNameNoTooltip]は#EMP 少し#!真剣になりすぎているようだ。\n\n「おい！[embarrassed_child.Custom('HerHim')]を押すな、反則だぞ！」[obnoxious_parent.GetFirstNamePossessiveNoTooltip]の大げさな振る舞いが、だんだんとイライラさせ始めている。"
+ playdate.5010.desc: "「やっちまえ！あの子を壁に押し付けろ！そうだ、それでいい！」[obnoxious_parent.GetFirstNamePossessive]の声が中庭に響き渡る。[obnoxious_parent.GetSheHe|U]は、[embarrassed_child.GetFirstName]のフットボールの試合を見守るため、隅に陣取っているが、[embarrassed_child.Custom('GirlBoy')]へのひいきが明らかだ。\n\n言うまでもなく、[obnoxious_parent.GetFirstNameNoTooltip]は#EMP 少し#!真剣になりすぎているようだ。\n\n「おい！[embarrassed_child.GetHerHim]を押すな、反則だぞ！」[obnoxious_parent.GetFirstNamePossessiveNoTooltip]の大げさな振る舞いが、だんだんとイライラさせ始めている。"
  playdate.5010.a: "[obnoxious_parent.GetHerHis|U]の腕は大きく振り回されていている…"
  playdate.5010.a_flavor: "[obnoxious_parent.GetFirstNameNoTooltip]に殴られたふりをしよう！"
  playdate.5010.a.tt: "もし、振られた腕が当たったふりをしたら、[obnoxious_parent.GetSheHe]は引き下がるだろうか？"

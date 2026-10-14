@@ -3053,7 +3053,7 @@
  artifact_type_regalia_bier:0 "regalia"
  artifact_type_trinket_bier:0 "pamiątkę"
  artifact_type_wall_big_bier:0 "dekorację wiszącą"
- artifact_type_wall_small_bier:0 "$artifact_type_wall_small_bier$"
+ artifact_type_wall_small_bier: "$artifact_type_wall_big_bier$"
  artifact_type_throne_bier:0 "tron"
  artifact_type_sculpture_bier:0 "rzeźbę"
  artifact_type_book_bier:0 "książkę"

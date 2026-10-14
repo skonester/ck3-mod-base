@@ -452,7 +452,7 @@
  domicile_building_parameter_estate_cheaper_divorce: "#V #TOOLTIP:pam_estate_interaction_tt_demand_divorce_interaction [GetPlayer.GetPlayerInteractionName('demand_divorce_interaction')|L]#!#! Cost: @piety_icon!#P -25%#!"
  domicile_building_parameter_estate_cheaper_chastity: "#V #TOOLTIP:pam_estate_interaction_tt_request_clerical_chastity_interaction [GetPlayer.GetPlayerInteractionName('request_clerical_chastity_interaction')|L]#!#! Cost: @piety_icon!#P -50%#!"
  domicile_building_parameter_estate_cheaper_treasury_request: "#V #TOOLTIP:pam_estate_interaction_tt_request_ecclesiastical_treasury_interaction [GetPlayer.GetPlayerInteractionName('request_ecclesiastical_treasury_interaction')|L]#!#! Cost: @piety_icon!#P -50%#!"
- domicile_building_parameter_estate_cheaper_pilgrimage_cost: "[GetActivityType('activity_pilgrimage').GetName] Cost: @gold_icon!#P -[EmptyScope.ScriptValue('estate_cheaper_pilgrimage_cost_value')|0%]#!"
+ domicile_building_parameter_estate_cheaper_pilgrimage_cost: "[GetActivityType('activity_pilgrimage').GetName] Base Cost: @gold_icon!#P -[EmptyScope.ScriptValue('estate_cheaper_pilgrimage_cost_value')|0%]#!"
  domicile_building_parameter_estate_cheaper_university_visit: "[GetActivityType('activity_adult_education').GetName] Cost: @gold_icon!#P -25%#!"
  domicile_building_parameter_estate_study_scripture_success_1: "Improve #V [GetScheme('study_scripture').GetTypeName]#! [scheme|E] Success Chance: #P +[EmptyScope.ScriptValue('ecclesiastical_domicile_study_scripture_success_value_1')]#!"
  domicile_building_parameter_estate_study_scripture_success_2: "Improve #V [GetScheme('study_scripture').GetTypeName]#! [scheme|E] Success Chance: #P +[EmptyScope.ScriptValue('ecclesiastical_domicile_study_scripture_success_value_2')]#!"

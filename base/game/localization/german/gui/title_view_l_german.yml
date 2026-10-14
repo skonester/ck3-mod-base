@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[Concept('legitimacy_level', 'Legitimitätsstufen')|E]-Nachlass"
  TITLE_VIEW_APPOINTMENT: "Nachfolge ansehen"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Einsetzungsnachfolge ansehen#!\nTitel wird „[Title.GetHolder.GetPrimaryTitle.GetName]“ folgen"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "[Title.GetNameNoTooltip] wird zusammen mit dem [primary_title|E] von [Title.GetHolder.GetShortUIName] vererbt #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Wird mit diesem [title|E] vererbt:"
  ADD_LAWS_TOOLTIP: "#T Nachfolgerecht hinzufügen"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X Die [government|E] Eures [Concept('top_liege', 'Obersten Lehnsherrn')|E] erlaubt es [vassals|E] nicht, einen [royal_court|E] zu haben#!"
  CREATE_TITLE_PIETY_LEVEL: "Erfordert „[GetPietyLevelName('(int32)$LEVEL|q$')]“"

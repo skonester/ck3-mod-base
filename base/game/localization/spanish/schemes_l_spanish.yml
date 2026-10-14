@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "Buscaré un [SCHEME.GetTargetFaith.GetAdherentNameNoTooltip] de quien aprender."
  find_follower_of_faith_desc_general: "La búsqueda de practicantes es una [personal_scheme|El] que te permite encontrar seguidores de una fe con el objetivo de iniciar una [scheme|El] de $study_faith$. Dicha conjura depende principalmente de tu [learning|El] e [intrigue|El], pero pueden echarte una mano tu [spymaster|El] y tu [court_chaplain|El]. También suele ser de gran ayuda tener una fe tolerante o pertenecer a la misma [religious_family|El]. Al no tratarse de una [hostile_scheme|El], no es [secret_scheme_single|El] y no emplea [agents|El]."
  find_follower_of_faith_success_message: "Has encontrado un [target.GetAdherentNameNoTooltip]"
+ find_follower_of_faith_SUCCESS_DESC: "Encuentras a un seguidor de la [faith|El] elegida"
  find_follower_of_faith_failed_message: "No has encontrado ningún [target.GetAdherentNameNoTooltip]"
  find_follower_of_faith_continue: "Continuaras con tus esfuerzos"
  find_follower_of_faith_try_again: "Volverás a intentarlo"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "Tu [faith|El] está en la misma [religious_family|El] que tu fe objetivo: $VALUE|+=0$"
  find_follower_of_faith_dead_faith: "Ya no se practica el [target.GetName|l]: $VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "Se practica el [target.GetName] en tu señorío: $VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "Tu [realm_priest|El] te está ayudando: $VALUE|+=0$"

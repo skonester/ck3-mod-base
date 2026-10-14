@@ -1143,7 +1143,7 @@
  appoint_a_righteous_caliph_decision: "公正なカリフを任命する"
  appoint_a_righteous_caliph_decision_desc: "[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]は、冷ややかで、ふさしくない人物で、ウンマを導く準備がまったくできていない。[ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjective]であるからと言って、[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe]は[ROOT.Char.GetFaith.GetAdjective]の教義の繊細な真実の多くをただ#EMP 理解#!していないのだ。\n\n[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe|U]には無理だが、#EMP 私#!なら…"
  appoint_a_righteous_caliph_decision_confirm: "私は[ROOT.Char.GetFaith.PositiveAfterLife|U]に導かれている！"
- appoint_a_righteous_caliph_decision_tooltip: "[ROOT.Char.GetFaith.GetNameNoTooltip]を[ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjectiveNoTooltip]の道からそらす"
+ appoint_a_righteous_caliph_decision_tooltip: "[ROOT.Char.GetFaith.GetNameNoTooltip]を[ROOT.Char.GetFaith.GetReligiousHead.GetRite.GetAdjectiveNoTooltip]の道からそらす"
  appoint_a_righteous_caliph_decision.tt.you_become_caliph: "あなたは新しい[head_of_faith|E]になる"
  appoint_a_righteous_caliph_decision.need_at_least_ten_same_faith_counties: "あなたは少なくとも[EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_same_faith_county_count')|0][CHARACTER.GetFaith.GetAdjective]の[counties|E]を保有している"
  appoint_a_righteous_caliph_decision.cant_be_caliphal_controller: "あなたは[head_of_faith|E]の[liege|E]ではない"

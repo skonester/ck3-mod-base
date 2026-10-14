@@ -772,9 +772,11 @@ c_tourraine = {
 	}
 	866.7.2 = {
 		holder = 168246 #Hugo 'the Abbot' Welf
+		government = ecclesiastical_government
 	}
 	886.5.12 = {
 		holder = 6448	#Eudes I of France
+		government = feudal_government
 	}
 	902.1.1 = {
 		holder = 6442	#Robert I of France
@@ -962,9 +964,11 @@ d_anjou = {
 	}	
 	866.7.2 = {
 		holder = 168246 #Hugo 'the Abbot' Welf
+		government = ecclesiastical_government
 	}
 	886.5.12 = {
 		holder = 6448 #Eudes, future king of France
+		government = feudal_government
 	}
 	888.1.1 = {
 		holder = 6442	#Robert I of France
@@ -1670,10 +1674,12 @@ c_bayeux = {
 	1049.1.1 = {
 		liege = "d_normandy"
 		holder = 148 #Odo de Bayeux
+		government = ecclesiastical_government
 	}
 	
 	1090.12.9 = {
 		holder = 158 #Guillaume de Mortain
+		government = feudal_government
 	}
 	1106.1.1 = {
 		holder = 91197 #Robert II le Vieux
@@ -3262,12 +3268,14 @@ c_auxerre = {
 	}
 	866.1.1 = {
 		holder = 168246	#Hugo / Hugh the Abbot / Hughes l'Abbé
+		government = ecclesiastical_government
 	}
 	
 	#Bosonid & Robertians
 	886.5.12 = {
 		holder = 7994	#Richard the Justicar
 		liege = d_burgundy
+		government = feudal_government
 	}
 	921.1.1 = {
 		holder = 7995	#Raoul/Rudolph of France
@@ -3460,10 +3468,12 @@ c_nevers = {
 	866.1.1 = {
 		holder = 168246	#Hugo / Hugh the Abbot / Hughes l'Abbé
 		liege = k_france
+		government = ecclesiastical_government
 	}
 	886.5.12 = {
 		holder = 7994	#Richard the Justicar
 		liege = d_burgundy
+		government = feudal_government
 	}
 	
 	#House de Nevers

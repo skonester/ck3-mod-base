@@ -12,12 +12,10 @@ types EventWindowWidgetsRite
 		}
 
 		visible = "[Rite.IsValid]"
-		margin = { 12 12 }
 
 		hbox = {
 			name = "rite_icon_and_tenets"
 			datacontext = "[Rite.GetFaith]"
-			spacing = 8
 
 			vbox = {
 				name = "core_tenets_column"
@@ -27,7 +25,7 @@ types EventWindowWidgetsRite
 					name = "rite_name"
 					layoutpolicy_horizontal = expanding
 					text = "[Rite.GetNameNoTooltip]"
-					align = center|nobaseline
+					align = center
 					max_width = 350
 					using = Font_Size_Medium
 				}

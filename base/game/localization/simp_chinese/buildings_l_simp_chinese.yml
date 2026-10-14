@@ -148,7 +148,7 @@
  building_farm_estates_07_desc: "富裕的家族兼并了贫穷的家族，将他们的地产整合进入庞大的庄园，所有地产都在统一的指导下运作，一起缴纳税款。"
  building_farm_estates_08: "大庄园"
  building_farm_estates_08_desc: "规模空前的巨大庄园，这些大型综合体可以供养人口数千的家族。"
- farm_estates_3_4_trigger: "需要以下之一：\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有#V $innovation_manorialism$#![innovation|E]，并且该[holding|E]位于[GetTerrain( 'farmlands' ).GetName]且拥有2级[holding|E]\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有[GetCultureTradition('tradition_pastoralists').GetName|V][tradition|E]，并且该[holding|E]拥有[GetBuilding('pastures_04').GetName][building|E]\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有#V $innovation_manorialism$#!和#V $innovation_champa_rice$#![innovations|E]，并且该[holding|E]拥有2级[holding|E]且能建造[GetBuilding('paddy_fields_01').GetName]线的[buildings|E]"
+ farm_estates_3_4_trigger: "需要以下之一：\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有#V $innovation_manorialism$#![innovation|E]，并且该[barony|E]位于[GetTerrain( 'farmlands' ).GetName]且拥有2级[holding|E]\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有[GetCultureTradition('tradition_pastoralists').GetName|V][tradition|E]，并且该[holding|E]拥有[GetBuilding('pastures_04').GetName][building|E]\n$EFFECT_LIST_BULLET$[holder_possessive|E]的[culture|E]拥有#V $innovation_manorialism$#!和#V $innovation_champa_rice$#![innovations|E]，并且该[barony|E]拥有2级[holding|E]且能建造[GetBuilding('paddy_fields_01').GetName]线的[buildings|E]"
  building_type_regimental_grounds_01: "军团训练场"
  building_type_regimental_grounds_01_desc: "军队训练场不仅容纳了为大规模征召兵设计的房屋，也与大片供他们训练备战的场地相连。"
  building_regimental_grounds_01: "军用空地"

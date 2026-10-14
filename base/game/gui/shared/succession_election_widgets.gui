@@ -21,19 +21,24 @@
 			using = vote_reason_tooltip
 		}
 
-		vote_chance_icon = {}
-
-		text_single = {
-			visible = "[Not( SuccessionElectionElector.GetTitle.GetPlayerNominee.IsValid )]"
-			text = "[SuccessionElectionElector.GetElectorCandidate.GetScore]"
-			align = nobaseline
+		block "vote_chance_icon" {
+			vote_chance_icon = {}
 		}
 
-		text_single = {
-			visible = "[SuccessionElectionElector.GetTitle.GetPlayerNominee.IsValid]"
-			text = "[SuccessionElectionElector.GetScoreDiff|+]"
-			align = nobaseline
+		block "vote_value_number" {
+			text_single = {
+				visible = "[Not( SuccessionElectionElector.GetTitle.GetPlayerNominee.IsValid )]"
+				text = "[SuccessionElectionElector.GetElectorCandidate.GetScore]"
+				align = nobaseline
+			}
+
+			text_single = {
+				visible = "[SuccessionElectionElector.GetTitle.GetPlayerNominee.IsValid]"
+				text = "[SuccessionElectionElector.GetScoreDiff|+]"
+				align = nobaseline
+			}
 		}
+
 	}
 
 	# Datacontext: SuccessionElectionElector

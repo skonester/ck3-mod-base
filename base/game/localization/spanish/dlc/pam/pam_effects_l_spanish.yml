@@ -74,7 +74,7 @@
  change_spiritual_fulfillment_traits_global_past_neg: "$change_spiritual_fulfillment_global_past_neg$ $TRAITS$"
  add_known_tenet_global: "Gana [agnostic_knowledge|El] sobre el [core_tenet|El] [TenetType.GetBaseName|V]"
  add_known_tenet_first: "Aprendes sobre el [core_tenet|El] [TenetType.GetName( GetPlayer.GetRite )|V]"
- add_known_tenet_third: "[CHARACTER.GetShortUIName] aprende sobre el [core_tenet|El] [TenetType.GetName( GetPlayer.GetFaith )|V]"
+ add_known_tenet_third: "[CHARACTER.GetShortUIName] aprende sobre el [core_tenet|El] [TenetType.GetName( Character.GetRite )|V]"
  add_known_tenet_global_past: "Ha ganado [agnostic_knowledge|El] sobre el [core_tenet|El] [TenetType.GetBaseName|V]"
  add_known_tenet_first_past: "Has aprendido sobre el [core_tenet|El] [TenetType.GetName( GetPlayer.GetRite )|V]"
  add_known_tenet_third_past: "[CHARACTER.GetShortUIName] ha aprendido sobre el [core_tenet|El] [TenetType.GetName( Character.GetRite )|V]"

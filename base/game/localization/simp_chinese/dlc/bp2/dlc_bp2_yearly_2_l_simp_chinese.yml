@@ -62,7 +62,7 @@
  bp2_yearly.2014.c: "事实上我对#EMP 你#!更感兴趣……"
  bp2_yearly.2014.d: "绝不可能！"
  bp2_yearly.2015.t: "鼓劲的朋友"
- bp2_yearly.2015.desc: "“我永远没法摆脱那个[bully.Custom2('InsultNoun', ROOT.Char)]吗？”在遭受了我的霸凌者[bully.GetFirstName]进一步的公开嘲笑后，我沮丧地低着头哀叹道。\n\n热泪顺着脸颊留下，这时我惊讶地发现我的肩膀被轻轻拍了一下。是我的朋友[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]。在我需要[ROOT.Char.Custom('GetHerHim')]时[ROOT.Char.Custom('GetSheHeOpposite')|U]总是会出现。\n\n“现在是时候和可恶的[bully.GetFirstNameNoTooltip]抗争了。我建议你散播谣言，说说[bully.GetSheHe]一个人待在[bully.GetHerHis]的房间时喜欢对[bully.GetHerHis]的[bully.Custom('child_favorite_toy')]做些什么……”"
+ bp2_yearly.2015.desc: "“我永远没法摆脱那个[bully.Custom2('InsultNoun', ROOT.Char)]吗？”在遭受了我的霸凌者[bully.GetFirstName]进一步的公开嘲笑后，我沮丧地低着头哀叹道。\n\n热泪顺着脸颊留下，这时我惊讶地发现我的肩膀被轻轻拍了一下。是我的朋友[ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]。在我需要[ROOT.Char.Custom('GetHerHimOpposite')]时[ROOT.Char.Custom('GetSheHeOpposite')|U]总是会出现。\n\n“现在是时候和可恶的[bully.GetFirstNameNoTooltip]抗争了。我建议你散播谣言，说说[bully.GetSheHe]一个人待在[bully.GetHerHis]的房间时喜欢对[bully.GetHerHis]的[bully.Custom('child_favorite_toy')]做些什么……”"
  bp2_yearly.2015.a: "我会出手维护我的荣誉。"
  bp2_yearly.2015.a.success: "你痛揍了[bully.GetFirstNameNoTooltip]"
  bp2_yearly.2015.a.failure: "[bully.GetFirstNameNoTooltip]痛揍了你"

@@ -437,18 +437,18 @@
 								}
 							}
 
-							text_single = { 
+							text_single = {
 								layoutpolicy_horizontal = expanding
-								text = "[WarOverviewWindow.GetWarStanceName( WarOverviewWindow.GetLeftSideLeaderItem.IsAttacker )]" 
-								tooltip = "[WarOverviewWindow.GetWarStanceDesc( WarOverviewWindow.GetLeftSideLeaderItem.IsAttacker )]" 
-								using = Font_Size_Medium 
+								text = "[WarOverviewWindow.GetWarStanceName( WarOverviewWindow.GetLeftSideLeaderItem.IsAttacker )]"
+								tooltip = "[WarOverviewWindow.GetWarStanceDesc( WarOverviewWindow.GetLeftSideLeaderItem.IsAttacker )]"
+								using = Font_Size_Medium
 								default_format = "#high"
-								align = nobaseline 
-								autoresize = yes 
+								align = nobaseline
+								autoresize = yes
 								max_width = 230
 								margin_left = 7
 								margin_bottom = 5
-							} 
+							}
 
 							vbox = {
 								layoutpolicy_horizontal = expanding
@@ -584,15 +584,29 @@
 								layoutpolicy_horizontal = expanding
 								spacing = 6
 
-								blockoverride "interaction_size" {
-									size = { 46 46 }
-								}
-
 								expand = {}
 
 								container_single_interaction = {
 									blockoverride "interaction_name" {
 										name = "request_white_peace_interaction"
+									}
+
+									blockoverride "button_round_interaction" {
+										button_round_interaction = {
+
+											blockoverride "icon" {}
+
+											blockoverride "interaction_size" {
+												size = { 46 46 }
+											}
+
+											button_icon_highlight = {
+												parentanchor = center
+												position = { 0 1 }
+												size = { 30 30 }
+												texture = "gfx/interface/icons/flat_icons/request_white_peace_interaction.dds"
+											}
+										}
 									}
 								}
 
@@ -600,12 +614,26 @@
 									blockoverride "interaction_name" {
 										name = "request_victory_interaction"
 									}
-									blockoverride = "icon_position" {
-										position = { 0 1 }
+
+									blockoverride "button_round_interaction" {
+										button_round_interaction = {
+
+											blockoverride "icon" {}
+
+											blockoverride "interaction_size" {
+												size = { 46 46 }
+											}
+
+											button_icon_highlight = {
+												parentanchor = center
+												position = { 0 1 }
+												size = { 30 30 }
+												texture = "gfx/interface/icons/flat_icons/request_victory_interaction.dds"
+											}
+										}
 									}
 								}
 							}
-
 						}
 					}
 				}
@@ -830,18 +858,18 @@
 								expand = {}
 							}
 
-							text_single = { 
-								layoutpolicy_horizontal = expanding 
-								text = "[WarOverviewWindow.GetWarStanceName( WarOverviewWindow.GetRightSideLeaderItem.IsAttacker )]" 
-								tooltip = "[WarOverviewWindow.GetWarStanceDesc( WarOverviewWindow.GetRightSideLeaderItem.IsAttacker )]" 
+							text_single = {
+								layoutpolicy_horizontal = expanding
+								text = "[WarOverviewWindow.GetWarStanceName( WarOverviewWindow.GetRightSideLeaderItem.IsAttacker )]"
+								tooltip = "[WarOverviewWindow.GetWarStanceDesc( WarOverviewWindow.GetRightSideLeaderItem.IsAttacker )]"
 								using = Font_Size_Medium
 								default_format = "#high"
-								align = nobaseline 
-								autoresize = yes 
-								max_width = 230 
+								align = nobaseline
+								autoresize = yes
+								max_width = 230
 								margin_left = 7
 								margin_bottom = 5
-							} 
+							}
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
@@ -1318,7 +1346,7 @@
 
 						### CENTER PANEL WAR SCORE DETAILS ###
 						war_overview_center_panel_war_score_details = {}
-						
+
 						war_overview_center_panel_losses = {}
 
 						### CENTER PANEL CONTRIBUTION AS ALLIED ###
@@ -2550,12 +2578,12 @@ types WarOverView
 			}
 		}
 	}
-	
+
 	type war_overview_center_panel_losses = widget {
 		layoutpolicy_horizontal = expanding
 		size = { 0 40 }
 		alwaystransparent = no
-		
+
 		background = {
 			using = Background_Area_Dark
 		}
@@ -2564,13 +2592,13 @@ types WarOverView
 			block "margins" {
 				margin = { 10 5 }
 			}
-	
+
 			hbox_war_casualties_side = {
 				block "left_context" {
 					datacontext = "[WarOverviewWindow.GetLeftSide]"
 				}
 			}
-			
+
 			block "losses" {
 				text_single = {
 					default_format = "#weak"
@@ -2580,7 +2608,7 @@ types WarOverView
 					align = nobaseline|center
 				}
 			}
-			
+
 			hbox_war_casualties_side = {
 				block "right_context" {
 					datacontext = "[WarOverviewWindow.GetRightSide]"
@@ -2598,7 +2626,7 @@ types WarOverView
 			}
 		}
 	}
-	
+
 	type hbox_war_casualties_side = hbox {
 		block "spacing" {
 			spacing = 5
@@ -2608,7 +2636,7 @@ types WarOverView
 			block "right" {}
 			spacing = 5
 			tooltip = "[WarSide.GetParticipantLossesTooltip]"
-			
+
 			icon_flat_standard_red = {
 				texture = "gfx/interface/icons/flat_icons/army.dds"
 				block "size" {
@@ -2619,7 +2647,7 @@ types WarOverView
 					mirror = horizontal
 				}
 			}
-			
+
 			text_single = {
 				autoresize = no
 				default_format = "#n"
@@ -2633,7 +2661,7 @@ types WarOverView
 				}
 			}
 		}
-		
+
 		hbox = {
 			block "right" {}
 			spacing = 5
@@ -2660,7 +2688,7 @@ types WarOverView
 				}
 			}
 		}
-		
+
 		hbox = {
 			block "right" {}
 			spacing = 5

@@ -61,18 +61,18 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 137 # Above catholic_cardinal (+135), below popes (+140); popes are also excluded below.
+				add = 137 # We leave cardinals out so they wear the cardinal hat instead
 				exists = this
 				is_female = yes
 				has_pam_dlc_trigger = yes
 				portrait_religious_western_christian_trigger = yes
 				portrait_religious_head_no_poverty_trigger = no
+				portrait_is_cardinal_trigger = no
 				NOR = {
 					has_title = title:k_papal_state
 					primary_title ?= title:k_papal_state
 				}
 				OR = {
-					portrait_is_cardinal_trigger = yes
 					AND = {
 						portrait_religious_high_trigger = yes
 						OR = {

@@ -71,23 +71,7 @@
 							### RITE & FAITH
 							hbox = {
 								layoutpolicy_horizontal = expanding
-								margin_bottom = 15
-
-								background = {
-									margin_top = 10
-									margin_bottom = 10
-									margin_left = 5
-
-									using = Background_Area
-
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-										blend_mode = alphamultiply
-										alpha = 1
-										rotate_uv = 90
-										mirror = vertical
-									}
-								}
+								margin_bottom = 5
 
 								### RITE ICON
 								icon = {
@@ -122,6 +106,7 @@
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
+								margin = { 0 5 }
 								margin_left = 15
 								margin_right = 10
 								spacing = 10
@@ -129,7 +114,6 @@
 								background = {
 									texture = "gfx/interface/component_tiles/tile_title_bg_01.dds"
 									spriteType = Corneredtiled
-									margin = { 0 5 }
 
 									spriteborder = { 40 8 }
 									texture_density = 2
@@ -149,33 +133,28 @@
 									autoresize = no
 
 									text = "PERSONAL_BELIEFS_PERSONAL_TENETS_HEADING"
-									using = tooltip_ne
+									align = nobaseline
 									using = Font_Size_Medium
+									using = tooltip_ne
 								}
 
 								expand = {}
 
 								text_single = {
-									margin_bottom = 2
-
 									text = "[PersonalBeliefsWindow.GetPersonalTenetsTitle]"
 									tooltip = "[PersonalBeliefsWindow.GetCharacter.GetPersonalTenetSlotsBreakdown]"
-									using = tooltip_ne
+									align = nobaseline
 									using = Font_Size_Medium
+									using = tooltip_ne
 								}
 							}
 
-							
+
 							### PERSONAL TENETS
 							vbox = {
 								name = "personal_tenets_tutorial_uses_this"
-								margin = { 5 5 }
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
-
-								background = {
-									using = Background_Area
-								}
 
 								scrollbox = {
 									layoutpolicy_horizontal = expanding
@@ -221,12 +200,15 @@
 
 								vbox = {
 									layoutpolicy_vertical = expanding
+									
 									expand = {}
 
 									vbox = {
 										datacontext = "[PersonalBeliefsWindow.GetCharacter]"
 										margin_top = 20
 										spacing = 20
+
+										allow_outside = yes
 
 										hbox = {
 											margin_top = 5
@@ -276,13 +258,19 @@
 										}
 										expand = {}
 
-										widget_fulfillment_bar_horizontal = {}
+										widget_fulfillment_bar_horizontal = {
+											allow_outside = yes
+										}
+										
 										expand = {}
-
 									}
 								}
 
 							}
+						}
+
+						divider = {
+							layoutpolicy_vertical = expanding
 						}
 
 						### RIGHT SIDE
@@ -429,7 +417,7 @@
 								layoutpolicy_vertical = expanding
 								visible = "[PersonalBeliefsWindow.IsActiveTab( 'tab_doctrines' )]"
 								datacontext = "[GetPlayer.GetRite]"
-								
+
 								state = {
 									name = _show
 									using = Animation_FadeIn_Quick
@@ -552,7 +540,7 @@ types PersonalBeliefsWindowTypes
 
 		progresspie = {
 			name = "progress"
-			size = { 42 42 }
+			size = { 46 46 }
 
 			texture = "gfx/interface/progressbars/action_progress_thin_blue.dds"
 			framesize = { 128 128 }
@@ -573,7 +561,9 @@ types PersonalBeliefsWindowTypes
 			position = { 0 6 }
 
 			texture = "[Faith.GetTenetBackgroundSmallIcon( Rite.Self, TenetType.Self )]"
-				
+
+			using = Tenet_Glows_Small
+
 			### Sprite
 			proportional_icon = {
 				size = { 95% 95% }
@@ -609,7 +599,7 @@ types PersonalBeliefsWindowTypes
 		background = {
 			using = Background_Area
 		}
-		
+
 		vbox = {
 			layoutpolicy_vertical = expanding
 
@@ -660,13 +650,13 @@ types PersonalBeliefsWindowTypes
 
 				vbox = {
 					layoutpolicy_vertical = expanding
-					
+
 					text_single = {
 						alwaystransparent = yes
 
 						layoutpolicy_horizontal = expanding
 
-						text = "[TenetType.GetNameNoTooltip( Rite.Self )]"
+						text = "[TenetType.GetBaseNameNoTooltip]"
 						align = nobaseline
 						default_format = "#high"
 						using = Font_Size_Medium
@@ -730,11 +720,11 @@ types PersonalBeliefsWindowTypes
 				alpha = 0.5
 			}
 
-			state = {                          
-				name = min_glow  
-				next = max_glow  
-				duration = 1.6  
-				alpha = 0.3 
+			state = {
+				name = min_glow
+				next = max_glow
+				duration = 1.6
+				alpha = 0.3
 			}
 		}
 
@@ -769,12 +759,12 @@ types PersonalBeliefsWindowTypes
 				text_single = {
 					layoutpolicy_horizontal = expanding
 
-					text = "[TenetType.GetNameNoTooltip( Rite.Self )]"
+					text = "[TenetType.GetBaseNameNoTooltip]"
 					align = nobaseline
 					default_format = "#high"
 					using = Font_Size_Medium
 				}
-				
+
 				text_multi = {
 					margin_top = 10
 					margin_bottom = 10
@@ -881,7 +871,7 @@ types PersonalBeliefsWindowTypes
 							{
 								vbox = {
 									layoutpolicy_horizontal = expanding
-									margin_top = 5
+									margin_top = 15
 
 									text_multi = {
 										visible = "[PersonalBeliefsWindow.IsAddingPersonalTenet]"
@@ -943,68 +933,80 @@ types PersonalBeliefsWindowTypes
 			background = {
 				visible = "[GreaterThanOrEqualTo_CFixedPoint( ComplexBar.GetCurrentValue, ComplexBar.GetNeutralValue )]"
 				texture = "gfx/interface/progressbars/progress_standard.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 6 6 }
 			}
 
 			background = {
 				visible = "[LessThan_CFixedPoint( ComplexBar.GetCurrentValue, ComplexBar.GetNeutralValue )]"
 				texture = "gfx/interface/progressbars/progress_red.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 6 6 }
 			}
 		}
 	}
 
 	type personal_tenet_tooltip = object_tooltip_pop_out
 	{
-		widget = {
-			size = { 65 100 }
-			position = { 10 -10 }
+		blockoverride "header_additions"
+		{
+			widget = {
+				size = { 65 70 }
 
-			header_icon = {
-				blockoverride "header_texture"
-				{
-					# Raw size = 260x400 (25%)
+				icon = {
 					size = { 65 100 }
+					position = { 0 -15 }
 					texture = "[TenetType.GetIcon( Faith.Self )]"
 				}
 			}
 		}
-		blockoverride "header_additions"
-		{
-		}
 
 		blockoverride "title_text"
 		{
-			margin_top = 10
-			margin_left = 55
 			text = "PERSONAL_TENET_COOLTIP_HEADER"
+			default_format = "#T"
 		}
 
 		blockoverride "subtitle_text"
 		{
-			margin_bottom = 10
-			margin_left = 55
+			text = "[TenetType.GetHistoricalGlossary( Rite.Self )]"
+		}
+
+		blockoverride "concept_link"
+		{
 			text = "[personal_tenet|E]"
 		}
 
-		blockoverride "concept_link" {}
+		blockoverride "extra_data"
+		{
+			vbox_tenet_popularity_and_status = {
+				margin_bottom = 15
+			}
+		}
 
-		blockoverride "main_description"
+		blockoverride "description_text"
+		{
+			text = "PERSONAL_TENET_COOLTIP_DESCRIPTION"
+		}
+
+		# Click hints are shown in the tenet_tooltip_footer and tenets have no shortcuts, so drop these empty textboxes and their margins
+		blockoverride "input_info" {}
+
+		blockoverride "tooltip_text_shortcut"
+		{
+			visible = no
+		}
+
+		blockoverride "extra_data_after_description"
 		{
 			vbox = {
 				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
-
-				text_multi = {
-					max_width = 400
-					min_width = 300
-					layoutpolicy_horizontal = expanding
-
-					text = "[TenetItem.GetTenetStatus]"
-					align = nobaseline
-					autoresize = yes
-				}
+				margin_bottom = 15
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
+					margin_top = 15
+
 					text_single = {
 						text = "PERSONAL_TENET_COOLTIP_RITE_TENET_EFFECTS"
 						align = nobaseline
@@ -1019,17 +1021,12 @@ types PersonalBeliefsWindowTypes
 						}
 						using = tooltip_es
 					}
+
 					expand = {}
 				}
 
-				text_multi = {
-					max_width = 400
-					min_width = 300
-					layoutpolicy_horizontal = expanding
-
-					text = "PERSONAL_TENET_COOLTIP_DESCRIPTION"
-					align = nobaseline
-					autoresize = yes
+				textbox_religion_flavor_description = {
+					text = "TENET_TYPE_GENERAL_TOOLTIP_DESCRIPTION"
 				}
 
 				block "tenet_tooltip_footer" {}

@@ -65,3 +65,5 @@
  confederations_desc: "#T Blöcke & Bünde#!\nZeigt alle [blocs|E] und [confederations|E] auf der Karte."
  clerical_regions: "Kirchenregionen"
  clerical_regions_desc: "#T Kirchenregionen#!\nZeigt alle [clerical_regions|E] an, die es derzeit gibt; sie fallen jeweils unter die Gerichtsbarkeit eines [Concept('clerical_title', 'Kirchentitels')|E]."
+ faith_mapmode_holy_sites_tt: "#T Heilige Stätten anzeigen#!\n#I Klicken zum Anzeigen#!"
+ faith_mapmode_religious_heads_tt: "#T Religiöse Oberhäupter anzeigen#!\n#I Klicken zum Anzeigen#!"

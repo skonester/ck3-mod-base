@@ -120,7 +120,7 @@
  mpo_nerge.1015.c: "逃跑是它们的本能，让它们重返荒野吧。"
  mpo_nerge.1015.d: "[hunter_1.GetFirstNameNoTooltip]和[hunter_2.GetFirstNameNoTooltip]将为这些损失付出代价。"
  mpo_nerge.1020.t: "分散的猎物"
- mpo_nerge.1020.desc: "“虽然我们取得了实实在在的进展，但我担心以后的[activity.Custom('GetAnimalPlural')]将所剩无几，”[master_of_hunt.GetFirstName]解释道。“我不希望让这片土地变得荒芜。”\n\n我们已经猎杀了足够的[activity.Custom('GetAnimal')]，足以让我们度过好几个月，但随着它们数量的减少，狩猎也变得乏味起来。[master_of_hunt.GetFirstNameNoTooltip]已经指示骑手去寻找更多的兽群，但[activity.Custom('GetAnimalPlural')]已经越来越稀少，且分布零散。"
+ mpo_nerge.1020.desc: "“虽然我们取得了实实在在的进展，但我担心以后的[activity.Custom('GetAnimalPlural')]将所剩无几，”[master_of_hunt.GetFirstName]解释道。“我不希望让这片土地变得荒芜。”\n\n我们已经猎杀了足够的[activity.Custom('GetAnimalPlural')]，足以让我们度过好几个月，但随着它们数量的减少，狩猎也变得乏味起来。[master_of_hunt.GetFirstNameNoTooltip]已经指示骑手去寻找更多的兽群，但[activity.Custom('GetAnimalPlural')]已经越来越稀少，且分布零散。"
  mpo_nerge.1020.a: "取我们所需，其余的随它们去吧。"
  mpo_nerge.1020.a.tt: "部分[activity.Custom('GetAnimalPlural')]被放过以重新繁衍"
  mpo_nerge.1020.b: "心慈手软意味着弱小。我们必须狩猎！"

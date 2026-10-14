@@ -86,7 +86,7 @@ pam_antipope_events.0001 = {
 		hidden_effect = {
 			every_player = {
 				limit = {
-					faith.religion = religion:christianity_religion
+					faith.religion = scope:antipope.religion
 					NOR = {
 						this = scope:sponsor
 						this = scope:antipope
@@ -101,7 +101,7 @@ pam_antipope_events.0001 = {
 	}
 }
 
-# Letter notification to Catholic players when a new Antipope is declared
+# Letter notification to players of the Antipope's religion when a new Antipope is declared
 pam_antipope_events.0002 = {
 	type = letter_event
 	opening = pam_antipope_events.0002.opening

@@ -12191,8 +12191,8 @@
  dynn_Thanthoong: "Thanthoong"
  #House Name Rules:
  cadet_name_style_primary_title: "[new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
- cadet_name_style_barony_dynasty: "[new_house_head.GetHouse.GetDynasty.GetNameNoTooltip] de [location.GetBaronyNameExplicitlyNoTooltip]"
- cadet_name_style_county_dynasty: "[new_house_head.GetHouse.GetDynasty.GetNameNoTooltip] de [location.GetCounty.GetTitle.GetBaseNameNoTierNoTooltip]"
+ cadet_name_style_barony_dynasty: "[new_house_head.GetHouse.GetDynasty.GetBaseNameNoTooltip] de [location.GetBaronyNameExplicitlyNoTooltip]"
+ cadet_name_style_county_dynasty: "[new_house_head.GetHouse.GetDynasty.GetBaseNameNoTooltip] de [location.GetCounty.GetTitle.GetBaseNameNoTierNoTooltip]"
  dynn_Padmavamsa: "Padmavamsa"
  dynn_Vorovangsa: "Vorovangsa"
  dynn_phra: "Phra"

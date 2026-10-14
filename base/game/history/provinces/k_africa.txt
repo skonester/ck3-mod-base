@@ -106,9 +106,6 @@
 			barracks_01
 		}
 	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02

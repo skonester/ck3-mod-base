@@ -17,7 +17,7 @@
 		### TENET PICKED
 		button = {
 			visible = "[Not( TenetItem.IsEmpty )]"
-			size = { 74 90 }
+			size = { 72 88 }
 			parentanchor = center
 
 			widget = {
@@ -30,7 +30,7 @@
 
 				highlight_icon = {
 					name = "tenet_bg"
-					size = { 74 90 }
+					size = { 72 88 }
 					parentanchor = center
 
 					texture = "[Faith.GetTenetBackgroundSmallIcon( Rite.Self, TenetType.Self )]"
@@ -49,7 +49,7 @@
 
 			button_tenet_small = {
 				name = "activity_tenet_item_filled"
-				size = { 74 90 }
+				size = { 72 88 }
 				parentanchor = center
 
 				block "activity_tenet_item_onclick"
@@ -81,7 +81,7 @@
 
 			highlight_icon = {
 				parentanchor = center
-				size = { 74 90 }
+				size = { 72 88 }
 				texture = "gfx/interface/icons/faith_tenets/tenet_banner_known_neutral.dds"
 
 				button_round = {
@@ -295,6 +295,7 @@
 	}
 
 	type widget_activity_conclusion_doctrine = widget {
+		datacontext = "[GetPlayer.GetFaith]"
 		size = { 52 105 }
 
 		widget = {

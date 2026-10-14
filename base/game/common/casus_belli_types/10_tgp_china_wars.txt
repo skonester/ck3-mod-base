@@ -2793,8 +2793,6 @@ silk_road_vassalization_cb = {
 		# Tell the Romans to stop going adventuring into the steppe for no gods-damned reason.
 		multiply = byzantium_conquests_ai_score_value
 
-		add = frankokratia_leader_protection_value #Set back to 0. Declaring war on the frankokratia leader can really ruin the whole thing
-
 		# If the Silk Road is doing well, absolutely attack it
 		if = {
 			limit = {
@@ -2808,6 +2806,8 @@ silk_road_vassalization_cb = {
 			}
 			add = 100
 		}
+
+		multiply = frankokratia_leader_protection_value #Set back to 0. Declaring war on the frankokratia leader can really ruin the whole thing
 	}
 }
 

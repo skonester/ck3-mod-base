@@ -282,7 +282,7 @@
  playdate.5009.c.failure: "Your words fall on deaf ears"
 
  playdate.5010.t: "That's My [embarrassed_child.Custom('GirlBoy')|U]!"
- playdate.5010.desc: ""Get him! Push her into the wall! That's it!" [obnoxious_parent.GetFirstNamePossessive] voice booms out across the courtyard. [obnoxious_parent.GetSheHe|U] has posted up in the corner to watch [embarrassed_child.GetFirstName] play in the game of football, their bias towards the [embarrassed_child.Custom('GirlBoy')] clear to see.\n\nSuffice to say, [obnoxious_parent.GetFirstNameNoTooltip] is taking it a #EMP tad#! too seriously.\n\n"Hey! No pushing [embarrassed_child.Custom('HerHim')], that's cheating!" [obnoxious_parent.GetFirstNamePossessiveNoTooltip] histrionics are really beginning to grate."
+ playdate.5010.desc: ""Get him! Push her into the wall! That's it!" [obnoxious_parent.GetFirstNamePossessive] voice booms out across the courtyard. [obnoxious_parent.GetSheHe|U] has posted up in the corner to watch [embarrassed_child.GetFirstName] play in the game of football, their bias towards the [embarrassed_child.Custom('GirlBoy')] clear to see.\n\nSuffice to say, [obnoxious_parent.GetFirstNameNoTooltip] is taking it a #EMP tad#! too seriously.\n\n"Hey! No pushing [embarrassed_child.GetHerHim], that's cheating!" [obnoxious_parent.GetFirstNamePossessiveNoTooltip] histrionics are really beginning to grate."
  playdate.5010.a: "[obnoxious_parent.GetHerHis|U] arms are windmilling an awful lot..."
  playdate.5010.a_flavor: "I'll pretend that [obnoxious_parent.GetFirstNameNoTooltip] hit me!"
  playdate.5010.a.tt: "If I were to pretend an errant swing hit me, perhaps [obnoxious_parent.GetSheHe] would sod off?"

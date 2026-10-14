@@ -2651,6 +2651,7 @@ types PortraitTypes
 	type portrait_status_icons = flowcontainer {
 		ignoreinvisible = yes
 		visible = "[Character.IsValid]"
+		visible_at_creation = no
 
 		block "direction"
 		{

@@ -869,6 +869,60 @@ hasan_sabbah.1050 = {
 		}
 		if = {
 			limit = {
+				exists = scope:assassins
+				title:b_alamut = {
+					is_leased_out = no
+					holder ?= { top_liege = root }
+				}
+			}
+			show_as_tooltip = {
+				title:b_alamut = { lease_out_to_holy_order = scope:assassins }
+			}
+			hidden_effect = {
+				if = {
+					limit = { title:b_alamut.holder != root }
+					create_title_and_vassal_change = {
+						type = leased_out
+						save_scope_as = alamut_change
+						add_claim_on_loss = no
+					}
+					title:b_alamut = {
+						change_title_holder_include_vassals = {
+							holder = root
+							change = scope:alamut_change
+						}
+					}
+					resolve_title_and_vassal_change = scope:alamut_change
+				}
+				title:b_alamut = { lease_out_to_holy_order = scope:assassins }
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:caliph
+				scope:caliph = {
+					is_alive = yes
+					is_landed = no
+				}
+				scope:caliph.faith = root.faith
+				root.faith.religious_head ?= { rite != root.rite }
+			}
+			if = {
+				limit = { has_pam_dlc_trigger = yes }
+				custom_tooltip = declare_antipope_decision_effect_tt
+			}
+			else = {
+				custom_tooltip = declare_antipope_decision_effect_no_puppet_tt
+			}
+			hidden_effect = {
+				pam_establish_antipope_effect = {
+					ANTIPOPE = scope:caliph
+					SPONSOR = root
+				}
+			}
+		}
+		else_if = {
+			limit = {
 				exists = scope:caliph
 				scope:caliph = {
 					is_landed = no

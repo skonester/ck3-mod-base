@@ -27,3 +27,4 @@
  generic_badge_prosperity_desc: "Insigne de pèlerin brillant, acquis en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], qui, selon la rumeur, offrirait la prospérité à celui qui le porte."
  generic_badge_virility_desc: "Insigne de pèlerin qui rayonne de ferveur. Acquis en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], il conférerait, selon la rumeur, davantage de virilité à celui qui le porte."
  generic_badge_wisdom_desc: "Insigne de pèlerin énigmatique, acquis en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], qui, selon la rumeur, conférerait sagesse et prudence à celui qui le porte."
+ pilgrim_badge_holy_site_faith_tt: "Impossible à équiper, car votre [faith|El] ne considère pas [artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] comme un [holy_site|El]"

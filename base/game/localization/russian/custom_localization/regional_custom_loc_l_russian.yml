@@ -432,7 +432,7 @@
  flower_type_japanese_iridaceae: "ирис"
  flower_type_korean_bellflower: "ширококолокольчик"
  flower_type_korean_rhododendron: "рододендрон"
- flower_type_hokkaido_alpine: "цветок жимолости"
+ flower_type_hokkaido_alpine: "альпийский цветок Хоккайдо"
  flower_type_tropical_rafflesia: "раффлезия"
  flower_type_nepenthes_pitcher: "кувшинчик"
  flower_type_jade_vine: "нефритовая лоза"
@@ -469,7 +469,7 @@
  flower_type_japanese_iridaceae_plural: "ирисы"
  flower_type_korean_bellflower_plural: "ширококолокольчики"
  flower_type_korean_rhododendron_plural: "рододендроны"
- flower_type_hokkaido_alpine_plural: "цветки жимолости"
+ flower_type_hokkaido_alpine_plural: "альпийские цветы Хоккайдо"
  flower_type_tropical_rafflesia_plural: "раффлезии"
  flower_type_nepenthes_pitcher_plural: "кувшинчики"
  flower_type_jade_vine_plural: "нефритовые лозы"
@@ -677,7 +677,7 @@
  mythical_creature_north_europe_giant_lower: "гигант"
  ##Gotland
  mythical_creature_north_europe_bysn_lower: "бисн"
- mythical_creature_north_europe_disma_lower: "гоблины"
+ mythical_creature_north_europe_disma_lower: "гоблин"
  #South Europe
  mythical_creature_south_europe_basilisk_lower: "василиск"
  mythical_creature_south_europe_lhombri_lower: "человек-рыба"

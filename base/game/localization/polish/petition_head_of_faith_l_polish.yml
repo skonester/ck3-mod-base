@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "Zażądaj ekskomuniki"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "Cel"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "Wyruszysz w podróż do miejsca znanego jako [recipient.GetCapitalLocation.GetName] i złożysz petycję do osoby, którą jest [recipient.GetTitledFirstName], o [Concept('excommunicate', 'ekskomunikowanie')|E] osoby znanej jako [secondary_recipient.GetTitledFirstName]"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUINameNotMe] wyruszy w podróż do miejsca znanego jako [recipient.GetCapitalLocation.GetName] i złoży petycję do osoby, którą jest [recipient.GetTitledFirstName], o [Concept('excommunicate', 'ekskomunikowanie')|E] osoby znanej jako [secondary_recipient.GetTitledFirstName]"
  petition_head_of_faith_decision_option_repentance: "Znieś ekskomunikę"
  petition_head_of_faith_decision_option_excommunication: "Zażądaj ekskomuniki"
  petition_head_of_faith_decision_option_repentance_desc: "Poproś o zniesienie nałożonej na ciebie [Concept('excommunication', 'ekskomuniki')|E]."

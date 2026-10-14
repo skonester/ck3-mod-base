@@ -213,6 +213,8 @@
  CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "Zniżka za [legitimacy_level|El]"
  TITLE_VIEW_APPOINTMENT: "Zobacz sukcesję"
  TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Zobacz sukcesję mianowania#!\nTytuł przejmie [Title.GetHolder.GetPrimaryTitle.GetName]"
+ TITLE_VIEW_APPOINTMENT_FOLLOW_PRIMARY: "[Title.GetNameNoTooltip] – ten [title|El] zostanie odziedziczony wraz z [Concept('primary_title', 'tytułem głównym')|E] osoby znanej jako [Title.GetHolder.GetShortUINameNotMe] #low ([Title.GetHolder.GetPrimaryTitle.GetName])#!"
+ TITLE_VIEW_PRIMARY_APPOINTMENT_GROUP: "Dziedziczone wraz z tym [Concept('title', 'tytułem')|E]:"
  ADD_LAWS_TOOLTIP: "#T Dodaj prawo sukcesyjne"
  CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X [government|E] twojego [top_liege_possessive|El] nie pozwala [Concept('vassals', 'wasalom')|E] na posiadanie [Concept('royal_court', 'dworu monarszego')|E]#!"
  CREATE_TITLE_PIETY_LEVEL: "Wymóg: [GetPietyLevelName('(int32)$LEVEL|q$')|l]"

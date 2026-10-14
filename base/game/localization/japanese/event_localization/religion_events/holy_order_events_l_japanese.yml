@@ -81,6 +81,7 @@
  holy_order.2005.desc: "[child.GetTitledFirstNamePossessive]の滞在はいつもより長く続いた。[child.Custom('DaughterSon')]が[ROOT.Char.Custom('GetCourt')]にすっかり腰を落ち着け、私の食べ物を貪り、使用人たちに嫌がらせをするようになってきてようやく、私は[holy_order.GetName]に戻る話を切り出した。残念なことに、[child.GetHerHis|U]は熱心に返事をした。\n\n「聞いてないの、[ROOT.Char.Custom('MotherFather')]さん？[grandmaster.GetTitledFirstName]さんは優しいから、[child.GetFaith.GetName]のことはもういいんだって！やっと家族のいる家に帰ってこれたよ」"
  holy_order.2005.a: "お、お前は…ここに残るのか？"
  holy_order.destroyed_title: "騎士修道会の解散"
+ holy_order.destroyed_title_monastic: "修道会の解散"
  holy_order.2010.t: "新たな修道会"
  holy_order.2010.desc: "隠者、神秘主義者、そして古い修道会に不満を抱いた弟子たちが[barony.GetNameNoTier]に集まり、長年にわたって荒野に新たな住まいを築いてきた。[leader.GetFirstName]という名の[leader.GetWomanMan]が、この芽吹きつつある修道会——[leader.GetPrimaryTitle.GetName]の長として、自然に頭角を現しつつある。だが、このような動きについて、#EMP 私#!はまだ裁可を下していない。加えて、この修道会の生活様式の中核として掲げるべき聖なる戒律も、私はまだ提案していない。\n\n[barony.GetNameNoTierNoTooltip]に集うこの清らかな信徒たちの合唱は、何を歌い上げるべきだろうか？彼らは何を全身全霊で実践し、何について考え、書き記すべきだろうか？そして、誰が彼らを導くべきだろうか？"
  holy_order.2010.4: "[tenet_4.GetName( order_rite )]を実践し、修道者[monk_tenet_1.GetFirstNameNoTooltip]が導く。"

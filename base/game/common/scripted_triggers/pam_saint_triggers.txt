@@ -11,6 +11,7 @@
 # pam_county_has_actor_primary_site_trigger
 # pam_has_free_adjacent_site_trigger
 # pam_needs_hof_approval_for_canonization_trigger
+# pam_hof_thinks_well_of_canonizer_trigger
 # pam_saint_is_buried_in_my_lands_trigger
 # pam_can_extract_relic_from_saint_trigger
 # pam_saint_relic_drawable_trigger
@@ -184,6 +185,22 @@ pam_has_free_adjacent_site_trigger = {
 pam_needs_hof_approval_for_canonization_trigger = {
 	exists = faith.religious_head
 	NOT = { faith.religious_head = root }
+}
+
+# A Head of Faith who thinks poorly of the actor will not entertain the petition at all. Vacuously true where approval is not sought anyway - no Head of Faith, or the actor holds the office - and for a puppeted Head of Faith, who cannot refuse their puppeteer (mirrors the certain-approval branch in the canonize decision).
+pam_hof_thinks_well_of_canonizer_trigger = {
+	trigger_if = {
+		limit = {
+			pam_needs_hof_approval_for_canonization_trigger = yes
+			NOT = { faith.religious_head.puppeteer ?= root }
+		}
+		faith.religious_head ?= {
+			opinion = {
+				target = root
+				value >= high_positive_opinion
+			}
+		}
+	}
 }
 
 # Is this burial province within $EXTRACTOR$'s realm (held by them or a vassal/sub-vassal)? EXTRACTOR is passed in because the relic picker runs with root = none.

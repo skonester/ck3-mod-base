@@ -26,7 +26,7 @@ heresy_pulse.0001 = {
 					any_faith_rite = {
 						this != root.main_rite
 						rite_counties >= 1
-						exists = head_of_rite
+						head_of_rite ?= { is_ai = yes }
 					}
 				}
 				# Pluralism severity scaling

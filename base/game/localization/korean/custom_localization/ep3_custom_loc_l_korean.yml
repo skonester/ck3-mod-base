@@ -73,7 +73,7 @@
  chariot_comeback_soaring: "뒤처진 무리에서 쏜살같이 두각을 나타내며 선두 주자들과 용맹하게 맞섭니다"
  chariot_comeback_propelling: "가장 뒤에 있다가 무섭게 속도를 올려 선두의 전차 선수들과 결연하게 순위를 겨룹니다"
  throne_room_chrysotriklinos: "[Glossary( '크리소트리클리노스', 'CHRYSOTRIKLINOS_GLOSS')]"
- CHRYSOTRIKLINOS_GLOSS: "황금 접견관으로도 불리는 #bold 크리소트리클리노스#!는 콘스탄티노폴리스 대궁전의 대형 식장이었습니다"
+ CHRYSOTRIKLINOS_GLOSS: "황금 접견관으로도 불리는 #bold 크리소트리클리노스#!는 콘스탄티노폴리스 대궁전의 대형 식장이었습니다."
  throne_room_default: "알현실"
  camp_purpose_type_wanderer: "방랑자"
  camp_purpose_type_scholar: "학자"

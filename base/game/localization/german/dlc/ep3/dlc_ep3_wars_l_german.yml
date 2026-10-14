@@ -75,7 +75,7 @@
  ep3_laamp_apprehend_adventurer_cb: "Gefangennahme widersetzen"
  ep3_laamp_apprehend_adventurer_cb_victory_desc: "[attacker.GetShortUIName|U] wird [defender.GetShortUIName] absetzen"
  ep3_laamp_apprehend_adventurer_cb_white_peace_desc: "[attacker.GetShortUIName|U] erhält einen [truce|E] mit [defender.GetShortUIName]"
- ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U] wird [attacker.GetShortUIName] einkerkern, sämtlichen Besitz beschlagnahmen und das [camp|E] auflösen"
+ ep3_laamp_apprehend_adventurer_cb_defeat_desc: "[defender.GetShortUIName|U] wird [attacker.GetShortUIName] einkerkern und sämtlichen Besitz beschlagnahmen"
  CLAIMED_TITLES_DESC: "[Concept('claimed', 'Beanspruchte')|E] [titles|E]"
  CLAIMED_DE_JURE_TITLES_DESC: "[Concept('claimed', 'Beanspruchte')|E] [Concept('de_jure', 'De-jure')|E]-[titles|E]"
  GREEK_ANARCHY_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective|U]e Beschlagnahmung des kaiserlichen „[TITLE.GetBaseName]“"

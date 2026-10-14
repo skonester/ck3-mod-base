@@ -65,3 +65,5 @@
  confederations_desc: "#T 陣営と連合#!\nマップ上にすべての[blocs|E]と[confederations|E]を表示します。"
  clerical_regions: "聖職管区"
  clerical_regions_desc: "#T 聖職管区#!\n[clerical_title|E]の管轄下に置かれている、現在存在するすべての[clerical_regions|E]を表示します。"
+ faith_mapmode_holy_sites_tt: "#T 聖地を表示#!\n#I クリックして表示#!"
+ faith_mapmode_religious_heads_tt: "#T 宗教指導者を表示#!\n#I クリックして表示#!"

@@ -51,6 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T Posiadane ziemie: $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNotMeNoTooltip] oraz [Character.GetHerHis] [tributaries|El] posiadają $OWNED_COUNTIES|V0$ z $TOTAL_COUNTIES|V0$ [Concept('counties', 'hrabstw')|E] na terenie miejsca, w którym trwa [Situation.GetNameNoTooltip|l]"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T Siła wojskowa: #!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "[characters|E], na które ma to wpływ"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic Ta [natural_disaster|El] cię nie dotyczy.#!"
  SITUATION_RECOMMENDATIONS_HEADER: "Zalecenia"
  natural_disaster_flood_severity_type: "Dotkliwość powodzi:"
  natural_disaster_earthquake_severity_type: "Dotkliwość trzęsienia ziemi:"

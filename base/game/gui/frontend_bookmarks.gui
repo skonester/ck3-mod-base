@@ -1,4 +1,4 @@
-widget = {
+﻿widget = {
 	name = "frontend_bookmarks"
 	size = { 100% 100% }
 
@@ -17,6 +17,13 @@ widget = {
 	state = {
 		name = _hide
 		using = Animation_FadeOut_Standard
+	}
+
+	# Avoids race condition startup error where this state name is accessed before existing
+	state = {
+		name = "bookmarks_buttons_shimmer"
+		duration = 0
+		position = { 0 0 }
 	}
 
 	#Background
@@ -258,7 +265,6 @@ widget = {
 									on_start = "[PdxGuiWidget.FindChild('bookmark_character_visual_stack').TriggerAnimation('bookmark_character_visual_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('banner_hover_glow').TriggerAnimation('bookmark_character_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('size_widget').TriggerAnimation('bookmark_character_hover_leave')]"
-									duration = 0.2
 									using = Animation_Curve_Default
 								}
 
@@ -278,7 +284,6 @@ widget = {
 									on_start = "[PdxGuiWidget.FindChild('bookmark_character_visual_stack').TriggerAnimation('bookmark_character_visual_hover_leave')]"
 									on_start = "[PdxGuiWidget.FindChild('banner_hover_glow_asia').TriggerAnimation('bookmark_character_hover_leave_asia')]"
 									on_start = "[PdxGuiWidget.FindChild('size_widget').TriggerAnimation('bookmark_character_hover_leave_asia')]"
-									duration = 0.2
 									using = Animation_Curve_Default
 								}
 

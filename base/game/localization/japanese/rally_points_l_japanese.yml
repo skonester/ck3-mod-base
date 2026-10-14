@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! 招集できる[armies|E]がいません#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! 招集できる[men_at_arms|E]がいません#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! $ARMY_AUTOMATION_FEATURE_NAME$が有効であるあいだは招集できません#!"
- RAISE_TROOPS_EXTRA_INFO: "#I Ctrl+クリックで[Concept( 'supply_limit', '補給上限')|E]に基づいて[armies|E]を#bold 分割しない#!#!\n#I 右クリックで選択した特定の場所に[armies|E]を招集#!"
+ RAISE_TROOPS_EXTRA_INFO: "[Concept( 'supply_limit', '補給上限')|E]を超える[armies|E]は分割されることがあります。\n\n#I Ctrl+クリックで[Concept( 'supply_limit', '補給')|E]による分割をせずに[armies|E]を招集#!\n#I 右クリックで選択した特定の場所に[armies|E]を招集#!"

@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "Вперед!"
  become_landless_adventurer_decision_hof_tt: "Вы не являетесь [Concept( 'head_of_faith', 'главой конфессии' )|E]"
  become_landless_adventurer_decision_tier_tt: "Вы являетесь [Concept( 'count', 'графом' )|E] или [Concept( 'duke', 'герцогом' )|E]"
- become_landless_adventurer_decision_domain_size_tt: "В вашем [Concept( 'domain', 'домене' )|E] не более #V 3#! [Concept( 'counties', 'графств' )|E]"
+ become_landless_adventurer_decision_domain_size_tt: "В вашем [Concept( 'domain', 'домене' )|E] не более #V 3#! [Concept( 'holdings', 'владений' )|E]"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value Все ваши [Concept( 'landed', 'землевладельческие' )|E] [Concept( 'titles', 'титулы' )|E] и [Concept('vassals', 'вассалов' )|E] получит [THIS.Char.GetName]#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value Все ваши [Concept( 'landed', 'землевладельческие' )|E] [Concept( 'titles', 'титулы' )|E] получит новый местный [Concept( 'ruler', 'правитель' )|E]#!"
  wipe_slate_decision: "Начать с чистого листа"

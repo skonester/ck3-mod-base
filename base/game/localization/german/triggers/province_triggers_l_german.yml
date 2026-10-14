@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "Hat ein stationiertes Regiment"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "Hat ein stationiertes Regiment der Art „$MEN_AT_ARMS_TYPE$“"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ ist unter derzeitigem Reichsgesetz erlaubt"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ ist unter derzeitigem Reichsgesetz nicht erlaubt"
  IS_CAPITAL_BARONY_TRIGGER: "Baronie ist Hauptsitz"
  IS_HOLY_SITE_TRIGGER: "Ist eine [holy_site|E]"
  NOT_IS_HOLY_SITE_TRIGGER: "Ist #bold keine#! [holy_site|E]"

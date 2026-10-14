@@ -19,8 +19,6 @@
  COUNTIES_WITH_CORE_TENET_SUBHEADER: "#S [counties|E] with this [core_tenet|E]:#!"
  CHARACTERS_WITH_PERSONAL_TENET: "#T If [personal_tenet|E]:#!"
  CHARACTERS_WITH_PERSONAL_TENET_SUBHEADER: "#S If [personal_tenet|E]:#!"
- CLERGY_OF_FAITH_MODIFIER: "#T All [FAITH.GetAdjective] [clergy|E]:#!"
- CLERGY_OF_UNKNOWN_FAITH_MODIFIER: "#T All Faith [clergy|E]:#!"
  CLERGY_OF_FAITH_MODIFIER_SUBHEADER: "#S All [FAITH.GetAdjective] [clergy|E]:#!"
  CLERGY_OF_UNKNOWN_FAITH_MODIFIER_SUBHEADER: "#S All Faith [clergy|E]:#!"
  CHARACTERS_OF_FAITH_HOLY_SITE_MODIFIER: "#S All [Faith.GetAdherentNamePlural]#! #weak ([eminent_holy_site|E] only)#!#bold :#!"
@@ -112,8 +110,10 @@
  fervor_gain_clerical_title_expanded: "[clerical_title|E] Expanded"
  fervor_gain_clerical_title_split: "[clerical_title|E] Split"
 
- FAITH_DOCTRINE_GENERAL_TOOLTIP: "[DoctrineType.GetEffectsDescription( GetPlayer.GetRite )]\n\n[DoctrineType.GetDescription( GetPlayer.GetFaith )|F]"
- TENET_TYPE_GENERAL_TOOLTIP: "[TenetType.GetEffectsDescription( Rite.Self )]\n\n[TenetType.GetDescription( Rite.Self )|F]"
+ FAITH_DOCTRINE_GENERAL_TOOLTIP: "[DoctrineType.GetEffectsDescription( GetPlayer.GetRite )]"
+ FAITH_DOCTRINE_GENERAL_TOOLTIP_DESCRIPTION: "[DoctrineType.GetDescription( GetPlayer.GetFaith )|F]"
+ TENET_TYPE_GENERAL_TOOLTIP: "[TenetType.GetFaithEffectsDescription( Rite.Self )]"
+ TENET_TYPE_GENERAL_TOOLTIP_DESCRIPTION: "[TenetType.GetDescription( Rite.Self )|F]"
  FAITH_TENET_ITEM_POPULARITY_TT_NEW_LINE: "\n\n$FAITH_TENET_ITEM_POPULARITY_SHORT$"
 
  HOLY_SITE_CHARACTER_MODIFIER_NAME: "[holy_site|E] — $NAME$"
@@ -179,7 +179,6 @@
  holy_site_alexandria_name: "Alexandria"
  holy_site_antioch_name: "Antioch"
  holy_site_aksum_name: "Aksum"
- holy_site_napata_name: "Napata"
  holy_site_dwin_name: "Dwin"
  holy_site_koloneia_name: "Koloneia"
  holy_site_beirut_name: "Beirut"
@@ -189,8 +188,6 @@
  holy_site_kerala_effects: "County Conversion Speed: #P +50%#!"
  holy_site_suenik_name: "Dwin"
  holy_site_dvin_name: "Dwin"
- holy_site_colonea_name: "Koloneia"
- holy_site_armagh_name: "Armagh"
  holy_site_iona_name: "Iona"
  holy_site_iona_effects: "County Conversion Speed in British Isles: #P +30%#!"
  holy_site_visoki_name: "Visoki"
@@ -212,12 +209,10 @@
  holy_site_tinmallal_name: "Tinmallal"
  holy_site_nadjaf_name: "Nadjaf"
  holy_site_damascus_name: "Damascus"
- holy_site_siffa_name: "Siffa"
  holy_site_basra_name: "Basra"
  holy_site_nizwa_name: "Nizwa"
  holy_site_sijilmasa_name: "Sijilmasa"
  holy_site_bahrein_name: "Bahrein"
- holy_site_yamama_name: "Yamama"
  holy_site_sinjar_name: "Sinjar"
  holy_site_baalbek_name: "Baalbek"
  holy_site_lalish_name: "Lalish"
@@ -225,7 +220,6 @@
  holy_site_dashtestan_name: "Dashtestan"
  holy_site_zozan_name: "Zozan"
  holy_site_kufa_name: "Kufa"
- holy_site_qom_name: "Qom"
 
  #Holy Sites: Judaism
  holy_site_semien_name: "Semien"
@@ -249,27 +243,17 @@
 
  #Holy Sites: Buddhism
  holy_site_bodh_gaya_name: "Bodh Gaya"
- holy_site_kusinagara_name: "Lumbini"
  holy_site_sarnath_name: "Sarnath"
  holy_site_sanchi_name: "Sanchi"
  holy_site_ajanta_name: "Ajanta"
- holy_site_sagya_name: "Sa'gya"
  holy_site_dagon_name: "Dagon"
  holy_site_pagan_name: "Pagan"
  holy_site_atamasthana_name: "Atamasthana"
  holy_site_amaravati_name: "Amaravati"
- holy_site_ava_name: "Ava"
- holy_site_sittaung_name: "Sittaung"
- holy_site_shaolin_name: "Shaolin"
  holy_site_lingyin_name: "Lingyin"
  holy_site_wutai_name: "Mount Wutai"
- holy_site_emei_name: "Mt. Emei"
- holy_site_jiuhua_name: "Mt. Jiuhua"
- holy_site_putuo_name: "Mount. Putuo"
  holy_site_luoyang_name: "Luoyang"
- holy_site_bulguksa_name: "Bulguksa"
  holy_site_xi_an_name: "Xi'an"
- holy_site_magadha_name: "Magadha"
  holy_site_dali_name: "Dali"
  holy_site_mungyeong_name: "Mungyeong"
  holy_site_borobudur_name: "Borobudur"
@@ -289,15 +273,9 @@
  holy_site_dwarka_name: "Dwarka"
  holy_site_angkor_name: "Angkor"
  holy_site_bantey_srei_name: "Bantey Srei"
- holy_site_prambanan_name: "Prambanan"
- holy_site_preah_vihear_name: "Preah Vihear"
  holy_site_my_son_name: "My Son"
- holy_site_bumiayu_name: "Bumiayu"
  holy_site_khao_khlang_nai_name: "Khao Khlang Nai"
  holy_site_konarak_name: "Konarak"
- holy_site_shringeri_name: "Shringeri"
- holy_site_badrinath_name: "Badrinath"
- holy_site_puri_name: "Puri"
 
  #Holy sites: Jain
  holy_site_palitana_name: "Palitana"
@@ -346,9 +324,7 @@
 
  #Holy Sites: Norse
  holy_site_uppsala_name: "Uppsala"
- holy_site_lejre_name: "Lejre"
  holy_site_paderborn_name: "Paderborn"
- holy_site_zeeland_name: "Zeeland"
  holy_site_ranaheim_name: "Ranaheim"
  holy_site_jorvik_name: "Jórvík"
  holy_site_konugardr_name: "$cn_konugardr_NORSE$"
@@ -401,7 +377,6 @@
  holy_site_athens_name: "Athens"
  holy_site_carthage_name: "Carthage"
  holy_site_olympus_name: "Mount Olympus"
- holy_site_sparta_name: "Sparta"
  
 
  #Holy Sites: Zunist
@@ -417,13 +392,11 @@
  holy_site_gilgit_name: "Gilgit"
 
  # Holy Sites: Taoism
- holy_site_suzhou_name: "Suzhou"
  holy_site_mount_heng_name: "Mount Heng"
  holy_site_mount_longhu_name: "Mount Longhu"
  holy_site_mount_qingcheng_name: "Mount Qingcheng"
  holy_site_mount_tai_name: "Mount Tai"
  holy_site_mount_mian_name: "Mount Mian"
- holy_site_mount_kunyu_name: "Mount Kunyu"
  holy_site_mount_wudang_name: "Mount Wudang"
  holy_site_mount_qiyung_name: "Mount Qiyung"
  holy_site_luyi_name: "Luyi"
@@ -485,9 +458,7 @@
  holy_site_buru-sula_name: "Buru-Sula"
 
  holy_site_tengchong_name: "Tengchong"
- holy_site_shicheng_name: "Shicheng"
  holy_site_jinglong_name: "Jinglong"
- holy_site_jianchang_name: "Jianchang"
  holy_site_xuhen_name: "Xuhen"
 
  holy_site_zhaotong_name: "Zhaotong"
@@ -513,7 +484,6 @@
 
  holy_site_amandee_name: "Amandee" # 奄美嶽
  holy_site_sefa_utaki_name: "Sefa Utaki" # 斎場御嶽
- holy_site_tate_name: "Tate"
  holy_site_fuzhou_name: "Fuzhou"
 
  holy_site_iban_name: "Iban"
@@ -523,8 +493,6 @@
  holy_site_kutai_name: "Kutai"
  
  holy_site_qufu_name: "Qufu"
- holy_site_quzhou_name: "Quzhou"
- holy_site_linzi_name: "Linzi"
  holy_site_bianliang_name: "Bianliang"
 
  #Holy Sites: Kamuyism
@@ -550,7 +518,6 @@
 
  holy_site_gangganegara_name: "Gangganegara"
 
- holy_site_mogao_name: "Mogao"
 
  holy_site_sanuki_name: "Sanuki"
 
@@ -562,11 +529,8 @@
 
  holy_site_sunan_name: "Sunan"
 
- holy_site_gaeseong_name: "Gaeseong"
 
- holy_site_goseong_name: "Goseong"
 
- holy_site_cheongju_name: "Cheongju"
 
  holy_site_zunyi_name: "Zunyi"
 
@@ -586,17 +550,11 @@
 
  holy_site_nanning_name: "Nanning"
 
- holy_site_wehale_name: "Wehale"
 
- holy_site_dongting_name: "Dongting"
 
- holy_site_zhuolu_name: "Zhuolu"
 
- holy_site_turpan_name: "Turpan"
 
- holy_site_quanzhou_name: "Quanzhou"
 
- holy_site_awa_name: "Awa"
 
  holy_site_chupka_name: "Chupka"
 
@@ -604,9 +562,7 @@
 
  holy_site_ivatan_name: "$c_PHI_ivatan$"
 
- holy_site_hangzhou_name: "$c_hangzhou$"
 
- holy_site_danai_name: "$b_danai$"
 
  holy_site_nakkavaram_name: "$c_nakkavaram$"
 
@@ -751,7 +707,7 @@
  doctrine_no_head_desc: "It is utter folly to assume that any one person can truly comprehend the will of [ROOT.Faith.HighGodName]. We must follow our own hearts to discover what [ROOT.Faith.HighGodHerHis] plan for us is."
  doctrine_parameter_no_head_of_faith: "Does not have a [head_of_faith|E]"
  no_head_of_faith_name: "No [head_of_faith|E] [doctrine|E]"
- doctrine_parameter_minimum_fervor: "Fervor cannot go below #V $VALUE|0$%#!"
+ doctrine_parameter_minimum_fervor: "Fervor cannot go below #V $VALUE|0$%#! (only from the [mainline_rite|E])"
  doctrine_spiritual_head_name: "Spiritual"
  doctrine_spiritual_head_descriptive_name: "Spiritual Leadership"
  doctrine_spiritual_head_desc: "The physical world and the spiritual world are not alike. We must ensure the spiritual world has its own leader, to guide us and to protect our faith from being profaned by physical desires."
@@ -1144,10 +1100,14 @@
  doctrine_monasticism_forbidden_descriptive_name: "Forbid Monasticism"
  doctrine_monasticism_forbidden_desc: "This faith explicitly rejects monastic life. Taking the vows is forbidden, and those who bear the monastic trait are considered criminals in the eyes of the faith."
  monasticism_group_name: "Monasticism"
- doctrine_christianity_monasticism_latin_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_latin$\n\n[Glossary('Monasticism Historical Background','doctrine_monasticism_christianity_historical_desc')]"
- doctrine_christianity_monasticism_greek_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_greek$\n\n[Glossary('Monasticism Historical Background','doctrine_monasticism_christianity_historical_desc')]"
- doctrine_christianity_monasticism_default_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_default$\n\n[Glossary('Monasticism Historical Background','doctrine_monasticism_christianity_historical_desc')]"
- doctrine_monasticism_general_desc: "$tenet_monasticism_desc$\n\n[Glossary('Monasticism Historical Background','doctrine_monasticism_general_historical_desc')]"
+ doctrine_christianity_monasticism_latin_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_latin$"
+ doctrine_christianity_monasticism_latin_historical_glossary: "[Glossary('Monasticism','doctrine_monasticism_christianity_historical_desc')]"
+ doctrine_christianity_monasticism_greek_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_greek$"
+ doctrine_christianity_monasticism_greek_historical_glossary: "[Glossary('Monasticism','doctrine_monasticism_christianity_historical_desc')]"
+ doctrine_christianity_monasticism_default_desc: "$tenet_monasticism_desc$\n\n$pam_matthew_16_24_default$"
+ doctrine_christianity_monasticism_default_historical_glossary: "[Glossary('Monasticism','doctrine_monasticism_christianity_historical_desc')]"
+ doctrine_monasticism_general_desc: "$tenet_monasticism_desc$"
+ doctrine_monasticism_general_historical_glossary: "[Glossary('Monasticism','doctrine_monasticism_general_historical_desc')]"
  doctrine_monasticism_christianity_historical_desc: "Monasticism spread throughout the Catholic world during the Middle Ages, with monasteries established across Europe, North Africa, and the Middle East. Monks and nuns took vows of poverty, chastity, and obedience, living either as hermits in isolated cells or in communal houses under strict rules.\n\nThese institutions served multiple functions: preserving manuscripts and classical texts, providing education, operating hospitals and hospices, managing agricultural estates, and offering hospitality to travelers. Monastic orders like the Benedictines, Cistercians, and Carthusians each developed distinct traditions regarding prayer, work, and community life."
  doctrine_monasticism_general_historical_desc: "Monastic communities exist across many religious traditions, not only Christianity but also Buddhism, Hinduism, and Jainism. These institutions typically involve individuals withdrawing from ordinary society to pursue religious devotion through prayer, meditation, study, and ascetic practices.\n\nMonasteries often function as centers of learning, preserving sacred texts and providing education. They may be completely isolated from the surrounding population or maintain active engagement through charitable works, medical care, and agricultural production. The specific rules governing monastic life vary widely between traditions and individual communities."
  sacraments_group_name: "Sacraments"

@@ -78,7 +78,7 @@ window = {
 
 					hbox = {
 						datacontext = "[Title.GetHolder]"
-						tooltip = "FAITH_HOLY_SITE_HOLDER_TOOLTIP"
+						tooltip = "FAITH_HOLY_SITE_HOLDER_CREATION_TOOLTIP"
 
 						background = {
 							visible = "[Not( HolySiteCreationWindow.HasSelectedBarony )]"
@@ -221,7 +221,7 @@ window = {
 						hbox = {
 							layoutpolicy_horizontal = expanding
 							datacontext = "[Title.GetHolder]"
-							tooltip = "FAITH_HOLY_SITE_HOLDER_TOOLTIP"
+							tooltip = "FAITH_HOLY_SITE_HOLDER_CREATION_TOOLTIP"
 							using = tooltip_se
 							spacing = 8
 

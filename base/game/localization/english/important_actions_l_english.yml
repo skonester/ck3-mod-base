@@ -1445,10 +1445,13 @@
  action_in_line_for_local_clerical_region_desc: "You are [actor.GetPlaceInSuccession(landed_title)|O] in the [line_of_succession|E] for [landed_title.GetName], the [archdiocese|E] covering your [realm_capital|E]. If you inherit this [clerical_region|E] [title|E], you will become its [archbishop|E]."
  action_in_line_for_local_clerical_region_click: "#I Click to view the [clerical_region|E]#!"
 
- action_can_request_new_clerical_region: "@religious_icon! Request a New Archdiocese"
+ action_can_request_new_clerical_region: "@religious_icon! You can request a new $game_concept_clerical_region$"
  action_can_request_new_clerical_region_label: "$action_can_request_new_clerical_region$"
- action_can_request_new_clerical_region_desc: "You can ask [recipient.GetShortUIName] to establish a new [clerical_region|E] seated at [target_title.GetName]. As its landed petitioner, you will become the new [archbishop|E]."
+ action_can_request_new_clerical_region_desc: "You can ask [recipient.GetShortUIName] to establish a new [clerical_region|E] seated at [target_title.GetName]. [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_ecclesiastical' ), 'action_can_request_new_clerical_region_clergy_desc', 'action_can_request_new_clerical_region_non_clergy_desc' )]"
+ action_can_request_new_clerical_region_clergy_desc: "As its [landed|e] petitioner, you will become the new [archbishop|E]."
+ action_can_request_new_clerical_region_non_clergy_desc: "You will choose its first [archbishop|E] from your court."
  action_can_request_new_clerical_region_click: "#I Click to $request_ecclesiastical_title_creation_interaction$#!"
+ action_can_request_new_clerical_region_unimportant: "@warning_icon! #X You do not have enough [piety|E] to [create|E] a new [clerical_region|E]#!"
 
  action_can_request_clerical_region_expansion: "@religious_icon! Request Archdiocese Expansion"
  action_can_request_clerical_region_expansion_label: "@religious_icon! Expand Your Archdiocese into [target_title.GetNameNoTooltip]"

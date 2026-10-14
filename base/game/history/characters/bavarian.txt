@@ -3621,6 +3621,7 @@
 	#AKA Hugo Abbas
 	dynasty = 650
 	trait = education_learning_2
+	trait = devoted
 	rite = carolingian_christianity
 	culture = bavarian
 	father = 7988

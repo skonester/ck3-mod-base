@@ -19,7 +19,7 @@
  lover_seduced_corresponding:0 "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName]."
  
  grudge_imprisonment_desc: "[CHARACTER.GetShortUIName|U] developed a hateful grudge against [TARGET_CHARACTER.GetShortUIName] after spending many long, torturous years in [TARGET_CHARACTER.GetHerHis] prison."
- grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] developed a hateful grudge against [CHARACTER.GetShortUIName] after spending many long, torturous years in [TARGET_CHARACTER.GetHerHis] prison"
+ grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] developed a hateful grudge against [CHARACTER.GetShortUIName] after spending many long, torturous years in [CHARACTER.GetHerHis] prison."
  grudge_too_good: "[CHARACTER.GetShortUIName|U] developed a hateful grudge against [TARGET_CHARACTER.GetShortUIName] for being too good at [TARGET_CHARACTER.GetHerHis] job."
  grudge_too_good_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] developed a hateful grudge against [CHARACTER.GetShortUIName] for being too good at [CHARACTER.GetHerHis] job."
  

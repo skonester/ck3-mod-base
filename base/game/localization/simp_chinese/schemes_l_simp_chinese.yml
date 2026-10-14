@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "我会寻找一位[SCHEME.GetTargetFaith.GetAdherentNameNoTooltip]来向其学习。"
  find_follower_of_faith_desc_general: "寻找信徒是一种[personal_scheme|E]，允许你寻找某一信仰的实践者，以便发起$study_faith$[scheme|E]。该计谋主要基于你的[learning|E]和[intrigue|E]，但你的[spymaster|E]和[court_chaplain|E]也可以提供协助。拥有较宽容的信仰，或属于同一[religious_family|E]，也会持续带来助益。因为并非[hostile_scheme|E]，这不是[secret_scheme_single|E]也不会用到[agents|E]。"
  find_follower_of_faith_success_message: "你找到了一名[target.GetAdherentNameNoTooltip]"
+ find_follower_of_faith_SUCCESS_DESC: "你找到目标[faith|E]的一名信徒"
  find_follower_of_faith_failed_message: "你未找到[target.GetAdherentNameNoTooltip]"
  find_follower_of_faith_continue: "你继续努力"
  find_follower_of_faith_try_again: "你将进行其他尝试"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "你的[faith|E]与你的目标属于同一[religious_family|E]：$VALUE|+=0$"
  find_follower_of_faith_dead_faith: "[target.GetName]已无人实践：$VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "[target.GetName]在你的领地内被实践：$VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "你的[realm_priest|E]正在提供帮助：$VALUE|+=0$"

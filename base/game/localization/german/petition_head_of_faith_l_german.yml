@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "Exkommunikation erbitten"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "Ziel"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "Ihr werdet nach [recipient.GetCapitalLocation.GetName] reisen und [recipient.GetTitledFirstName] eine Petition zum [excommunicate|EU] von [secondary_recipient.GetTitledFirstName] vorlegen"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUIName|U] wird nach [recipient.GetCapitalLocation.GetName] reisen und [recipient.GetTitledFirstName] eine Petition zum [excommunicate|EU] von [secondary_recipient.GetTitledFirstName] vorlegen"
  petition_head_of_faith_decision_option_repentance: "Exkommunikation aufheben"
  petition_head_of_faith_decision_option_excommunication: "Exkommunikation erbitten"
  petition_head_of_faith_decision_option_repentance_desc: "Um die Aufhebung Eurer [excommunication|E] bitten."

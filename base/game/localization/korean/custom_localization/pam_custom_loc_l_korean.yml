@@ -2,7 +2,7 @@
  #GetMotherFatherPossessive
  motherpossessive: "$mother$의"
  fatherpossessive: "$father$의"
- parentpossessive: "$parent$의"
+ parentpossessive: "부모의"
  religious_head_headgear_tiara: "교주관"
  religious_head_headgear_tiara_plural: "교주관"
  religious_head_headgear_mitre: "주교관"

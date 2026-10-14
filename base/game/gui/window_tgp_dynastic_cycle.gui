@@ -122,7 +122,7 @@ window = {
 					button_tab = {
 						name = "open_movements_tab"
 						shortcut = "tab_2"
-						
+
 						down = "[GetVariableSystem.Exists( 'movements' )]"
 
 						onclick = "[GetVariableSystem.Set( 'movements', 'true' )]"
@@ -300,7 +300,7 @@ window = {
 										datacontext = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType]"
 										visible = "[SituationWindow.GetSelectedFuturePhaseType.IsValid]"
 										parentanchor = center
-										
+
 										blockoverride "phase_widget_tooltip"
 										{
 											datacontext = "[SituationPhase.GetType]"
@@ -341,7 +341,7 @@ window = {
 								widgetanchor = right|top
 								position = { -96 0 }
 								size = { 80 64 }
-								
+
 								situation_overview_buttons_vbox = {
 									blockoverride "participants_list_section"
 									{
@@ -357,7 +357,7 @@ window = {
 								widgetanchor = right|top
 								position = { -32 8  }
 								size = { 64 64 }
-								
+
 								situation_overview_buttons_vbox = {
 									datacontext = "[SituationWindow.AccessParticipantCharacterList]"
 									datacontext = "[SituationWindow.GetSituation.GetParticipantGroupByCharacter( GetPlayer )]"
@@ -382,14 +382,14 @@ window = {
 								parentanchor = left|vcenter
 								position = { 6 0 }
 								size = { 82 324 }
-								
+
 								flowcontainer = {
 									parentanchor = top
 									widgetanchor = top
 									direction = vertical
 									position = { 0 16 }
 									spacing = 2
-									
+
 									ignoreinvisible = yes
 									datamodel = "[SituationPhase.GetFuturePhases]"
 
@@ -415,7 +415,7 @@ window = {
 									direction = vertical
 									position = { 0 16 }
 									spacing = 2
-									
+
 									ignoreinvisible = yes
 									datamodel = "[SituationPhase.GetFuturePhases]"
 
@@ -689,7 +689,7 @@ window = {
 								datacontext = "[SituationParticipantCharacterList.GetSelectedParticipantGroup]"
 								datacontext = "[SituationDynasticCycleWindow.GetMandateHolder]"
 								datacontext = "[DynasticCycleMandateCandidate.GetCharacter]"
-								
+
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
 
@@ -743,12 +743,12 @@ window = {
 								datacontext = "[SituationWindow.AccessParticipantCharacterList]"
 								datacontext = "[SituationParticipantCharacterList.GetSelectedParticipantGroup]"
 								visible = "[Not( SituationDynasticCycleWindow.IsInChaosEra )]"
-								
+
 								parentanchor = right|top
 								widgetanchor = right|top
 								position = { -10 5 }
 								size = { 100 90 }
-								
+
 								situation_overview_buttons_vbox = {
 									blockoverride "catalysts_phases_section"
 									{
@@ -2744,7 +2744,6 @@ types DynasticCycleTypes
 
 			vbox = {
 				name = "catalyst_information_area"
-
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 
@@ -2752,21 +2751,29 @@ types DynasticCycleTypes
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
 
-					blockoverride "scrollbox_background" {}
-					blockoverride "scrollbox_background_fade" {}
 					blockoverride "scrollbox_margins" {}
+					
+					blockoverride "scrollbox_empty"
+					{
+						align = center
+						text = "SITUATION_HISTORY_NO_ENTRIES"
+						
+						block "history_empty_visible" {
+							visible = "[IsDataModelEmpty( SituationWindow.GetCurrentHistoryPage )]"
+						}
+					}
 
 					blockoverride "scrollbox_content"
 					{
 						vbox = {
 							name = "history_entries"
-							margin_right = 16
+							layoutpolicy_horizontal = expanding
+							margin = { 15 0 }
+							margin_top = 15
 
 							block "history_data" {
 								datamodel = "[SituationWindow.GetCurrentHistoryPage]"
 							}
-
-							layoutpolicy_horizontal = expanding
 
 							item = {
 								block "history_item"
@@ -2784,7 +2791,7 @@ types DynasticCycleTypes
 
 					blockoverride "scrollbox_expand"
 					{
-						expand = { }
+						expand = {}
 					}
 				}
 

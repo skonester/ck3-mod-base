@@ -1689,6 +1689,7 @@
  find_follower_of_faith_desc: "Będę szukać wyznawców, którymi są [SCHEME.GetTargetFaith.GetAdherentNameNoTooltip|l], aby się od nich uczyć."
  find_follower_of_faith_desc_general: "„Znajdź wyznawcę” to [personal_scheme|El], który umożliwia szukanie osób praktykujących wiarę w celu rozpoczęcia [Concept('scheme', 'spisku')|E] „$study_faith$”. Ten spisek przede wszystkim polega na [Concept('learning', 'nauce')|E] i [Concept('intrigue', 'intrydze')|E], ale twoi [spymaster|El] i [court_chaplain|El] mogą okazać się pomocni. Posiadanie pobłażliwej wiary lub bycie w tej samej [Concept('religious_family', 'grupie religijnej')|E] również zapewnia skuteczną pomoc. Nie jest to [hostile_scheme|El], więc nie jest [secret_scheme_single|El] i nie biorą w nim udziału [agents|El]."
  find_follower_of_faith_success_message: "Znajdujesz wyznawcę, którym jest [target.GetAdherentNameNoTooltip|l]"
+ find_follower_of_faith_SUCCESS_DESC: "Znajdujesz wyznawcę wybranej [Concept('faith', 'wiary')|E]"
  find_follower_of_faith_failed_message: "Nie znajdujesz wyznawcy, którym jest [target.GetAdherentNameNoTooltip|l]"
  find_follower_of_faith_continue: "Kontynuujesz swoje starania"
  find_follower_of_faith_try_again: "Podejmiesz kolejną próbę"
@@ -1700,3 +1701,4 @@
  find_follower_of_faith_same_religious_group_bonus: "Twoja [faith|El] należy do tej samej [Concept('religious_family', 'grupy religijnej')|E] co twoja docelowa wiara: $VALUE|+=0$"
  find_follower_of_faith_dead_faith: "Wiara o nazwie [target.GetName|l] nie jest już praktykowana: $VALUE|+=0$"
  find_follower_of_faith_in_realm_bonus: "Wiara o nazwie [target.GetName|l] jest praktykowana w twoim państwie: $VALUE|+=0$"
+ find_follower_of_faith_realm_priest: "Twój [realm_priest|El] udziela pomocy: $VALUE|+=0$"

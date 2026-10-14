@@ -11,7 +11,7 @@
  interaction_category_diplomacy: "외교"
  interaction_category_friendly: "개인"
  interaction_category_friendly_filter_tag_desc: "개인 상호작용"
- interaction_category_laamp: "비지주 모험가"
+ interaction_category_laamp: "모험가"
  interaction_category_hostile: "적대"
  interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
  interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]"

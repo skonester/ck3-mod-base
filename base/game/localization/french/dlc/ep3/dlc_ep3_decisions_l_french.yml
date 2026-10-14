@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "C’est parti !"
  become_landless_adventurer_decision_hof_tt: "Vous ne devez pas être un [head_of_faith|El]"
  become_landless_adventurer_decision_tier_tt: "Vous devez être un [count|El] ou un [duke|El]"
- become_landless_adventurer_decision_domain_size_tt: "Votre [domain|El] ne doit pas avoir plus de #V 3#! [counties|El]"
+ become_landless_adventurer_decision_domain_size_tt: "Votre [domain|El] ne doit pas avoir plus de #V 3#! [holdings|El]"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value Tous vos [titles|El] [Concept('landed','fonciers')|E] et [vassals|El] reviennent [THIS.Char.Custom('FR_au_Char_Pi')][THIS.Char.GetTitledFirstName]#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value Tous vos [titles|El] [Concept('landed','fonciers')|E] reviennent à un nouveau [ruler|El] local#!"
  wipe_slate_decision: "Faire table rase du passé"

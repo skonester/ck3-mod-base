@@ -11,7 +11,7 @@
  interaction_category_diplomacy: "Diplomatie"
  interaction_category_friendly: "Personnel"
  interaction_category_friendly_filter_tag_desc: "Interactions personnelles"
- interaction_category_laamp: "Aventurier sans terre"
+ interaction_category_laamp: "Aventurier"
  interaction_category_hostile: "Hostile"
  interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
  interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]"

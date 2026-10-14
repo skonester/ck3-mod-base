@@ -1,6 +1,7 @@
 ﻿# The choice is made based on a weighted random, but the first weight that evaluates to >= 100 will be automatically chosen
 
 my_animation = {										# Name of the animation, this is the name events and gui scripts reference. If no item has a weight > 0 no item will be selected
+	barbershop = yes/no									# (default) yes: this animation can be selected in the barbershop
 	male = {											# Animations are scripted for each portrait type, all types needs to be scripted
 		default = { head = "idle" torso = "idle" }		# Default animation used if no item has a weight > 0, or if it is used in a non scripted environment
 

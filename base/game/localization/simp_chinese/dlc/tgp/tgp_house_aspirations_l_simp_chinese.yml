@@ -66,6 +66,7 @@
  house_aspiration_parameter_service_house_cheaper_influence_candidacy_investments: "#high $influence_candidacy_interaction$#![influence|E]花费：#P -10%#!"
  house_aspiration_parameter_service_house_governor_efficiency_bonus: "[house|E]成员的[governor_efficiency|E]：[governor_efficiency_i|E]#P +[EmptyScope.ScriptValue('service_house_governor_efficiency_bonus_value')|0%]#!"
  house_aspiration_parameter_service_house_improved_educator_outcome_chance: "[house|E]成员担任[guardians|E]时表现更好"
+ service_house_power: "$service_house_aspiration$[house_aspiration|E]"
  #House Aspiration - Strength
  house_aspiration_parameter_strength_train_with_troops_decision: "解锁#high 激励军队#![decision|E]"
  #House Aspiration - Prosperity

@@ -2695,6 +2695,7 @@ c_kent = {
 	}
 	1066.10.14 = {
 		holder = 148
+		government = ecclesiastical_government
 	}
 	1070.8.29 = {
 		holder = canterbury_archbishop_4 # Lanfranc

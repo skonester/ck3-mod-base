@@ -12,7 +12,7 @@
 # See 'gfx/FX/province_effects.fxh' for the shader implementation.
 #
 # Systems using this:
-# - Situation - Can be different per phase type - see `_situations.info`
+# - Situation - Can be different per phase type - see `common/situation/situations/_situations.info`
 # - Map modes - A few map modes apply special effects types
 #
 # Snow province data has been added to WinterTexture. If the effect displays snow, please set is_winter_effect = yes.
@@ -30,7 +30,7 @@ province_effect_key = {
 
 	# If this effect is of the 'primary' (default) or secondary category. Effects of the same category will overwrite
 	# each other. Default: no
-	is_secondary = yes/no
+	secondary = yes/no
 
 	# If effect should extend into impassable provinces next to the provinces
 	# Default: no

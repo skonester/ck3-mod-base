@@ -75,52 +75,30 @@
 
 							blockoverride "button_content"
 							{
-								hbox = {
+								vbox = {
 									layoutpolicy_horizontal = expanding
 									layoutpolicy_vertical = expanding
+									margin = { 10 5 }
 
-									vbox = {
+									hbox = {
 										layoutpolicy_horizontal = expanding
-										layoutpolicy_vertical = expanding
-										margin = { 10 5 }
+										spacing = 5
 
 										text_single = {
 											name = "name"
 											layoutpolicy_horizontal = expanding
+											autoresize = no
+
 											text = "[Character.GetUINameNoTooltip]"
-											max_width = 220
 											using = Font_Size_Medium
 											alwaystransparent = yes
 										}
 
-										text_single = {
-											name = "character_relation"
-											layoutpolicy_horizontal = expanding
-											text = "[Character.GetRelationToString( GetPlayer )]"
-											default_format = "#low"
-											align = left
-											max_width = 220
-											alwaystransparent = yes
-
-											tooltip = "EXTENDED_RELATIONS_TOOLTIP"
-										}
-
 										expand = {}
-									}
-
-									vbox = {
-										datacontext = "[CharacterListItem.GetCharacter]"
-										layoutpolicy_vertical = expanding
-										layoutpolicy_horizontal = expanding
-
-										margin_top = 10
-										margin_bottom = 8
-										margin_right = 10
 
 										# Skills
 										hbox = {
 											name = "skills_grid"
-											layoutpolicy_horizontal = expanding
 
 											expand = {}
 
@@ -130,6 +108,23 @@
 												widget_skill_item_no_icon = {}
 											}
 										}
+									}
+
+									text_single = {
+										name = "character_relation"
+										layoutpolicy_horizontal = expanding
+										autoresize = no
+
+										text = "[Character.GetRelationToString( GetPlayer )]"
+										default_format = "#low"
+										align = left|nobaseline
+										alwaystransparent = yes
+
+										tooltip = "EXTENDED_RELATIONS_TOOLTIP"
+									}
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
 
 										expand = {}
 
@@ -137,6 +132,7 @@
 										text_single = {
 											name = "acceptance"
 											layoutpolicy_horizontal = expanding
+											autoresize = no
 
 											text = "[CharacterListItem.GetText( 'acceptance' )]"
 											align = nobaseline|right
@@ -148,6 +144,26 @@
 						}
 					}
 				}
+			}
+		}
+	}
+
+	window_character_filter = {
+		datacontext = "[SelectPuppetWindow.GetListItems]"
+		position = { -600 20 }
+
+		blockoverride "addition_filter" {
+			filter_item = {
+				layoutpolicy_horizontal = expanding
+				datacontext = "[CharacterSelectionList.GetFilter('hook_filter')]"
+			}
+			filter_item = {
+				layoutpolicy_horizontal = expanding
+				datacontext = "[CharacterSelectionList.GetFilter('ruler_filter')]"
+			}
+			filter_item = {
+				layoutpolicy_horizontal = expanding
+				datacontext = "[CharacterSelectionList.GetFilter('religion_filter')]"
 			}
 		}
 	}

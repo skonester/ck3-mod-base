@@ -138,9 +138,13 @@ types ProgressBars
 		item = {
 			icon = {
 				texture = "gfx/interface/progressbars/progress_magnificence.dds"
-				size = { 25 25 }
+				block "segmented_size" {
+					size = { 25 25 }
+				}
 				framesize = { 45 45 }
-				frame = "[int32.GetInt]"
+				block "segmented_frame" {
+					frame = "[int32.GetInt]"
+				}
 			}
 		}
 	}
@@ -599,7 +603,7 @@ types HorizontalComplexBars
 							texture = "gfx/interface/colors/white.dds"
 							using = Mask_Rough_Edges
 							position = { -3 17 }
-							size = { 6 60 }
+							size = { 6 50 }
 							alpha = 0.3
 
 							visible = yes

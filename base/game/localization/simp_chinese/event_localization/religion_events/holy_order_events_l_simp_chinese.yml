@@ -81,6 +81,7 @@
  holy_order.2005.desc: "[child.GetTitledFirstNamePossessive]这次访亲的时间长于以往。我的[child.Custom('DaughterSon')][child.GetHerselfHimself]安坐于我的[ROOT.Char.Custom('GetCourt')]中——[child.GetHerselfHimself]吞吃我的食物，骚扰我的仆人——我提起回到[holy_order.GetName]话题。[child.GetHerHis|U]的回答很不幸地热情洋溢。\n\n“你不知道吗，[ROOT.Char.Custom('MotherFather')]？[grandmaster.GetTitledFirstName]慷慨地解除了我对于[child.GetFaith.GetName]的职责！我终于回家了，为家人服务。”"
  holy_order.2005.a: "哦，你是要……长住？"
  holy_order.destroyed_title: "军事修会解散"
+ holy_order.destroyed_title_monastic: "修道会解散"
  holy_order.2010.t: "新隐修修会"
  holy_order.2010.desc: "多年来，隐士、神秘主义者和来自其他老修会的不满于现状的门徒聚集在[barony.GetNameNoTier]，在荒野中辛苦建造他们的新家。一个名为[leader.GetFirstName][leader.Custom('SisterBrother')|U]的[leader.GetWomanMan]已经崛起为这个新兴修会“[leader.GetPrimaryTitle.GetName]”的领袖……但是#EMP 我#!威严的声音尚未在此事上发声。我也没有提出一项神圣的戒律，作为该修会生活方式的核心。\n\n这群纯粹的奉献者在[barony.GetNameNoTierNoTooltip]歌唱什么？他们要做什么来充实地生活，思考和写作？谁应当领导他们？"
  holy_order.2010.4: "[tenet_4.GetName( order_rite )]和[monk_tenet_1.GetFirstNameNoTooltip][monk_tenet_1.Custom('SisterBrother')|U]。"

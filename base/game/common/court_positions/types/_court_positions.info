@@ -31,7 +31,7 @@ court_position = {
 	# 
 	# NOTE: You'll want to run the highest_held_title_tier trigger in 
 	#	valid_position in order to get this requirement localized. 
-	minimum_rank = county/duchy/kingdom/empire 
+	minimum_rank = county/duchy/kingdom/empire/hegemony 
 
 	# Brief: skill ( enum )
 	# Primary skill for the aptitude of this position, is used for the UI visuals
@@ -43,6 +43,13 @@ court_position = {
 	# 	Defaults to no
 	# 
 	is_travel_related = yes/no 
+
+	### Brief: is_powerful_agent ( boolean )
+	# Whether to show the "powerful agent" warning (COURT_POSITION_POWERFUL_AGENT)
+	# for this position in the court position UI.
+	# 	Defaults to no
+	#
+	is_powerful_agent = yes/no
 	
 	### Brief: opinion ( scripted value )
 	# Scripted value to determine the opinion modifier the employee gets
@@ -128,6 +135,10 @@ court_position = {
 
 	### Brief: revoke_cost ( scripted value )
 	# How much it costs to revoke this position.
+	#
+	# Supported scopes:
+	#		root ( Character )
+	#			Liege of the position
 	revoke_cost = {
 		gold = { ... }
 		prestige = { ... }
@@ -210,13 +221,13 @@ court_position = {
 	# increases.
 	#
 	# ERRORS:
-	#		Will error if naming convention and indices aren't followed.
+	#		Will error if keys other than terrible/poor/average/good/excellent are used.
 	scaling_employer_court_modifiers = {
-		aptitude_level_1 = { ... }
-		aptitude_level_2 = { ... }
-		aptitude_level_3 = { ... }
-		aptitude_level_4 = { ... }
-		aptitude_level_5 = { ... }
+		terrible = { ... }
+		poor = { ... }
+		average = { ... }
+		good = { ... }
+		excellent = { ... }
 	}
 
 	### Brief: custom_employer_modifier_description
@@ -283,7 +294,7 @@ court_position = {
 	# 		scope:monthly_character_expenses
 	#			Lieges general purchasing power.
 	#
-	ai_candidate_score = { ... }
+	ai_position_score = { ... }
 
 	### Brief: ai_candidate_score (script value)
 	# Scripted value to determine whether an AI will hire a position or not. 
@@ -324,6 +335,15 @@ court_position = {
 	#			For special considerations to hiring or firing the position. 
 	#			When true/set the position is being fired, when false/not set 
 	#			the position is being hired.
+	# 		scope:monthly_character_expenses (number)
+	#			Lieges general purchasing power.
+	#		scope:highest_available_aptitude (number)
+	#			Highest aptitude level (0-4, terrible to excellent) among the
+	#			available candidates for the position.
+	#		scope:employee_aptitude (number)
+	#			Aptitude level (0-4, terrible to excellent) of scope:employee.
+	#		scope:base_value (number)
+	#			Result of the court_position_liege_score_base_value script value.
 	#		scope:percent_of_monthly_gold_income (number)
 	#			how much the position cost compared to the liege's monthly gold
 	#			income in percent <0, infinity>. Does not take expenses into 
@@ -358,6 +378,10 @@ court_position = {
 	# Scripted value to determine the order in which Court Positions appear in the UI.
 	# Note: Higher value means higher priority and will be displayed earlier in the list.
 	# Defaults to definition order.
+	#
+	# Supported scopes:
+	#		root ( Character )
+	#			Liege viewing the court positions.
 	sort_order = {
 		value = 0
 		if = {

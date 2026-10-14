@@ -360,7 +360,7 @@
  court_physician_not_employed_or_away_tt: "你没有[GetCourtPositionType('court_physician_court_position').GetName()]，或者医生没有和你在一起"
  hire_physician_decision: "寻找医师"
  hire_physician_decision_tooltip: "你的臣子们将会为[GetCourtPositionType('court_physician_court_position').GetName()]一职推荐数位合适的候选人"
- hire_physician_decision_desc: "在我的[ROOT.Char.Custom('GetCourtLower')]中，$court_physician_court_position$对于照顾伤病患者是必要的。我会要求我的仆人们给我带来一些合适的候选人。"
+ hire_physician_decision_desc: "在我的[ROOT.Char.Custom('GetCourt')]中，$court_physician_court_position$对于照顾伤病患者是必要的。我会要求我的仆人们给我带来一些合适的候选人。"
  hire_physician_decision_effect_tooltip: "一群[GetCourtPositionType('court_physician_court_position').GetName()]候选人将来觐见你，你可以用一定的费用雇佣其中一位并支付[gold_i][SCOPE.ScriptValue('court_position_physician_salary')]的月俸"
  hire_physician_decision_confirm: "开始搜寻"
  antiquarian_employer_custom_effect_description: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'antiquarian_employer_custom_effect_reforge_description', '' )]$BULLET$解锁#V $commission_artifact_decision$#![decision|E]\n$BULLET$在被[sieges|E]和[raids|E]时保护[artifacts|E]"

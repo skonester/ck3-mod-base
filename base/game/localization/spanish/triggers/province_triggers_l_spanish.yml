@@ -16,6 +16,7 @@
  HAS_STATIONED_REGIMENT_TRIGGER: "Tiene un regimiento acantonado"
  HAS_STATIONED_REGIMENT_OF_BASE_TYPE: "Tiene un regimiento acantonado de tipo $MEN_AT_ARMS_TYPE$"
  HAS_REALM_LAW_FLAG_TRIGGER: "Se permite $FLAG|V$ bajo la actual ley del señorío"
+ NOT_HAS_REALM_LAW_FLAG_TRIGGER: "No se permite $FLAG|V$ bajo la actual ley del señorío"
  IS_CAPITAL_BARONY_TRIGGER: "La baronía es la capital"
  IS_HOLY_SITE_TRIGGER: "Es un [holy_site|lE]"
  NOT_IS_HOLY_SITE_TRIGGER: "#bold No#! es un [holy_site|lE]"

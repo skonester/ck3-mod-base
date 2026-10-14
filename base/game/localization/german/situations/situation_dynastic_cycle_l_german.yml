@@ -40,6 +40,7 @@
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST: "Auslöser für [FutureSituationPhase.GetType.GetName]"
  DYNASTIC_CYCLE_WINDOW_PHASES_LIST: "Epochen von „[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]“"
  DYNASTIC_CYCLE_WINDOW_HISTORY_LIST: "Geschichte von „[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]“"
+ SITUATION_HISTORY_NO_ENTRIES: "Bisher keine Geschichte verzeichnet"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS: "Alle Auslöser"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_TT: "#T [situation_catalyst_catalysts|E] in Richtung [SituationPhaseType.GetNameNoTooltip]#!\n$CLICK_TO_VIEW$"
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST_PROGRESSBAR_TT: "#T Fortschritt in Richtung [SituationPhaseType.GetName]: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!"

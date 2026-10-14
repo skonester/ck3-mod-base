@@ -1,4 +1,5 @@
 ﻿- _category = { ... } creates a new group with name category ( lead with '_' to create a group )
+- entries are <pronoun>[_past][_neg] = <localization key>; pronoun is one of first, third, global or none
 - first and third indicates first person or third person, default is no or global pronoun
 - past indicates past tense, default is future/present
 - neg indicates that this is used for negative output values, ie "gain x gold" versus "lose x gold"

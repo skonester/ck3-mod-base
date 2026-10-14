@@ -73,6 +73,7 @@
  house_aspiration_parameter_service_house_cheaper_influence_candidacy_investments: "#high $influence_candidacy_interaction$#! [influence|E] cost: #P -10%#!"
  house_aspiration_parameter_service_house_governor_efficiency_bonus: "[governor_efficiency|E] for [house|E] members: [governor_efficiency_i|E]#P +[EmptyScope.ScriptValue('service_house_governor_efficiency_bonus_value')|0%]#!"
  house_aspiration_parameter_service_house_improved_educator_outcome_chance: "[house|E] members perform better as [guardians|E]"
+ service_house_power: "Service [house_aspiration|E] "
 
  #House Aspiration - Strength
  house_aspiration_parameter_strength_train_with_troops_decision: "Unlocks the #high Inspire the Troops#! [decision|E]"

@@ -96,87 +96,68 @@ heresy_light.0001 = {
 				}
 			}
 			# source_rite is the parent main, new_rite is the diverging rite
-			# founder is the Head of Rite, used for the widget and flavour
-			# With no Head of Rite we skip player flavour, but the divergence still applies silently
+			# founder is the AI Head of Rite, who is framed as the author of the change
 			scope:origin_faith.main_rite = { save_scope_as = source_rite }
 			scope:diverging_rite = { save_scope_as = new_rite }
 			if = {
 				limit = { exists = scope:hor }
-				scope:hor = { save_scope_as = founder }
-
-				# Save the HoR's clerical region title for the archbishopric opener line.
-				if = {
-					limit = { rite_growth_founder_is_archbishop_trigger = yes }
-					scope:founder = {
-						random_held_title = {
-							limit = { has_clerical_region = yes }
-							save_scope_as = founder_clerical_title
-						}
-					}
+				scope:hor = {
+					save_scope_as = founder
+					add_piety = minor_piety_gain
 				}
 
 				# Compare against the pre-divergence snapshot so the text names what the HoR just changed
 				pam_heresy_c1_resolve_differences_effect = yes
 
-				scope:hor = {
-					trigger_event = heresy_light.0010
-				}
-
-				# Quiet message to diverging-rite rulers other than the HoR
+				# Players on the diverging rite, a player Head of Faith, and nearby mainline duke+ players
 				every_player = {
 					limit = {
 						faith = scope:origin_faith
-						rite = scope:diverging_rite
-						NOT = { scope:hor ?= this }
-					}
-					send_interface_message = {
-						type = event_religious_bad
-						title = heresy_light.notification.member.title
-						left_icon = scope:founder
-						show_as_tooltip = {
-							custom_tooltip = heresy_light.notification.member.tt
-						}
-					}
-				}
-
-				# Sterner message to the Head of Faith if they are a player.
-				every_player = {
-					limit = {
-						faith = scope:origin_faith
-						this = scope:origin_faith.religious_head
-					}
-					send_interface_message = {
-						type = event_religious_bad
-						title = heresy_light.notification.hof.title
-						left_icon = scope:founder
-						show_as_tooltip = {
-							custom_tooltip = heresy_light.notification.hof.tt
-						}
-					}
-				}
-
-				# Mainline-rite duke+ players in the rough vicinity also notice.
-				every_player = {
-					limit = {
-						faith = scope:origin_faith
-						rite = scope:origin_faith.main_rite
-						highest_held_title_tier >= tier_duchy
-						NOT = { this = scope:origin_faith.religious_head }
-						exists = capital_county
-						exists = scope:c1_anchor
-						capital_county = {
-							squared_distance = {
-								target = scope:c1_anchor
-								value <= squared_distance_medium
+						OR = {
+							rite = scope:diverging_rite
+							this = scope:origin_faith.religious_head
+							AND = {
+								rite = scope:origin_faith.main_rite
+								highest_held_title_tier >= tier_duchy
+								exists = capital_county
+								exists = scope:c1_anchor
+								capital_county = {
+									squared_distance = {
+										target = scope:c1_anchor
+										value <= squared_distance_medium
+									}
+								}
 							}
 						}
 					}
 					send_interface_message = {
-						type = event_religious_bad
-						title = heresy_light.notification.mainline.title
+						type = event_religious_bad_text
+						title = heresy_light.0010.t
 						left_icon = scope:founder
-						show_as_tooltip = {
-							custom_tooltip = heresy_light.notification.mainline.tt
+						desc = {
+							desc = heresy_light.0010.desc.intro.descriptor_ruler
+							first_valid = {
+								triggered_desc = {
+									trigger = { "scope:new_rite.divergence(scope:source_rite)" >= 50 }
+									desc = heresy_light.0010.desc.body.dangerous
+								}
+								triggered_desc = {
+									trigger = { "scope:new_rite.divergence(scope:source_rite)" >= 30 }
+									desc = heresy_light.0010.desc.body.alarming
+								}
+								desc = heresy_light.0010.desc.body.uneasy
+							}
+							first_valid = {
+								triggered_desc = {
+									trigger = { exists = scope:differing_tenet }
+									desc = heresy_light.0010.desc.differing.tenet
+								}
+								triggered_desc = {
+									trigger = { exists = scope:differing_doctrine }
+									desc = heresy_light.0010.desc.differing.doctrine
+								}
+								desc = heresy_light.0010.desc.differing.fallback
+							}
 						}
 					}
 				}
@@ -190,114 +171,6 @@ heresy_light.0001 = {
 
 			pam_heresy_fervor_reset_effect = { COMPONENT = 1 }
 			pam_heresy_push_catalyst_effect = { CATALYST = catalyst_heresy_light_outbreak }
-		}
-	}
-}
-
-###############################
-# 0010 - HoR character event  #
-###############################
-
-heresy_light.0010 = {
-	type = character_event
-	title = heresy_light.0010.t
-
-	# We reuse the desc layout from rite_growth.0010
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { rite_growth_founder_is_archbishop_trigger = yes }
-				desc = heresy_light.0010.desc.intro.descriptor_archbishop
-			}
-			desc = heresy_light.0010.desc.intro.descriptor_ruler
-		}
-		first_valid = {
-			triggered_desc = {
-				trigger = { rite_growth_founder_is_archbishop_trigger = yes }
-				desc = heresy_light.0010.desc.opener.archbishopric
-			}
-			desc = heresy_light.0010.desc.opener.lands
-		}
-		first_valid = {
-			triggered_desc = {
-				trigger = { "scope:new_rite.divergence(scope:source_rite)" >= 50 }
-				desc = heresy_light.0010.desc.body.dangerous
-			}
-			triggered_desc = {
-				trigger = { "scope:new_rite.divergence(scope:source_rite)" >= 30 }
-				desc = heresy_light.0010.desc.body.alarming
-			}
-			desc = heresy_light.0010.desc.body.uneasy
-		}
-		first_valid = {
-			triggered_desc = {
-				trigger = { exists = scope:differing_tenet }
-				desc = heresy_light.0010.desc.differing.tenet
-			}
-			triggered_desc = {
-				trigger = { exists = scope:differing_doctrine }
-				desc = heresy_light.0010.desc.differing.doctrine
-			}
-			desc = heresy_light.0010.desc.differing.fallback
-		}
-		# Outsiders read about "them"; same-rite readers (HoR + flock) read about "us".
-		first_valid = {
-			triggered_desc = {
-				trigger = { rite = scope:new_rite }
-				desc = heresy_light.0010.desc.outro.own_rite
-			}
-			desc = heresy_light.0010.desc.outro
-		}
-	}
-
-	major = yes
-	theme = christian
-	override_background = { reference = temple }
-
-	major_trigger = {
-		faith = scope:origin_faith
-	}
-
-	widget = {
-		gui = "event_window_widget_rite_founder"
-		container = "custom_widgets_container"
-	}
-
-	left_portrait = {
-		character = scope:founder
-		animation = preaching
-		camera = camera_event_right_forward
-	}
-
-	option = {
-		name = heresy_light.0010.b
-		trigger = {
-			rite != scope:new_rite
-			NOR = {
-				faith.religious_head ?= this
-				rite.head_of_rite ?= this
-			}
-		}
-		add_internal_flag = dangerous
-		set_character_rite_with_conversion = scope:new_rite
-		add_character_flag = {
-			flag = recently_converted_by_heresy
-			years = 10
-		}
-		ai_chance = {
-			base = 0
-		}
-	}
-
-	option = {
-		name = {
-			trigger = { rite = scope:new_rite }
-			text = heresy_light.0010.c.own_rite
-		}
-		name = heresy_light.0010.c
-		add_piety = minor_piety_gain
-		ai_chance = {
-			base = 100
 		}
 	}
 }
@@ -490,6 +363,8 @@ heresy_light.0011 = {
 					}
 				}
 			}
+
+			pam_heresy_send_spread_message_effect = { TITLE = heresy_historical.spread.title }
 
 			scope:diverging_rite = {
 				change_variable = {

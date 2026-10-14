@@ -948,7 +948,7 @@ study_scripture_outcome.160 = {
 				multiply = 2
 			}
 		}
-		add_treasury = {
+		add_treasury_or_gold = {
 			add = root.stewardship
 			multiply = 3
 		}

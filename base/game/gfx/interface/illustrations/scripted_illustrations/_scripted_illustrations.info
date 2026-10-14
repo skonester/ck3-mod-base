@@ -46,6 +46,11 @@
 # Use for example in Multiplayer interface background illustrations.
 # 'main_menu_background'
 # The background illustration to of the main menu screen, based on the scope of the last savegame's Character.
+# Also used as the default (first) background in the barbershop, based on the scope of the barbershop's Character.
+# 'character_view_bg'
+# The background texture of the character view, based on the scope of the viewed Character.
+# 'barbershop_background'
+# All textures and environments are offered as selectable backgrounds in the barbershop (triggers are not tested).
 #
 
 ##############################################################
@@ -60,10 +65,11 @@ my_scripted_illustration_type_name = {
 	# The texture can itself be a path relative to this base folder as well
 	folder = "path/to/folder"
 
-	### Brief: texture ( scripted value )
+	### Brief: texture ( block | string )
 	# Define a texture that can be returned for this type. You can define any number of these per Scripted Illustration
 	# type.
 	# The first "texture" that has a valid 'trigger' will be returned.
+	# Shorthand `texture = "event_scene/alley.dds"` is the same as a block with only 'reference' (always valid).
 	texture = {
 
 		### Brief: reference ( string )
@@ -77,10 +83,11 @@ my_scripted_illustration_type_name = {
 		trigger = { ... }
 	}
 
-	### Brief: texture ( scripted value )
+	### Brief: environment ( block | string )
 	# Define a 3D graphical environment that can be returned for this type. You can define any number of these per
 	# Scripted Illustration type.
 	# The first "environment" that has a valid 'trigger' will be returned.
+	# Shorthand `environment = "environment_cw_tavern_spouse"` is the same as a block with only 'reference' (always valid).
 	environment = {
 
 		### Brief: reference ( string )

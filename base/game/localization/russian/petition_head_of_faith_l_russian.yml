@@ -24,7 +24,7 @@
  petition_head_of_faith_excommunication_setup_interaction: "Попросить об отлучении"
  petition_head_of_faith_excommunication_setup_interaction_extra_icon: "$hook_extra_icon$"
  recipient_secondary_petition_head_of_faith_excommunication_setup_interaction: "Цель"
- petition_head_of_faith_excommunication_setup_interaction_accept_tt: "Вы отправитесь во владение [recipient.GetCapitalLocation.GetName] и попросите, чтобы [recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'объявила', 'объявил' )], что [secondary_recipient.GetTitledFirstName] [Concept('excommunicate', Select_CString(secondary_recipient.IsFemale, 'отлучена', 'отлучён' ))|E]"
+ petition_head_of_faith_excommunication_setup_interaction_accept_tt: "[excom_request.GetShortUIName] [Select_CString(excom_request.IsLocalPlayer, 'отправитесь', 'отправится')] во владение [recipient.GetCapitalLocation.GetName] и [Select_CString(excom_request.IsLocalPlayer, 'попросите', 'попросит')], чтобы [recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'объявила', 'объявил' )], что [secondary_recipient.GetTitledFirstName] [Concept('excommunicate', Select_CString(secondary_recipient.IsFemale, 'отлучена', 'отлучён' ))|E]"
  petition_head_of_faith_decision_option_repentance: "Отменить отлучение"
  petition_head_of_faith_decision_option_excommunication: "Попросить об отлучении"
  petition_head_of_faith_decision_option_repentance_desc: "Попросить о снятии с вас [Concept('excommunication', 'отлучения')|E]."
