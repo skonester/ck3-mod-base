@@ -57,7 +57,7 @@
  pam_clergy_events.0060.t.head_of_faith: "[new_prelate.GetDynasty.GetNameNoTooltip]家の一員たる[new_prelate.GetFaith.ReligiousHeadName|U]"
  pam_clergy_events.0060.t.antipope: "[new_prelate.GetDynasty.GetNameNoTooltip]家の一員が[new_prelate.GetFaith.ReligiousHeadTitleName|U]を宣言"
  pam_clergy_events.0060.t.archbishop: "司教杖を執る[new_prelate.GetDynasty.GetNameNoTooltip]家の一員"
- pam_clergy_events.0060.desc.intro: "玉座からであれ説教壇からであれ、我々はキリスト教世界を導こうとしてきた。今や[new_prelate.GetFaith.HighGodName|U]は、[new_prelate.GetDynasty.GetName]一族を新たな高みへ引き上げるべきだと判断された。\n\n"
+ pam_clergy_events.0060.desc.intro: "長きに渡り、我が一族はキリスト教世界を導こうとしてきた。そして今、[new_prelate.GetFaith.HighGodName|U]は[new_prelate.GetDynasty.GetName]をさらなる高みへと引き上げることをお決めになった。\n\n"
  pam_clergy_events.0060.desc.pope: "我が[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))]、[new_prelate.GetFirstName]が、地上における[new_prelate.GetFaith.HighGodNamePossessive]の代理者たる聖ペトロの御座に引き上げられた。"
  pam_clergy_events.0060.desc.head_of_faith: "我が[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))]、[new_prelate.GetFirstName]は[prelate_title.GetDefinitiveName]の保持者である。"
  pam_clergy_events.0060.desc.hof_outro: "王も皇帝も、聖なる[new_prelate.Custom('GetMotherFatherPossessive')|U]の御意志の影にあっては、ただの子供に過ぎない。今や[new_prelate.GetFaith.BishopMalePlural]の一団は、[new_prelate.GetDynasty.GetNameNoTooltip]家の者の指揮下にある。"

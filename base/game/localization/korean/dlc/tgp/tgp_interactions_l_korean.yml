@@ -8,7 +8,7 @@
  celestial_give_treasury_interaction: "국고 지원하기"
  celestial_give_treasury_interaction_desc: "[recipient.GetShortUIName] 및 [recipient.GetHerHis] [recipient.Custom('GetProvinceConcept')]에 절실히 필요한 [treasury|E]를 지원합니다."
  celestial_give_treasury_interaction_send_name: "$celestial_give_treasury_interaction$"
- celestial_give_treasury_interaction_recipient_desc: "당신의 재무가 바닥났다는 소식을 들었습니다. 텅 빈 재무는 제국에 도움이 되지 않습니다. 내가 비축해 둔 이 은을 받으십시오. 현명하게 사용하고, 이를 내어 준 이가 누구인지 기억하십시오."
+ celestial_give_treasury_interaction_recipient_desc: "그대의 국고가 바닥났다는 이야기를 들었소. 국고가 텅 비어서는 [actor.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]에 해가 될 뿐이오. 내 곳간에서 마련한 이 은을 받으시오. 요긴하게 쓰되, 누가 내어 준 것인지는 잊지 마시오."
  HIGHLIGHTED_GIVE_TREASURY: "#weak [recipient.GetShortUINameNoTooltip] [treasury]가 굉장히 낮으며, 지원하면 커다란 감사를 받을 확률이 높음#!"
  ALREADY_SENT_TREASURY_WARNING: "@warning_icon! #X 당신은 이미 [recipient.GetShortUIName]에게 [treasury|E]를 지원했으며, 추가 지원 시 기존의 [opinion|E] 변화 요소는 #underline 무효화#!될 것입니다!#!"
  tgp_interaction_event.0001.desc: "최근 그대의 국고 지원에 진정으로 고마움을 표하겠소. 아무런 대가도 요구하지 않은 건 알지만, 은혜를 갚지 않으면 내 양심이 편치 않을 듯하군.\n\n작으나마 감사의 표시를 보내니 받아 주시오."

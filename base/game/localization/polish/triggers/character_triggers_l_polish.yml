@@ -437,7 +437,6 @@
  IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUINameNotMe] to [CHARACTER.GetCouncilTitle|l] z doktryną „[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName]”"
  NOT_IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUINameNotMe] to [CHARACTER.GetCouncilTitle|l] z doktryną „[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName]”"
  PARTITION_PRIMARY_HEIR_UNFAIR: "W ramach istniejącego prawa „[GetLaw('partition_succession_law').GetName]” [realm_heir|El] osoby znanej jako [CHARACTER.GetShortUINameNotMe] nie może otrzymać tytułu, którego nie może odziedziczyć."
- ELECTION_CANDIDATE_UNFAIR: "W ramach elekcji kandydaci nie mogą otrzymać tytułu"
  GHW_DAYS_UNTIL_LAUNCH: "Do wybuchu wojny pozostało jeszcze $NUM|V$ dni"
  NOT_GHW_DAYS_UNTIL_LAUNCH: "Do wybuchu wojny pozostało mniej niż $NUM|V$ dni"
  HAS_FAITH_TRIGGER: "Wyznaje [Concept( 'faith', 'wiarę' )|E]: [FAITH.GetName|l]"

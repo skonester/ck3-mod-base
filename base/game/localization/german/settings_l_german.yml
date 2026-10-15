@@ -44,7 +44,7 @@
  SETTING_SHOW_NUDITY: "Nacktheit anzeigen"
  SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\nLegt fest, ob Charaktere nackt gezeigt werden können."
  SETTING_BEAUTIFY_DEAD: "Verstorbene Charaktere verschönern"
- SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nLegt fest, ob verstorbene Charakter dargestellt werden sollen, wie sie zu ihren Hochzeiten aussahen anstatt gezeichnet von Alter, Krankheit und Verletzungen."
+ SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nSchaltet die Darstellung von verstorbenen Charakteren um: zu ihren Hochzeiten oder gezeichnet von Alter, Krankheit und Verletzungen."
  SETTING_STYLIZE_DEAD: "Verstorbene Charaktere stilisieren"
  SETTING_STYLIZE_DEAD_TOOLTIP: "#T $SETTING_STYLIZE_DEAD$#!\nLegt fest, ob verschönerte Porträts von verstorbenen Charakteren dargestellt werden sollen, die auf den ersten Blick nicht so aussehen, wie sie wirklich aussahen.\n\nGilt nur, wenn „$SETTING_BEAUTIFY_DEAD$“ aktiviert wurde."
  SETTINGS_CATEGORY_GAME_DLC_MODS: "Herunterladbarer Inhalt"

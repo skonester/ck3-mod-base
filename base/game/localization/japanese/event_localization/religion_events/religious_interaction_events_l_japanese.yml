@@ -150,13 +150,13 @@
  religious_interaction.2100.endforest: "\n\n緑豊かな周囲を見渡す。"
  religious_interaction.2100.endoasis: "\n\n水面を見下ろす。"
  religious_interaction.2100.a.believer: "[imprisoner.GetFaith.HighGodName|U]は私に公正な審判を下すだろう！"
- religious_interaction.2100.a.unbeliever: "ここに私を#EMP 置いていく#! のか！？"
+ religious_interaction.2100.a.unbeliever: "ここに私を#EMP 置いていく#!のか！？"
  religious_interaction.2100.a.confused: "えっと…"
  religious_interaction.2100.a.success: "試練を生き延びる"
  religious_interaction.2100.a.failure: "太陽の下で死ぬ"
  #I have survived!
  religious_interaction.2101.t: "[imprisoner.GetFaith.HighGodNamePossessive|U]の慈悲"
- religious_interaction.2101.start.desc: "水、水が欲しい！ 喉が、頭が、肌が… 何もかも燃えそうだ！\n\n[ROOT.Char.GetFaith.DevilName]は本当にここに来て、惨めな私をただあざ笑ったのか？ [ROOT.Char.GetFaith.WaterGodName]は私に水筒を与えたのか？どれほど飲もうと、渇きは癒えなかった。"
+ religious_interaction.2101.start.desc: "水、水が欲しい！喉が、頭が、肌が…何もかも燃えそうだ！\n\n[ROOT.Char.GetFaith.DevilName]は本当にここに来て、惨めな私をただあざ笑ったのか？[ROOT.Char.GetFaith.WaterGodName]は私に水筒を与えたのか？どれほど飲もうと、渇きは癒えなかった。"
  religious_interaction.2101.end.desc: "\n\n[imprisoner.GetTitledFirstName]が戻り、私の唇に水筒を押し当てると、霧がかった意識がはっきりとした。私が生きていたことに[imprisoner.GetTitleAsNameNoTooltip]は少し残念そうにしたが、神は意志を示したのだ。"
  religious_interaction.2101.desc.pleasant: "外に縛られた日々も、ほとんど#EMP 楽しんでいた#!。鳥たちはさえずり、太陽が肌を温め、雨のしぶきが私を潤し、渇きを癒してくれたのだ。\n\n[imprisoner.GetTitledFirstName]が戻ってくると、[imprisoner.GetSheHe]は私の元気さと晴れやかな気分に明らかに苛立っているが、[imprisoner.GetSheHe]が定めた条件から逃れることはできない。神がその意志を示したのだ！"
  religious_interaction.2101.desc.oasis: "オアシスの冷たい水の中に吊るされた日々さえ、ほとんど#EMP 楽しんでいた#!。激しく照りつける太陽の下でも、縄は十分に緩んでおり、身を屈めてオアシスの水をたっぷりと飲むことができるのだ。\n\n[imprisoner.GetTitledFirstName]が戻ると、[imprisoner.GetSheHe]は私の健康に明らかに苛立っているが、[imprisoner.GetSheHe]が定めた条件から逃れることはできない。神がその意志を示したのだ！"
@@ -215,10 +215,10 @@
  religious_interaction.2403.a.stubborn: "「おい、まだ終わっていないぞ！」"
  religious_interaction.2403.a: "「だ… 大丈夫か？」"
  religious_interaction.2403.a.tt: "[victim.GetShortUIName]は心臓発作を起こし、[character_death_dies|E]した。"
- religious_interaction.2500.desc: "あなたが目覚めるとは… [ROOT.Char.GetFaith.HighGodNameAlternate]の啓示に違いありません！ 真の信仰はあなたを歓迎します。"
+ religious_interaction.2500.desc: "あなたが目覚めるとは…[ROOT.Char.GetFaith.HighGodNameAlternate]の啓示に違いありません！真の信仰はあなたを歓迎します。"
  religious_interaction.2500.toast_puppeteer: "[recipient.GetShortUIName]は、[puppet_or_actor.GetShortUINamePossessive]からの戦争中に改宗するとの申し出を受け入れた"
  religious_interaction.2500.a: "[ROOT.Char.GetFaith.HighGodName]を称えよ！"
- religious_interaction.2501.desc: "冗談のつもりですか？ 見え透いた政治的逃避を試みようと、[recipient.GetFaith.HighGodName]の怒りから逃れられはしません！"
+ religious_interaction.2501.desc: "冗談のつもりですか？見え透いた政治的逃避を試みようと、[recipient.GetFaith.HighGodName]の怒りから逃れられはしません！"
  religious_interaction.2501.toast_puppeteer: "[recipient.GetShortUIName]は、[puppet_or_actor.GetShortUINamePossessive]からの戦争中に改宗するとの申し出を拒否した"
  #########################
  #Exaltation of Pain tenet

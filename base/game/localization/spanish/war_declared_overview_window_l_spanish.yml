@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "No habéis cumplido con vuestras obligaciones como señor feudal. ¡Vuestras duras leyes serán derrocadas por la espada!"
  war_declared_flavor.claimant: "Pretendéis usurpar el trono. ¡Es hora de reponer en el trono a su legítimo monarca!"
  war_declared_flavor.rival: "Nuestra disputa se ha prolongado demasiado. ¡El acero resolverá lo que las palabras no han podido!"
- war_declared_flavor.vengeful: "He guardado cada desaire que me habéis hecho. ¡Ahora os los devuelvo multiplicados por diez, pagados con sangre!"
+ war_declared_flavor.vengeful: "He contado cada agravio que habéis cometido contra mí y los pagaréis diez veces, ¡en sangre!"
  war_declared_flavor.kinstrife: "Que compartamos la misma sangre no hace que esto sea menos necesario. Pariente o no, ¡no me habéis dejado más remedio que la guerra!"
  war_declared_flavor.callous: "Ahorradme vuestras súplicas. No me importa en absoluto vuestro sufrimiento, solo lo que voy a arrebataros."
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] La justicia y la costumbre están de mi parte. ¡Entregad lo que me pertenece por derecho o afrontad el juicio de las armas!"

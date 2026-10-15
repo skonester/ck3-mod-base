@@ -125,7 +125,7 @@
  bp2_character_interaction.1002.desc_zealous: "$bp2_character_interaction.desc_zealous$– Uważaj, [recipient.Custom2('RelationToMeShortVocative', ROOT.Char)]. Całą twarz mam oplutą – mówi [recipient.GetFirstNameNoTooltip]."
  bp2_character_interaction.1002.desc_paranoid: "$bp2_character_interaction.desc_paranoid$[recipient.GetFirstNameNoTooltip] chichocze."
  bp2_character_interaction.1002.desc_trusting: "$bp2_character_interaction.desc_trusting$– Ach, tak? #EMP Z pewnością…#! – ironizuje pod nosem [recipient.GetFirstNameNoTooltip]."
- bp2_character_interaction.1002.desc_compassionate: "$bp2_character_interaction.desc_compassionate$– Dobroci? A jak ona mnie obroni, gdy następnym razem to ja zbiorę razy?!"
+ bp2_character_interaction.1002.desc_compassionate: "$bp2_character_interaction.desc_compassionate$– Dobroci? A jak ona mnie obroni, gdy następnym razem to mnie się oberwie?!"
  bp2_character_interaction.1002.desc_callous: "$bp2_character_interaction.desc_callous$– Cóż, ktoś musi zająć się tymi biednymi duszyczkami."
  bp2_character_interaction.1002.desc_sadistic: "$bp2_character_interaction.desc_sadistic$– Nigdy! Chcę kierować się dobrocią! – odpowiada [recipient.GetFirstNameNoTooltip]."
  bp2_character_interaction.1002.desc_stubborn: "$bp2_character_interaction.desc_stubborn$– Być może… Ale nie mam z tym problemu… – wzdycha."

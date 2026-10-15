@@ -360,7 +360,7 @@
  court_physician_not_employed_or_away_tt: "Nie masz osoby, która pełniłaby rolę o nazwie [GetCourtPositionType('court_physician_court_position').GetName()], lub nie ma jej przy tobie chwilowo"
  hire_physician_decision: "Poszukuj medyka"
  hire_physician_decision_tooltip: "Twoi służący zaproponują ci kilku odpowiednich kandydatów do pracy jako [GetCourtPositionType('court_physician_court_position').GetName()|l]"
- hire_physician_decision_desc: "Osobisty medyk jest niezbędny, aby opiekować się chorymi i rannymi w miejscu takim jak [ROOT.Char.Custom('GetCourt')]. Poproszę swoich służących, aby przedstawili kilku odpowiednich kandydatów."
+ hire_physician_decision_desc: "Osobisty medyk jest niezbędny, aby opiekować się chorymi i rannymi w miejscu takim jak [ROOT.Char.Custom('GetCourt')|l]. Poproszę swoich służących, aby przedstawili kilku odpowiednich kandydatów."
  hire_physician_decision_effect_tooltip: "Zostanie ci przedstawiona grupa kandydatów do pracy jako [GetCourtPositionType('court_physician_court_position').GetName()|l] i będziesz mieć możliwość zatrudnienia jednego z nich za opłatą i miesięcznym wynagrodzeniem w wysokości [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
  hire_physician_decision_confirm: "Rozpocznij poszukiwania"
  antiquarian_employer_custom_effect_description: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'antiquarian_employer_custom_effect_reforge_description', '' )]$BULLET$Odblokowuje [Concept('decision', 'decyzję')|E] #V „$commission_artifact_decision$”#!\n$BULLET$Chroni [artifacts|El] podczas [Concept('sieges', 'oblężeń')|E] i [Concept('raids', 'najazdów')|E]"

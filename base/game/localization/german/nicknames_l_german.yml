@@ -27,7 +27,7 @@
  nick_the_apostle: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Apostel[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
  nick_the_apostle_desc: "Dieser Charakter war einer der persönlichen Begleiter Jesu Christi, der ihn sein ganzes Leben lang begleitete und nach seinem Martyrium seine Lehren predigte."
  nick_the_apostle_paul: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Apostel[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"
- nick_the_apostle_paul_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] stand zu Lebzeiten nie an der Seite Jesu Christi, doch nach dessen Martyrium wurde er zu diesem Weg berufen und brachte ihn zu den Heiden in aller Welt."
+ nick_the_apostle_paul_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] stand zu Lebzeiten nie an der Seite Jesu Christi, doch nach dessen Kreuzigung wurde er zu diesem Weg berufen und brachte ihn zu den Heiden in aller Welt."
  nick_theophorus: "Theophorus"
  nick_theophorus_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] wurde Theophorus, der Gottesträger, genannt: der Bischof von Antiochia, der in Ketten den römischen Märtyrertod erlitt."
  nick_the_avenger: "[CHARACTER.Custom('DE_ART_DEF_S_N')] Rächer[CHARACTER.Custom('DE_END_NOU_S_GS_N')]"

@@ -288,7 +288,7 @@
  #PAM
  clerical_appointment_law: "神职人员任命"
  clerical_appointment_law_subname: "$clerical_appointment_succession_law$"
- clerical_appointment_law_effects: "\n一种由[christian|E][ecclesiastical|E]和[theocratic|E][governments|E]使用的[appointment_succession_law|E]。在$clerical_appointment_law$下，[title|E]及所有相关[holdings|E]将由[candidate_score|E]最高的候选人继承。\n\n[holder_possessive|E]的[close_family|E]、[house|E]、[councillors|E]、[court_position|E]、[vassals|E]或[clerical_region|E][clergy|E]中，任何[faith|E]相同的[adult|E]都可以通过花费[piety|E]来争取该头衔。\n"
+ clerical_appointment_law_effects: "\n一种由[ecclesiastical|E]和[theocratic|E][governments|E]使用的[appointment_succession_law|E]。在$clerical_appointment_law$下，[title|E]及所有相关[holdings|E]将由[candidate_score|E]最高的候选人继承。\n\n[holder_possessive|E]的[close_family|E]、[house|E]、[councillors|E]、[court_position|E]、[vassals|E]或[clerical_region|E][clergy|E]中，任何[faith|E]相同的[adult|E]都可以通过花费[piety|E]来争取该头衔。\n"
  clerical_appointment_succession_law: "拥有最高分数的候选人继承"
  theocratic_elective_succession_law: "神权选举制"
  theocratic_elective_succession_law_subname: "枢机团"

@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "Sobór debatuje na temat tego, kto powinien mianować duchownych – Kościół czy korona – i poddaje to pod głosowanie."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "Przybycie"
- pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName] przyjmuje mnie ciepło u progu. W sali za [arrival_host.Custom('PL_jego_jej')] plecami już krzątają się prałaci i książęta wiary. Niedługo ważne pytanie o mianowanie duchowieństwa zostanie przedłożone zgromadzeniu."
+ pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName] wita mnie ciepło u progu. Za [arrival_host.Custom('PL_jego_jej')] plecami już krzątają się prałaci i książęta wiary. Niedługo ważne pytanie o mianowanie duchowieństwa zostanie przedłożone zgromadzeniu."
  pam_investiture_council_events.0001.a: "Mam zaszczyt być wśród nich."
  pam_investiture_council_events.0001.a.tt: "Debata rozpocznie się, kiedy przybędą pozostali goście."
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "Niech tak będzie."
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "Debata się rozpoczyna"
- pam_investiture_council_events.0003.desc: "Szmery wśród zgromadzenia cichną, kiedy rada zaczyna debatę w sprawie, która zwróciła Kościół przeciwko koronie – kto powinien mianować członków duchowieństwa? Każda przedstawiona tutaj opinia pomoże o tym zdecydować."
+ pam_investiture_council_events.0003.desc: "Zgromadzenie milknie, gdy sobór rozpoczyna obrady nad kwestią, która poróżniła Kościół z koroną. Kto winien mianować duchownych? Każdy obecny głos zaważy na odpowiedzi."
  pam_investiture_council_events.0003.a: "Już czas."
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "Słówko do właściwego ucha"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "Nieudolna próba przekonania przeciąga #N 5#! głosujących na stronę korony."
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "Sobór cię wzywa"
- pam_investiture_council_events.0004.desc: "Dotarła do mnie wiadomość, że zwołano sobór w sprawie inwestytury, by ustalić, kto będzie mianował członków duchowieństwa. Jestem jednak daleko od miejsca obrad. Mogę porzucić obecne zajęcia i pośpieszyć tam konno, aby zabrać głos, albo pozwolić, by sprawa została rozstrzygnięta beze mnie."
+ pam_investiture_council_events.0004.desc: "Nadchodzą wieści, że zwołano sobór w sprawie inwestytury, by ustalić, kto będzie mianował członków duchowieństwa. Od miejsca obrad dzieli mnie wiele dni podróży. Mogę rzucić wszystko i pośpieszyć tam konno, aby zabrać głos, albo pozwolić prałatom zadecydować beze mnie."
  pam_investiture_council_events.0004.a: "Porzuć wszystko i jedź, aby wziąć udział w soborze."
  pam_investiture_council_events.0004.b: "Niech zdecydują beze mnie."
  pam_investiture_council_haste_modifier: "Pilny wyjazd na sobór"

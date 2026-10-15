@@ -336,7 +336,7 @@
  relation_grandfather_possessive: "Großvater"
  relation_daughter_possessive: "Tochter"
  relation_son_possessive: "Sohn"
- relation_religious_head_possessive: "von [councillor.Custom('GetActualBishopTitle')]"
+ relation_religious_head_possessive: "von [second.Custom('GetActualBishopTitle')]"
  relation_capital_archbishop_possessive: "von [councillor.Custom('GetActualBishopTitle')]"
  relation_sister_possessive: "Schwester"
  relation_brother_possessive: "Bruder"

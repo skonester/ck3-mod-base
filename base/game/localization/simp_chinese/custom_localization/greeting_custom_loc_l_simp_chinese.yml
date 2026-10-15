@@ -13,7 +13,7 @@
  greeting_liege_liked_regent_assalam: "愿平安降临于你，[second.Custom('ComplimentAdjective')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]，"
  greeting_liege_dislike: "致我的领主，"
  greeting_liege_dislike_regent: "敬启，[second.Custom('ComplimentAdjective')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]，"
- greeting_liege_fallback: "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)]"
+ greeting_liege_fallback: "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)]，"
  greeting_liege_neutral: "[ROOT.Char.Custom2('GreetingLiegeNeutralFlavor', second)]"
  greeting_liege_neutral_plain: "敬启，我的领主，"
  greeting_liege_neutral_assalam: "愿平安降临于你，主上，"

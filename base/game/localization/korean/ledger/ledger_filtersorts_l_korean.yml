@@ -759,7 +759,7 @@
  faiths_my_religion_any: "$any_filter$"
  faiths_my_religion_yes: "$YES$"
  faiths_my_religion_no: "$NO$"
- faiths_organized: "개혁"
+ faiths_organized: "체계화"
  faiths_organized_any: "$any_filter$"
  faiths_organized_yes: "$YES$"
  faiths_organized_no: "$NO$"

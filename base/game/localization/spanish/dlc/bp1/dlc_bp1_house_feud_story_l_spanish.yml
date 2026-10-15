@@ -326,7 +326,7 @@
  msg_house_feud_cuckold_us: "$msg_house_feud_kill_us$"
  msg_house_feud_cuckold_us_desc: "[RIGHT_CHARACTER.GetShortUIName|U] [Select_CString(RIGHT_CHARACTER.IsLocalPlayer, 'pusiste', 'puso' )] los cuernos a [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
  msg_house_feud_cuckold_them: "$msg_house_feud_kill_them$"
- msg_house_feud_cuckold_them_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsLocalPlayer, 'pusiste', 'puso' )] los cuernos a [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
+ msg_house_feud_cuckold_them_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsLocalPlayer, 'pusiste', 'puso' )] los cuernos a [RIGHT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
  msg_house_feud_avenged_us: "$msg_house_feud_kill_us$"
  msg_house_feud_avenged_us_desc: "[RIGHT_CHARACTER.GetHouse.GetBaseName] [Select_CString(RIGHT_CHARACTER.IsLocalPlayer, 'te vengaste', 'se vengó' )] de [LEFT_CHARACTER.GetHouse.GetBaseName]\n\n$EFFECT$"
  msg_house_feud_avenged_them: "$msg_house_feud_kill_them$"
@@ -340,7 +340,7 @@
  msg_house_feud_stole_artifact_us: "$msg_house_feud_kill_us$"
  msg_house_feud_stole_artifact_us_desc: "[RIGHT_CHARACTER.GetShortUIName|U] [Select_CString(RIGHT_CHARACTER.IsLocalPlayer, 'robaste', 'robó' )] un [artifact|lE] a [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
  msg_house_feud_stole_artifact_them: "$msg_house_feud_kill_them$"
- msg_house_feud_stole_artifact_them_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsLocalPlayer, 'robaste', 'robó' )] un [artifact|lE] a [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
+ msg_house_feud_stole_artifact_them_desc: "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString(LEFT_CHARACTER.IsLocalPlayer, 'robaste', 'robó' )] un [artifact|lE] a [RIGHT_CHARACTER.GetShortUIName]\n\n$EFFECT$"
  #Tooltips
  house_feud_diplo_range_tt: "[house_head|E] de la casa enemistada demasiado lejos"
  house_feud_end_tt: "Tu [house_feud|lE] terminará"

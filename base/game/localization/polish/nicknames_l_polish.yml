@@ -27,7 +27,7 @@
  nick_the_apostle: "[Select_CString( CHARACTER.IsFemale, 'Apostołka', 'Apostoł' )]"
  nick_the_apostle_desc: "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłaś', 'Byłeś' ), Concatenate(CHARACTER.GetShortUINameNotMeNoTooltipNoFormat, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))] jedn[Select_CString(CHARACTER.IsFemale, 'ą', 'ym' )] z wiernych towarzysz[Select_CString(CHARACTER.IsFemale, 'ek', 'y' )] Jezusa Chrystusa, towarzysząc mu za życia i głosząc jego nauki po jego męczeństwie."
  nick_the_apostle_paul: "Apostolska Dusza"
- nick_the_apostle_paul_desc: "Osoba znana jako [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] nigdy nie towarzyszyła Jezusowi Chrystusowi za życia, ale po jego męczeńskiej śmierci została powołana do niesienia jego słów poganom na całym świecie."
+ nick_the_apostle_paul_desc: "Osoba znana jako [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] nigdy nie towarzyszyła Jezusowi Chrystusowi za życia, ale po jego ukrzyżowaniu została powołana do niesienia jego słów poganom na całym świecie."
  nick_theophorus: "Świątynia Boga"
  nick_theophorus_desc: "Osoba znana jako [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] uzyskała przydomek Świątynia Boga, czyli „niosąca Boga” – była biskupem Antiochii i zakuta w kajdany poniosła śmierć męczeńską w Rzymie."
  nick_the_avenger: "[Select_CString( CHARACTER.IsFemale, 'Mścicielka', 'Mściciel' )]"

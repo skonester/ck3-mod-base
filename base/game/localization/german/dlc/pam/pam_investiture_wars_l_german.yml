@@ -6,7 +6,7 @@
  pam_investiture_conflict_cb_victory_desc_attacker: "Euer Sieg zwingt [defender.GetShortUIName] und seine Seite, Eure Haltung zur Ernennung des Klerus anzunehmen."
  pam_investiture_conflict_cb_victory_desc_defender: "Der Sieg von [attacker.GetShortUIName|U] zwingt Euch und Eure Unterstützer, [attacker.Custom('DE_PRO_POS_S_3P')]e Haltung zur Ernennung des Klerus anzunehmen."
  pam_investiture_conflict_cb_victory_desc: "[attacker.GetShortUIName|U] obsiegt und zwingt [defender.GetShortUIName] und [defender.Custom('DE_PRO_POS_S_3P')]e Seite, die Haltung von [attacker.GetShortUIName] zur Ernennung des Klerus anzunehmen."
- pam_investiture_conflict_cb_white_peace_desc: "Der Streit um die Ernennung des Klerus endet ohne Entscheidung und keine Seite gewinnt."
+ pam_investiture_conflict_cb_white_peace_desc: "Der Streit um die Ernennung des Klerus bleibt unentschieden und beide Seiten weigern sich, nachzugeben."
  pam_investiture_conflict_cb_defeat_desc_attacker: "Eure Niederlage zwingt Euch und Eure Unterstützer, die Haltung von [defender.GetShortUIName] zur Ernennung des Klerus anzunehmen."
  pam_investiture_conflict_cb_defeat_desc_defender: "Ihr obsiegt und zwingt [attacker.GetShortUIName] und [attacker.Custom('DE_PRO_POS_S_3P')]e Seite, Eure Haltung zur Ernennung des Klerus anzunehmen."
  pam_investiture_conflict_cb_defeat_desc: "[defender.GetShortUIName|U] obsiegt und zwingt [attacker.GetShortUIName] und [attacker.Custom('DE_PRO_POS_S_3P')]e Seite, die Haltung von [defender.GetShortUIName] zur Ernennung des Klerus anzunehmen."

@@ -24,7 +24,7 @@
  building_sanchi_stupa_destination_desc: "[GetBuilding('sanchi_stupa_01').GetName]の丸屋根はサーンチーの村外れの丘で最も目を引く存在である。この場所で出会う多くの巡礼者や僧侶の中には、この寺院群は何千年にもわたり使われてきたと言う者も少なくない。"
  building_boudhanath_destination_desc: "[GetBuilding('boudhanath_01').GetName]の仏塔の巨大な丸屋根には、歴代の多くの仏陀にまつわる遺骨や聖遺物が収められている。またこの仏塔は、紛れもなくカトマンズで最も高い建造物である。街を見下ろすようにそびえ、この都市の歴史における仏教の重要性をはっきりと示している。付近は旅人や巡礼者、商人であふれ、その誰もがここに立ち寄り、休んだり、祈ったりしている。"
  building_mont_st_michel_destination_desc: "潮汐島である[GetBuilding('mont_st_michel_01').GetName]に干潮時に近づくと、荘厳な教会と城壁が水平線にそびえ立ち、万物を司る神の力を思い起こさずにはいられない。この場所は、重要な聖地であると同時に、この地の修道僧や漁師にとっての要塞でもある。"
- building_holy_site_st_peters_basilica_destination_desc: "バチカンの丘にそびえ、聖ペテロの墓の跡地に建つ[GetBuilding('holy_site_st_peters_basilica_01').GetName]は、西方教会と教皇たちの権威を象徴する存在だ。永遠の都市にあるこの場所では、聖職者や修道女の姿がいたるところで見られ、物乞いが行き交う巡礼者たちに施しを求めている。"
+ building_holy_site_st_peters_basilica_destination_desc: "バチカンの丘にそびえ、聖ペトロの墓の跡地に建つ[GetBuilding('holy_site_st_peters_basilica_01').GetName]は、西方教会と教皇たちの権威を象徴する存在だ。永遠の都市にあるこの場所では、聖職者や修道女の姿がいたるところで見られ、物乞いが行き交う巡礼者たちに施しを求めている。"
  building_holy_site_imam_ali_mosque_destination_desc: "町に入ると、[GetBuilding('holy_site_imam_ali_mosque_01').GetName]の黄金のドームがかがり火のように輝いていた。イマーム・[ali.GetFirstName]が眠る聖地は、祈りを捧げに来た巡礼者で埋め尽くされている。信仰心に満ちた厳かな雰囲気のなかで、壁に描かれた緻密なカリグラフィーが神への深い敬愛を物語っている。"
  building_yazd_mosque_destination_desc: "[GetBuilding('yazd_mosque_01').GetName]の大門の上にそびえる尖塔を見上げていると、畏敬の念に包まれる。ここへ来る途中、地元の者から、この街は遥か昔から信仰の中心地だったと聞かされた。今も街の通りは、遠くからはるばるこの美しき地にやってきた、信心深い巡礼者や聖職者であふれている。"
  building_holy_site_great_mosque_of_mecca_destination_desc: "[GetBuilding('holy_site_great_mosque_of_mecca_01').GetName]を前にして、私は畏敬の念で胸がいっぱいになった。太古の昔から聖域であり続けているカーバは、[GetReligionByKey('islam_religion').GetName]の忍耐の証である。巡礼者の集団は、それぞれが少しでも神の傍にいくことを切望している。彼らはその信仰心によって、まるでひとつの個体になったように動いていた。"

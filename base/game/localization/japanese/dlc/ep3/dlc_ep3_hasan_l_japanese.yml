@@ -87,7 +87,7 @@
  unlock_final_hasan_decisions_2_tt: "「[GetDecisionWithKey('hasan_found_the_assassins').GetName]」の[decision|E]が利用可能になる"
  unlock_final_hasan_decisions_3_tt: "「[GetDecisionWithKey('hasan_ignite_the_flames').GetName]」の[decision|E]が利用可能になる"
  at_least_5_counties_are_nizari: "領国内の少なくとも5つの伯爵領があなたの[rite|E]でなければならない"
- hasan_evangelize_other_rite_location_tt: "あなたの領土は異なる[rite|E]を信仰していなければならない"
+ hasan_evangelize_other_rite_location_tt: "あなたの領地が異なる[rite|E]を信仰していなければならない"
  ep3_hasan_advance_radicalism: "あなたの神聖な布教活動を進める"
  has_tougher_to_convert_tt: "[GetModifier( 'tougher_to_convert' ).GetNameWithTooltip|L]の[modifier|E]を持っていない"
  is_held_by_hof_tt: "その[head_of_faith|E]が保持してはならない"

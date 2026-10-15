@@ -66,4 +66,4 @@
  clerical_regions: "Regiony duchowne"
  clerical_regions_desc: "#T Regiony duchowne#!\nWyświetla wszystkie obecnie istniejące [clerical_regions|El], z których każdy podlega pod jurysdykcję [Concept('clerical_title', 'tytułu duchownego')|E]."
  faith_mapmode_holy_sites_tt: "#T Wyświetl miejsca święte#!\n#I Kliknij, aby wyświetlić#!"
- faith_mapmode_religious_heads_tt: "#T Wyświetl głowy wiar#!\n#I Kliknij, aby wyświetlić#!"
+ faith_mapmode_religious_heads_tt: "#T Wyświetl przywódców religijnych#!\n#I Kliknij, aby wyświetlić#!"

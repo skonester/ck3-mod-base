@@ -38,7 +38,7 @@
  direct_realm_holy_sites_held_by_faithful: "La [confederation|El] tiene al menos $VALUE|0V$ [holy_sites|lE] de la [faith|El] con [holders|lE] fieles"
  can_create_spiritual_hof_title_trigger_is_hof_tt: "Eres el [head_of_faith|El]"
  NOT_RELIGION_TAG_TRIGGER: "Tu [faith|lE] #bold no#! es parte del $RELIGION|V$"
- CAN_LEGITIMIZE_BASTARDS_IN_FAITH: "El [CHARACTER.GetRite.GetName] permite que los [bastards|lE] sean [Concept( 'legitimized', 'legitimados' )|E]"
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH: "El [CHARACTER.GetRite.GetName|l] permite que los [bastards|El] sean [Concept( 'legitimized', 'legitimados' )|E]"
  CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH: "El [CHARACTER.GetRite.GetName] #EMP no#! permite que los [bastards|lE] sean [Concept( 'legitimized', 'legitimados' )|E]"
  CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER: "No puedes ser [head_of_faith|lE] si con ello obtienes el mismo [title_rank|lE] que tu [liege|lE] o superior"
  CHAR_CAN_ONLY_CREATE_ONE_FAITH: "¡Ya has reformado o creado una nueva [faith|lE] con este personaje!"

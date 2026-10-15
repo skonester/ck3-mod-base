@@ -156,7 +156,7 @@
  msg_silk_road_innovation_movement_china_desc: "Западные торговцы проявляют живейший интерес к нашим открытиям"
  msg_silk_road_innovation_movement_tt: "[new_innovation_temp.GetName|V] — новая [Concept('silk_road_innovation', 'инновация шелкового пути')|E] в регионе [sub_region_temp.GetName]"
  msg_silk_road_innovation_spread_title: "Открытия инноваций на шелковом пути"
- msg_silk_road_innovation_spread_desc: "[market_temp.GetHolder.GetShortUIName|U] [Select_CString( market_temp.GetHolder.IsLocalPlayer, 'впитываете', 'впитывает' )] свежие идеи с Востока благодаря контролю над знаменитым рынком в провинции [market_temp.GetNameNoTier]"
+ msg_silk_road_innovation_spread_desc: "[market_temp.GetHolder.GetShortUIName|U] [CharHaveHas(market_temp.GetHolder)] впитывает свежие идеи с Востока благодаря контролю над знаменитым рынком в провинции [market_temp.GetNameNoTier]"
  msg_silk_road_innovation_spread_tt: "[Concept('silk_road_innovation', 'Инновация шелкового пути')|E] «[innovation_temp.GetName|V]» будет доступна #L [culture_temp.GetCollectiveNoun|l]ой#! [Concept('culture', 'культуре')|E]"
  msg_silk_road_innovation_visit_desc: "[new_trinket.GetShortUIName|U] [Select_CString(new_trinket.IsLocalPlayer, 'впитали', Select_CString(new_trinket.IsFemale, 'впитала', 'впитал' ))] свежие идеи с Востока благодаря контролю над знаменитым рынком в провинции [market_temp.GetNameNoTier]"
  msg_silk_road_phase_change_title: "Шелковый путь: [situation_sub_region.GetCurrentPhase.GetName] в регионе [situation_sub_region.GetNameNoTooltip]"

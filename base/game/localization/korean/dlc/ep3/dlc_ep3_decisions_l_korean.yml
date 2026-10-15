@@ -240,7 +240,7 @@
  become_landless_adventurer_decision_confirm: "앞으로 나아가리라!"
  become_landless_adventurer_decision_hof_tt: "[head_of_faith|E]가 아니어야 함"
  become_landless_adventurer_decision_tier_tt: "[count|E] 또는 [duke|E]이어야 함"
- become_landless_adventurer_decision_domain_size_tt: "[domain|E]을 구성하는 [Concept( 'holdings', '봉토' )|E]가 #V 3#!개를 넘지 말아야 함"
+ become_landless_adventurer_decision_domain_size_tt: "[domain|E]을 구성하는 [holdings|E]가 #V 3#!개를 넘지 말아야 함"
  become_landless_adventurer_decision_title_scope_tt: "#negative_value 당신의 모든 [landed|E] [titles|E]와 [vassals|E]이 [THIS.Char.GetName]에게 이전됨#!"
  become_landless_adventurer_decision_title_created_tt: "#negative_value 당신의 모든 [landed|E] [titles|E]가 새로운 지역 [ruler|E]에게 이전됨#!"
  wipe_slate_decision: "새 출발"

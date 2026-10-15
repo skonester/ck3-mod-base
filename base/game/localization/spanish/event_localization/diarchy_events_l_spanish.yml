@@ -669,7 +669,7 @@
  vizierate.1001.b: "Estas finanzas parece complicadas…"
  vizierate.1001.c: "Arriesgado, muy arriesgado…"
  vizierate.1001.d: "¡Qué conveniente enviar una carta que pueda compartir con [vizier.GetFirstNameNoTooltip]!"
- vizierate.1001.d.tt.filtered_out: "Es #EMP mucho#! menos probable que [propositioner.Custom('ES_ElLa')] [propositioner.GetTitledFirstName|l] herede [diarchy|lE] alguna contigo"
+ vizierate.1001.d.tt.filtered_out: "Es #EMP mucho#! menos probable que [propositioner.Custom('ES_ElLa')] [propositioner.GetTitledFirstName|l] herede [diarchy|lE] alguno contigo"
  vizierate.1001.e: "Vuestra mezquina política civil está por debajo de mí."
  ##################################################
  ##Vizier Candidate Politicking Relation Reasons

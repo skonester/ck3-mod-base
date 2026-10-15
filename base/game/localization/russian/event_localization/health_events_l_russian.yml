@@ -237,7 +237,7 @@
  health.3001.decision.desc: "Мир полон опасностей, и даже [ROOT.Char.GetTitleTierName|l] и [Select_CString(ROOT.Char.IsFemale, 'ее', 'его' )] [ROOT.Char.Custom('GetCourtierPlural')|l] не могут их избежать. По моему приказу слуги отыскали несколько подходящих кандидатов на роль придворного врача."
  health.3001.already_sick.desc: "Наконец мои слуги нашли несколько людей, которые вполне могут занять место врача. В любом случае привередничать в наши дни не приходится."
  health.3001.a: "Очевидно, [high_skill_option.GetFirstNameNoTooltip] обладает значительным опытом."
- health.3001.a.tt: "[GetCourtPositionType('court_physician_court_position').GetName()] также получает ежемесячное жалование — [SelectLocalization( GetPlayer.HasTreasury, 'health.3001.upkeep.treasury', 'health.3001.upkeep.gold' )][SCOPE.ScriptValue('court_position_physician_salary')]"
+ health.3001.a.tt: "[GetCourtPositionType('court_physician_court_position').GetName()|U] также получает ежемесячное жалованье — [SelectLocalization( GetPlayer.HasTreasury, 'health.3001.upkeep.treasury', 'health.3001.upkeep.gold' )][SCOPE.ScriptValue('court_position_physician_salary')]"
  health.3001.upkeep.treasury: "[treasury_i]"
  health.3001.upkeep.gold: "[gold_i]"
  health.3001.a.aptitude: "[Concept( 'aptitude', 'Пригодность' )|E] [Select_CString(high_skill_option.IsLocalPlayer, '', 'персонажа ' )][high_skill_option.GetNamePossessiveOrMy][Select_CString(high_skill_option.IsLocalPlayer, 'его персонажа', '' )] — [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"

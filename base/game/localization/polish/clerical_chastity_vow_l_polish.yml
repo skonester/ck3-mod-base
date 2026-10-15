@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "Wyrzeknij się ślubów czystości"
  renounce_clerical_chastity_vow_decision_confirm: "Wyrzeknij się ślubów"
  renounce_clerical_chastity_vow_decision_desc: "Ta przysięga została przeze mnie złożona, bo kapłan wymagał ode mnie czystości. Mogę ją odwołać, jednak złamanie świętej obietnicy będzie kosztować mnie [piety|El] i ciążyć mi na sumieniu."
- renounce_clerical_chastity_vow_decision_tooltip: "Zakończ przysięgę, nim dobiegnie końca. Stracisz [piety|El], doświadczysz [Concept('stress', 'stresu')|E] i pogorszysz [Concept('clergy_opinion', 'opinię duchowieństwa')|E] na 10 lat."
+ renounce_clerical_chastity_vow_decision_tooltip: "Zakończ przysięgę przedwcześnie. Stracisz [piety|El], zyskasz [stress|El] i pogorszysz [Concept('clergy_opinion', 'opinię duchowieństwa')|E] na 10 lat."
  renounce_clerical_chastity_vow_toast: "Zrzeknięto się ślubów"
  renounce_clerical_chastity_vow_toast_desc: "Zrzekasz się ślubów czystości."
  clerical_chastity_vow.0001.toast_released: "Koniec przysięgi"

@@ -9,7 +9,7 @@
  apa_pam_spread_tenet_host_title: "[first.Custom('FR_le_Char_U_Pi')|U][first.GetShortUINameNoTooltip|U] [Select_CString(first.IsLocalPlayer,'ralliez','rallie')] [second.Custom('FR_le_Char_U_Pi')][second.GetShortUINameNoTooltip]"
  apa_pam_spread_tenet_guest_title: "[first.Custom('FR_le_Char_U_Pi')|U][first.GetShortUINameNoTooltip|U] [Select_CString(first.IsLocalPlayer,'ralliez','rallie')] [second.Custom('FR_le_Char_U_Pi')][second.GetShortUINameNoTooltip]"
  # Shared event text
- pam_spread_tenet_events.forbidden.desc: "\n\nMais ce qui me tient à cœur, c’est une conviction que ma propre foi condamne : [spread_tenet.GetBaseName|l]. En parler, c’est mettre mon destin entre les mains de chacun de ceux qui m’écoutent."
+ pam_spread_tenet_events.forbidden.desc: "\n\nMais ce qui me tient à cœur, c’est une conviction que ma foi condamne : [spread_tenet.GetBaseName|l]. En parler, c’est mettre mon destin entre les mains de chacun de ceux qui m’écoutent."
  pam_spread_tenet_option_scripture: "Les Écritures elles-mêmes parlent pour moi."
  pam_spread_tenet_option_preach: "Écoutez ce que je considère comme vrai."
  pam_spread_tenet_option_forbidden: "La vérité vaut bien le risque. Approchez-vous."
@@ -25,4 +25,4 @@
  pam_spread_tenet_events.0301.t: "Trinquée à cette conviction"
  pam_spread_tenet_events.0301.desc: "Les verres se lèvent les uns après les autres : aux jeunes mariés, aux héritiers à naître...\n\n« Et [ROOT.Char.GetFaith.HighGodName2], qui unit toutes les âmes ! » ajoute [pam_spread_listener_1.Custom('FR_le_Char_Pi')][pam_spread_listener_1.GetTitledFirstName] sous des murmures d’approbation.\n\nIci, les cœurs sont disposés à accueillir l’amour, l’espérance et les vérités sacrées. Les paroles prononcées aujourd’hui y prendront racine."
  pam_spread_tenet_events.0401.t: "Paroles prononcées à la veillée funèbre"
- pam_spread_tenet_events.0401.desc: "Les endeuillés se rassemblent en petits groupes, échangeant à voix basse quelques mots sur le défunt et le sort qui nous est à tous réservé.\n\n« Cela viendra pour chacun de nous », murmure [pam_spread_listener_1.Custom('FR_le_Char_Pi')][pam_spread_listener_1.GetTitledFirstName] à mes côtés. « Et pourtant, nous continuons à nous disputer pour des vétilles. »\n\nLe chagrin ouvre une brèche dans l’âme..."
+ pam_spread_tenet_events.0401.desc: "Les endeuillés se rassemblent en petits groupes, échangeant à voix basse quelques mots sur le défunt et le sort qui nous est à tous réservé.\n\n« L’éternité viendra pour chacun de nous », murmure [pam_spread_listener_1.Custom('FR_le_Char_Pi')][pam_spread_listener_1.GetTitledFirstName] à mes côtés. « Et pourtant, nous nous disputons pour des vétilles. »\n\nLe chagrin ouvre une brèche dans l’âme..."

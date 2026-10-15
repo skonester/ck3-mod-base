@@ -27,4 +27,4 @@
  generic_badge_prosperity_desc: "一枚闪亮的朝圣徽章，获得于[newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]，据传能为佩戴者带来繁荣。"
  generic_badge_virility_desc: "一枚闪耀着热忱的朝圣徽章，获得于[newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]，据传能为佩戴者带来活力。"
  generic_badge_wisdom_desc: "一枚神秘的朝圣徽章，获得于[newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]，据传能激发佩戴者的智慧与沉思。"
- pilgrim_badge_holy_site_faith_tt: "无法装备，因为你的[faith|E]不认为[artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]是[holy_site|E]"
+ pilgrim_badge_holy_site_faith_tt: "无法装备，因为你的[faith|E]不视[artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip]为[holy_site|E]"

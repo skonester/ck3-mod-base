@@ -74,7 +74,7 @@
  rich_presence_admin_scheming: "[ROOT.Char.GetLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip]で陰謀を企てている。肩書きは"
  rich_presence_landless_camp: "[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetDefinitiveNameNoTooltip]で野営している。肩書きは"
  rich_presence_landless_travel: "所領がなく、[ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetDefinitiveNameNoTooltip]を放浪している。肩書きは"
- rich_presence_nomad: "遊牧民の[ROOT.Char.GetDomicile.GetRite.GetAdjectiveNoTooltip]の[ROOT.Char.GetDomicile.GetCulture.GetCollectiveNounNoTooltip]を統治している。肩書は"
+ rich_presence_nomad: "遊牧民の[ROOT.Char.GetDomicile.GetRite.GetAdjectiveNoTooltip] の[ROOT.Char.GetDomicile.GetCulture.GetCollectiveNounNoTooltip]を統治している。肩書は"
  rich_presence_world_conquest: "世界を征服している。肩書は"
  rich_presence_mandate_of_heaven: "天命によって政権を握っている。肩書きは"
  rich_presence_mandate_of_heaven_unstable: "天命を疑われている。肩書きは"

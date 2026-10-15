@@ -27,7 +27,7 @@
  nick_the_apostle: "el/la Apóstol"
  nick_the_apostle_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'fuiste', 'fue' )] un[CHARACTER.Custom('ES_OA')] de los acompañantes personales de Jesucristo, yendo con él durante toda su vida y predicando Su palabra después de su martirio."
  nick_the_apostle_paul: "el/la Apóstol"
- nick_the_apostle_paul_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] jamás [Select_CString(CHARACTER.IsLocalPlayer, 'caminaste', 'caminó')] junto a Jesucristo en vida, pero se le llamó a seguir su camino tras su martirio y este se llevó a los gentiles de todo el mundo."
+ nick_the_apostle_paul_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] jamás [Select_CString(CHARACTER.IsLocalPlayer, 'caminaste', 'caminó')] junto a Jesucristo en vida, pero se le llamó a seguir su camino tras su crucifixión y este se llevó a los gentiles de todo el mundo."
  nick_theophorus: "Teóforo"
  nick_theophorus_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsLocalPlayer, 'fuiste', 'fue')] llamado Teóforo, el portador de Dios: un obispo de Antioquía que fue encadenado para sufrir martirio en Roma."
  nick_the_avenger: "el/la Vengador[CHARACTER.Custom('ES_XA')]"

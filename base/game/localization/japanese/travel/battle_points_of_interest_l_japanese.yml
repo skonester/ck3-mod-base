@@ -85,7 +85,7 @@
  BattlePoIHistoricalNameYarmuk: "ヤルムークの戦い"
  BattlePoIHistoricalDescYarmuk: "#emp 勝者：[GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\n敗者：[GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\n日付：西暦636年、8月20日#!\n#weak ヤルムークの戦いは、ビザンツ史上最も重要な戦いの一つである。この戦いで決定的な敗北を喫したことで、シリアとエジプトでも敗れ、アラビア帝国の大拡張につながった。\n\n6日間続いた戦いの流れは、当初はイスラム侵略軍に不利なものであったが、ヤルムークで5日目が明けると、彼らは防御から攻撃に転じた。6日目、騎兵隊を率いて果敢に突撃し、ビザンツ軍を破った。\n\nビザンツ兵の士気は打ち砕かれ、渓谷に落ちたり、溺れたり、敵兵に叩きのめされて戦場から逃走した。#!"
  BattlePoIHistoricalNameDandanaqan: "ダンダーナカーンの戦い"
- BattlePoIHistoricalDescDandanaqan: "#emp 勝者：[GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\n敗者：[GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\n日付：西暦1040年、5月23日#!\n#weak 勢いづいているペルシャ北部のセルジューク朝とガズナ帝国の大戦。最初の戦いでセルジューク軍を撃退した後、ガズナ軍は残された戦利品を巡っていがみ合いはじめた。\n\n統制を失い、戦闘準備も整っていなかった彼らは、セルジューク朝の軍勢が戻ってきたことに気付かなかった。疲弊し、飢え、戦意を喪失したガズナ軍は敵に打ち倒された。#!"
+ BattlePoIHistoricalDescDandanaqan: "#emp 勝者：[GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\n敗者：[GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\n日付：西暦1040年、5月23日#!\n#weak 勢いづいているペルシア北部のセルジューク朝とガズナ帝国の大戦。最初の戦いでセルジューク軍を撃退した後、ガズナ軍は残された戦利品を巡っていがみ合いはじめた。\n\n統制を失い、戦闘準備も整っていなかった彼らは、セルジューク朝の軍勢が戻ってきたことに気付かなかった。疲弊し、飢え、戦意を喪失したガズナ軍は敵に打ち倒された。#!"
  BattlePoIHistoricalNameAror: "アロールの戦い"
  BattlePoIHistoricalDescAror: "#emp 勝者：ムハンマド・イブン・アル＝カシム\n敗者：ラジャ・ダヒル\n日付：西暦711年#!\n#weak インドでのウマイヤ朝の侵攻における、シンドのラジャとウマイヤ朝の戦い。\n\n元々数で負けていたウマイヤ朝の指揮官は、戦闘に入る前に自軍の有利な位置を確保することに成功した。戦いのあいだずっとこの有利がイスラム軍に徐々に戦いの流れを支配させることになり、ラジャ・ダヒルの死によって勝利が確定した。#!"
  BattlePoIHistoricalNameSvolder: "スヴォルドの海戦"

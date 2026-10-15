@@ -10,7 +10,7 @@
  pam_canonize_saint_decision_tooltip_saint: "将你的一名去世的[dynasty|EU]成员奉为[sainthood|EU]。"
  pam_canonize_saint_decision_tooltip_va: "将你的一名去世的[dynasty|EU]成员晋升为[GetPlayer.Custom('PamVeneratedSaintOrAncestorGeneric')]。"
  pam_canonize_saint_decision_confirm: "选择安息之地"
- pam_canonize_saint_decision_req_candidate: "你的[dynasty|EU]的一名没有[sinful|EU]特质且拥有至少一个[virtuous|EU]特质的#EMP 已过世#!祖先尚未被尊崇"
+ pam_canonize_saint_decision_req_candidate: "你[dynasty|EU]的一名拥有[virtuous|EU]特质且没有[sinful|EU]特质的#EMP 已过世#!祖先尚未被尊崇"
  pam_canonize_saint_decision_req_site: "在你的[realm|EU]内存在拥有[Concept('ecclesiastical_domicile_building','主教座堂')|E]的[Concept('ecclesiastical_domicile','教会庄园')|E]可用于为其祝圣；或者，若所有该类建筑已被占据，亦可使用相邻省份"
  pam_canonize_saint_decision_req_site_holy_site: "在你的[realm|EU]内存在拥有你的[faith|EU][Concept('holy_site','圣地')|E]可用于为其祝圣；或者，若所有圣地已被占据，亦可使用相邻省份"
  pam_canonize_saint_decision_canonize_tt: "[GetPlayer.Custom('PamCanonizeVenerateVerb')|U]选择的过世宗族成员，[GetPlayer.Custom('PamConsecratingEnshrining')]其遗骸"
@@ -274,7 +274,7 @@
  poi_buried_saint.preset_visit_desc: "你在[visited_saint.GetShortUIName]墓前驻足，致以敬意。"
  poi_buried_saint.foreign_visit: "造访古墓"
  poi_buried_saint.foreign_visit_desc: "你的信仰并不尊崇[visited_saint.GetShortUIName]，但此墓仍有许多值得学习之处。"
- pam_poi_buried_saint_on_visit_preset_relic_tt: "致以敬意，获得少量[piety_i|E][piety|E]，并可选择以比远程获取#EMP 更低#!的花费取出一件神圣的[Concept('artifact','圣物')|E]。"
+ pam_poi_buried_saint_on_visit_preset_relic_tt: "致以敬意，获得少量[piety_i|E][piety|E]，并可以按从远方获取#EMP 更低#!的花费，取出一件[Concept('artifact','圣物')|E]。"
  pam_poi_buried_saint_on_visit_relic_tt: "向[visited_saint.GetShortUIName]致以敬意，可选择以#EMP 较小#!花费获取一件[Concept('artifact','圣物')|E]。"
  pam_poi_buried_saint_on_visit_no_relic_tt: "向在此地安息的[visited_saint.Custom('PamSaintOrAncestorNoun')][visited_saint.GetShortUIName]致以敬意。"
  # Visiting a saint's tomb (player homage)

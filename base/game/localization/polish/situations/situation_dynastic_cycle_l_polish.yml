@@ -40,7 +40,7 @@
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST: "Katalizatory prowadzące do fazy „[FutureSituationPhase.GetType.GetNameNoTooltip]”"
  DYNASTIC_CYCLE_WINDOW_PHASES_LIST: "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip] – epoki"
  DYNASTIC_CYCLE_WINDOW_HISTORY_LIST: "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip] – historia"
- SITUATION_HISTORY_NO_ENTRIES: "Nie ma jeszcze nic do zapisania w historii"
+ SITUATION_HISTORY_NO_ENTRIES: "Nie ma jeszcze żadnych wpisów"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS: "Wszystkie katalizatory"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_TT: "#T [SituationPhaseType.GetNameNoTooltip]: [situation_catalyst_catalysts|El]#!\n$CLICK_TO_VIEW$"
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST_PROGRESSBAR_TT: "#T [SituationPhaseType.GetName] – postęp: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!"

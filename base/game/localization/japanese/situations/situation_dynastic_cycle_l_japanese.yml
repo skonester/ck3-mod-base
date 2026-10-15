@@ -40,7 +40,7 @@
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST: "[FutureSituationPhase.GetType.GetName]への触媒"
  DYNASTIC_CYCLE_WINDOW_PHASES_LIST: "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]の時代"
  DYNASTIC_CYCLE_WINDOW_HISTORY_LIST: "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]の歴史"
- SITUATION_HISTORY_NO_ENTRIES: "まだ記録すべき歴史はない"
+ SITUATION_HISTORY_NO_ENTRIES: "記録する履歴がまだありません"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS: "すべての触媒"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_TT: "#T [SituationPhaseType.GetNameNoTooltip]への[situation_catalyst_catalysts|E]#!\n$CLICK_TO_VIEW$"
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST_PROGRESSBAR_TT: "#T [SituationPhaseType.GetName]への進捗：$SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!"

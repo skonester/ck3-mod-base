@@ -432,7 +432,7 @@
  flower_type_japanese_iridaceae: "un iris"
  flower_type_korean_bellflower: "une campanule"
  flower_type_korean_rhododendron: "un rhododendron"
- flower_type_hokkaido_alpine: "une fleur alpine d’Hokkaido"
+ flower_type_hokkaido_alpine: "un hokkaido alpin"
  flower_type_tropical_rafflesia: "une rafflésie"
  flower_type_nepenthes_pitcher: "un népenthès"
  flower_type_jade_vine: "une liane de jade"
@@ -469,7 +469,7 @@
  flower_type_japanese_iridaceae_plural: "iris"
  flower_type_korean_bellflower_plural: "campanules"
  flower_type_korean_rhododendron_plural: "rhododendrons"
- flower_type_hokkaido_alpine_plural: "fleurs alpines d’Hokkaido"
+ flower_type_hokkaido_alpine_plural: "hokkaido alpins"
  flower_type_tropical_rafflesia_plural: "rafflésies"
  flower_type_nepenthes_pitcher_plural: "népenthès"
  flower_type_jade_vine_plural: "lianes de jade"
@@ -608,7 +608,7 @@
  horned_mythical_creature_keewakw: "un kee-wakw"
  #Regional Mythical Creatures
  #Britannia
- mythical_creature_britannia_water_leper: "un sauteur d’eau"
+ mythical_creature_britannia_water_leper: "un sauteur d'eau"
  mythical_creature_britannia_fomorian: "un fomoire"
  mythical_creature_britannia_fachan: "un fachan"
  #West Europe
@@ -666,7 +666,7 @@
  mythical_creature_other_dragon: "un dragon"
  #Lowercase
  #Britannia
- mythical_creature_britannia_water_leper_lower: "un sauteur d’eau"
+ mythical_creature_britannia_water_leper_lower: "un sauteur d'eau"
  mythical_creature_britannia_fomorian_lower: "un fomoire"
  mythical_creature_britannia_fachan_lower: "un fachan"
  #West Europe

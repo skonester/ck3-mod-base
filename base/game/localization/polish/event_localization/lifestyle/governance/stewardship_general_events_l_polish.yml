@@ -15,7 +15,7 @@
  stewardship_general.2001.t: "Nos do interesów"
  stewardship_general.2001.desc_intro: "Podczas spokojnego spaceru okrzyk pewnego kupca wybija się ponad zwykły zgiełk ulicy.\n\n– Niech [ROOT.Char.Custom('FormOfAddressForLiege')] raczy przyjąć moje pozdrowienia! – zwraca się do mnie. – Mam wspaniały asortyment towarów, jeśli tylko wasza czcigodność dysponuje funduszami…"
  stewardship_general.2001.desc: "\n\nStoisko kupieckie jest wprost przepełnione błyskotkami i pasmanterią."
- stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Jako, że jestem wprawnym dostawcą drobiazgów, w natłoku bibelotów moją uwagę przykuwa kilka drobiazgów."
+ stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Jako że jestem wprawnym dostawcą ozdób, w natłoku bibelotów moją uwagę przykuwa kilka drobiazgów."
  stewardship_general.2001.desc_steward: "\n\nPrzyglądając się niezliczonym towarom na straganie, słyszę, jak [helpful_councillor.GetTitledFirstName] pomrukuje.\n\n– Grawerunki na tym przedmiocie muszą być prawdziwe… i bardzo cenne!"
  stewardship_general.2001.desc_chaplain: "\n\nMój towarzysz, [helpful_councillor.GetTitledFirstNameNotMe], zatrzymuje się w miejscu z głową zadartą do góry, wpatrując się w coś na straganie kupieckim. Pochyla się w moją stronę i mówi ściszonym głosem.\n\n– To »cudeńko« to musi być święty relikt minionych czasów. Mądrze byłoby nabyć taki drobiazg."
  stewardship_general_2001_success_msg.t: "Udane targowanie"

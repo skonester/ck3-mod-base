@@ -9,7 +9,7 @@
  apa_pam_spread_tenet_host_title: "[first.GetShortUINameNotMeNoTooltip] przekonuje osobę znaną jako [second.GetShortUINameNotMeNoTooltip]"
  apa_pam_spread_tenet_guest_title: "[first.GetShortUINameNotMeNoTooltip] przekonuje osobę znaną jako [second.GetShortUINameNotMeNoTooltip]"
  # Shared event text
- pam_spread_tenet_events.forbidden.desc: "\n\nLecz to, co przepełnia me serce, to „[spread_tenet.GetBaseName]” – przekonanie, które potępia moja własna wiara. Mówienie o tym tutaj jest jak składanie mojego losu w ręce słuchających."
+ pam_spread_tenet_events.forbidden.desc: "\n\nLecz to, co przepełnia me serce, to „[spread_tenet.GetBaseName]” – przekonanie, które potępia moja własna wiara. Wyznanie tego w tym gronie oznaczałoby złożenie mojego losu w ręce słuchających."
  pam_spread_tenet_option_scripture: "Samo pismo do mnie przemawia."
  pam_spread_tenet_option_preach: "Usłyszcie to, co uważam za prawdę!"
  pam_spread_tenet_option_forbidden: "Prawda jest warta ryzyka. Podejdź bliżej."
@@ -25,4 +25,4 @@
  pam_spread_tenet_events.0301.t: "Toast w imię przekonań"
  pam_spread_tenet_events.0301.desc: "Puchary wznoszą się jeden za drugim – za nowożeńców, za jeszcze nienarodzonych dziedziców…\n\n– I za [ROOT.Char.GetFaith.HighGodNamePossessive], siłę, które wiąże ze sobą wszystkie dusze! – dodaje [pam_spread_listener_1.GetTitledFirstName] przy huku aprobaty.\n\nSerca zgromadzonych są otwarte – na miłość, nadzieję i rzeczy święte. Wypowiedziane teraz słowa zakorzenią się w duszach zebranych."
  pam_spread_tenet_events.0401.t: "Słowa wygłoszone podczas czuwania"
- pam_spread_tenet_events.0401.desc: "Żałobnicy gromadzą się w luźnych grupkach i wymieniają ciepłe słowa o zmarłym i losie, który czeka nas wszystkich.\n\n– Śmierć przyjdzie po nas wszystkich – mówi cicho [pam_spread_listener_1.GetTitledFirstName], stojąc przy mnie. – A my nadal spieramy się o drobnostki.\n\nSmutek potrafi otworzyć duszę człowieka…"
+ pam_spread_tenet_events.0401.desc: "Żałobnicy stoją w małych skupiskach, szemrząc o zmarłym i o losie, który czeka nas wszystkich.\n\n– Wieczność upomni się o każdego z nas – szepcze [pam_spread_listener_1.GetTitledFirstName] tuż przy moim ramieniu. – A mimo to wciąż kłócimy się o drobiazgi.\n\nMoże to żałoba rozwarła czyjąś duszę…"

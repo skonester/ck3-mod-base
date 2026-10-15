@@ -8,7 +8,7 @@
  blotsven.0001.b.tt: "Ihr lasst diese Gelegenheit, den Göttern zu gefallen, ungenutzt verstreichen."
  # Eskil barges in
  blotsven.0002.t: "Ein begeisterter Missionar"
- blotsven.0002.desc: "Kurz bevor das Blót beginnen soll, lenkt mich ein Tumult davon ab, den Eid auf den Eisenring zu leisten. Eine Gruppe von Menschen betritt den Platz, und ein schreiender Mann stürmt in unseren heiligen Kreis.\n\n„Im Namen der höchsten Macht ([eskil.GetFaith.HighGodName])! Haltet ein!“, ruft er und fuchtelt wild mit den Armen.\n\nEr reckt die Hände über den Kopf, schreit zum Himmel und fordert, er möge die Menschen strafen, die diese heidnische Tat begehen. Wie auf seinen Befehl hin beginnt es zu regnen. Ich blinzle, als ein Blitz den Himmel durchzuckt."
+ blotsven.0002.desc: "Als das Blót beginnen soll, lenkt mich ein Tumult davon ab, den Eid auf den Eisenring zu leisten. Ein rotgesichtiger schreiender Mann und seine Anhänger stürmen in unseren heiligen Kreis.\n\n„Im Namen der höchsten Macht ([eskil.GetFaith.HighGodName])! Haltet ein!“, schreit er und reckt die Arme in den Himmel. „Schlagt die Heiden nieder, die diese ruchlose Tat gutheißen würden!“\n\nWie auf seinen Befehl hin beginnt es zu regnen und ein schrecklicher Blitz zerreißt den Horizont."
  blotsven.0002.a: "Nehmt den nächsten Stein und werft ihn nach ihm."
  blotsven.0002.a.tt: "Es ist keine Seltenheit, dass Missionare gesteinigt werden."
  blotsven.0002.b: "Nehmt meine Axt und zielt auf seinen Kopf."

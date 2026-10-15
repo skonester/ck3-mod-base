@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nLo diré sin rodeos:"
  demand_church_succession.0001.recipient.elderly_childless: "la cuna junto al fuego de vuestro hogar está vacía, y el linaje acaba con vos. Los fieles esperarán y, con el tiempo, heredarán."
  demand_church_succession.0001.recipient.childless: "no tenéis hijos vivos. Si [actor.GetFaith.HighGodName] no hace que esto cambie, vuestras tierras servirán a la fe."
- demand_church_succession.0001.recipient.one_child: "un solo descendiente se interpone entre vos y el final. Si [actor.GetFaith.HighGodName] lo reclama, los fieles estarán listos para gobernar."
+ demand_church_succession.0001.recipient.one_child: "un niño es todo lo que te separa del final. Si [actor.GetFaith.HighGodName] lo toma, los fieles estarán listos para gobernar."
  demand_church_succession.0001.recipient.default: "los años sienten celos de las promesas. Si la vuestra falla, vuestras tierras pasarán a ser nuestras y las gobernaremos en nombre de [actor.GetFaith.HighGodName]."
  demand_church_succession.0001.a: "Así está escrito y así será."
  demand_church_succession.0001.b: "Será mejor que sea [ROOT.Char.GetMotherFather] de un heredero, entonces."

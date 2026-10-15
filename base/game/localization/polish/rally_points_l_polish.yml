@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! Brak [Concept('armies', 'armii')|E] do wystawienia#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! Brak [Concept('men_at_arms', 'zbrojnych')|E] do wystawienia#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Nie można wystawić, jeśli ustawienie „$ARMY_AUTOMATION_FEATURE_NAME$” jest włączone#!"
- RAISE_TROOPS_EXTRA_INFO: "[armies|E] mogą zostać podzielone, jeśli przekraczają [Concept('supply_limit', 'limity zaopatrzenia')|E].\n\n#I Przytrzymując klawisz Ctrl, kliknij lewym przyciskiem myszy, aby wystawić [armies|El] bez dzielenia ich ze względu na [Concept('supply_limit', 'zaopatrzenie')|E]#!\n#I Aby wystawić [armies|El] w wybranym miejscu, kliknij prawym przyciskiem myszy#!"
+ RAISE_TROOPS_EXTRA_INFO: "[armies|E] można podzielić, jeśli ich liczebność przekracza [Concept('supply_limit', 'limity zaopatrzenia')|E].\n\n#I Przytrzymując klawisz Ctrl, kliknij lewym przyciskiem myszy, aby wystawić [armies|El] bez dzielenia ich ze względu na [Concept('supply_limit', 'zaopatrzenie')|E]#!\n#I Kliknij prawym przyciskiem myszy, aby wystawić [armies|El] w wybranym miejscu#!"

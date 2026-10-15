@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "El concilio debate quién debe investir al clero, si la Iglesia o la corona, y somete la cuestión a votación."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "Llegada"
- pam_investiture_council_events.0001.desc: "[arrival_host.Custom('ES_ElLa')|U] [arrival_host.GetTitledFirstName|l] me recibe calurosamente en el umbral cuando llego; la sala, a sus espaldas, ya bulle con la presencia de los prelados y príncipes de la fe. Pronto se someterá a la asamblea la gran cuestión de los nombramientos del clero."
+ pam_investiture_council_events.0001.desc: "[arrival_host.Custom('ES_ElLa')|U] [arrival_host.GetTitledFirstName|l] me recibe calurosamente en el umbral; a sus espaldas prelados y príncipes de la fe se mezclan. Pronto se someterá a la asamblea la gran cuestión de los nombramientos del clero."
  pam_investiture_council_events.0001.a: "Es un honor encontrarme entre ellos."
  pam_investiture_council_events.0001.a.tt: "El debate comenzará en cuanto llegue el resto de invitados."
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "Así sea."
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "Comienza el debate"
- pam_investiture_council_events.0003.desc: "La asamblea enmudece mientras el concilio aborda la cuestión que ha enfrentado a la Iglesia con la corona: quién debe investir al clero. Cada voz aquí presente ayudará a decidirlo."
+ pam_investiture_council_events.0003.desc: "La asamblea enmudece mientras el concilio aborda la cuestión que ha enfrentado a la Iglesia contra la corona: quién debe investir al clero. Cada voz aquí presente repercutirá en la respuesta."
  pam_investiture_council_events.0003.a: "Es la hora."
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "Una palabra en el oído adecuado"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "Un traspiés hace que #N 5#! personas voten a favor de la causa de la corona."
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "El concilio te convoca"
- pam_investiture_council_events.0004.desc: "Me ha llegado la noticia de que se va a reunir el concilio sobre las investiduras para decidir acerca de los nombramientos del clero, pero me hallo muy lejos de donde debería estar. Podría dejar lo que estoy haciendo y cabalgar a toda prisa para dar mi opinión, o dejar que el asunto se resuelva sin mí."
+ pam_investiture_council_events.0004.desc: "Llegan noticias de que se va a reunir el concilio sobre las investiduras para decidir acerca de los nombramientos del clero, y yo me hallo a muchos día a caballo de allí. Podría dejarlo todo y cabalgar a toda prisa para dar mi opinión, o dejar que los prelados lo decidan en mi ausencia."
  pam_investiture_council_events.0004.a: "Dejarlo todo y cabalgar hacia el concilio."
  pam_investiture_council_events.0004.b: "Dejar que decidan sin mí."
  pam_investiture_council_haste_modifier: "Carrera hacia el concilio"

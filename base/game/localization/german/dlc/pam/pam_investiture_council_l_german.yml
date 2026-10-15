@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "Das Konzil debattiert, wer den Klerus einsetzen soll, die Kirche oder die Krone, und lässt darüber abstimmen."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "Ankunft"
- pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName|U] empfängt mich herzlich an der Türschwelle, als ich ankomme, und die Halle hinter [arrival_host.Custom('DE_PRO_PER_S_3P_D')] wimmelt bereits von Prälaten und Glaubensfürsten. Bald schon wird der Versammlung die große Frage nach der Ernennung des Klerus gestellt werden."
+ pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName|U] begrüßt mich herzlich an der Türschwelle. Hinter [arrival_host.Custom('DE_PRO_PER_S_3P_D')] regen sich bereits Prälaten und Glaubensfürsten. Bald schon wird der Versammlung die große Frage nach der Ernennung des Klerus gestellt werden."
  pam_investiture_council_events.0001.a: "Ich fühle mich geehrt, unter ihnen zu sein."
  pam_investiture_council_events.0001.a.tt: "Die Debatte beginnt, sobald der Rest der Gäste angekommen ist."
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "So soll es sein."
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "Die Debatte beginnt"
- pam_investiture_council_events.0003.desc: "Die Versammlung verstummt, als sich das Konzil der Frage zuwendet, in der sich Kirch und Krone gegenüberstehen: Wer soll den Klerus einsetzen? Jede hier anwesende Stimme wird bei der Entscheidung helfen."
+ pam_investiture_council_events.0003.desc: "Die Versammlung verstummt, als die Konzilssitzung mit der Frage beginnt, die Kirche und Krone entzweit hat: Wer von ihnen soll die Geistlichen investieren? Jede anwesende Stimme wird bei der Antwort Gewicht haben."
  pam_investiture_council_events.0003.a: "Es ist an der Zeit."
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "Ein Wort in das richtige Ohr"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "Ein Fehltritt treibt #N 5#! Wähler auf die Seite der Krone."
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "Das Konzil ruft Euch"
- pam_investiture_council_events.0004.desc: "Mich erreicht die Kunde, dass das Investiturkonzil zusammenkommt, um in der Angelegenheit der Ernennung des Klerus eine Lösung zu finden. Allerdings bin ich noch sehr weit von jenem Ort entfernt, an dem ich mich nun eigentlich aufhalten sollte. Ich könnte alles stehen und liegen lassen und mein Reittier ordentlich anspornen, um meine Stimme abzugeben, oder ich lasse in der Angelegenheit ohne mich eine Lösung finden."
+ pam_investiture_council_events.0004.desc: "Mich erreicht die Kunde, dass das Investiturkonzil zusammenkommt, um über die Ernennung des Klerus zu entscheiden. Doch ich bin noch viele Tage entfernt. Ich könnte alles stehen und liegen lassen und noch schneller reiten, um meine Stimme abzugeben, oder ich lasse die Prälaten in meiner Abwesenheit entscheiden."
  pam_investiture_council_events.0004.a: "Lasst alles stehen und liegen und reitet zum Konzil."
  pam_investiture_council_events.0004.b: "Lasst sie ohne mich zu einer Entscheidung kommen."
  pam_investiture_council_haste_modifier: "In Eile zum Konzil"

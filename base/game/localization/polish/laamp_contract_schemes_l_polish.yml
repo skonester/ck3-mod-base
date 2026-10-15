@@ -1661,7 +1661,7 @@
  laamp_base_contract_schemes.2661.d.sacrifice_unexists: "Niestety, nie mam służących wystarczająco wykwalifikowanych, aby mogli z tobą odejść."
  laamp_base_contract_schemes.2661.d.no_valid_char: "Nie masz dostępnego [Concept('follower', 'towarzysza')|E] ze współczynnikiem [Concept('intrigue', 'intrygi')|E] wynoszącym przynajmniej [EmptyScope.ScriptValue('laamp_base_contract_schemes_2661_other_skill_threshold_value')|0], którego można byłoby tymczasowo wysłać na [court|El] osoby o imieniu [employer.GetFirstName]"
  laamp_base_contract_schemes.2661.d.tt.courtier_stays_here: "[sacrifice.GetFirstName|U] to osoba, która zostanie oddana na służbę na [Concept('court', 'dworze')|E] osoby znanej jako [employer.GetTitledFirstName] – wróci do ciebie w ciągu [EmptyScope.ScriptValue('laamp_base_contract_schemes_2661_sacrifice_loan_length_min_value')|0]–[EmptyScope.ScriptValue('laamp_base_contract_schemes_2661_sacrifice_loan_length_max_value')|0] lat"
- laamp_base_contract_schemes.2661.e.officer_exists: "[officer.GetTitledFirstNameNoTooltip|U], czy to brzmi jak twoja działka?"
+ laamp_base_contract_schemes.2661.e.officer_exists: "Niech [officer.GetTitledFirstNameNoTooltip] powie – czy to brzmi jak twoja działka?"
  laamp_base_contract_schemes.2661.e.officer_unexists: "Hmm. Nie mam odpowiedniego przedstawiciela, któremu można powierzyć to zadanie."
  laamp_base_contract_schemes.2661.f: "Szansa na światłą debatę, powiadasz!"
  laamp_base_contract_schemes.2661.g: "Jeśli dobrze się namyślę, rozwiążę każdą zagwozdkę."

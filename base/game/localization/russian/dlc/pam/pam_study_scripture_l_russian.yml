@@ -90,4 +90,4 @@
  pam_charterhouse_silence_modifier: "Тишина картезианской обители"
  pam_charterhouse_silence_modifier_desc: "Дисциплина безмолвных созерцателей помогает сохранять твёрдость в этих занятиях."
  pam_pastoral_letter_county_modifier: "Пастырское послание"
- pam_pastoral_letter_county_modifier_desc: "На каждой службе вслух зачитывают письмо с наставлениями и утешением от далёкого пастыря этой конфессии."
+ pam_pastoral_letter_county_modifier_desc: "В конце каждого богослужения зачитывают утешительное и наставительное письмо от далёкого пастыря."

@@ -3,7 +3,7 @@
  building_type_holy_site_st_peters_basilica_01: "$building_holy_site_st_peters_basilica_01$"
  building_type_holy_site_st_peters_basilica_01_desc: "$building_holy_site_st_peters_basilica_01_desc$"
  building_holy_site_st_peters_basilica_01: "サン・ピエトロ大聖堂"
- building_holy_site_st_peters_basilica_01_desc: "サン・ピエトロ大聖堂は、キリスト教に改宗したコンスタンティヌス1世の命によりバチカンの丘の聖ペテロの墓跡地に建てられ、西方キリスト教の中心地としての役割を果たしている。\n\nこの教会は伝統的にローマ教皇の居所として使われ、レオニーネの城壁に守られながら、幾世紀もかけて広大な複合施設へと発展してきた。"
+ building_holy_site_st_peters_basilica_01_desc: "サン・ピエトロ大聖堂は、キリスト教に改宗したコンスタンティヌス1世の命によりバチカンの丘の聖ペトロの墓跡地に建てられ、西方キリスト教の中心地としての役割を果たしている。\n\nこの教会は伝統的にローマ教皇の居所として使われ、レオニーネの城壁に守られながら、幾世紀もかけて広大な複合施設へと発展してきた。"
  #Mont-Saint-Michel
  building_type_mont_st_michel_01: "モン・サン＝ミシェル"
  building_type_mont_st_michel_01_desc: "$building_mont_st_michel_01_desc$"

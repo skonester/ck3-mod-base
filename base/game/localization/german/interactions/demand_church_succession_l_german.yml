@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nIch sage es klar heraus:"
  demand_church_succession.0001.recipient.elderly_childless: "Die Wiege an Eurem Herd ist leer und Eure Linie endet mit Euch. Die Gläubigen werden warten … und beizeiten erben."
  demand_church_succession.0001.recipient.childless: "Ihr habt keine lebenden Kinder. Sollte die höchste Macht ([actor.GetFaith.HighGodName]) dies nicht ändern, werden Eure Lande dem Glauben dienen."
- demand_church_succession.0001.recipient.one_child: "Nur ein einziges Kind steht zwischen Euch und dem Ende. Sollte die höchste Macht ([actor.GetFaith.HighGodName]) Euch holen, stehen die Gläubigen zum Regieren bereit."
+ demand_church_succession.0001.recipient.one_child: "Nur ein Kind trennt Euch vom Ende. Sollte die höchste Macht ([actor.GetFaith.HighGodName]) es zu sich nehmen, sind die Gläubigen bereit zum Regieren."
  demand_church_succession.0001.recipient.default: "Die Jahre sind neidisch auf jedes Versprechen. Sollte Eures versagen, werden Eure Lande an uns übergehen, damit sie im Namen [actor.GetFaith.HighGodNamePossessive] regiert werden können."
  demand_church_succession.0001.a: "So steht es geschrieben. So soll es geschehen."
  demand_church_succession.0001.b: "Dann sollte ich lieber einen Erben [Select_CString(ROOT.Char.IsFemale, 'gebären', 'zeugen')]."

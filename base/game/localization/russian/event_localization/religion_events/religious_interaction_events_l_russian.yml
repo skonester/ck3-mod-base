@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "Пусть телесные муки укрепят нашу связь."
  attempted_transcendence_together_opinion: "Попытка совместного вознесения"
  monastic_donation_interaction: "Пожертвовать монашескому ордену"
- monastic_donation_interaction_desc: "В обмен на [Concept('gold', 'золото')|E] монахи на службе у [Select_CString(recipient.IsLocalPlayer, 'вас', Concatenate('персонажа ', recipient.GetShortUIName))] будут молиться за спасение души и [Concept('spiritual_fulfillment', 'духовную реализацию')|E]"
+ monastic_donation_interaction_desc: "В обмен на [Concept('gold', 'золото')|E] монахи на службе у [Select_CString(recipient.IsLocalPlayer, 'вас', Concatenate('персонажа ', recipient.GetShortUIName))] будут молиться за спасение души и [Concept('spiritual_fulfillment', 'духовную реализацию')|E]"
  INTERACTION_CEREMONIAL_HUMBLING: "Отчаянно попросить об особой ходатайственной молитве"
  INTERACTION_HUGE_DONATION: "Сделать внушительное пожертвование"
  monastics_praying_for_grievous_sins_modifier: "Монашеская интерцессия"

@@ -325,4 +325,4 @@
  death_management.3006.d: "$death_management.1006.f$"
  death_management.1006.d: "O jednego członka rodu [dead_character.GetHouse.GetBaseNameNoTooltip] mniej do zmartwień!"
  death_management.1006.e: "W końcu mogę to zostawić za sobą."
- death_management.1006.f: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip] to ród, z którym się nie zadziera."
+ death_management.1006.f: "Z rodem [ROOT.Char.GetHouse.GetBaseNameNoTooltip] się nie zadziera."

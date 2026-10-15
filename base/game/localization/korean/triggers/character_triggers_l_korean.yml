@@ -437,7 +437,6 @@
  IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName](은)는 [GetDoctrineType('doctrine_theocracy_temporal').GetBaseName] [CHARACTER.GetCouncilTitle]임"
  NOT_IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName](은)는 [GetDoctrineType('doctrine_theocracy_temporal').GetBaseName] [CHARACTER.GetCouncilTitle](이)가 아님"
  PARTITION_PRIMARY_HEIR_UNFAIR: "[GetLaw('partition_succession_law').GetName] 아래에선 [TARGET_CHARACTER.GetShortUINamePossessive] [realm_heir|E] [CHARACTER.GetShortUIName](이)가 상속 대상이 아닌 작위를 받을 수 없음"
- ELECTION_CANDIDATE_UNFAIR: "선거에서는 후보에게 작위 수여 불가"
  GHW_DAYS_UNTIL_LAUNCH: "전쟁 개전까지 $NUM|V$일 남았음"
  NOT_GHW_DAYS_UNTIL_LAUNCH: "전쟁 개전까지 $NUM|V$일 이하로 남음"
  HAS_FAITH_TRIGGER: "[FAITH.GetName] [faith|E]을 신봉함"

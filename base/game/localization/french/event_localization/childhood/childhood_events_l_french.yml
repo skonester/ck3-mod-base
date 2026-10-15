@@ -294,7 +294,7 @@
  learn_language_ongoing.2100.a.success_parent_desc: "[educator.GetFirstNameNoTooltip] a enseigné à [ward.GetFirstName] la [language|El] [educator.GetCulture.GetLanguage.GetName]"
  learn_language_ongoing.2100.a.failure: "Vous ne parvenez pas à apprendre la langue de [educator.GetFirstNameNoTooltip]"
  childhood.2200.t: "Parlez-vous ma langue ?"
- childhood.2200.desc-nudged: "Alors que je suis [educator.GetNameNoTooltip], je constate qu’[educator.Custom('FR_IlElle')] parle dans la langue de la Cour autour de moi, et je commence étrangement à la comprendre. Si je fais des efforts, je pourrais la maîtriser moi aussi !"
+ childhood.2200.desc-nudged: "Alors que je suis [educator.Custom('FR_le_Char_Pi')][educator.GetTitledFirstNameNoTooltip], je constate qu’[educator.Custom('FR_IlElle')] parle dans la langue de la Cour autour de moi, et je commence étrangement à la comprendre. Si je fais des efforts, je pourrais la maîtriser moi aussi !"
  childhood.2200.a: "Je peux parler comme les adultes !"
  childhood.2200.b: "C’est ennuyeux, parlez donc en langue [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] !"
  childhood.2300.t: "Les langues de mon arbre généalogique"

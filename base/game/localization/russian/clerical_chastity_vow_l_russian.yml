@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "Отказаться от обета целомудрия"
  renounce_clerical_chastity_vow_decision_confirm: "Отказаться от обета"
  renounce_clerical_chastity_vow_decision_desc: "Этот обет мне пришлось принять по требованию священника. От него можно отречься, однако нарушение столь серьёзного обещания повлечёт упадок моего [Concept('piety', 'благочестия')|E] и оставит отпечаток на совести."
- renounce_clerical_chastity_vow_decision_tooltip: "Отказаться от обета, не дожидаясь, пока он истечёт. Вы потеряете [Concept('piety', 'благочестие')|E], получите [Concept('stress', 'стресс')|E], а [Concept('clergy_opinion', 'мнение духовенства')|E] о вас будет снижено на протяжении 10 лет."
+ renounce_clerical_chastity_vow_decision_tooltip: "Преждевременно отказаться от обета. Вы потеряете [Concept('piety', 'благочестие')|E], получите [Concept('stress', 'стресс')|E], а [Concept('clergy_opinion', 'мнение духовенства')|E] о вас будет снижено на протяжении 10 лет."
  renounce_clerical_chastity_vow_toast: "Отменён обет"
  renounce_clerical_chastity_vow_toast_desc: "Вы отказались от обета целомудрия."
  clerical_chastity_vow.0001.toast_released: "Обет окончен"

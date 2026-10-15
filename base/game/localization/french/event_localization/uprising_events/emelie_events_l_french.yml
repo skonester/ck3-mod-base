@@ -8,7 +8,7 @@
  blotsven.0001.b.tt: "Vous laissez passer cette occasion de plaire aux dieux."
  # Eskil barges in
  blotsven.0002.t: "Un missionnaire passionné"
- blotsven.0002.desc: "Juste avant le début du blót, un tumulte m’empêche de prêter serment sur l’anneau de fer. Un groupe de personnes fait irruption sur la place et un homme hurlant se précipite dans notre cercle sacré.\n\n« Au nom [eskil.GetFaith.HighGodNamePossessive] ! Arrêtez ! » crie-t-il en agitant frénétiquement les bras.\n\nIl lève les mains au-dessus de sa tête, crie vers le ciel et exige qu’il punisse ceux qui commettent cet acte païen. Comme sur commande, il se met à pleuvoir. Vous clignez des yeux lorsqu’un éclair zèbre le ciel."
+ blotsven.0002.desc: "Alors que le blót est sur le point de commencer, un tumulte m’empêche de prêter serment sur l’anneau de fer. Un groupe de personnes fait irruption sur la place et un homme hurlant se précipite dans notre cercle sacré.\n\n« Au nom [eskil.GetFaith.HighGodNamePossessive] ! Arrêtez ! » crie-t-il en levant les bras vers le ciel. « Châtiez les païens qui approuveraient cet acte impie ! »\n\nComme s’il l’avait ordonné, il se met à pleuvoir et un terrible éclair déchire l’horizon."
  blotsven.0002.a: "Prenez la pierre la plus proche et jetez-la-lui."
  blotsven.0002.a.tt: "Il n’est pas rare que des missionnaires soient lapidés."
  blotsven.0002.b: "Je prends ma hache et vise sa tête."

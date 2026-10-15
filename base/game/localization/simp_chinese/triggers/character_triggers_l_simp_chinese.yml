@@ -437,7 +437,6 @@
  IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName]是一位[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName][CHARACTER.GetCouncilTitle]"
  NOT_IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName]不是一位[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName][CHARACTER.GetCouncilTitle]"
  PARTITION_PRIMARY_HEIR_UNFAIR: "在[GetLaw('partition_succession_law').GetName]下，不能将[TARGET_CHARACTER.GetShortUINamePossessive]的[realm_heir|E][CHARACTER.GetShortUIName]很可能不会继承的头衔授予给[CHARACTER.GetSheHe]"
- ELECTION_CANDIDATE_UNFAIR: "在选举中，候选人无法被授予头衔"
  GHW_DAYS_UNTIL_LAUNCH: "离战争开始尚有$NUM|V$天"
  NOT_GHW_DAYS_UNTIL_LAUNCH: "离战争开始已少于$NUM|V$天"
  HAS_FAITH_TRIGGER: "信奉[FAITH.GetName][faith|E]"

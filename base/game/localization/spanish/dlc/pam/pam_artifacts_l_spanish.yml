@@ -2,7 +2,7 @@
  artifact_pedestal_bible_name: "Biblia $artifact_name_prefix$"
  artifact_pedestal_bible_description: "Una Biblia miniada encuadernada con portadas enjoyadas y cada versículo copiado a mano con un trabajo paciente y devoto."
  artifact_pedestal_thurible_name: "Incensario $artifact_name_prefix$"
- artifact_pedestal_thurible_description: "Un incensario elegantemente trabajado que se hace oscilar con cadenas relucientes; cuando se enciende llena la nave con nubes fragantes de incienso que llevan las plegarias al cielo."
+ artifact_pedestal_thurible_description: "Un incensario elegantemente trabajado con cadenas relucientes. Cuando se enciende envuelve la estancia con nubes fragantes de incienso que portan las plegarias al cielo."
  artifact_pedestal_situla_name: "Acetre $artifact_name_prefix$"
  artifact_pedestal_situla_description: "Un recipiente ricamente decorado para agua bendita que se saca en procesión para que se puede bendecir a los fieles con agua."
  artifact_pedestal_crozier_name: "Báculo $artifact_name_prefix$"

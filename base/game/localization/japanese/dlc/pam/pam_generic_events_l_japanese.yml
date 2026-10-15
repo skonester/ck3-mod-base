@@ -23,7 +23,7 @@
  rival_embraced_sinful_ways: "[TARGET_CHARACTER.GetShortUIName]が[CHARACTER.GetShortUIName|U]に変わるよう懇願したとき、[CHARACTER.GetHerHim]は悔い改めることを拒んだ。"
  rival_embraced_sinful_ways_corresponding: "[CHARACTER.GetShortUIName]が[TARGET_CHARACTER.GetShortUIName|U]に変わるよう懇願したとき、[TARGET_CHARACTER.GetHerHim]は悔い改めることを拒んだ。"
  pam_generic_events.0004.t: "闇の中の光"
- pam_generic_events.0004.desc: "[ROOT.Char.GetFaith.HouseOfWorship]には誰もいない。霧が柱の間で渦巻き、[deceased.GetDeathReasonHideKiller]私の[ROOT.Char.Custom2( 'RelationToMeShort', deceased )]、[deceased.GetFirstName]の記憶を囲むように、蝋燭の火が揺らめいている。\n\n[ROOT.Char.Custom2( 'RelationToMeShort', comforter )]の[comforter.GetFirstName]が、袖が触れるほど近くに座っている。「悲しみは道だ」と[comforter.GetSheHe]が静かに言った。「その道を歩めば、行き着いた先には[ROOT.Char.GetFaith.PositiveAfterLife]が待っているかもしれない」"
+ pam_generic_events.0004.desc: "誰もいない[ROOT.Char.GetFaith.HouseOfWorship]で、[deceased.GetDeathReasonHideKiller]私の[ROOT.Char.Custom2( 'RelationToMeShort', deceased )]、[deceased.GetFirstName]を悼むろうそくが、かすかに揺らめいている。\n\n私の[ROOT.Char.Custom2( 'RelationToMeShort', comforter )]である[comforter.GetFirstName]はすぐそばにいて、[comforter.GetHerHis]の袖が私の袖に触れるほどだ。[comforter.GetSheHe]は静かに言う。「悲しみは道です。その道を歩めば、いつか[ROOT.Char.GetFaith.PositiveAfterLife]へと導いてくれるかもしれません」"
  pam_generic_events.0004.a: "私だ！#EMP 私が#!やった！"
  pam_generic_events.0004.b: "[Glossary('$pam_john_14_2_english|q$','JOHN_14_2_GLOSS')]"
  pam_john_14_2_english: "#EMP 父の家には住む所がたくさんある。#!"

@@ -128,7 +128,7 @@
  pam_sf_penance_trusting_modifier: "Se garde de trop faire confiance"
  pam_sf_penance_trusting_modifier_desc: "Ce personnage se montre plus méfiant, sa foi tenant pour pécheresse la confiance qu’il accordait trop facilement ; il baisse sa garde moins volontiers, mais passe pour froid."
  pam_sf_penance_compassionate_modifier: "Endigue sa compassion"
- pam_sf_penance_compassionate_modifier_desc: "Ce personnage réfrène une compassion que sa foi tient pour pécheresse, arborant un visage plus dur que les autres en viennent à craindre."
+ pam_sf_penance_compassionate_modifier_desc: "Ce personnage réfrène une compassion que sa foi tient pour pécheresse et arbore un visage plus sévère."
  pam_sf_penance_callous_modifier: "Cultive la compassion"
  pam_sf_penance_callous_modifier_desc: "Ce personnage cultive la compassion en pénitence d’un cœur endurci ; sa main se fait plus douce, et la crainte qu’il inspirait s’estompe."
  pam_sf_penance_sadistic_modifier: "Renonce à la cruauté"

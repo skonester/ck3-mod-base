@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "Вы не выполнили свои обязательства сюзерена. Ваши жестокие законы будут рассечены мечом!"
  war_declared_flavor.claimant: "Вы самозванец на троне. Время вернуть его законному монарху!"
  war_declared_flavor.rival: "Наша вражда зрела слишком долго. Сталь уладит споры, которые не разрешить словами!"
- war_declared_flavor.vengeful: "Я помню все причинённые вами обиды. Теперь я отплачу за них сторицей, кровью!"
+ war_declared_flavor.vengeful: "Я помню каждую обиду, что вы мне нанесли, и за каждую вы заплатите десятикратно — кровью!"
  war_declared_flavor.kinstrife: "Мы родня по крови, но это всё равно необходимо. Вы не оставили мне иного выхода кроме войны!"
  war_declared_flavor.callous: "Избавьте меня от слезливых просьб. Мне интересны не ваши страдания, а то, что я отниму у вас."
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] На моей стороне право и обычай. Отдайте то, что принадлежит мне по праву, или вашу судьбу решит сила оружия!"

@@ -8,7 +8,7 @@
  blotsven.0001.b.tt: "Pierdes la oportunidad de complacer a los dioses."
  # Eskil barges in
  blotsven.0002.t: "Un misionero delirante"
- blotsven.0002.desc: "Justo cuando el ritual está a punto de comenzar, un alboroto me distrae de realizar el juramento sobre el anillo de hierro. Un grupo de personas aparece y un hombre irrumpe gritando en nuestro sagrado círculo.\n\n«¡Deteneos, en nombre de [eskil.GetFaith.HighGodName|U]!», chilla, agitando los brazos a su alrededor de manera frenética.\n\nAlza las manos sobre la cabeza y grita al cielo para castigar a quienes están cometiendo este acto pagano. Como si de una orden de tratase, comienza a llover, y parpadeas cuando un rayo atraviesa el cielo."
+ blotsven.0002.desc: "Cuando el ritual está a punto de comenzar, un alboroto me distrae de realizar el juramento sobre el anillo de hierro. Un hombre con el rostro enrojecido y sus seguidores irrumpen gritando en nuestro sagrado círculo.\n\n«¡Deteneos, en nombre de [eskil.GetFaith.HighGodName]!», chilla, agitando los brazos hacia el cielo de manera frenética. «¡Castiga a los paganos que tolerarían este acto malvado!».\n\nComo si de una orden se tratase, comienza a llover y un tremendo relámpago parte el horizonte."
  blotsven.0002.a: "Coger la piedra más cercana y lanzársela."
  blotsven.0002.a.tt: "Lapidar a un misionero no es un hecho insólito."
  blotsven.0002.b: "Coger mi hacha y apuntar a su cabeza."

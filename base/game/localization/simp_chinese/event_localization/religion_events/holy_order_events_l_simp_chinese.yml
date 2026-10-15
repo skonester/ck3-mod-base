@@ -3,7 +3,7 @@
  holy_order.hired_message: "[actor.GetUIName]已召集了[holy_order.GetName]"
  holy_order_hired_by_enemy_message: "敌方军事修会"
  holy_order.hired_by_enemy: "[holy_order.GetName]已被[actor.GetUIName]召集，现在与我们为敌"
- holy_order.destroyed_message: "[title.GetName]已被摧毁"
+ holy_order.destroyed_message: "[title.GetName|U]已被摧毁"
  holy_order_expanded: "军事修会扩张"
  holy_order.new_lease: "[holy_order.GetName]现在从[former_holder.GetTitledFirstName]处租借了[barony.GetName]"
  monastic_holy_order_expanded: "隐修修会扩张"

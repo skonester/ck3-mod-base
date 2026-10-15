@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "撤回贞洁誓愿"
  renounce_clerical_chastity_vow_decision_confirm: "放弃誓言"
  renounce_clerical_chastity_vow_decision_desc: "我立下此誓，是因为一位司铎要求我守贞。我可以放弃它，但违背神圣的承诺会让我付出[piety|E]的代价，并成为我良心上的负担。"
- renounce_clerical_chastity_vow_decision_tooltip: "提前结束誓言。你失去[piety|E]，承受[stress|E]，并且使你的[clergy_opinion|E]降低，持续10年。"
+ renounce_clerical_chastity_vow_decision_tooltip: "提前结束誓言。你失去[piety|E]，获得[stress|E]，并且使你的[clergy_opinion|E]降低，持续10年。"
  renounce_clerical_chastity_vow_toast: "放弃誓言"
  renounce_clerical_chastity_vow_toast_desc: "你放弃你的贞洁誓愿。"
  clerical_chastity_vow.0001.toast_released: "誓言结束"

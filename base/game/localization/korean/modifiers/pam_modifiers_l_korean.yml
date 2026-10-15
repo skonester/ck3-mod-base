@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "금이 간 종의 교훈"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "해당 영지의 석공들은 종 주조 실패의 수치를 만회하고자 더욱 신중하게 작업합니다."
  pam_cathedral_bell_bronze_torture_implements_modifier: "청동 고문 도구"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "잘못 주조된 대성당 종에서 나온 폐청동은 공포의 도구로 다시 주조되었습니다. 종 제작자가 그 첫 희생자가 되었습니다. 이제 기능공들은 실패의 대가를 알고 있습니다."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "잘못 주조된 대성당 종에서 나온 폐청동은 공포의 도구로 다시 주조되었습니다. 종을 만든 주조공이 그 도구의 첫 번째 희생자가 되었습니다."
  pam_cathedral_treadwheel_crane_modifier: "답차 기중기"
  pam_cathedral_treadwheel_crane_modifier_desc: "대성당 건설 현장에서 가져온 거대한 답차식 기중기가 수도에 설치되었습니다."
  pam_cathedral_cantoria_scam_modifier: "들통난 계략"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "해당 인물은 최근 새로운 성자가 선포된 일에 고무되었습니다."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "모든 성지의 순례자"
- pam_pilgrim_of_every_holy_site_modifier_desc: "해당 인물은 자신이 믿는 신앙의 모든 성지에서 철야 기도를 드렸습니다."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "해당 인물은 자신이 믿는 신앙의 모든 성지에서 밤을 지새우며 기도했습니다."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "지켜진 인륜"
  tenet_harmonious_society_five_bonds_modifier_desc: "군신유의, 부자유친, 부부유별, 장유유서, 붕우유신. 해당 인물은 이러한 오륜 중 하나를 원만하게 유지하고 있습니다."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "서품의 계보"
- tenet_apostolic_succession_episcopate_modifier_desc: "해당 인물의 신앙은 이전 주교들로부터 끊임없이 이어지는 계보를 통해 각 주교를 서품합니다. 이는 오랜 역사 속에서 존중받아 온 정통성의 원천입니다."
+ tenet_apostolic_succession_episcopate_modifier_desc: "해당 인물이 따르는 신앙에서는 이전 주교들로부터 끊어지지 않고 이어져 온 서품 계보에 따라 모든 주교를 서품합니다. 이러한 역사적 계승은 주교직이 정통성을 인정받는 근거입니다."
  modifier_definition_value_per_theocratic_vassal: "\t#weak [theocratic_vassal|E] 수에 따라 증가 (최대 [EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')])#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "신자들의 성가대"
- tenet_divine_liturgy_choirs_modifier_desc: "해당 인물의 교회들은 여러 세대 동안 변함없이 같은 시각에 같은 말씀을 노래합니다."
+ tenet_divine_liturgy_choirs_modifier_desc: "해당 인물이 속한 신앙의 교회들은 여러 세대 동안 변함없이 같은 시간에 같은 가사를 노래해 왔습니다."
  modifier_definition_value_per_held_temple: "\t#weak 보유한 [temple_holding|E]에 따라 증가 (최대 [EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')])#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "합당하게 집전됨"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "명망 높은 성물"
  pam_holy_weapon_3_artifact_modifier_desc: "어디를 가든 그 명성이 먼저 퍼집니다. 열광적인 신자들은 이 성물을 보는 것만으로도 용기를 얻습니다."
  pam_holy_weapon_4_artifact_modifier: "섭리의 도구"
- pam_holy_weapon_4_artifact_modifier_desc: "이 성물을 지닌 사람은 누구든 섬기는 신의 뜻을 행하는 것으로 여겨지며, 함께 싸우는 이들도 더욱 맹렬히 싸웁니다."
+ pam_holy_weapon_4_artifact_modifier_desc: "이 무기를 지닌 인물은 자신이 믿는 신의 뜻을 수행한다고 여겨집니다. 주변의 기수들은 이러한 믿음에 힘입어 더욱 맹렬하게 공격합니다."
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "분열주의 후원자"
  pam_house_schismatic_sponsor_modifier_desc: "해당 집안은 도전에 실패한 [challenger_hof|E]를 후원했습니다."

@@ -87,7 +87,7 @@
  unlock_final_hasan_decisions_2_tt: "[GetDecisionWithKey('hasan_found_the_assassins').GetName] [decision|E]을 사용할 수 있게 됨"
  unlock_final_hasan_decisions_3_tt: "[GetDecisionWithKey('hasan_ignite_the_flames').GetName] [decision|E]을 사용할 수 있게 됨"
  at_least_5_counties_are_nizari: "봉역 내 5개 이상의 영지가 당신의 [rite|E]를 믿어야 함"
- hasan_evangelize_other_rite_location_tt: "당신의 장소가 다른 [rite|E]를 신봉해야 함"
+ hasan_evangelize_other_rite_location_tt: "당신이 있는 장소가 다른 [rite|E]를 따라야 함"
  ep3_hasan_advance_radicalism: "거룩한 사명의 진전"
  has_tougher_to_convert_tt: "[GetModifier( 'tougher_to_convert' ).GetNameWithTooltip|L] [modifier|E]를 보유하지 않음"
  is_held_by_hof_tt: "[head_of_faith|E]의 소유가 아니어야 함"

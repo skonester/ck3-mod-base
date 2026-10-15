@@ -437,7 +437,6 @@
  IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName]が[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName]の[CHARACTER.GetCouncilTitle]である"
  NOT_IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName]が[GetDoctrineType('doctrine_theocracy_temporal').GetBaseName]の[CHARACTER.GetCouncilTitle]ではない"
  PARTITION_PRIMARY_HEIR_UNFAIR: "[GetLaw('partition_succession_law').GetName]のもとでは、[TARGET_CHARACTER.GetShortUINamePossessive]の[realm_heir|E]である[CHARACTER.GetShortUIName]に相続する資格のない称号を与えることはできない"
- ELECTION_CANDIDATE_UNFAIR: "選挙制の下では、候補者に称号を与えることはできない"
  GHW_DAYS_UNTIL_LAUNCH: "戦争開始までまだ$NUM|V$日ある"
  NOT_GHW_DAYS_UNTIL_LAUNCH: "戦争開始まで$NUM|V$日未満である"
  HAS_FAITH_TRIGGER: "[FAITH.GetName]の[faith|E]である"

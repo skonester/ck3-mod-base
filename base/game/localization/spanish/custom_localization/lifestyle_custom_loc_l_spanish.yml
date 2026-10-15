@@ -12,7 +12,7 @@
  statecraft_ongoing.4010.citizenry: "ciudadanía"
  #GOVERNANCE
  governance_ongoing.1040.blacksmithsguild: "Gremio de herreros"
- governance_ongoing.1040.merchantsguild: "Gremio de mercaderes"
+ governance_ongoing.1040.merchantsguild: "Gremio de comerciantes"
  governance_ongoing.1055.outofwedlock: " fuera del matrimonio"
  governance_ongoing.1055.null: ""
  governance_ongoing.1062.gardener: "jardinero"

@@ -41,7 +41,7 @@
  ep2_wedding.0152.t: "결혼식 취소"
  ep2_wedding.0152.desc: "내 거절에 곳곳에서 놀란 탄식이 튀어 나왔다. 모호함으로 가득한 침묵이 내리깔렸다.\n\n[spouse_2.GetFirstNamePossessive] 표정이 충격에서 격분으로 서서히 변해갔다. 뒤에서는 갑작스럽게 수군거리는 소리가 난무하기 시작했다. 뭐, 무슨 상관이랴. 아무리 생각해도 [spouse_2.GetFirstNameNoTooltip](와)과의 결혼은 받아들일 수 없단 말이야!\n\n어떤 결과가 닥치든 받아들일 것이다."
  ep2_wedding.0152.a: "아닌 건 아닌 거지."
- ep2_wedding.0153.desc: "[spouse_1.GetFirstName](이)가 결혼을 거부하자 군중 사이에서 크게 놀란 탄식이 터져 나왔다! [spouse_2.GetFirstName] 역시 우리처럼 충격을 받은 듯했다. 수군거리는 소리가 걷잡을 수 없이 번지고 다툼이 벌어지는 가운데, [spouse_1.GetFirstNameNoTooltip](은)는 이 저주받은 곳을 서둘러 떠났다."
+ ep2_wedding.0153.desc: "군중 사이에서 매우 놀라는 소리가 터져 나왔다. [spouse_1.GetFirstName](이)가 결혼을 거부한 것이다! [spouse_2.GetFirstName] 또한 우리만큼이나 충격받은 눈치였다. 소문이 무섭게 부풀고 내분이 일어나자 [spouse_1.GetFirstNameNoTooltip](은)는 서둘러 이 저주받은 곳을 떠났다."
  ep2_wedding.0153.a: "난장판이군..."
  ep2_wedding.0200.t: "결혼 피로연 시작"
  ep2_wedding.0200.desc_host: "요식 행위는 모두 끝났고, 축배를 들 시간이 왔다!\n\n하인들에게 음식과 음료를 대령하고, 문객들을 피로연장으로 안내하라는 신호를 보냈다.\n\n결혼 피로연을 시작해 보실까!"

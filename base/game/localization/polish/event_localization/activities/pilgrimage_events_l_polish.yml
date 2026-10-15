@@ -633,8 +633,8 @@
  pilgrimage.4001.t: "Przybycie"
  pilgrimage.4001.desc: "Oto jestem tutaj ciałem i duszą, w miejscu o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. I oto jest też wielkiej sławy [ROOT.Char.GetFaith.HouseOfWorship].\n\nGdy [ROOT.Char.GetFaith.BishopNeuter] daje mi błogosławieństwo, zastanawiam się nad wszystkim, co musiało się wydarzyć, aby [ROOT.Char.GetFaith.PantheonTerm] doprowadzili mnie tutaj w tym konkretnym momencie."
  pilgrimage.4001.cynical_end: "\n\nDużo chodzenia przede mną."
- pilgrimage.4001.a: "Kroczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] świętą ścieżką."
- pilgrimage.4001.a_dead: "Przeszliśmy świętą ścieżkę."
+ pilgrimage.4001.a: "Było mi dane kroczyć świętą ścieżką."
+ pilgrimage.4001.a_dead: "Było nam dane kroczyć świętą ścieżką."
  pilgrimage.4001.a_cynical: "Najważniejsze jest to, że jestem tutaj, i że inni mnie widzą i słyszą."
  #The Mystic is there!
  pilgrimage.4002.desc: "W końcu jestem tutaj, ciałem i duszą, na końcu mojej wielkiej pielgrzymki. I kto powinien mnie tam przywitać, jeśli nie [2010_mystic.GetTitledFirstName], osoba poszukująca prawdziwej wiedzy o boskości?\n\n– Rozejrzyj się, [ROOT.Char.GetFirstNameNoTooltip]! – mówi. – Czy moje obietnice chwały się właśnie nie spełniły?"

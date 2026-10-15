@@ -66,7 +66,7 @@
  house_aspiration_parameter_service_house_cheaper_influence_candidacy_investments: "Стоимость [Concept('influence', 'влияния')|E] для взаимодействия #high $influence_candidacy_interaction$#!: #P -10%#!"
  house_aspiration_parameter_service_house_governor_efficiency_bonus: "[Concept('governor_efficiency', 'Эффективность губернатора')|E] членов [Concept('house', 'дома')|E]: [governor_efficiency_i|E]#P +[EmptyScope.ScriptValue('service_house_governor_efficiency_bonus_value')0%]#!"
  house_aspiration_parameter_service_house_improved_educator_outcome_chance: "Члены [Concept('house', 'дома')|E] лучше справляются с ролью [Concept('guardians', 'опекунов')|E]"
- service_house_power: "[Concept('house_aspiration', 'Устремление дома')|E]: служба"
+ service_house_power: "[Concept('house_aspiration', 'Устремление дома')|E]: служение"
  #House Aspiration - Strength
  house_aspiration_parameter_strength_train_with_troops_decision: "Открывает [Concept('decision', 'решение')|E] #high Воодушевление войск#!"
  #House Aspiration - Prosperity

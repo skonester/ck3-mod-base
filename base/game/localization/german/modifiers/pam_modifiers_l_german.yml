@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "Lektionen der gesprungenen Glocke"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "Steinmetze in dieser Gemeinde arbeiten genauer, um die Schmach eines gescheiterten Glockengusses wettzumachen."
  pam_cathedral_bell_bronze_torture_implements_modifier: "Bronzene Folterinstrumente"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Bronzeschrott aus einer falsch gegossenen Kathedralenglocke wurde zu Instrumenten des Schreckens umgegossen. Der Glockengießer war ihr erstes Opfer. Kunsthandwerker kennen nun den Preis des Scheiterns."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Bronzeschrott aus einer falsch gegossenen Kathedralenglocke wurde zu Instrumenten des Schreckens umgegossen – und der Glockengießer war ihr erstes Opfer."
  pam_cathedral_treadwheel_crane_modifier: "Tretmühlenkran"
  pam_cathedral_treadwheel_crane_modifier_desc: "Ein gewaltiger Tretmühlenkran vom Bau einer Kathedrale wurde im Hauptsitz errichtet."
  pam_cathedral_cantoria_scam_modifier: "Entdeckte Täuschung"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "Dieser Charakter ist inspiriert von der jüngsten Verkündung eines neuen Heiligen."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "Pilger aller Sitze"
- pam_pilgrim_of_every_holy_site_modifier_desc: "Dieser Charakter hielt Wacht an allen heiligen Stätten, die der eigene Glaube anerkennt."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "Dieser Charakter hielt Wacht an allen heiligen Stätten des eigenen Glaubens."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "Ein gewahrtes Band"
  tenet_harmonious_society_five_bonds_modifier_desc: "Herrscher und Untertäniger, Elternteil und Kind, Ehemann und Ehefrau, Älterer und Jüngerer, Freund und Freund. Dieser Charakter hält diese fünf Beziehungen in guter Ordnung."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "Ordinationskette"
- tenet_apostolic_succession_episcopate_modifier_desc: "Dieser Charakter gehört zu einem Glauben, in dem jeder Bischof von einem ordiniert wurde, der wiederum von einem ordiniert wurde, was ihn mit Legitimität erfüllt."
+ tenet_apostolic_succession_episcopate_modifier_desc: "Der Glaube dieses Charakters ordiniert jeden Bischof durch eine ununterbrochene Linie früherer Bischöfe: eine historische Quelle anerkannter Legitimität."
  modifier_definition_value_per_theocratic_vassal: "\t#weak Erhöhung pro [Concept('theocratic_vassal','theokratischem Vasall')|E] (max. [EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')])#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "Chöre der Gläubigen"
- tenet_divine_liturgy_choirs_modifier_desc: "In jeder Kirche, die dieser Charakter hält, werden dieselben Worte zu denselben Zeiten gesungen, und zwar schon seit der Zeit vor der Geburt der heute Lebenden."
+ tenet_divine_liturgy_choirs_modifier_desc: "In den Kirchen dieses Charakters werden seit Generationen zur gleichen Zeit die gleichen, unveränderten Worte gesungen."
  modifier_definition_value_per_held_temple: "\t#weak Erhöhung pro gehaltenem [temple_holding|E] (max. [EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')])#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "Würdig abgehalten"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "Bekannte Reliquie"
  pam_holy_weapon_3_artifact_modifier_desc: "Ihr Name eilt ihr voraus. Die Eifrigen fassen sich ein Herz bei ihrem Anblick."
  pam_holy_weapon_4_artifact_modifier: "Werkzeug der Vorsehung"
- pam_holy_weapon_4_artifact_modifier_desc: "Wer auch immer dies vor sich herträgt, dem sagt man nach, er vollstrecke den Willen Gottes, und jene, die neben ihm reiten, kämpfen daher umso härter."
+ pam_holy_weapon_4_artifact_modifier_desc: "Man glaubt, dass der Träger den Willen seines Gottes erfüllt, und die Reiter um ihn herum schlagen deshalb umso heftiger zu."
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "Schisma-Gönner"
  pam_house_schismatic_sponsor_modifier_desc: "Dieses Haus unterstützte ein gescheitertes [challenger_hof|E]."

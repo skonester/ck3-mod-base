@@ -14,7 +14,7 @@
  ##################################################
  #BANQUET PHASE
  ep2_wedding_ewan.0001.t: "Całkiem widowiskowy spektakl"
- ep2_wedding_ewan.0001.desc.intro.bad: "Chociaż nie jest to zdecydowanie najwspanialsze wydarzenie, to wciąż spory wachlarz aktorów, akrobatów, żonglerów i wielu innych znakomicie uprzyjemnia\n ten wieczór. $ep2_wedding_ewan.0000.desc.boilerplate.char_intro$ w pełnej krasie.\n\n"
+ ep2_wedding_ewan.0001.desc.intro.bad: "Chociaż nie jest to zdecydowanie najwspanialsze wydarzenie, to wciąż spory wachlarz aktorów, akrobatów, żonglerów i wielu innych znakomicie uprzyjemnia ten wieczór. $ep2_wedding_ewan.0000.desc.boilerplate.char_intro$ na temat pokazu.\n\n"
  ep2_wedding_ewan.0001.desc.t1.love.diligent: "– Cudownie! Cudownie! Wystarczająco, żeby było interesująco, ale #EMP bez#! popadania we frywolność! – woła [char_1.GetFirstNameNoTooltip]."
  ep2_wedding_ewan.0001.desc.t1.love.shy: "„Dobrze jest mieć w tle jakąś rozrywkę, taką która nie rozprasza uwagi od prowadzonych rozmów” – wyszeptuje [char_1.GetFirstNameNoTooltip]."
  ep2_wedding_ewan.0001.desc.t1.love.humble: "– Idealna liczba artystów to nie lada gratka. – [char_1.GetFirstNameNoTooltip] kiwa głową z zadowoleniem."

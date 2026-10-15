@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\n분명히 말씀드리겠습니다."
  demand_church_succession.0001.recipient.elderly_childless: "화롯가의 요람은 비어 있고, 당신의 혈통은 당신 대에서 끊깁니다. 신도들은 기다릴 것이며, 때가 되면 이를 상속받을 것입니다."
  demand_church_succession.0001.recipient.childless: "당신에게는 현재 자녀가 없습니다. [actor.GetFaith.HighGodName]께서 이를 바꾸지 않으신다면, 당신의 영지는 신앙을 위해 쓰일 것입니다."
- demand_church_succession.0001.recipient.one_child: "당신과 가문의 단절 사이에는 단 한 명의 자녀만이 남아 있습니다. [actor.GetFaith.HighGodName]께서 그 아이를 데려가신다면, 신도들은 통치할 준비를 마칠 것입니다."
+ demand_church_succession.0001.recipient.one_child: "당신의 대가 끊기는 것을 막아 주는 것은 자녀 한 명뿐입니다. [actor.GetFaith.HighGodName]께서 그 아이마저 데려가신다면, 신자들은 통치할 준비가 되어 있습니다."
  demand_church_succession.0001.recipient.default: "세월은 모든 약속을 시샘합니다. 당신의 약속이 이루어지지 않는다면, 당신의 영지는 우리에게 넘어와 [actor.GetFaith.HighGodNamePossessive] 이름 아래 다스려질 것입니다."
  demand_church_succession.0001.a: "그렇게 기록되었으니, 그렇게 되리라."
  demand_church_succession.0001.b: "그렇다면 후계자를 하나 만들어야겠군."

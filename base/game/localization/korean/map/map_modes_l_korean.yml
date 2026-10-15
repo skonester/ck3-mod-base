@@ -66,4 +66,4 @@
  clerical_regions: "성직 지역"
  clerical_regions_desc: "#T 성직 지역#!\n현재 존재하는 모든 [clerical_regions|E]을 표시합니다. 각 지역은 하나의 [clerical_title|E]의 관할권에 속합니다."
  faith_mapmode_holy_sites_tt: "#T 성지 표시#!\n#I 클릭하여 보기#!"
- faith_mapmode_religious_heads_tt: "#T 교계 지도자 표시#!\n#I 클릭하여 보기#!"
+ faith_mapmode_religious_heads_tt: "#T 종교 지도자 표시#!\n#I 클릭하여 보기#!"

@@ -42,7 +42,7 @@
  activity_filter_anointment_candidates: "[Concept('holy_sites', 'Святые места')|E], [Concept('realm', 'держава')|E] или местоположение [Concept('head_of_rite', 'лидера течения')|E]"
  GOVERNMENT_ADJECTIVE: "[Character.GetGovernment.GetAdjective]"
  GOVERNMENT_ADJECTIVE_ICON: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ая#! [Concept('realm', 'держава')|E]"
- GOVERNMENT_ADJECTIVE_ICON_NOMAD: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ые#! #L [Character.GetDomicile.GetRite.GetName|l]ие#! [Character.GetDomicile.GetCulture.GetName|l]"
+ GOVERNMENT_ADJECTIVE_ICON_NOMAD: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ая#! [realm|E] — #L [Character.GetDomicile.GetRite.GetName|l]ие#! [Character.GetDomicile.GetCulture.GetName|l]"
  GOVERNMENT_ADJECTIVE_ICON_ADVENTURER: "[Character.Custom('GetGovernmentIcon')] #L [Character.GetGovernment.GetAdjective]ые#!"
  GOVERNORSHIP_TOOLTIP: "[ROOT.Char.GetVassalContract.GetAdminDivisionTextIcon] #L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )]ое#! [Concept('governorship', 'губернаторство')|E]"
  VASSAL_TOOLTIP: "#L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.Custom('GetGovernmentIcon'), '' )][SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )]$government_adj_end_iy$#! [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Concept('vassal', 'вассал'),Concept('vassal', 'Вассал'))|E]"

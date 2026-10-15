@@ -279,7 +279,7 @@
  DE_JURE_COUNTIES_HEADER: "[counties|E], [de_jure|E]"
  FAITHS_HEADER: "[faiths|E]"
  FAITHS_HOLY_SITES_HEADER: "#medium [faith|E] — [holy_sites|E]#!"
- FAITHS_RELIGIOUS_LEADERS_HEADER: "#medium [faith|E] — #!#high 교계 지도자#!"
+ FAITHS_RELIGIOUS_LEADERS_HEADER: "#medium [faith|E] — #!#high 종교 지도자#!"
  FAITHS_HOLY_ORDERS_HEADER: "[holy_orders|E]"
  FAITHS_CLERICAL_REGIONS_HEADER: "[clerical_regions|E]"
  CULTURES_HEADER: "[cultures|E]"

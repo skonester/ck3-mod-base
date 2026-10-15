@@ -57,7 +57,7 @@
  HOLY_SITE_CREATION_CREATE_BUTTON_TT: "#T $HOLY_SITE_CREATION_ACTION_BUTTON_CREATE$#!\n[SelectLocalization( HolySiteCreationWindow.IsCreateButtonEnabled, 'HOLY_SITE_CREATION_CREATE_BUTTON_TT_ENABLED', 'HOLY_SITE_CREATION_CREATE_BUTTON_TT_DISABLED' )]"
  HOLY_SITE_CREATION_CREATE_BUTTON_TT_ENABLED: "#I クリックして[holy_site|E]を創設#!"
  HOLY_SITE_CREATION_CREATE_BUTTON_TT_DISABLED: "[HolySiteCreationWindow.GetCreateButtonTooltip][AddLocalizationIf( Not( HolySiteCreationWindow.GetHolySiteType.IsValid ), 'HOLY_SITE_CREATION_NEED_HOLY_SITE_TYPE_TT' )]"
- HOLY_SITE_CREATION_NEED_HOLY_SITE_TYPE_TT: "@warning_icon! #X [holy_site|E]の種類を選択#!"
+ HOLY_SITE_CREATION_NEED_HOLY_SITE_TYPE_TT: "@warning_icon! #X [holy_site|E]タイプを選択してください#!"
  ARTIFACT_IS_SANCTIFIED_DESC: "#indent_newline:3 @trigger_pass_inactive! #trigger_inactive [DataModelJoinList( Artifact.GetSanctifiedForFaiths, 'ARTIFACT_IS_SANCTIFIED_DESC_ITEM', 'MODEL_LIST_SEPARATOR_AND_LIST' )]で[sanctified|E]#!#!#!"
  ARTIFACT_IS_SANCTIFIED_DESC_ITEM: "[Faith.GetName]"
  ARTIFACT_IS_SANCTIFIED_DESC_NOT: "#indent_newline:3 @trigger_fail_inactive! #trigger_inactive [DataModelJoinList( Artifact.GetSanctifiedForFaiths, 'ARTIFACT_IS_SANCTIFIED_DESC_ITEM', 'MODEL_LIST_SEPARATOR_AND_LIST' )]で[sanctified|E]#!#!#!"

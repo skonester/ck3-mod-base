@@ -15,7 +15,7 @@
  lover_seduced: "[TARGET_CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetShortUIName](을)를 유혹함"
  lover_seduced_corresponding: "[CHARACTER.GetShortUIName|U](이)가 [TARGET_CHARACTER.GetShortUIName](을)를 유혹함"
  grudge_imprisonment_desc: "[CHARACTER.GetShortUIName|U](은)는 [TARGET_CHARACTER.GetHerHis] 감옥에서 길고 고통스러운 세월을 보낸 후 [TARGET_CHARACTER.GetShortUIName]에게 원한을 품었음"
- grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](은)는 [CHARACTER.GetHerHis] 감옥에서 길고 고통스러운 세월을 보낸 후 [CHARACTER.GetShortUIName]에게 원한을 품었음"
+ grudge_imprisonment_desc_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](은)는 감옥에서 길고 고통스러운 세월을 오래 보낸 후 [CHARACTER.GetShortUIName]에게 원한을 품었음"
  grudge_too_good: "[CHARACTER.GetShortUIName|U](은)는 일을 너무 잘한다는 이유로 [TARGET_CHARACTER.GetShortUIName]에 대한 원한을 키웠음."
  grudge_too_good_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](은)는 일을 너무 잘한다는 이유로 [CHARACTER.GetShortUIName]에 대한 원한을 키웠음."
  rival_daneland: "데인랜드 수립 이후 [CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 경쟁자가 되었음"

@@ -66,4 +66,4 @@
  clerical_regions: "Regiones clericales"
  clerical_regions_desc: "#T Regiones clericales#!\nMuestra todas las [clerical_regions|El] que existen en estos momentos, cada una de las cuales cae bajo la jurisdicción de un [clerical_title|El]."
  faith_mapmode_holy_sites_tt: "#T Mostrar lugares sagrados#!\n#I Haz clic para ver#!"
- faith_mapmode_religious_heads_tt: "#T Mostrar cabezas de la fe#!\n#I Haz clic para ver#!"
+ faith_mapmode_religious_heads_tt: "#T Mostrar líderes religiosos#!\n#I Haz clic para ver#!"

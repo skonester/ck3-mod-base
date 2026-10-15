@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "Помощь жертвам"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "Этим займется [GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip|l]"
  great_project_type_great_project_earthquake_contribution_memorial: "Мемориальные укрепления"
- great_project_type_great_project_flood: "Устранение последствий потопа в регионе [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
+ great_project_type_great_project_flood: "Устранение последствий потопа во владении [great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]"
  great_project_type_great_project_flood_desc: "Необходимо принять меры, чтобы сократить ущерб от [Concept('flood', 'потопа')|E]. Чтобы спасти страну и ее население, правители должны внести свой [Concept('great_project_contributions', 'вклад в проект восстановления')|E] и призвать другие [Concept('situation_participant_groups', 'группы участников')|E] помочь с ликвидацией последствий."
  great_project_type_great_project_flood_contribution_recovery: "Поиск выживших"
  great_project_type_great_project_flood_contribution_drainage: "Осушение земель"

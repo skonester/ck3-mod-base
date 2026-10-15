@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "Ihr habt Eure Verpflichtungen als Lehnsherr nicht erfüllt. Mit dem Schwert wird Euren harten Gesetzen ein Ende gemacht!"
  war_declared_flavor.claimant: "Ihr seid ein Thronräuber. Es wird Zeit, dem rechtmäßigen Monarchen auf den Thron zu helfen!"
  war_declared_flavor.rival: "Unsere Fehde schwärt schon viel zu lange. Stahl soll beilegen, was Worte nicht vermochten!"
- war_declared_flavor.vengeful: "Ich erinnere mich an jede Schmach, die Ihr mir beibrachtet. Nun zahle ich sie zehnfach zurück – mit vergossenem Blut!"
+ war_declared_flavor.vengeful: "Ich zählte jede einzelne Schmähung, die Ihr mir antatet, und vergelte sie Euch alle zehnfach – mit Blut!"
  war_declared_flavor.kinstrife: "Das wir ein Geblüt teilen, lindert nicht die Notwendigkeit. Ob Verwandte oder nicht: Ihr lasst mir keinen anderen Weg als den Krieg!"
  war_declared_flavor.callous: "Erspart mir Euer Flehen. Mich kümmert Euer Leid nicht – nur das, was ich Euch nehmen werde."
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Recht und Brauch stehen mir bei. Gebt auf, was rechtmäßig mir gehört, denn sonst erwartet Euch das Urteil der Waffen!"

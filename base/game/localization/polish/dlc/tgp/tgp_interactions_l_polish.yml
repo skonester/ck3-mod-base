@@ -8,7 +8,7 @@
  celestial_give_treasury_interaction: "Wyślij zasoby skarbca"
  celestial_give_treasury_interaction_desc: "[recipient.GetShortUINameNotMe] i [recipient.GetHerHis] [recipient.Custom('GetProvinceConcept')|l] potrzebują pomocy. Udziel im jej, przekazując zasoby [Concept('treasury', 'skarbca')|E]"
  celestial_give_treasury_interaction_send_name: "$celestial_give_treasury_interaction$"
- celestial_give_treasury_interaction_recipient_desc: "Dotarły do mnie wieści, że wasza skarbnica pustoszeje, a taki stan rzeczy nie służy imperium. Przyjmijcie to srebro z moich własnych zapasów – wydajcie je mądrze i pamiętajcie o tym, kto wam je ofiarował."
+ celestial_give_treasury_interaction_recipient_desc: "Donoszą mi, że twój skarbiec świeci pustkami, a to źle służy miejscu takiemu jak [actor.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]. Weź to srebro z moich skrzyń. Wydaj je mądrze i nie zapomnij, czyim było darem."
  HIGHLIGHTED_GIVE_TREASURY: "#weak [recipient.GetShortUINameNotMeNoTooltip] ma w swoim [Concept('treasury', 'skarbcu')|E] bardzo niewiele zasobów, zatem z pewnością doceni wszelką pomoc#!"
  ALREADY_SENT_TREASURY_WARNING: "@warning_icon! #X Wysłano już zasoby [Concept('treasury', 'skarbca')|E] osobie znanej jako [recipient.GetShortUINameNotMe]. Ponowna wysyłka będzie skutkować #underline nadpisaniem#! istniejącego modyfikatora [Concept('opinion', 'opinii')|E].#!"
  tgp_interaction_event.0001.desc: "Pragnę wyrazić wdzięczność za twoją nieocenioną pomoc w uzupełnieniu skarbca. Choć wiem, że nie oczekujesz niczego w zamian, czuję się w obowiązku, by spłacić ten dług, który w przeciwnym razie dręczyłby moje sumienie.\n\nProszę, przyjmij ten symboliczny dowód mojej głębokiej wdzięczności."

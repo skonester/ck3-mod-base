@@ -7,9 +7,9 @@
  fp1_tbc.0001.desc.recipient_fighting: "\n\nKimkolwiek by nie był[Select_CString(champion.IsFemale, 'a', '' )], [champion.GetFirstNameNoTooltip] jest zdoln[Select_CString(champion.IsFemale, 'a', 'y' )] do walki i gotow[Select_CString(champion.IsFemale, 'a', 'y' )] zaryzykować spotkanie ze mną jak [champion.GetWomanMan] z [Select_CString(actor.IsFemale, 'kobietą', 'mężczyzną' )]."
  fp1_tbc.0001.desc.recipient_has_champion: "Ponieważ [recipient.GetTitledFirstName] nie jest w stanie walczyć sam[Select_CString(recipient.IsFemale, 'a', 'emu' )], [champion.GetFirstNameNoTooltip] zgodził[Select_CString(champion.IsFemale, 'a', '' )] się walczyć za [Select_CString(recipient.IsFemale, 'nią', 'niego' )]."
  fp1_tbc.0001.desc.outro: "\n\nFormalności są krótkie. Wszyscy wiemy, po co tu jesteśmy, i już dawno przestaliśmy rozmawiać. Broń zostaje wydana, a nasze zastępy wycofują się, by obserwować z bezpiecznej odległości."
- fp1_tbc.0001.trigger_failure.actor: "Moja [trial_by_combat_trial|El] przeciwko postaci [recipient.GetFirstNameNoTooltip] została unieważniona"
+ fp1_tbc.0001.trigger_failure.actor: "Mój [trial_by_combat_trial|El] przeciwko postaci znanej jako [recipient.GetFirstNameNoTooltip] został unieważniony"
  fp1_tbc.0001.trigger_failure.actor_puppeteer: "Unieważnienie [Concept('trial_by_combat_trial', 'sądu')|E] – [puppet_or_actor.GetShortUINameNotMe] przeciwko [recipient.GetFirstNameNoTooltip]"
- fp1_tbc.0001.trigger_failure.recipient: "Moja [trial_by_combat_trial|El] przeciwko postaci [actor.GetFirstNameNoTooltip] została unieważniona"
+ fp1_tbc.0001.trigger_failure.recipient: "Mój [trial_by_combat_trial|El] przeciwko postaci znanej jako [actor.GetFirstNameNoTooltip] został unieważniony"
  fp1_tbc.0001.a: "Niech wygra najlepszy."
  fp1_tbc.0001.a.tt: "[trial_by_combat|E] rozpoczyna się!"
  #TbC has invalidated.

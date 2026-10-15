@@ -8,7 +8,7 @@
  celestial_give_treasury_interaction: "Schatz schicken"
  celestial_give_treasury_interaction_desc: "[recipient.GetShortUIName|U] und [recipient.Custom('DE_PRO_POS_S_3P')]er Provinz mit dringend benötigtem [Concept('treasury', 'Schatz')|E] helfen"
  celestial_give_treasury_interaction_send_name: "$celestial_give_treasury_interaction$"
- celestial_give_treasury_interaction_recipient_desc: "Mich erreicht die Kunde, dass sich Eure Schatzkammer leert, und eine leere Schatzkammer ist dem Kaiserreich nicht dienlich. Nehmt dieses Silber aus meinen eigenen Beständen an – gebt es weise aus und erinnert Euch an die Hand, die es Euch gab."
+ celestial_give_treasury_interaction_recipient_desc: "Mir wurde gesagt, dass Eure Schatzkammer leer ist, und eine leere Schatzkammer wird dem Reich ([actor.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]) wenig helfen. Nehmt dieses Silber aus meinen Vorräten, nutzt es mit Bedacht und vergesst nicht, wessen Geschenk es war."
  HIGHLIGHTED_GIVE_TREASURY: "#weak Der [treasury] von [recipient.GetShortUIName] ist stark geschrumpft und Hilfe wäre wahrscheinlich sehr willkommen#!"
  ALREADY_SENT_TREASURY_WARNING: "@warning_icon! #X Ihr habt [recipient.GetShortUIName] schon einen [Concept('treasury', 'Schatz')|E] geschickt; ein weiterer wird den vorhandenen [Concept('opinion', 'Meinungs')|E]-Modifikator #underline überschreiben#!.#!"
  tgp_interaction_event.0001.desc: "Ich muss Euch für Eure jüngste Hilfe beim Auffüllen meines Schatzes danken. Auch wenn Ihr im Gegenzug nichts wolltet, halte ich es doch für angebracht, dass ich diese Schuld begleiche, damit sie nicht auf meinem Gewissen lastet.\n\nBitte nehmt dieses Zeichen meiner Anerkennung."

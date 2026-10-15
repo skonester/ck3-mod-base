@@ -26,9 +26,9 @@
  RITE_CREATION_VIEW_NAMING_ADJECTIVE: "形容词"
  RITE_CREATION_VIEW_NAMING_FOLLOWER: "信徒单数格"
  RITE_CREATION_VIEW_NAMING_FOLLOWERS: "信徒复数格"
- RITE_CREATION_VIEW_NAMING_REROLL_TT: "#T 推荐其他名称#!\n用另一组推荐替换名称、形容词和信徒名称"
+ RITE_CREATION_VIEW_NAMING_REROLL_TT: "#T 推荐其他名称#!\n用另一推荐替换名称、形容词和信徒名称"
  RITE_CREATION_VIEW_NAMING_GENERATE_DESC_TT: "#T 生成描述#!\n根据当前选择的[core_tenets|E]替换描述"
- RITE_CREATION_VIEW_NAMING_DESC_SENTENCE_JOIN: "$FIRST$ $SECOND$"
+ RITE_CREATION_VIEW_NAMING_DESC_SENTENCE_JOIN: "$FIRST$$SECOND$"
  ### COLOR SELECTION
  RITE_CREATION_VIEW_COLOR_HEADER: "礼仪地图颜色"
  RITE_CREATION_VIEW_COLOR_TT: "为[rite|E]选择一种地图颜色"
@@ -89,7 +89,7 @@
  RITE_CREATION_TENET_BLOCKER_NOT_KNOWN: "#X 你未了解该[core_tenet|E]，它对于你的信仰未知。#!"
  RITE_CREATION_VIEW_TENET_CLICK_TO_SELECT: "[AddTextIf( TenetType.IsValid, RiteCreationWindow.GetTenetBlockersAndCost( TenetType.Self ) )]\n#I 点击选择[TenetType.GetBaseNameNoTooltip]#!"
  RITE_CREATION_VIEW_TENET_CLICK_TO_CHANGE: "[RiteCreationWindow.GetTenetCostString( TenetType.Self, '(bool)yes' )]\n#I 点击更改#!"
- RITE_CREATION_TENET_BLOCKER_UNPOPULAR: "@warning_icon! #X [tenet_popularity|E]需至少达到$tenet_popularity_icon_very_popular$$tenet_popularity_tier_very_popular$（#high [EmptyScope.ScriptValue('tenet_popularity_very_popular_threshold')|0]#!），才能成为[mainline_rite|E]的[core_tenet|E]#!\n#weak 将其作为[personal_tenet|E]的角色越多，[tenet_popularity|E]就越高；你的[faith|E]将其设为[permitted_tenet_status|E]时也会提升#!"
+ RITE_CREATION_TENET_BLOCKER_UNPOPULAR: "@warning_icon!#X 需要至少$tenet_popularity_icon_very_popular$$tenet_popularity_tier_very_popular$（#high [EmptyScope.ScriptValue('tenet_popularity_very_popular_threshold')|0]#!）的[tenet_popularity|E]才能成为[mainline_rite|E]的[core_tenet|E]#!\n#weak [tenet_popularity|E]会随采纳其为[personal_tenet|E]的角色人数提高，并且你的[faith|E][permitted_tenet_status|E]该信条#!"
  RITE_CREATION_VIEW_TENET_BLOCKED_UNPOPULAR: "$RITE_CREATION_TENET_BLOCKER_UNPOPULAR$\n\n[RiteCreationWindow.GetTenetBlockersAndCost( TenetType.Self )]"
  ### BLOCKERS AND WARNINGS
  RITE_CREATION_VIEW_BLOCKER_CREATION_DOCTRINE: "@warning_icon!#X [DoctrineType.GetName( GetPlayer.GetFaith )]不被允许#!"

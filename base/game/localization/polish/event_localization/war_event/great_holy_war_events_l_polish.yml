@@ -108,7 +108,7 @@
  great_holy_war.0054.a: "Niech nikt więcej o tym nie mówi."
  great_holy_war.0054.b: "Dziś wieczorem będę spać spokojniej."
  great_holy_war.0054.c: "Niech tak będzie."
- great_holy_war.0056.title: "[the_faith.GHWName] ponosi klęskę"
+ great_holy_war.0056.title: "[the_faith.GHWName] kończy się klęską"
  great_holy_war.0056.desc: "[the_faith.ReligiousSymbol|U] potrzebuje obrony wobec wrogów naszej wiary. [ghw_sponsor.GetTitledFirstName|U] żarliwie wzywa więc do walki, ale zew ten nie jest wystarczająco przekonujący. Zbyt mało jest wiernych, którzy decydują się posłuchać [ghw_sponsor.Custom('PL_jego_jej')] wezwania do broni, o wiele za mało, by zorganizować odpowiednią armię.\n\nNie mając innego wyboru, [ghw_sponsor.GetTitleTierName] wydaje pod przymusem oświadczenie, że święta wojna znana jako [the_faith.GHWName] nie odbędzie się, a wszyscy władcy, którzy zignorowali [ghw_sponsor.Custom('PL_jego_jej')] zew, będą potępieni za tchórzostwo i niegodziwość."
  great_holy_war.0056.a: "Jak to się stało, że tak daleko odeszliśmy od wskazówek [the_faith.WarGodNamePossessive]?"
  great_holy_war.0056.b: "Godne politowania."

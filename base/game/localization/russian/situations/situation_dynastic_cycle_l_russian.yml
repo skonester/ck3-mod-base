@@ -40,7 +40,7 @@
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST: "Катализаторы в сторону фазы «[FutureSituationPhase.GetType.GetName]»"
  DYNASTIC_CYCLE_WINDOW_PHASES_LIST: "Эры ситуации «[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]»"
  DYNASTIC_CYCLE_WINDOW_HISTORY_LIST: "История ситуации «[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]»"
- SITUATION_HISTORY_NO_ENTRIES: "Записей в истории пока нет"
+ SITUATION_HISTORY_NO_ENTRIES: "Исторических записей ещё нет"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS: "Все катализаторы"
  DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_TT: "#T [situation_catalyst_catalysts|E], приближающие фазу «[SituationPhaseType.GetNameNoTooltip]»#!\n$CLICK_TO_VIEW$"
  DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST_PROGRESSBAR_TT: "#T Прогресс приближения к фазе «[SituationPhaseType.GetName]»: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!"

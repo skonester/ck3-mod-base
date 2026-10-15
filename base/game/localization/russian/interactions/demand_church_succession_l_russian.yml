@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nПозвольте мне сказать прямо:"
  demand_church_succession.0001.recipient.elderly_childless: "колыбель у вашего очага пустует, вы последний представитель своего рода. Верные подождут и, со временем, унаследуют."
  demand_church_succession.0001.recipient.childless: "у вас нет живых детей. Если [actor.GetFaith.HighGodName] ничего не изменит, ваши земли послужат вере."
- demand_church_succession.0001.recipient.one_child: "единственное дитя стоит между вами и концом. Если [actor.GetFaith.HighGodName] приберёт его, верующие возьмут бразды правления."
+ demand_church_succession.0001.recipient.one_child: "от забвения вас отделяет лишь один ребёнок. Если [actor.GetFaith.HighGodName] заберёт это дитя — верные готовы взять правление в свои руки."
  demand_church_succession.0001.recipient.default: "время не щадит никого. В случае, если с вами что-то произойдёт, ваши земли перейдут нам и будут управляться во имя [actor.GetFaith.HighGodNamePossessive]."
  demand_church_succession.0001.a: "Так написано. И так будет."
  demand_church_succession.0001.b: "Тогда стоит обзавестись наследником."

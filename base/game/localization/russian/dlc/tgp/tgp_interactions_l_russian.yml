@@ -8,7 +8,7 @@
  celestial_give_treasury_interaction: "Оказать финансовую помощь"
  celestial_give_treasury_interaction_desc: "[recipient.GetShortUIName] и [Select_CString(recipient.IsFemale, 'ее', 'его')] [recipient.Custom('GetProvinceConcept')|l] получат столь нужное им [Concept('treasury', 'золото')|E]"
  celestial_give_treasury_interaction_send_name: "$celestial_give_treasury_interaction$"
- celestial_give_treasury_interaction_recipient_desc: "До меня дошли вести, что ваша казна пуста, а пустая казна не принесёт пользу империи. Примите это серебро из моих запасов — распорядитесь им с умом, но не забывайте, кто вам его предложил."
+ celestial_give_treasury_interaction_recipient_desc: "До меня дошли слухи, что ваша казна опустела, а [actor.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] не может править без денег. Примите это серебро из моих запасов. Распорядитесь им мудро, но не забывайте, кто преподнёс этот дар."
  HIGHLIGHTED_GIVE_TREASURY: "#weak [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'лишилась', 'лишился')] почти всех средств в казне и будет очень [Select_CString(recipient.IsFemale, 'рада', 'рад')] получить помощь#!"
  ALREADY_SENT_TREASURY_WARNING: "@warning_icon!#X Вы уже отправили [Concept('treasury', 'золото')|E] персонажу [recipient.GetShortUIName], повторная отправка #underline перепишет#! существующий модификатор [Concept('opinion', 'мнения')|E]!#!"
  tgp_interaction_event.0001.desc: "Позвольте выразить благодарность за вашу недавнюю помощь в пополнении казны. Хотя вы не требовали ничего взамен, я считаю своим долгом воздать вам по заслугам — иначе моя совесть не будет знать покоя.\n\nПрошу, примите этот скромный знак моей признательности."

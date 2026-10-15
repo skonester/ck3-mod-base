@@ -13,6 +13,6 @@
  trait_fp3_struggle_supporter_character_is_caliph_desc: "Jako [ROOT.GetCharacter.GetTitleAsName|l], [ROOT.GetCharacter.GetFirstNameNoTooltip] uważa się za najwyższ[Select_CString(ROOT.GetCharacter.IsFemale, 'ą władczynię', 'ego władcę' )] całego islamu – od Indusu po Atlantyk."
  trait_fp3_struggle_supporter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] uważa, że kalifat powinien potwierdzić swoją władzę na Bliskim Wschodzie."
  CONVERSION_FP3_STRUGGLE_ENDING_BONUS: "Premia za [Concept('struggle_ending_decision', 'decyzję końcową')|E]"
- persian_struggle.tt.supporter_killed_caliph: "Zabicie postaci takiej jak [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] określa nastawienie w zmaganiach"
+ persian_struggle.tt.supporter_killed_caliph: "Zabicie postaci znanej jako [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] określa nastawienie w zmaganiach"
  persian_struggle.tt.neutral_killed_caliph: "$persian_struggle.tt.supporter_killed_caliph$"
  persian_struggle.tt.converted_away_from_sunni_orthodoxy: "Odejście od sunnickiej ortodoksji określa nastawienie w zmaganiach"

@@ -235,7 +235,7 @@
  religious_interaction.2620.a: "Lasst den Schmerz uns einander näherbringen."
  attempted_transcendence_together_opinion: "Gemeinsam versuchte Transzendenz"
  monastic_donation_interaction: "Dem Klosterorden eine Spende machen"
- monastic_donation_interaction_desc: "Als Gegenleistung für [gold|E] werden die Ordensmitglieder von [recipient.GetShortUIName] für Euer Seelenheil und Eure [spiritual_fulfillment|E] beten"
+ monastic_donation_interaction_desc: "Als Gegenleistung für [gold|E] werden die Ordensmitglieder von [recipient.GetShortUIName] für Euer Seelenheil und Eure [spiritual_fulfillment|El] beten"
  INTERACTION_CEREMONIAL_HUMBLING: "Inständig um besondere Fürsprache bitten"
  INTERACTION_HUGE_DONATION: "Eine beachtliche Spende machen"
  monastics_praying_for_grievous_sins_modifier: "Klostergebet"

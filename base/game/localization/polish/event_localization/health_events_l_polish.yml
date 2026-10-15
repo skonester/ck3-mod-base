@@ -243,7 +243,7 @@
  health.3001.a.aptitude: "[high_skill_option.GetUINameNotMe] ma [aptitude|El], których potrzeba osobie, jaką jest [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )|l]"
  health.3001.b: "[low_skill_option.GetFirstNameNoTooltip] może być, jeżeli nie ma nikogo lepszego."
  health.3001.b.aptitude: "[high_skill_option.GetUINameNotMe] ma [aptitude|El], których potrzeba osobie, jaką jest [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )|l]"
- health.3001.c: "[mystic_option.GetFirstNameNoTooltip] twierdzi, że przesz[Select_CString( mystic_option.IsFemale, 'ła', 'edł' )] szkolenie w zakresie „medycyny alternatywnej”."
+ health.3001.c: "[mystic_option.GetFirstNameNoTooltip] twierdzi, że jest po szkoleniu w zakresie medycyny alternatywnej."
  health.3001.c.aptitude: "[high_skill_option.GetUINameNotMe] ma [aptitude|El], których potrzeba osobie, jaką jest [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )|l]"
  health.3001.d.two: "Nikt z nich nie potrafi mi zaimponować."
  health.3001.d.more: "Nikt nie robi na mnie wrażenia."

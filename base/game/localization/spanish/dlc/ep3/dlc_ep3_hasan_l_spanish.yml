@@ -86,7 +86,7 @@
  unlock_final_hasan_decisions_1_tt: "Se obtiene acceso a la [decision|lE] [GetDecisionWithKey('hasan_agitate_the_populace').GetName]"
  unlock_final_hasan_decisions_2_tt: "Se obtiene acceso a la [decision|lE] [GetDecisionWithKey('hasan_found_the_assassins').GetName]"
  unlock_final_hasan_decisions_3_tt: "Se obtiene acceso a la [decision|lE] [GetDecisionWithKey('hasan_ignite_the_flames').GetName]"
- at_least_5_counties_are_nizari: "Al menos 5 condados del señorío deben ser de tu [rite|lE]"
+ at_least_5_counties_are_nizari: "Al menos 5 condados del señorío deben ser de tu [rite|El]"
  hasan_evangelize_other_rite_location_tt: "Tu ubicación debe seguir un [rite|lE] diferente"
  ep3_hasan_advance_radicalism: "Avanzar tu misión santa"
  has_tougher_to_convert_tt: "No tiene el [modifier|lE] [GetModifier( 'tougher_to_convert' ).GetNameWithTooltip]"

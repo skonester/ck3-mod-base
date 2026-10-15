@@ -234,7 +234,7 @@
  stress_threshold.2331.desc.rump: "a przecież to oznacza tylko tyle, że rządzę twardą ręką. Nie można mnie brać za potwora.\n\nPrawda…?"
  stress_threshold.2331.a.reclusive.gain: "Ja też nie chcę widzieć #EMP ich#!!"
  stress_threshold.2331.a.reclusive.effect: "$stress_threshold.2331.a.reclusive.gain$"
- stress_threshold.2331.a.reclusive.opinion_list: "Twoi [THIS.Char.Custom('GetCourtierPlural')] zostają odprawieni"
+ stress_threshold.2331.a.reclusive.opinion_list: "Twoi [THIS.Char.Custom('GetCourtierPlural')|l] zostają odprawieni"
  stress_threshold.2331.b.irritable.gain: "Cholerni niewdzięcznicy!"
  stress_threshold.2331.b.irritable.effect: "$stress_threshold.2331.b.irritable.gain$"
  stress_threshold.2331.c.profligate.gain: "$stress_threshold.1701.d.profligate.gain$"

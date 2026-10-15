@@ -508,7 +508,7 @@
  on_left_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUINameNotMe] i [old_diarch.GetShortUINameNotMe], czyli [ROOT.Char.Custom('PL_jego_jej')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_diarch'))], już nie [Concept('sharing_power', 'dzielą władzy')|E]"
  msg_change_diarchy_type_title: "Zmienił się sposób, w jaki dzielę władzę"
  msg_change_diarchy_type_effect: "$OLD_TYPE$ przekształca się w $NEW_TYPE$"
- on_diarch_change.notification.liege.boilerplate.t: "[liege.GetDiarchTitle|l] mojej osoby zmienia się"
+ on_diarch_change.notification.liege.boilerplate.t: "[liege.GetDiarchTitle] mojej osoby zmienia się"
  on_diarch_change.notification.vassal.boilerplate.t: "[liege.GetDiarchTitle] twojego seniora zmienia się"
  on_diarch_change.notification.liege.death.t: "$on_diarch_change.notification.liege.boilerplate.t$"
  on_diarch_change.notification.liege.death.desc: "Niedawna [character_death_death|El] osoby, którą jest [old_diarch.GetShortUINameNotMe] sprawia, że [diarch.GetShortUINameNotMe] to twój nowy [liege.GetDiarchTitle]."

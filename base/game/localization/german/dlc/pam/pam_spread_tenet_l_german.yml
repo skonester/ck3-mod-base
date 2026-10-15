@@ -9,7 +9,7 @@
  apa_pam_spread_tenet_host_title: "[first.GetShortUINameNoTooltip|U] gewinnt [second.GetShortUINameNoTooltip] für sich"
  apa_pam_spread_tenet_guest_title: "[first.GetShortUINameNoTooltip|U] gewinnt [second.GetShortUINameNoTooltip] für sich"
  # Shared event text
- pam_spread_tenet_events.forbidden.desc: "\n\nAber was mein Herz erfüllt, ist etwas namens [spread_tenet.GetBaseName] – eine Überzeugung, die mein eigener Glaube verdammt. Davon zu sprechen, heißt mein Schicksal in die Hände aller Zuhörer zu legen."
+ pam_spread_tenet_events.forbidden.desc: "\n\nAber mein Herz wird erfüllt von der Überzeugung namens [spread_tenet.GetBaseName] – die mein eigener Glaube verdammt. Davon in Gesellschaft zu sprechen, heißt, mein Schicksal in die Hände aller Zuhörer zu legen."
  pam_spread_tenet_option_scripture: "Die Heilige Schrift selbst spricht für mich."
  pam_spread_tenet_option_preach: "Hört, was ich für wahr halte!"
  pam_spread_tenet_option_forbidden: "Die Wahrheit ist das Wagnis wert. Kommt näher."
@@ -25,4 +25,4 @@
  pam_spread_tenet_events.0301.t: "Stoßen wir auf die Überzeugung an"
  pam_spread_tenet_events.0301.desc: "Becher um Becher wird erhoben: auf die Neuvermählten, auf noch ungeborene Erben …\n\n„Und auf diue höchste Macht ([ROOT.Char.GetFaith.HighGodName]), die alle Seelen miteinander verbindet!“, fügt [pam_spread_listener_1.GetTitledFirstName] unter grummeliger Zustimmung hinzu.\n\nDie Herzen hier sind offen: für Liebe, Hoffnung und heilige Dinge. Nun Ausgesprochenes wird Wurzeln schlagen."
  pam_spread_tenet_events.0401.t: "Worte bei der Trauerfeier"
- pam_spread_tenet_events.0401.desc: "Die Trauernden versammeln sich in lockeren Grüppchen und tauschen leise Worte über die Verstorbenen und das Schicksal aus, das uns alle erwartet.\n\n„Es ereilt uns alle“, sagt [pam_spread_listener_1.GetTitledFirstName] leise an meiner Seite.\n\n„Und trotzdem streiten wir uns noch immer über Kleinigkeiten.“ Trauer bricht eine Seele auf …"
+ pam_spread_tenet_events.0401.desc: "Die Trauernden stehen in kleinen Grüppchen beieinander und murmeln über den Verstorbenen und das Schicksal, das uns alle eint.\n\n„Die Ewigkeit holt uns am Ende alle“, flüstert [pam_spread_listener_1.GetTitledFirstName] an meiner Schulter. „Und trotzdem streiten wir uns über Kleinigkeiten.“\n\nVielleicht hat der Kummer eine Seele aufgebrochen …"

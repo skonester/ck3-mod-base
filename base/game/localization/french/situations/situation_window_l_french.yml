@@ -51,7 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T Terres détenues : $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.Custom('FR_le_Char_U_Pi')|U][Character.GetShortUINameNoTooltip|U] et [Select_CString(Character.IsLocalPlayer,'vos','ses')] [tributaries|El] [Select_CString(Character.IsLocalPlayer,'détenez','détiennent')] $OWNED_COUNTIES|V0$ de $TOTAL_COUNTIES|V0$ [counties|El] dans la zone de [Situation.GetNameNoTooltip]"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T Puissance militaire : #!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "[characters|E] affectés"
- NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic Vous n’êtes pas affecté par cette [natural_disaster|El].#!"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic Cette [natural_disaster|El] ne vous affecte pas.#!"
  SITUATION_RECOMMENDATIONS_HEADER: "Recommandations"
  natural_disaster_flood_severity_type: "Gravité des inondations :"
  natural_disaster_earthquake_severity_type: "Gravité du séisme :"

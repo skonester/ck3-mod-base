@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "裂开的钟的教训"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "该伯爵领的石匠们工作得更加谨慎，以弥补铸钟失败的耻辱。"
  pam_cathedral_bell_bronze_torture_implements_modifier: "青铜刑具"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "一口铸造失败的座堂大钟的青铜废料，被重新做成了恐怖的刑具。钟匠成了它们的第一个牺牲品。工匠们如今知道了失败的代价。"
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "一口铸造失败的座堂大钟的青铜废料，被重新做成了恐怖的刑具，而铸钟人成了它们的第一个受害者。"
  pam_cathedral_treadwheel_crane_modifier: "踏轮起重机"
  pam_cathedral_treadwheel_crane_modifier_desc: "一座来自主教座堂工地的大型踏轮起重机，已在首都竖立起来。"
  pam_cathedral_cantoria_scam_modifier: "被揭穿的骗局"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "该角色受最近宣布的新圣人的启发。"
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "所有教座的朝圣者"
- pam_pilgrim_of_every_holy_site_modifier_desc: "该角色于其信仰所承认的每一处圣地守夜祈祷。"
+ pam_pilgrim_of_every_holy_site_modifier_desc: "该角色于其信仰的每一处圣地守夜祈祷。"
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "遵守伦常"
  tenet_harmonious_society_five_bonds_modifier_desc: "该角色将君臣、父子、夫妇、长幼、朋友这五伦之一维系得井然有序。"
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "祝圣之链"
- tenet_apostolic_succession_episcopate_modifier_desc: "该角色所属信仰之中，每一位主教都是由一位先于他受祝圣的主教所祝圣的，由此赋予了稳固的正统性。"
+ tenet_apostolic_succession_episcopate_modifier_desc: "该角色的信仰里，每一位主教都由更早期的主教祝圣，构成了不曾中断的祝圣链条，这样的历史源泉赋予信仰光荣的合法性。"
  modifier_definition_value_per_theocratic_vassal: "\t#weak 随每名[theocratic_vassal|E]提高（最多[EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')]）#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "信徒的唱经团"
- tenet_divine_liturgy_choirs_modifier_desc: "在该角色持有的每一座教堂中，同样的经文在同样的时辰被吟唱，自任何在世者出生之前便已如此。"
+ tenet_divine_liturgy_choirs_modifier_desc: "在该角色持有的每一座教堂中，同样的经文在同样的时辰被吟唱，世代如此。"
  modifier_definition_value_per_held_temple: "\t#weak 随持有的每座[temple_holding|E]提高（最多[EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')]）#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "能力出众的主持者"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "著名圣物"
  pam_holy_weapon_3_artifact_modifier_desc: "它声名远播，虔信之士一见到它，精神便为之振奋。"
  pam_holy_weapon_4_artifact_modifier: "天命之器"
- pam_holy_weapon_4_artifact_modifier_desc: "无论谁携带该圣物，都被视为在行使神的旨意；那些与其并肩同行之人，也因此而战意坚决。"
+ pam_holy_weapon_4_artifact_modifier_desc: "人们相信其持有者是在行使神的旨意；那些与其并肩同行的骑兵，也因此更加战意坚决。"
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "裂教者的支持者"
  pam_house_schismatic_sponsor_modifier_desc: "该家族支持了失败的[challenger_hof|E]。"

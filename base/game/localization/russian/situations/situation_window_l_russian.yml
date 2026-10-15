@@ -51,7 +51,7 @@
  SITUATION_PARTICIPANT_LAND_TT: "#T Земель во владении: $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNoTooltip|U] и [Select_CString(Character.IsLocalPlayer, 'ваши', Select_CString(Character.IsFemale, 'ее', 'его' ))] [Concept('tributaries', 'данники')|E] владеете $OWNED_COUNTIES|V0$ из $TOTAL_COUNTIES|V0$ [Concept('counties', 'графств')|E] в области «[Situation.GetNameNoTooltip]»"
  SITUATION_PARTICIPANT_MILITARY_TT: "#T Военная мощь: #!\n$MILITARY_DATA_BREAKDOWN$"
  NATURAL_DISASTER_PARTICIPANT_HEADER: "Пострадавшие [characters|El]"
- NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic Этот [Concept('natural_disaster', 'природный катаклизм')|E] вас не затрагивает.#!"
+ NATURAL_DISASTER_NO_PARTICIPANT_GROUP: "#italic Вы не пострадали от этого [Concept('natural_disaster', 'природного катаклизма')|E].#!"
  SITUATION_RECOMMENDATIONS_HEADER: "Рекомендации"
  natural_disaster_flood_severity_type: "Тяжесть потопа:"
  natural_disaster_earthquake_severity_type: "Тяжесть землетрясения:"

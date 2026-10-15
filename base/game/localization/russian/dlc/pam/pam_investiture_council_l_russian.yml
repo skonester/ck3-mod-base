@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "Совет проведет дебаты о том, кто вправе назначать духовенство. Окончательный выбор между церковью и короной будет сделан по итогам голосования."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "Прибытие"
- pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName] тепло встречает меня на пороге, а в зале за [Select_CString(arrival_host.IsFemale, 'её', 'его' )] спиной уже собрались многочисленные прелаты и праведные князья. Скоро это благородное собрание приступит к обсуждению великого вопроса о назначении духовенства."
+ pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName] тепло встречает меня на пороге, а за [Select_CString(arrival_host.IsFemale, 'её', 'его' )] спиной уже собрались многочисленные прелаты и праведные князья. Скоро это благородное собрание приступит к обсуждению великого вопроса о назначении духовенства."
  pam_investiture_council_events.0001.a: "Я горжусь тем, что меня приняли в него."
  pam_investiture_council_events.0001.a.tt: "Дебаты начнутся после прибытия остальных гостей."
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "Да будет так."
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "Дебаты начинаются"
- pam_investiture_council_events.0003.desc: "Гул в зале затихает, когда совет поднимает вопрос, вызвавший противостояние церкви и короны. В его решении важен каждый голос."
+ pam_investiture_council_events.0003.desc: "Собравшиеся умолкают, когда начинается обсуждение вопроса, столкнувшего церковь и корону: кому назначать священнослужителей. Каждый голос освещает вопрос по-своему."
  pam_investiture_council_events.0003.a: "Время пришло."
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "Нужные слова в нужные уши"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "Ваш неверный шаг заставляет #N 5#! голосующих перейти на сторону короны."
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "Вас вызывают на совет"
- pam_investiture_council_events.0004.desc: "До меня дошла молва о совете, который будет решать вопрос о назначении духовенства, но этот совет пройдёт в далёком городе. Я могу либо бросить все дела и мчаться туда, чтобы отдать свой голос, либо остаться в стороне, позволив решить этот вопрос без моего участия."
+ pam_investiture_council_events.0004.desc: "До меня дошли новости о совете, который будет решать вопрос о назначении духовенства, но путь туда займёт у меня много дней. Я могу либо бросить все дела и мчаться туда, чтобы отдать свой голос, либо позволить прелатам решить этот вопрос без моего участия."
  pam_investiture_council_events.0004.a: "Бросаю всё и еду на совет."
  pam_investiture_council_events.0004.b: "Пусть решают без меня."
  pam_investiture_council_haste_modifier: "Срочная поездка на совет"

@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "Nauczka z pękniętego dzwonu"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "Ludwisarze w tym hrabstwie pracują staranniej, aby zmyć wstyd po nieudanym odlaniu dzwonu."
  pam_cathedral_bell_bronze_torture_implements_modifier: "Narzędzia tortur z brązu"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Resztki brązu z wadliwie odlanego katedralnego dzwonu przetopiono na narzędzia grozy. Ludwisarz był ich pierwszą ofiarą. Rzemieślnicy znają teraz cenę porażki."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Resztki brązu z wadliwie odlanego katedralnego dzwonu przetopiono na narzędzia grozy, a ludwisarz był ich pierwszą ofiarą."
  pam_cathedral_treadwheel_crane_modifier: "Dźwig deptakowy"
  pam_cathedral_treadwheel_crane_modifier_desc: "Potężny dźwig deptakowy z placu budowy katedry został wzniesiony w stolicy."
  pam_cathedral_cantoria_scam_modifier: "Zdemaskowane oszustwo"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "Ta postać została zainspirowana niedawnym ogłoszeniem nowego świętego."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "Pielgrzym obieżyświat"
- pam_pilgrim_of_every_holy_site_modifier_desc: "Ta postać odbyła czuwanie w każdym świętym miejscu uznawanym przez jej wiarę."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "Ta postać odbyła czuwanie w każdym miejscu świętym swojej wiary."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "Zachowana więź"
  tenet_harmonious_society_five_bonds_modifier_desc: "Władca i poddany, rodzic i dziecko, mąż i żona, osoba starsza i młodsza, przyjaciel i druh. Ta postać utrzymuje jedną z tych pięciu relacji w dobrej formie."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "Łańcuch święceń"
- tenet_apostolic_succession_episcopate_modifier_desc: "Ta postać wyznaje wiarę, w której każdy biskup był wyświęcany przez osobę wyświęconą przed nim, co nadawało mu legitymację."
+ tenet_apostolic_succession_episcopate_modifier_desc: "Wiara tej postaci zakłada wyświęcanie biskupów w ramach nieprzerwanej linii pasterzy – jest to historyczne źródło uznawanej legitymacji."
  modifier_definition_value_per_theocratic_vassal: "\t#weak Przyrost za każdego [Concept('theocratic_vassal', 'wasala teokratycznego')|E] (maks. [EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')])#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "Chóry wiernych"
- tenet_divine_liturgy_choirs_modifier_desc: "W każdym kościele należącym do tej postaci wyśpiewuje się te same słowa o takich samych porach – i tak jest od czasów, zanim urodził się ktokolwiek z obecnie żyjących."
+ tenet_divine_liturgy_choirs_modifier_desc: "W kościołach tej postaci wyśpiewuje się te same słowa o jednakowych porach – niezmiennie od pokoleń."
  modifier_definition_value_per_held_temple: "\t#weak Przyrost za każdą posiadaną [Concept('temple_holding', 'posiadłość świątynną')|E] (maks. [EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')])#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "Godna liturgia"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "Słynna relikwia"
  pam_holy_weapon_3_artifact_modifier_desc: "Jej sława ją wyprzedza. Ludzie gorliwi nabierają otuchy na jej widok."
  pam_holy_weapon_4_artifact_modifier: "Narzędzie opatrzności"
- pam_holy_weapon_4_artifact_modifier_desc: "Uznaje się, że ten, kto je dzierży, wypełnia wolę swojego boga, a osoby u boku posiadacza tej broni walczą z jeszcze większym zapałem."
+ pam_holy_weapon_4_artifact_modifier_desc: "Uznaje się, że ten, kto dzierży ten artefakt, wypełnia wolę swojego boga, a jeźdźcy u boku jego posiadacza walczą z jeszcze większym zapałem."
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "Schizmatycki patron"
  pam_house_schismatic_sponsor_modifier_desc: "Ten ród poparł [Concept('challenger_hof', 'pretendenta do miana głowy wiary')|E], który odniósł porażkę."

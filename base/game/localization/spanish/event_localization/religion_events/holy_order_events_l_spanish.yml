@@ -3,7 +3,7 @@
  holy_order.hired_message: "La orden de [holy_order.GetName] ha sido llamada por [actor.GetUIName]"
  holy_order_hired_by_enemy_message: "Orden militar enemiga"
  holy_order.hired_by_enemy: "La orden de [holy_order.GetName] ha sido llamada por [actor.GetUIName] y ahora se enfrenta a nosotros"
- holy_order.destroyed_message: "[title.GetName] ha sido destruido."
+ holy_order.destroyed_message: "[title.GetName|U] ha sido destruido."
  holy_order_expanded: "La orden militar se expande"
  holy_order.new_lease: "[holy_order.GetName] ahora arrienda [barony.GetName] [former_holder.Custom('ES_AlAla')] [former_holder.GetTitledFirstName|l]"
  monastic_holy_order_expanded: "La orden monástica se expande"

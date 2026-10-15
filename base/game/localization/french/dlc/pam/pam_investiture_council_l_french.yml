@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "Le concile débat pour savoir qui doit nommer le clergé, l’Église ou la Couronne, et soumet la question au vote."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "Arrivée"
- pam_investiture_council_events.0001.desc: "[arrival_host.Custom('FR_le_Char_Pi')|U][arrival_host.GetTitledFirstName] m’accueille chaleureusement sur le seuil de la porte à mon arrivée, tandis que le hall derrière [arrival_host.Custom('FR_LuiElle')] fourmille déjà de prélats. Bientôt, la grande question de la nomination du clergé sera posée à l’assemblée."
+ pam_investiture_council_events.0001.desc: "[arrival_host.Custom('FR_le_Char_Pi')|U][arrival_host.GetTitledFirstName] m’accueille chaleureusement sur le seuil à mon arrivée, tandis que derrière [arrival_host.Custom('FR_LuiElle')] fourmillent déjà des prélats. Bientôt, la grande question de la nomination du clergé sera posée à l’assemblée."
  pam_investiture_council_events.0001.a: "C’est un honneur pour moi de faire partie de ce groupe."
  pam_investiture_council_events.0001.a.tt: "Le débat commencera dès que les autres invités seront arrivés."
  # The council convenes (host)

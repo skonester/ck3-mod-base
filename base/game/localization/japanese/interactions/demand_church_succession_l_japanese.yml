@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nはっきり言わせてもらえば、"
  demand_church_succession.0001.recipient.elderly_childless: "汝の炉端にある揺りかごは空のままであり、その血統は汝の代で絶える。信仰の徒は待ち——そして、やがては汝の領地を継承することになるだろう。"
  demand_church_succession.0001.recipient.childless: "汝には存命の子がない。[actor.GetFaith.HighGodName]がその運命を変えない限り、汝の領地は信仰に奉仕することとなる。"
- demand_church_succession.0001.recipient.one_child: "汝と終焉を隔てるのはただ一人の子のみだ。[actor.GetFaith.HighGodName]がその子を召し上げれば、信仰の徒がすぐにでも統治の座に就くことになる。"
+ demand_church_succession.0001.recipient.one_child: "一人子供がいるだけで、汝の家系は途絶えずに済む。[actor.GetFaith.HighGodName]がその子を奪うことがあっても、信徒たちは統治する準備ができている。"
  demand_church_succession.0001.recipient.default: "歳月はあらゆる約束を妬む。汝の約束が果たされぬなら、汝の領地は我々に渡り、[actor.GetFaith.HighGodNamePossessive]の名のもとに統治されることになる。"
  demand_church_succession.0001.a: "これは定めであり、そうあるべきなのだ。"
  demand_church_succession.0001.b: "ならば、世継ぎの[ROOT.Char.GetMotherFather]となるのが最善のようだな。"

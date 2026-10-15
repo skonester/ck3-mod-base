@@ -161,7 +161,7 @@
  nomadic_regency_disliked: "No acepta goberantes en una [regency|lE]"
  ##################################################
  ##Parameters
- diarchy_is_regency: "La [diarchy|lE] es una [regency|lE]"
+ diarchy_is_regency: "El [diarchy|lE] es una [regency|lE]"
  unlock_diarch_imprison_interaction: "Los [diarchs|lE] pueden intentar [imprison|lE] a colegas [vassals|lE] y [courtiers|lE] en el [realm|lE] de su [liege|lE]"
  unlock_diarch_revoke_title_interaction: "Los [diarchs|lE] pueden intentar [Concept( 'revoke', 'revocar' )|E] los [titles|lE] de otros [vassals|lE]"
  unlock_diarch_retract_vassal_interaction: "Los [diarchs|lE] pueden intentar [retract|lE] [vassals|lE] por debajo de su [title_tier|lE] de otros [vassals|lE]"
@@ -184,8 +184,8 @@
  regency_cant_be_ended_above_this_point: "Los [lieges|lE] no pueden intentar despedir a sus [Concept( 'regent', 'regentes' )|E]"
  diarch_gets_a_free_change_on_vassal_contract: "Los [diarchs|lE] consiguen un cambio extra gratis en sus [vassal_contracts|lE], si aún se pueden modificar #WEAK (igual que al usar un [hook|lE] sobre su señor)#!"
  primeminister_dismissal_will_upset_administration: "Se puede despedir al [diarch|lE], pero dará un [modifier|lE] #N negativo#! de [stewardship|lE] e [income|lE] escalado a la [scales_of_power|lE] actual"
- primeminister_requires_county: "Se puede poner fin a la [diarchy|lE] sin [modifiers|lE] negativos si se le da al menos un [county|lE] al [diarch|lE]"
- primeminister_requires_duchy: "Se puede poner fin a la [diarchy|lE] sin [modifiers|lE] negativos si se le da al menos un [duchy|lE] al [diarch|lE]"
+ primeminister_requires_county: "Se puede poner fin al [diarchy|lE] sin [modifiers|lE] negativos si se le da al menos un [county|lE] al [diarch|lE]"
+ primeminister_requires_duchy: "Se puede poner fin al [diarchy|lE] sin [modifiers|lE] negativos si se le da al menos un [duchy|lE] al [diarch|lE]"
  primeminister_requires_duchy.tt.blocked_grant: "La [scales_of_power|El] actual de [Select_CString(puppet_or_actor.IsLocalPlayer,'tu personaje', puppet_or_actor.GetShortUIName)] precisa que [Select_CString(puppet_or_actor.IsLocalPlayer, 'entregues', 'entregues')] a [recipient.GetFirstName] al menos un [title|El] de [duchy|El]"
  grant_titles_interaction.tt.primeminister_title_grant.duchy_sufficient: "Conceder un [duchy|El] o superior #ENC PONDRÁ#! fin a [puppet_or_actor.GetDiarchyTypeName|l] de [Select_CString(puppet_or_actor.IsLocalPlayer,'tu personaje', puppet_or_actor.GetShortUIName)]"
  grant_titles_interaction.tt.primeminister_title_grant.county_sufficient: "Conceder un [county|El] o superior #ENC PONDRÁ#! fin a [puppet_or_actor.GetDiarchyTypeName|l] de [Select_CString(puppet_or_actor.IsLocalPlayer,'tu personaje', puppet_or_actor.GetShortUIName)]"

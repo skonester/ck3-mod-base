@@ -44,7 +44,7 @@
  SETTING_SHOW_NUDITY: "Показывать наготу"
  SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\nИзображение обнаженных персонажей."
  SETTING_BEAUTIFY_DEAD: "Приукрашивать портреты умерших"
- SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nОпределяет, будут ли умершие персонажи изображаться такими, какими они были в расцвете сил, а не изуродованными старостью, болезнями и ранами."
+ SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nОпределяет, как будут изображаться умершие персонажи: в самом расцвете сил или изуродованными старостью, болезнями и ранами."
  SETTING_STYLIZE_DEAD: "Стилизовать портреты умерших"
  SETTING_STYLIZE_DEAD_TOOLTIP: "#T $SETTING_STYLIZE_DEAD$#!\nОпределяет, будут ли приукрашенные портреты умерших персонажей выполнены в «живописном» стиле, чтобы сразу было понятно: на самом деле они так не выглядели.\n\nРаботает только при включённой настройке «$SETTING_BEAUTIFY_DEAD$»."
  SETTINGS_CATEGORY_GAME_DLC_MODS: "Загружаемый контент"

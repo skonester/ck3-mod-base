@@ -151,7 +151,7 @@
  hold_court.6130.t: "土地台帳"
  hold_court.6130.desc: "「[ROOT.Char.Custom('FormOfAddressForLiege')|U]」[6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)]が声を上げた。「ご領地の測量を提案いたします」\n\n「所領に関する知識を深めて地図製作を行えば、必ずや繁栄の一助となるでしょう！」"
  hold_court.6130.a: "いいだろう、[6130_proposer.GetFirstNameNoTooltip]。貴公に進めてもらう。"
- hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip]が地籍調査を始める。完了までに数か月かかるが、完了時に以下の報酬が与えらえる："
+ hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip]が地籍調査を始める。完了までに数か月かかるが、完了時に以下の報酬が与えられる："
  hold_court.6130.d: "土地は過大評価されている。"
  hold_court.6131.t: "土地台帳：完了！"
  hold_court.6131.desc: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U]は手短に一礼し、満足げな笑みを浮かべて私に説明した。「[ROOT.Char.Custom('FormOfAddressForLiege')|U]、覚えておいででしょうが、数か月前にあなたは伯爵領の土地台帳に多額の金を出資されました。\n\n「私が個人的にこの件を監督しましたが、こうして仕事が完了したと報告できることを誇らしく思います！」"

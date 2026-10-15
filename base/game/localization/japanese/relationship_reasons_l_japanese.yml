@@ -1831,8 +1831,8 @@
  lover_wedding_saved_from_flames_corresponding: "[CHARACTER.GetShortUIName|U]は誤って火事になった結婚式場から[TARGET_CHARACTER.GetShortUIName|U]を救い出した。"
  lover_wedding_seductive_exchange: "[CHARACTER.GetShortUIName|U]は結婚式で[TARGET_CHARACTER.GetShortUIName|U]と熱烈なやりとりをした。"
  ### FP3
- lover_gave_fine_seeds: "[CHARACTER.GetShortUIName|U]は、[TARGET_CHARACTER.GetShortUINamePossessive]のペルシャで最高のエスパンドの種を与えた。"
- lover_gave_fine_seeds_corresponding: "[CHARACTER.GetShortUIName|U]は、[TARGET_CHARACTER.GetShortUINamePossessive]によってペルシャで最高のエスパンドの種を与えられた。"
+ lover_gave_fine_seeds: "[CHARACTER.GetShortUIName|U]は、[TARGET_CHARACTER.GetShortUINamePossessive]のペルシアで最高のエスパンドの種を与えた。"
+ lover_gave_fine_seeds_corresponding: "[CHARACTER.GetShortUIName|U]は、[TARGET_CHARACTER.GetShortUINamePossessive]によってペルシアで最高のエスパンドの種を与えられた。"
  rival_left_for_frontier: "[CHARACTER.GetShortUIName|U]は[TARGET_CHARACTER.GetShortUINamePossessive]を後にして辺境へ向かった。"
  rival_left_for_frontier_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive]は[CHARACTER.GetShortUIName|U]によって辺境へ行かされた"
  lover_agreed_to_give_beautiful_head: "[TARGET_CHARACTER.GetShortUINamePossessive]と[CHARACTER.GetShortUIName|U]は、彼らの子供に美しい頭を与えることに同意した。"

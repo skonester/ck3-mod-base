@@ -19,7 +19,7 @@
  ##Swing Update Strings
  update_diarchy_swing_with_perspective_effect.preamble: "[liege_loc.GetDiarchyTypeName|U] postaci znanej jako [liege_loc.GetShortUINameNotMe]: [scales_of_power|El] przychylają się o"
  update_diarchy_swing_with_perspective_effect.postamble.diarch: "#![Select_CString( liege_loc.GetDiarchy.GetDiarch.IsLocalPlayer, 'na twoją korzyść', Concatenate('na korzyść postaci ', liege_loc.GetDiarchy.GetDiarch.GetShortUINameNotMe ) )]"
- update_diarchy_swing_with_perspective_effect.postamble.liege: "#!kierunek: [liege_loc.GetShortUINameNotMe]"
+ update_diarchy_swing_with_perspective_effect.postamble.liege: "#!na korzyść osoby znanej jako [liege_loc.GetShortUINameNotMe]"
  update_diarchy_swing_with_perspective_effect.liege_perspective.miniscule_sop_swing_diarch_gain.tt: "$update_diarchy_swing_with_perspective_effect.preamble$ #N [EmptyScope.ScriptValue('miniscule_sop_swing_diarch_gain')|0]#! $update_diarchy_swing_with_perspective_effect.postamble.diarch$"
  update_diarchy_swing_with_perspective_effect.liege_perspective.minor_sop_swing_diarch_gain.tt: "$update_diarchy_swing_with_perspective_effect.preamble$ #N [EmptyScope.ScriptValue('minor_sop_swing_diarch_gain')|0]#! $update_diarchy_swing_with_perspective_effect.postamble.diarch$"
  update_diarchy_swing_with_perspective_effect.liege_perspective.medium_sop_swing_diarch_gain.tt: "$update_diarchy_swing_with_perspective_effect.preamble$ #N [EmptyScope.ScriptValue('medium_sop_swing_diarch_gain')|0]#! $update_diarchy_swing_with_perspective_effect.postamble.diarch$"

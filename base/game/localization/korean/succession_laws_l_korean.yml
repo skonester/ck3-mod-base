@@ -288,7 +288,7 @@
  #PAM
  clerical_appointment_law: "성직자의 지위"
  clerical_appointment_law_subname: "$clerical_appointment_succession_law$"
- clerical_appointment_law_effects: "\n[christian|E] [ecclesiastical|E] 및 [theocratic|E] [governments|E]에서 사용하는 [appointment_succession_law|E]의 한 유형입니다. $clerical_appointment_law$에서는 [candidate_score|E]가 가장 높은 후보자가 [title|E]와 그에 속한 모든 [holdings|E]를 상속합니다\n\n[holder_possessive|E] [close_family|E], [house|E], [councillors|E], [court_position|E] 소유주, [vassals|E], [clerical_region|E] [clergy|E] 가운데 같은 [faith|E]을 믿는 [adult|E]은 누구나 [piety|E]를 소모하여 해당 작위를 차지하기 위해 경쟁할 수 있습니다.\n"
+ clerical_appointment_law_effects: "\n[ecclesiastical|E] 및 [theocratic|E] [governments|E]에서 사용하는 [appointment_succession_law|E]의 한 유형입니다. $clerical_appointment_law$에서는 [candidate_score|E]가 가장 높은 후보자가 [title|E]와 그에 속한 모든 [holdings|E]를 상속합니다\n\n[holder_possessive|E] [close_family|E], [house|E], [councillors|E], [court_position|E] 소유주, [vassals|E], [clerical_region|E] [clergy|E] 가운데 같은 [faith|E]을 믿는 [adult|E]은 누구나 [piety|E]를 소모하여 해당 작위를 차지하기 위해 경쟁할 수 있습니다.\n"
  clerical_appointment_succession_law: "점수가 가장 높은 후보가 상속"
  theocratic_elective_succession_law: "신정 선거제"
  theocratic_elective_succession_law_subname: "추기경단"

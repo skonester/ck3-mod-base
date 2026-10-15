@@ -27,7 +27,7 @@
  nick_the_apostle: "[Select_CString(CHARACTER.IsFemale, 'Ревностная', 'Ревностный' )]"
  nick_the_apostle_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — один из верных спутников Иисуса Христа, сопровождавших его при жизни и распространявших его учение после мученической смерти наставника."
  nick_the_apostle_paul: "[Select_CString(CHARACTER.IsFemale, 'Ревностная', 'Ревностный' )]"
- nick_the_apostle_paul_desc: "При жизни [CHARACTER.GetShortUINameNoTooltipNoFormat|U] никогда не [Select_CString(CHARACTER.IsFemale, 'сопровождала', 'сопровождал' )] Иисуса Христа, но [Select_CString(CHARACTER.IsFemale, 'пошла', 'пошёл' )] по его пути после его мученичества, неся учение язычникам по всему миру."
+ nick_the_apostle_paul_desc: "При жизни [CHARACTER.GetShortUINameNoTooltipNoFormat|U] никогда не [Select_CString(CHARACTER.IsFemale, 'сопровождала', 'сопровождал' )] Иисуса Христа, но [Select_CString(CHARACTER.IsFemale, 'пошла', 'пошёл' )] по его пути после его распятия, неся учение язычникам по всему миру."
  nick_theophorus: "[Select_CString(CHARACTER.IsFemale, 'Богоносица', 'Богоносец' )]"
  nick_theophorus_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsFemale, 'была прозвана Богоносицей', 'был прозван Богоносцем' )]: епископ Антиохии, [Select_CString(CHARACTER.IsFemale, 'отправившаяся', 'отправившийся' )] в цепях в Рим на мученическую смерть."
  nick_the_avenger: "[Select_CString(CHARACTER.IsFemale, 'Мстительная', 'Мстительный' )]"

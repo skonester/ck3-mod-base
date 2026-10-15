@@ -57,7 +57,7 @@
  pam_clergy_events.0060.t.head_of_faith: "[new_prelate.GetFaith.ReligiousHeadName|U] [new_prelate.GetDynasty.GetNameNoTooltip]"
  pam_clergy_events.0060.t.antipope: "[new_prelate.GetDynasty.GetNameNoTooltip] теперь [new_prelate.GetFaith.ReligiousHeadTitleName|U]"
  pam_clergy_events.0060.t.archbishop: "[new_prelate.GetDynasty.GetNameNoTooltip] принимает жезл"
- pam_clergy_events.0060.desc.intro: "Мы стремились направлять христианство, будь то с престола или кафедры. И вот по воле [new_prelate.GetFaith.HighGodNamePossessive|U] династия [new_prelate.GetDynasty.GetName] достигнет новых высот.\n\n"
+ pam_clergy_events.0060.desc.intro: "Наш род долгое время направлял христианство. И вот по воле [new_prelate.GetFaith.HighGodNamePossessive|U] династия [new_prelate.GetDynasty.GetName] достигнет новых высот.\n\n"
  pam_clergy_events.0060.desc.pope: "[Select_CString(new_prelate.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))] [new_prelate.GetFirstName] [Select_CString(new_prelate.IsFemale, 'взошла', 'взошёл' )] на престол Святого Петра, став наместником [new_prelate.GetFaith.HighGodNamePossessive] на земле."
  pam_clergy_events.0060.desc.head_of_faith: "[Select_CString(new_prelate.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))] [new_prelate.GetFirstName] теперь владеет титулом [prelate_title.GetDefinitiveName]."
  pam_clergy_events.0060.desc.hof_outro: "Короли и императоры — не более чем дети, играющие в тени [Select_CString(new_prelate.IsFemale, 'святой матери', 'святого отца' )]. Теперь в распоряжении династии [new_prelate.GetDynasty.GetNameNoTooltip] находятся бесчисленные [new_prelate.GetFaith.BishopMalePlural|l]."

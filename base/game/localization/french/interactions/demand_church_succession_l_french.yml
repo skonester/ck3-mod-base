@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nPermettez-moi de parler sans détour :"
  demand_church_succession.0001.recipient.elderly_childless: "le berceau près de votre foyer est vide et votre lignée s’éteindra avec vous. Les fidèles attendront... et hériteront en temps voulu."
  demand_church_succession.0001.recipient.childless: "vous n’avez pas d’enfants vivants. Si [actor.GetFaith.HighGodName] ne remédie pas à cette situation, vos terres serviront la foi."
- demand_church_succession.0001.recipient.one_child: "un seul enfant se dresse entre vous et la fin. Si [actor.GetFaith.HighGodName] venait à vous emporter, les fidèles seraient prêts à gouverner."
+ demand_church_succession.0001.recipient.one_child: "un enfant est tout ce qui vous sépare de la fin. S’il venait à être emporté par [actor.GetFaith.HighGodName], les fidèles gouverneraient."
  demand_church_succession.0001.recipient.default: "le temps est l’ennemi de toute promesse. Si la vôtre venait à être rompue, vos terres nous reviendraient, afin d’être gouvernées au nom [actor.GetFaith.HighGodNamePossessive]."
  demand_church_succession.0001.a: "C’est ce qui est écrit. Il en sera donc ainsi."
  demand_church_succession.0001.b: "Dans ce cas, je ferais mieux d’engendrer un héritier."

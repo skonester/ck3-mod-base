@@ -305,6 +305,6 @@
  pam_mass_rite_conversion_feudalize_discount: "$great_project_type_pam_mass_rite_conversion$[great_project|E]"
  pam_mass_rite_conversion_already_targets_province: "另一场[GetGreatProjectType('pam_mass_rite_conversion').GetName|V]正以该[county|E]为目标"
  pam_mass_rite_conversion_target_organized_faith: "该[county|E]的[faith|E]与你不同"
- pam_mass_rite_conversion_target_unreformed_faith: "使[GetDoctrineType('unreformed_faith_doctrine').GetBaseName][faith|E][county|E]改信"
+ pam_mass_rite_conversion_target_unreformed_faith: "该[county|E]信奉[GetDoctrineType('unreformed_faith_doctrine').GetBaseName][faith|E]"
  pam_mass_rite_conversion_contributor_rite: "他们与工程所有者信仰相同的[rite|E]"
- pam_mass_rite_conversion_founder_clergy_tt: "必须持有[clerical_title|E]、拥有[ecclesiastical|E][government|E]、是[clergy|E]，或拥有身为[archbishop|E]或更高级别的[puppet|E]"
+ pam_mass_rite_conversion_founder_clergy_tt: "必须持有[clerical_title|E]、拥有[ecclesiastical|E][government|E]或是[clergy|E]，或拥有[archbishop|E]及更高级别的人作为你的[puppet|E]"

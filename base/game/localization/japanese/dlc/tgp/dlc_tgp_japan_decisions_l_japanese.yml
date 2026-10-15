@@ -140,7 +140,7 @@
  if_you_lose_cd_third: "[CHARACTER.GetShortUIName]が[war|E]に負けた場合："
  if_you_lose_cd_global: "[CHARACTER.GetShortUIName]が[war|E]に負けた場合："
  japanese_korean_child_learned_chinese_title: "古典の勉強の継続"
- japanese_korean_child_learned_chinese_effect: "[Select_CString( child_learned_chinese.IsLocalPlayer, '私', child_learned_chinese.GetFirstNameNoTooltip )]が新たに身に着けた語学力は、宮廷での暮らしに役立つだろう。"
+ japanese_korean_child_learned_chinese_effect: "[CharMyFirstNames(child_learned_chinese)|U]が新たに身に着けた語学力は、宮廷での暮らしに役立つだろう。"
  # Move Shogunate Court
  tgp_japan_move_shogunate_court_decision: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]の宮廷を遷す"
  tgp_japan_move_shogunate_court_decision_desc: "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]は旧都である。この新たな時代にふさわしく、真の[ROOT.Char.GetHouse.GetBaseName]の宮廷を築く時が来た。より遠方の地へ遷すことで、煩わしい官僚や寺社の干渉を離れ、我らの権威を存分に振るうことができる。"

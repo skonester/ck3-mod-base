@@ -646,7 +646,7 @@
  NAVAL_EXPANSION_COUNTY_CB_NAME: "[county|E]の海軍拡大"
  NAVAL_EXPANSION_DUCHY_CB_NAME: "[duchy|E]の海軍拡大"
  expansion_take_target_title_tt: "あなたは[de_jure_target.GetName]を得る"
- expansion_create_target_title_tt: "[de_jure_target.GetName]が作成され、あなたに与えらえる"
+ expansion_create_target_title_tt: "[de_jure_target.GetName]が作成され、あなたに与えられる"
  influence_war_cb: "$INFLUENCE_WAR_CB_NAME$"
  INFLUENCE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective]による[TITLE.GetBaseName]拡大"
  INFLUENCE_WAR_NAME_BASE: "[ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"

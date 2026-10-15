@@ -44,7 +44,7 @@
  SETTING_SHOW_NUDITY: "Afficher la nudité"
  SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\nDétermine si les personnages peuvent apparaître nus."
  SETTING_BEAUTIFY_DEAD: "Embellir les défunts"
- SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nDétermine si les personnages décédés sont représentés à leur apogée, ou ravagés par la vieillesse, la maladie et les blessures."
+ SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\nPermet de modifier l’apparence des personnages décédés, en les représentant soit à leur apogée soit marqués par la vieillesse, la maladie et les blessures."
  SETTING_STYLIZE_DEAD: "Styliser les défunts"
  SETTING_STYLIZE_DEAD_TOOLTIP: "#T $SETTING_STYLIZE_DEAD$#!\nDétermine si les portraits embellis des personnages décédés adoptent un style « peint », permettant de voir immédiatement qu’ils ne correspondent pas à leur véritable apparence.\n\nNe s’applique que si l’option $SETTING_BEAUTIFY_DEAD$ a été activée."
  SETTINGS_CATEGORY_GAME_DLC_MODS: "Contenu téléchargeable"

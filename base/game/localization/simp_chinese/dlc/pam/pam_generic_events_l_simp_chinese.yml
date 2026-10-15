@@ -23,7 +23,7 @@
  rival_embraced_sinful_ways: "[TARGET_CHARACTER.GetShortUIName]恳求[CHARACTER.GetShortUIName|U]悔改时，[CHARACTER.GetHerHim]选择拒绝。"
  rival_embraced_sinful_ways_corresponding: "[CHARACTER.GetShortUIName]恳求[TARGET_CHARACTER.GetShortUIName|U]悔改时，[TARGET_CHARACTER.GetHerHim]选择拒绝。"
  pam_generic_events.0004.t: "黑暗中的亮光"
- pam_generic_events.0004.desc: "[ROOT.Char.GetFaith.HouseOfWorship]里空无一人。雾气在立柱之间盘绕，蜡烛在我已故的[ROOT.Char.Custom2( 'RelationToMeShort', deceased )][deceased.GetFirstName]的回忆旁摇曳，[deceased.GetSheHe][deceased.GetDeathReasonHideKiller]。\n\n我的[ROOT.Char.Custom2( 'RelationToMeShort', comforter )][comforter.GetFirstName]坐得很近，[comforter.GetHerHis]的袖子蹭到了我的袖子。“悲痛是一条路，”[comforter.GetSheHe]轻声说。“走下去，你或许最终能看到[ROOT.Char.GetFaith.PositiveAfterLife]在路的尽头等你。”"
+ pam_generic_events.0004.desc: "蜡烛在空荡荡的[ROOT.Char.GetFaith.HouseOfWorship]中摇曳。它为我已故的[ROOT.Char.Custom2( 'RelationToMeShort', deceased )][deceased.GetFirstName]点燃，[deceased.GetSheHe][deceased.GetDeathReasonHideKiller]。\n\n我的[ROOT.Char.Custom2( 'RelationToMeShort', comforter )][comforter.GetFirstName]坐得很近，[comforter.GetHerHis]的袖子蹭到了我的袖子。“悲痛是一条路，”[comforter.GetSheHe]轻声说。“走下去，你或许最终能看到[ROOT.Char.GetFaith.PositiveAfterLife]在路的尽头等你。”"
  pam_generic_events.0004.a: "是我！是#EMP 我#!干的！"
  pam_generic_events.0004.b: "[Glossary('$pam_john_14_2_english|q$','JOHN_14_2_GLOSS')]"
  pam_john_14_2_english: "#EMP 在我父的家里，有许多住处。#!"

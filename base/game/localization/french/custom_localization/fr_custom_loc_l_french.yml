@@ -222,7 +222,7 @@
  relation_old_foe_male_FR_OnA: "on vieil ennemi"
  relation_prisoner_female_FR_OnA: "a prisonnière"
  relation_prisoner_male_FR_OnA: "on prisonnier"
- relation_religious_head_FR_OnA: "on [ROOT.Char.GetFaith.ReligiousHeadName]"
+ relation_religious_head_FR_OnA: "[Select_CString(second.IsFemale,'a','on')] [second.Custom('GetActualBishopTitle')|l]"
  relation_rival_female_FR_OnA: "a rivale"
  relation_rival_male_FR_OnA: "on rival"
  relation_sister_bully_FR_OnA: "a sœur et petite brute"
@@ -354,6 +354,11 @@
  relation_servant_of_china_female_FR_OnA: "a camarade servante de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier]"
  relation_servant_of_china_male_FR_OnA: "on camarade serviteur de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier]"
  relation_tributary_FR_OnA: "[second.Custom('FR_OnA')] tributaire"
+ relation_capital_archbishop_FR_OnA: "[Select_CString(second.IsFemale,'a','on')] [second.Custom('GetActualBishopTitle')|l]"
+ relation_superior_female_FR_OnA: "a supérieure"
+ relation_superior_male_FR_OnA: "on supérieur"
+ relation_subordinate_female_FR_OnA: "a subordonnée"
+ relation_subordinate_male_FR_OnA: "on subordonné"
 
  daughter_in_law_FR_Le: "la belle-fille"
  relation_acquaintance_female_FR_Le: "la connaissance"
@@ -432,7 +437,7 @@
  relation_old_foe_male_FR_Le: "le vieil ennemi"
  relation_prisoner_female_FR_Le: "la prisonnière"
  relation_prisoner_male_FR_Le: "le prisonnier"
- relation_religious_head_FR_Le: "le [ROOT.Char.GetFaith.ReligiousHeadName]"
+ relation_religious_head_FR_Le: "[second.Custom('FR_LeLa')] [second.Custom('GetActualBishopTitle')|l]"
  relation_rival_female_FR_Le: "la rivale"
  relation_rival_male_FR_Le: "le rival"
  relation_sister_FR_Le: "la sœur"
@@ -608,7 +613,11 @@
  relation_fellow_subject_female_FR_Le: "le pair sujet"
  relation_fellow_subject_male_FR_Le: "le pair sujet"
  relation_tributary_FR_Le: "[second.Custom('FR_LeLa')] tributaire"
-
+ relation_capital_archbishop_FR_Le: "[second.Custom('FR_LeLa')] [second.Custom('GetActualBishopTitle')|l]"
+ relation_superior_female_FR_Le: "la supérieure"
+ relation_superior_male_FR_Le: "le supérieur"
+ relation_subordinate_female_FR_Le: "la subordonnée"
+ relation_subordinate_male_FR_Le: "le subordonné"
 
  # FR_CompositionType_lela
  CompositionType_song_FR_Le: "la chanson"
@@ -632,6 +641,18 @@
  LIEGE_FR_Du: "du [liege|El]"
  ADVENTURER_FR_Du: "de l’[adventurer|El]"
 
+ # FR_pam_anointment_authority_name_loc_FR_Le
+ pam_anointment_authority_name_challenger_FR_Le: "[ROOT.Char.GetReligiousHeadOrChallenger.Custom('FR_le_Char_Pi')][ROOT.Char.GetReligiousHeadOrChallenger.GetTitledFirstName]"
+ pam_anointment_authority_name_hof_FR_Le: "[ROOT.Char.GetFaith.GetReligiousHead.Custom('FR_le_Char_Pi')][ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]"
+ pam_anointment_authority_name_hor_FR_Le: "[ROOT.Char.GetRite.GetHeadOfRite.Custom('FR_le_Char_Pi')][ROOT.Char.GetRite.GetHeadOfRite.GetTitledFirstName]"
+ pam_anointment_authority_fallback_FR_Le: "l’autorité religieuse"
+
+ # FR_pam_anointment_authority_name_loc_FR_Du
+ pam_anointment_authority_name_challenger_FR_Du: "[ROOT.Char.GetReligiousHeadOrChallenger.Custom('FR_du_Char_Pi')][ROOT.Char.GetReligiousHeadOrChallenger.GetTitledFirstName]"
+ pam_anointment_authority_name_hof_FR_Du: "[ROOT.Char.GetFaith.GetReligiousHead.Custom('FR_du_Char_Pi')][ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]"
+ pam_anointment_authority_name_hor_FR_Du: "[ROOT.Char.GetRite.GetHeadOfRite.Custom('FR_du_Char_Pi')][ROOT.Char.GetRite.GetHeadOfRite.GetTitledFirstName]"
+ pam_anointment_authority_fallback_FR_Du: "de l’autorité religieuse"
+
  # FR_Le_PointOfRidicule
  foolishness_FR_Le: "la sottise"
  sensitive_soul_FR_Le: "l’âme sensible"
@@ -654,6 +675,17 @@
  ghostly_pallor_FR_Le: "la pâleur fantomatique"
  disgusting_wheezing_FR_Le: "la respiration sifflante dégoûtante"
  insistent_whining_FR_Le: "la pleurnicherie continuelle"
+ drunkenness_FR_Le: "l’ivresse"
+ greed_FR_Le: "l’avidité"
+ empty_boasts_FR_Le: "la fanfaronnade"
+ cowardice_FR_Le: "la lâcheté"
+ lechery_FR_Le: "la lubricité"
+ gluttony_FR_Le: "la gloutonnerie"
+ prideful_bearing_FR_Le: "la vantardise"
+ idle_witlessness_FR_Le: "la stupide oisiveté"
+ treachery_FR_Le: "la traîtrise"
+ heresy_FR_Le: "l’hérésie"
+ envy_FR_Le: "l’avidité"
 
  FR_FaithGenderedAdj_female: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
  FR_FaithGenderedAdj_male: "[ROOT.Char.GetFaith.GetAdherentNameNoTooltip]"
@@ -949,15 +981,15 @@
  Loc_FR_du_GetTitledFirstName: " [CHARACTER.Custom('FR_du_Char_Pi')][CHARACTER.GetTitledFirstName]"
  Loc_FR_du_GetTitledFirstNameNoTooltip: " [CHARACTER.Custom('FR_du_Char_Pi')][CHARACTER.GetTitledFirstNameNoTooltip]"
  Loc_FR_du_GetName: " [CHARACTER.Custom('FR_du_Char')][CHARACTER.GetName]"
- Loc_FR_du_GetShortUIName: " [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUIName]"
- Loc_FR_du_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
- Loc_FR_au_GetShortUIName: " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUIName]"
- Loc_FR_au_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
- Loc_FR_le_GetShortUIName: " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUIName]"
- Loc_FR_le_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUINameNoTooltip]"
+ Loc_FR_du_GetShortUIName: " [CHARACTER.Custom('FR_du_Char_Pi')][CHARACTER.GetShortUINameNotMe]"
+ Loc_FR_du_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_du_Char_U_Pi')][CHARACTER.GetShortUINameNotMeNoTooltip]"
+ Loc_FR_au_GetShortUIName: " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUINameNotMe]"
+ Loc_FR_au_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_au_Char_U_Pi')][CHARACTER.GetShortUINameNotMeNoTooltip]"
+ Loc_FR_le_GetShortUIName: " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUINameNotMe]"
+ Loc_FR_le_GetShortUINameNoTooltip: " [CHARACTER.Custom('FR_le_Char_U_Pi')][CHARACTER.GetShortUINameNotMeNoTooltip]"
  Loc_FR_le_GetShortUIName_U: "[CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName]"
- Loc_FR_le_GetUIName: " [CHARACTER.Custom('FR_le_Char_U_P')][CHARACTER.GetUIName]"
- Loc_FR_du_GetUIName: " [CHARACTER.Custom('FR_du_Char_U_P')][CHARACTER.GetUIName]"
+ Loc_FR_le_GetUIName: " [CHARACTER.Custom('FR_le_Char_P')][CHARACTER.GetUINameNotMe]"
+ Loc_FR_du_GetUIName: " [CHARACTER.Custom('FR_du_Char_P')][CHARACTER.GetUINameNotMe]"
  Loc_FR_au_GetTitleAsNameNoTooltip: " [CHARACTER.Custom('FR_au_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
  Loc_FR_du_GetTitleAsNameNoTooltip: " [CHARACTER.Custom('FR_du_Char_L')][CHARACTER.GetTitleAsNameNoTooltip]"
  # # For custom cmd; Scope-independent; Display "<le|du|au><TitledFirstName>"
@@ -1235,6 +1267,7 @@
  inspiration_artisan_base_type_scientific_apparatus_FR_Le: "l’" # appareil scientifique
  inspiration_artisan_base_type_urn_FR_Le: "l’" # urne
  inspiration_artisan_base_type_icon_FR_Le: "l’" # icône
+ inspiration_artisan_base_type_phallus_FR_Le: "le " # phallus en bois
  # FR_InspirationArtisanBaseType_OnA
  inspiration_artisan_base_type_chest_FR_On: "on " # coffre
  inspiration_artisan_base_type_box_FR_On: "a " # boîte
@@ -1244,6 +1277,7 @@
  inspiration_artisan_base_type_scientific_apparatus_FR_On: "on " # appareil scientifique
  inspiration_artisan_base_type_urn_FR_On: "on  " # urne
  inspiration_artisan_base_type_icon_FR_On: "on " # icône
+ inspiration_artisan_base_type_phallus_FR_On: "on " # phallus en bois
  # FR_ArtifactArmorTypeLowercase_Le
  artifact_armor_mail_lowercase_FR_Le: "la " # cotte de mailles
  artifact_armor_plate_lowercase_FR_Le: "l’" # armure de plates
@@ -1306,6 +1340,7 @@
  research_inspiration_description_FR_Inf: "consulter les bibliothèques et les vieux livres"
  religious_inspiration_description_FR_Inf: "écrire sur les réformes et les thèses religieuses"
  bow_inspiration_description_FR_Inf: "mettre une corde à un magnifique arc"
+ religious_artifact_inspiration_description_FR_Inf: "forger un objet religieux"
  # FR_GetRandomPositiveTrait_OnA
  trait_beauty_good_1_FR_On: "on physique avenant"
  trait_beauty_good_male_2_FR_On: "a beauté"

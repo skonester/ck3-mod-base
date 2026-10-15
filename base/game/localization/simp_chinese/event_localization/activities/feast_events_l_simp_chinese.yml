@@ -178,7 +178,7 @@
  feast.7203.b.goh_dishonoured: "那是不体面的。"
  feast.7206.t: "特别佳肴"
  feast.7206.desc: "等到[host.GetTitledFirstNamePossessive]最后一次举杯祝酒结束时，我只听清了几个词……好像是关于最后一道菜？真是太#EMP 叫人兴奋#!了！\n\n所有客人都朝我转过身来。[host.GetFirstNameNoTooltip]举起[host.GetHerHis]的杯子，在沾着肉渣的牙齿间挤出一个笑容。"
- feast.7206.desc.alcohol: "我手里的酒让[host.GetTitledFirstNamePossessive]最后那番祝词的末尾变得有些模糊。整段话里我只听清了最后几句……好像是提到最后一道菜？真是#EMP 叫人兴奋#!啊！\n\n所有客人都朝我转过身来。[host.GetFirstNameNoTooltip]举起[host.GetHerHis]的杯子，在沾着肉渣的牙齿间挤出一个笑容。"
+ feast.7206.desc.alcohol: "被灌了整整一夜酒，[host.GetTitledFirstNamePossessive]的最后一轮祝酒听来有些模糊而神秘。我只听清了最后几句……好像是提到最后一道菜？真是#EMP 叫人兴奋#!啊！\n\n所有客人都朝我转过身来。[host.GetFirstNameNoTooltip]举起[host.GetHerHis]的杯子，在沾着肉渣的牙齿间挤出一个笑容。"
  feast.7206.a: "等等……什么？"
  feast.7206.a.cannibal: "真是讽刺。"
  feast.7206.a.flavor: "[host.GetTitledFirstName]打算将你作为祭餐呈上，出席的宾客可选择分食。"

@@ -13,4 +13,4 @@
  RP_NOTHING_TO_RAISE: "#X @warning_icon! Keine [armies|E] zum Ausheben#!"
  RP_NOTHING_TO_RAISE_MAA: "#X @warning_icon! Kein [men_at_arms|E] zum Ausheben#!"
  RP_ARMY_AUTOMATION_RAISES_INSTEAD: "#X @warning_icon! Kann nicht ausheben, da „$ARMY_AUTOMATION_FEATURE_NAME$“ aktiviert wurde#!"
- RAISE_TROOPS_EXTRA_INFO: "[armies|E] können geteilt werden, wenn sie die [Concept( 'supply_limit', 'Versorgungsschwellen')|E] überschreiten.\n\n#I STRG-Klick, um [armies|E] auszuheben, ohne sie aufgrund der [Concept( 'supply_limit', 'Versorgung')|E] zu teilen#!\n#I Rechtsklick, um [armies|E] an einem bestimmten ausgewählten Ort auszuheben#!"
+ RAISE_TROOPS_EXTRA_INFO: "[armies|E] können aufgespalten werden, wenn sie größer als die [Concept('supply_limit', 'Versorgungsschwellen')|E] sind.\n\n#I STRG-Klick, um [armies|E] auszuheben, ohne sie aufgrund der [Concept( 'supply_limit', 'Versorgung')|E] aufzuteilen#!\n#I Rechtsklick, um [armies|E] an einem bestimmten ausgewählten Ort auszuheben#!"

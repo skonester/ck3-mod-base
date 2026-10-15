@@ -29,7 +29,7 @@
  british_isles.3001.desc: "普遍教会の聖域をアイルランドの蛮族にも広げようとするあなたの願望は、敬虔かつ正道な大義である。それ故、神聖ローマ教会はあなたがこの島を領有し、そこにおいて神の意志を執行することを命ずる。\n\nこの聖戦が終結するまでにあなたが不幸にもこの世を去ることがあれば、この神聖なる任務はあなたの正当な後継者たちに伝えることとする。神の意志が実現し、[scoped_ruler.GetCulture.GetNameNoTooltip]の統治下にアイルランドが統一されるその時まで、[scoped_ruler.GetHouse.GetBaseNameNoTooltip]家がこの神聖なる事業を継続することを望みたい。"
  british_isles.3001.a: "船団を準備せよ！"
  british_isles.3002.t: "アイルランドの支配権"
- british_isles.3002.desc.irish: "キリストの代理者にして聖ペテロの司教座への後継者たる[scoped_pope.GetFirstName]聖下のご加護のもとに、[scoped_ruler.GetFullName]にアイルランドおよびそこに住まう全部族を統治する神聖なる権利が与えられた。\n\n教皇の勅書に背き服従を拒否するアイルランド諸侯は何者であれ、[scoped_ruler.GetTitledFirstName]、[scoped_ruler.GetHerHis]の[scoped_ruler.GetCulture.GetName]の軍勢、および全知全能なる神の憤怒に対峙することとなるだろう。"
+ british_isles.3002.desc.irish: "キリストの代理者にして聖ペトロの司教座への後継者たる[scoped_pope.GetFirstName]聖下のご加護のもとに、[scoped_ruler.GetFullName]にアイルランドおよびそこに住まう全部族を統治する神聖なる権利が与えられた。\n\n教皇の勅書に背き服従を拒否するアイルランド諸侯は何者であれ、[scoped_ruler.GetTitledFirstName]、[scoped_ruler.GetHerHis]の[scoped_ruler.GetCulture.GetName]の軍勢、および全知全能なる神の憤怒に対峙することとなるだろう。"
  british_isles.3002.a: "試してみるとしよう！"
  british_isles.3002.b: "わかった…"
  #Refound Dumnonia, by Ewan Cowhig Croft

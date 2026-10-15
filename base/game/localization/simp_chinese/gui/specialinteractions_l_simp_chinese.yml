@@ -681,7 +681,7 @@
  GRANT_AS_GOVERNMENT_TYPE_ITEM: "[GovernmentType.Custom('GetGovernmentTypeIcon')][GovernmentType.GetNameNoTooltip]"
  #Tooltip failure reasons for is_grant_government_valid
  GRANT_GOVERNMENT_TOO_MANY_THEOCRACY_VASSALS: "已经有太多[puppet_or_actor.GetShortUIName|U]的[realm|E]由[theocratic_vassals|E]持有"
- GRANT_GOVERNMENT_COOLDOWN_ACTIVE: "[puppet_or_actor.GetShortUIName|U]近期授予了一项特殊[government|E]，必须等待冷却，[GetCurrentDateWithDiff( GetVarTimeRemaining( puppet_or_actor.MakeScope, 'grant_vassal_government_cooldown') )]以后才能再次授予"
+ GRANT_GOVERNMENT_COOLDOWN_ACTIVE: "[puppet_or_actor.GetShortUIName|U]近期授予了一项特殊[government|E]，必须等到[GetCurrentDateWithDiff( GetVarTimeRemaining( puppet_or_actor.MakeScope, 'grant_vassal_government_cooldown') )]才可再次使用"
  GRANT_GOVERNMENT_KINGDOM_BLOCKED: "授予其他[government|E]仅限于[county|E]和[duchy|E]头衔"
  GRANT_GOVERNMENT_NOMAD_SETTLED_ONLY: "[nomadic|E]统治者只能授予主要地产是[castle|E]、[city|E]或[temple|E]的[county|E]定居[government|E]"
  MATCHMAKER_INTERACTION_ALLIANCE: "#T 潜在同盟#!\n[Character.GetPrimaryTitle.GetName]"
@@ -773,7 +773,7 @@
  WILL_BE_VASSALIZED_REASON: "会成为[puppet_or_actor.GetShortUINamePossessive]的[vassal|E]：$VALUE|=+0$"
  RIVAL_VASSAL_REASON: "[realm|E]内的仇敌[vassal|E]：$VALUE|=+0$"
  negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe]必须和[target.GetName]一起持有或者获得至少一个伯爵领"
- AI_ACCEPT_assume_house_bloc_leadership_interaction_requirement_tt: "超过#V 51%#!的[bloc|E][member_houses|E][house_head|E]是[actor.GetShortUIName]的[allied|E]、[friends|E]、[lover|E]或[vassal|E]及以下，或者[cowed|E]、受[hooked|E]于[Select_CString(actor.IsLocalPlayer,'你',Select_CString(actor.IsFemale,'她','他'))]，亦或者[Select_CString(actor.IsLocalPlayer,'你',Select_CString(actor.IsFemale,'她','他'))]是他们的[dynast|E]：$VALUE|=+0$"
+ AI_ACCEPT_assume_house_bloc_leadership_interaction_requirement_tt: "超过#V 51%#!的[bloc|E][member_houses|E][house_head|E]是[actor.GetShortUIName]的[allied|E]、[friends|E]、[lover|E]或[vassal|E]及以下，或者[cowed|E]、受[hooked|E]于[Select_CString(actor.IsLocalPlayer,'你',Select_CString(actor.IsFemale,'她','他'))]，亦或者[CharYouHerHim(actor)]是他们的[dynast|E]：$VALUE|=+0$"
  STATE_FAITH_CREATE_FAITH_REASON: "[puppet_or_actor.GetShortUIName|U]在[realm|E]内很有影响力：$VALUE|=+0$"
  HAS_PERK_PROPHET_REASON: "[puppet_or_actor.GetShortUIName|U]拥有[GetPerk('prophet_perk').GetName(GetPlayer)][perk|E]：$VALUE|=+0$"
  INSPECTION_REASON: "[inspection|E]增益：$VALUE|=+0$"

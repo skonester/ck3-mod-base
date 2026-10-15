@@ -45670,9 +45670,8 @@
  Mainardo: "Майнардо"
  Gualdim: "Гуалдим"
  GuE_rin: "Герен"
+ #and saints
  Boniface_regnal: "Бонифаций"
-
- # and saints
  Benedict_regnal: "Бенедикт"
  Anthony_regnal: "Антоний"
  Lucia_regnal: "Луция"
@@ -45686,7 +45685,7 @@
  Ignatius_regnal: "Игнатий"
  Paul_regnal: "Павел"
  Mary_regnal: "Мария"
- Tomasso_regnal: "Томассо"
+ Tomasso_regnal: "Фома"
  Hilarion_regnal: "Иларион"
  Andrew_regnal: "Андрей"
  Niketas_regnal: "Никита"
@@ -45695,7 +45694,7 @@
  Anselm_regnal: "Ансельм"
  Thaddeus_regnal: "Фаддей"
  Bartholomew_regnal: "Варфоломей"
- VA_clav_regnal: "Вячеслав"
+ VA_clav_regnal: "Вацлав"
  Columba_regnal: "Колумба"
  Cyril_regnal: "Кирилл"
  Methodius_regnal: "Мефодий"

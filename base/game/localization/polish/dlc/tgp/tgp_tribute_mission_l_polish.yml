@@ -144,7 +144,7 @@
  tribute_mission_concubine_interaction.overlord_no_use_eunuchs: "[GetPlayer.GetOverlord.GetShortUINameNotMe] nie potrzebuje eunuchów"
  tribute_mission_eunuch_interaction.slated_for_castration: "#weak [secondary_recipient.GetShortUINameNotMe] może próbować umknąć przed swoim przeznaczeniem#!"
  tribute_mission_bunga_mas_interaction: "Wybierz trybut [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )]"
- tribute_mission_bunga_mas_interaction.tooltip: "$tribute_mission_artifact_interaction.tooltip$\n$EFFECT_LIST_BULLET$W chwili dostarczenia zyskaj modyfikator [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip|l]"
+ tribute_mission_bunga_mas_interaction.tooltip: "$tribute_mission_artifact_interaction.tooltip$\n$EFFECT_LIST_BULLET$W chwili dostarczenia zyskaj modyfikator „[GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip]”"
  tribute_mission_bunga_mas_interaction.no_valid_bunga_mas: "Nie masz do zaoferowania żadnych zamówionych przez siebie [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )]"
  bunga_mas_tribute_modifier: "Trybut bunga mas"
  bunga_mas_tribute_modifier_desc: "Ta postać niedawno przekazała swojemu suzerenowi trybut bunga mas."

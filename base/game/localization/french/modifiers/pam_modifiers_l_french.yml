@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "Leçons tirées de la cloche fêlée"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "Les maçons de ce comté travaillent avec plus de discernement afin de compenser la honte d’une coulée de cloche ratée."
  pam_cathedral_bell_bronze_torture_implements_modifier: "Instruments de torture en bronze"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Le bronze d’une cloche de cathédrale mal coulée a été refondu en instruments de terreur. Le fondeur de la cloche en fut la première victime. Désormais, les artisans connaissent le prix de l’échec."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Le bronze d’une cloche de cathédrale mal coulée a été refondu en instruments de terreur. Le fondeur de la cloche en fut la première victime."
  pam_cathedral_treadwheel_crane_modifier: "Grue à roue d’écureuil"
  pam_cathedral_treadwheel_crane_modifier_desc: "Une immense grue à roue d’écureuil provenant d’un chantier de cathédrale a été dressée dans la capitale."
  pam_cathedral_cantoria_scam_modifier: "Ruse démasquée"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "Ce personnage s’inspire de la récente canonisation d’un saint."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "Pèlerinage de chaque siège"
- pam_pilgrim_of_every_holy_site_modifier_desc: "Ce personnage a veillé sur tous les lieux saints reconnus par sa foi."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "Ce personnage a veillé sur tous les lieux saints de sa foi."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "Un lien préservé"
  tenet_harmonious_society_five_bonds_modifier_desc: "Souverain et sujet, parent et enfant, mari et femme, aîné et cadet, ami et ami. Ce personnage garde l’une de ces cinq relations en parfait ordre."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "Chaîne de transmission de l’ordination"
- tenet_apostolic_succession_episcopate_modifier_desc: "La foi de ce personnage ordonne chaque évêque selon une lignée ininterrompue d’évêques antérieurs, source historique d’une légitimité honorée."
+ tenet_apostolic_succession_episcopate_modifier_desc: "La foi de ce personnage ordonne chaque évêque selon une lignée ininterrompue d’évêques antérieurs : une source historique de légitimité reconnue."
  modifier_definition_value_per_theocratic_vassal: "\t#weak Augmentation par [theocratic_vassal|El] ([EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')] max.)#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "Chœurs des fidèles"
- tenet_divine_liturgy_choirs_modifier_desc: "Dans chaque église de ce personnage, les mêmes paroles sont chantées aux mêmes moments, et ce depuis des générations."
+ tenet_divine_liturgy_choirs_modifier_desc: "Dans les églises de ce personnage, les mêmes paroles sont chantées aux mêmes moments, et ce, depuis des générations."
  modifier_definition_value_per_held_temple: "\t#weak Augmentation par [temple_holding|El] détenue ([EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')] max.)#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "Célébrée comme il se doit"

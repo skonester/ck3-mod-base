@@ -10,7 +10,7 @@
  send_poem_interaction.success: "Wiersz jest zachwalany"
  send_poem_interaction.failure: "Wiersz jest wyszydzany"
  trait_specific_interactions.000.generate_poem: "#POE [actor.Custom('GeneratePoem_Title')]#!\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\n[actor.Custom('GeneratePoem_Outro_Rhyming')]"
- trait_specific_interactions.000.intro.part1: "Osoba imieniem [actor.GetTitledFirstName], a dla mnie [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], stworzyła nowe dzieło, które cieszy się ogromną popularnością w miejscu, którym jest [actor.Custom('GetCourt')]:"
+ trait_specific_interactions.000.intro.part1: "Osoba znana jako [actor.GetTitledFirstName], a dla mnie [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], stworzyła nowe dzieło, które cieszy się ogromną popularnością. [actor.Custom('GetCourt')|U] aż pieje z zachwytu:"
  trait_specific_interactions.000.intro.part3: "a [actor.GetFirstNameNoTooltip] publicznie zadedykował[Select_CString(actor.IsFemale, 'a', '' )] go #EMP mnie.#!"
  trait_specific_interactions.000.outro: "Do tej pory zachowywał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] swe myśli dla siebie, jednak wrzawa wokół stała się zbyt głośna, by móc to nadal ignorować."
  trait_specific_interactions.0001.t: "Dotyk romansu"

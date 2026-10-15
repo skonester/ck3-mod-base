@@ -288,7 +288,7 @@
  #PAM
  clerical_appointment_law: "Nombramiento clerical"
  clerical_appointment_law_subname: "$clerical_appointment_succession_law$"
- clerical_appointment_law_effects: "\nUn tipo de [appointment_succession_law|lE] usado por [governments|lE] [Concept('ecclesiastical', 'eclesiásticos')|E] y [Concept('theocratic', 'teocráticos')|E] [Concept('christian', 'cristianos')|E]. Según el $clerical_appointment_law$, la candidatura con la mayor [Concept('candidate_score', 'puntuación')|E] heredará el [title|lE] y sus [holdings|lE] asociadas.\n\nTodo [adult|lE] de la misma [faith|lE] entre la [close_family|lE], [house|lE], [councillors|lE], titulares de [Concept('court_position', 'puestos en la corte')|E], [vassals|lE] o [clergy|lE] de la [clerical_region|E] del [holder|El] puede luchar por conseguir el [title|El] gastando [piety|lE].\n"
+ clerical_appointment_law_effects: "\nUn tipo de [appointment_succession_law|El] usado por [governments|El] [Concept('ecclesiastical', 'eclesiásticos')|E] y [Concept('theocratic', 'teocráticos')|E]. Según el $clerical_appointment_law$, la candidatura con la mayor [Concept('candidate_score', 'puntuación')|E] heredará el [title|El] y sus [holdings|El] asociadas.\n\nTodo [adult|El] de la misma [faith|El] entre la [close_family|El], [house|El], [councillors|El], titulares de [Concept('court_position', 'puestos en la corte')|E], [vassals|El] o [clergy|El] de la [clerical_region|El] del [holder|El] puede luchar por conseguir el [title|El] gastando [piety|El].\n"
  clerical_appointment_succession_law: "Hereda el candidato con la puntuación más alta"
  theocratic_elective_succession_law: "Elección teocrática"
  theocratic_elective_succession_law_subname: "Colegio Cardenalicio"

@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "그대는 주군으로서의 의무를 다하지 않았다. 칼을 들어 그 가혹한 법을 폐하겠소!"
  war_declared_flavor.claimant: "그대는 옥좌의 참칭자요. 정당한 군주를 복위시킬 때가 도래했소!"
  war_declared_flavor.rival: "우리의 불화는 오래도록 곪아 왔소. 말로 끝내지 못한 일을 이제 검으로 결판내겠소!"
- war_declared_flavor.vengeful: "그대의 모욕은 하나도 잊지 않았소. 이제 그 모든 것을 열 배로 되돌려주지. 그대의 피로써!"
+ war_declared_flavor.vengeful: "네가 안긴 모욕을 하나하나 헤아려 왔다. 이제 그 대가를 열 배로, 피로 치르게 해 주마!"
  war_declared_flavor.kinstrife: "우리가 피를 나눈 사이라고 해서 이 전쟁을 피할 수는 없소. 혈족이라 해도, 그대가 전쟁밖에 답이 없도록 나를 몰아갔으니!"
  war_declared_flavor.callous: "애원 따위는 집어치우시오. 그대가 얼마나 고통받든 상관없소. 그대에게서 무엇을 빼앗을지가 중요할 뿐이니."
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] 권리와 관습 모두 내 편이오. 법에 따라 내게 속한 것을 내놓으시오. 그게 싫다면 무력의 심판을 마주하시오!"

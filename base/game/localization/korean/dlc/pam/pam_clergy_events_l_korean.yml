@@ -57,7 +57,7 @@
  pam_clergy_events.0060.t.head_of_faith: "[new_prelate.GetDynasty.GetNameNoTooltip] [new_prelate.GetFaith.ReligiousHeadName|U]"
  pam_clergy_events.0060.t.antipope: "[new_prelate.GetFaith.ReligiousHeadTitleName|U](을)를 차지한 [new_prelate.GetDynasty.GetNameNoTooltip]"
  pam_clergy_events.0060.t.archbishop: "목장을 든 [new_prelate.GetDynasty.GetNameNoTooltip]"
- pam_clergy_events.0060.desc.intro: "우리는 왕좌에서든, 설교대에서든 기독교 세계를 이끌 방법을 모색해 왔다. 이제 [new_prelate.GetFaith.HighGodName|U]께서 [new_prelate.GetDynasty.GetName](을)를 새로운 차원으로 높여 주시기로 한 모양이다.\n\n"
+ pam_clergy_events.0060.desc.intro: "우리 가문은 오랫동안 기독교 세계를 이끌고자 노력해 왔다. 이제 [new_prelate.GetFaith.HighGodName|U]께서 [new_prelate.GetDynasty.GetName](을)를 새로운 차원으로 높여 주시기로 한 모양이다.\n\n"
  pam_clergy_events.0060.desc.pope: "내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))] [new_prelate.GetFirstName](이)가 성 베드로의 성좌에 앉게 되었으며, 이 지상에서 [new_prelate.GetFaith.HighGodNamePossessive] 대리자가 되었다."
  pam_clergy_events.0060.desc.head_of_faith: "내 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))] [new_prelate.GetFirstName](이)가 [prelate_title.GetDefinitiveName](을)를 차지했다."
  pam_clergy_events.0060.desc.hof_outro: "왕과 황제도 거룩하신 [new_prelate.Custom('GetMotherFatherPossessive')|U] 의지가 드리우는 그림자 속에서는 아이에 불과하다. 이제 [new_prelate.GetFaith.BishopMalePlural] 군단이 [new_prelate.GetDynasty.GetNameNoTooltip]의 명령을 따른다."

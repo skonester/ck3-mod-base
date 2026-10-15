@@ -27,4 +27,4 @@
  generic_badge_prosperity_desc: "Una insignia de peregrino reluciente, adquirida en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], de la que se rumorea que trae prosperidad a quien la lleva."
  generic_badge_virility_desc: "Una insignia de peregrino que brilla de fervor, adquirida en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], de la que se rumorea que trae virilidad a quien la lleva."
  generic_badge_wisdom_desc: "Una enigmática insignia de peregrino, adquirida en [newly_created_artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip], de la que se rumorea que inspira sabiduría y reflexión a quien la lleva."
- pilgrim_badge_holy_site_faith_tt: "No puedes equiparlo porque tu [faith|El] no considera [artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] un [holy_site|El]"
+ pilgrim_badge_holy_site_faith_tt: "No se puede equipar porque tu [faith|El] no considera a [artifact.MakeScope.Var('pilgrim_badge_location').GetProvince.GetNameNoTooltip] un [holy_site|El]"

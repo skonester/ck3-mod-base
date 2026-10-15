@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "Renunciar al voto de castidad"
  renounce_clerical_chastity_vow_decision_confirm: "Renunciar al voto"
  renounce_clerical_chastity_vow_decision_desc: "Hice este voto porque un sacerdote me exigió castidad. Puedo prescindir de él, pero quebrar una promesa sagrada me costará [piety|El] y me pesará en la conciencia."
- renounce_clerical_chastity_vow_decision_tooltip: "Termina el voto antes de que expire. Perderás [piety|El], sufrirás [stress|El] y tu [clergy_opinion|El] se reducirá durante 10 años."
+ renounce_clerical_chastity_vow_decision_tooltip: "Termina el voto antes. Perderás [piety|El], ganarás [stress|El] y tu [clergy_opinion|El] se reducirá durante 10 años."
  renounce_clerical_chastity_vow_toast: "Voto renunciado"
  renounce_clerical_chastity_vow_toast_desc: "Te has retractado de tu voto de castidad."
  clerical_chastity_vow.0001.toast_released: "Voto terminado"

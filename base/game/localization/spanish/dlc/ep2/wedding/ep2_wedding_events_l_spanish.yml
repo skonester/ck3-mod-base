@@ -41,7 +41,7 @@
  ep2_wedding.0152.t: "Boda cancelada"
  ep2_wedding.0152.desc: "Mi negativa es recibida con exclamaciones de sorpresa por parte de la multitud, y un silencio lleno de incertidumbre.\n\nVeo cómo la cara de [spouse_2.GetFirstNameNoTooltip] se transforma poco del asombro a la indignación, y oigo de repente la explosión de cotilleos a mis espaldas, pero no me importa. Simplemente, es que no puedo aceptar el casarme con [spouse_2.Custom('ES_ElElla')].\n\nAceptaré cualquier consecuencia que tenga."
  ep2_wedding.0152.a: "No es NO."
- ep2_wedding.0153.desc: "La multitud suelta una gran exclamación de asombro, ¡pues [spouse_1.GetFirstName] se niega a casarse! [spouse_2.GetFirstName] parece tan sorprendid[spouse_2.Custom('ES_OA')] como el resto de nosotros. Se desata un frenesí de cotilleos y estallan las disputas mientras [spouse_1.GetFirstNameNoTooltip] se apresura a abandonar este lugar maldito."
+ ep2_wedding.0153.desc: "Un gran grito ahogado surge de entre el público, ¡pues [spouse_1.GetFirstName] se niega a casarse! [spouse_2.GetFirstName] parece tan pasmad[spouse_2.Custom('ES_OA')] como el resto de nosotros. Un frenesí de cotilleos se alza y empiezan las peleas mientras [spouse_1.GetFirstNameNoTooltip] se apresura a abandonar este lugar maldito."
  ep2_wedding.0153.a: "Qué desastre…"
  ep2_wedding.0200.t: "Comienza el banquete de boda"
  ep2_wedding.0200.desc_host: "Una vez cumplidas todas las formalidades, ha llegado el momento de celebrarlo.\n\nLes hago una señal a los sirvientes para que saquen la comida y la bebida, y lleven a los invitados al lugar del festín.\n\n¡Que comience el banquete de bodas!"

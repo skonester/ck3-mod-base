@@ -278,7 +278,7 @@
  DE_JURE_EMPIRES_HEADER: "[empires|E], [de_jure|El]"
  DE_JURE_COUNTIES_HEADER: "[counties|E], [de_jure|El]"
  FAITHS_HEADER: "[faiths|E]"
- FAITHS_HOLY_SITES_HEADER: "#medium [faith|E] — [holy_sites|E]#!"
+ FAITHS_HOLY_SITES_HEADER: "#medium [faith|E] — [holy_sites|El]#!"
  FAITHS_RELIGIOUS_LEADERS_HEADER: "#medium [faith|E] — #!#high Chefs religieux#!"
  FAITHS_HOLY_ORDERS_HEADER: "[holy_orders|E]"
  FAITHS_CLERICAL_REGIONS_HEADER: "[clerical_regions|E]"

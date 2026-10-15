@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "Lecciones de la campana agrietada"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "Los albañiles de este condado trabajan con mayor prudencia para compensar la vergüenza de haber fallado en la fundición de una campana."
  pam_cathedral_bell_bronze_torture_implements_modifier: "Instrumentos de tortura de bronce"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Volvieron a fundir la chatarra de bronce procedente de una campana de catedral mal fundida para convertirla en instrumentos de terror. El campanero fue su primera víctima. Ahora los artesanos conocen el precio del fracaso."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Chatarra de bronce procedente de una campana de catedral mal fundida que fue refundida para convertirla en instrumentos de terror; el campanero fue su primera víctima."
  pam_cathedral_treadwheel_crane_modifier: "Grúa de rueda"
  pam_cathedral_treadwheel_crane_modifier_desc: "Se ha erigido en la capital una enorme grúa de rueda procedente de las obras de la catedral."
  pam_cathedral_cantoria_scam_modifier: "Artimaña al descubierto"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "Este personaje se ha inspirado con la reciente proclamación de un nuevo santo."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "Peregrinación a cada sede"
- pam_pilgrim_of_every_holy_site_modifier_desc: "Este personaje ha velado en cada lugar sagrado de su fe."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "Este personaje ha hecho vigilia en lugar sagrado de su fe."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "Un vínculo mantenido"
  tenet_harmonious_society_five_bonds_modifier_desc: "Gobernante y súbdito, padre e hijo, esposo y esposa, hermano mayor y hermano menor, amigo y amigo. Este personaje mantiene una de estas relaciones en buen estado."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "Cadena de ordenación"
- tenet_apostolic_succession_episcopate_modifier_desc: "La fe de este personaje ordena a cada obispo mediante una línea ininterrumpida de obispos anteriores, una fuente histórica de legitimidad respetada."
+ tenet_apostolic_succession_episcopate_modifier_desc: "La fe de este personaje ordena a los obispos siguiendo una cadena ininterrumpida desde los primeros obispos: una fuente histórica de legitimidad respetada."
  modifier_definition_value_per_theocratic_vassal: "\t#weak Aumento por cada [theocratic_vassal|El] (máx. [EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')])#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "Coros de los fieles"
- tenet_divine_liturgy_choirs_modifier_desc: "En las iglesias de este personaje se cantan las mismas palabras a las mismas horas, sin cambios desde hace generaciones."
+ tenet_divine_liturgy_choirs_modifier_desc: "Las iglesias de este personaje cantan las mismas palabras a las mismas horas, inmutables desde hace generaciones."
  modifier_definition_value_per_held_temple: "\t#weak Aumento por [temple_holding|El] que se tenga (máx. [EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')])#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "Oficiada como es debido"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "Reliquia de renombre"
  pam_holy_weapon_3_artifact_modifier_desc: "Su nombre la precede. Los fervientes se animan al verla."
  pam_holy_weapon_4_artifact_modifier: "Instrumento de la Providencia"
- pam_holy_weapon_4_artifact_modifier_desc: "Se considera que quien lo porta está cumpliendo la voluntad de su dios y quienes cabalgan a su lado luchan con más ahínco por ello."
+ pam_holy_weapon_4_artifact_modifier_desc: "Se cree que su portador lleva a cabo la voluntad de su dios y los jinetes que lo rodean atacan aún más fuerte por ello."
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "Patrón cismático"
  pam_house_schismatic_sponsor_modifier_desc: "Esta casa ha respaldado a un [challenger_hof|El] que ha fracasado."

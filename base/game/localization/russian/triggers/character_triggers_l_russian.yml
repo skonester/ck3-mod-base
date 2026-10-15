@@ -437,7 +437,6 @@
  IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName] — [CHARACTER.GetCouncilTitle] при #TOOLTIP:DOCTRINE,doctrine_theocracy_temporal #L теократии#!#!"
  NOT_IS_THEOCRATIC_COURT_CHAPLAIN: "[CHARACTER.GetShortUIName] — НЕ [CHARACTER.GetCouncilTitle] при #TOOLTIP:DOCTRINE,doctrine_theocracy_temporal #L теократии#!#!"
  PARTITION_PRIMARY_HEIR_UNFAIR: "[GetLaw('partition_succession_law').GetName] гласит, что [Select_CString(TARGET_CHARACTER.IsLocalPlayer, Select_CString(recipient.IsFemale, 'ваша ', 'ваш '), '')][Concept('realm_heir', Select_CString(recipient.IsFemale, 'наследница', 'наследник'))|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(' персонажа ', TARGET_CHARACTER.GetShortUIName))] [CHARACTER.GetShortUIName] не может получить титул, который не положен [CHARACTER.GetHerHim] по наследству"
- ELECTION_CANDIDATE_UNFAIR: "Кандидатам нельзя вручать титулы во время выборов"
  GHW_DAYS_UNTIL_LAUNCH: "До начала войны осталось $NUM|V$ дн."
  NOT_GHW_DAYS_UNTIL_LAUNCH: "До начала войны осталось менее $NUM|V$ дн."
  HAS_FAITH_TRIGGER: "[faith|E]: [FAITH.GetAdjective]"

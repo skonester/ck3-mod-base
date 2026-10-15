@@ -23,7 +23,7 @@
  rival_embraced_sinful_ways: "[CHARACTER.GetShortUIName|U](은)는 변해야 한다는 [TARGET_CHARACTER.GetShortUIName]의 간청에도 불구하고 회개를 거부함"
  rival_embraced_sinful_ways_corresponding: "[TARGET_CHARACTER.GetShortUIName|U](은)는 변해야 한다는 [CHARACTER.GetShortUIName]의 간청에도 불구하고 회개를 거부함"
  pam_generic_events.0004.t: "어둠 속의 빛"
- pam_generic_events.0004.desc: "[ROOT.Char.GetFaith.HouseOfWorship](은)는 텅 비었다. 기둥 사이를 안개가 채웠고, [deceased.GetDeathReasonHideKiller]했던 내 [ROOT.Char.Custom2( 'RelationToMeShort', deceased )] [deceased.GetFirstName]의 추억 주위에서 촛불이 일렁였다.\n\n내 [ROOT.Char.Custom2( 'RelationToMeShort', comforter )] [comforter.GetFirstName](이)가 나와 소매가 스칠 정도로 가깝게 앉았다. \"비탄은 길입니다.\" [comforter.GetSheHe]가 부드럽게 말했다. \"그 길을 걸어가다 보면, 끝에서 [ROOT.Char.GetFaith.PositiveAfterLife](이)가 기다리고 있을 겁니다.\""
+ pam_generic_events.0004.desc: "[deceased.GetDeathReasonHideKiller]했던 내 [ROOT.Char.Custom2( 'RelationToMeShort', deceased )] [deceased.GetFirstName](이)가 있는 텅 빈 [ROOT.Char.GetFaith.HouseOfWorship]에서 촛불이 일렁였다.\n\n내 [ROOT.Char.Custom2( 'RelationToMeShort', comforter )] [comforter.GetFirstName](이)가 가까이에 있었다. 소매가 서로 스칠 정도였다. \"비탄은 길입니다.\" [comforter.GetSheHe]가 부드럽게 말했다. \"그 길을 걸어가다 보면, [ROOT.Char.GetFaith.PositiveAfterLife]에 이를 수 있을 겁니다.\""
  pam_generic_events.0004.a: "나였다! #EMP 내가#! 저질렀다고!"
  pam_generic_events.0004.b: "[Glossary('$pam_john_14_2_english|q$','JOHN_14_2_GLOSS')]"
  pam_john_14_2_english: "#EMP 내 아버지 집에 거할 곳이 많도다#!"

@@ -75,9 +75,9 @@
  #Flavor localization for Court Chaplains, sorted by Religion.
  #Fallback
  councillor_court_chaplain_theocrat_county: "Évêque suffragant"
- councillor_court_chaplain_theocrat_county_female: "Évêques suffragants"
+ councillor_court_chaplain_theocrat_county_female: "Évêchesse suffragante"
  councillor_court_chaplain_theocrat_county_possessive: "de l’évêque suffragant"
- councillor_court_chaplain_theocrat_county_female_possessive: "Évêques suffragants"
+ councillor_court_chaplain_theocrat_county_female_possessive: "Évêchesse suffragante"
  councillor_court_chaplain_theocrat_duchy: "Évêque"
  councillor_court_chaplain_theocrat_duchy_female: "Évêchesse"
  councillor_court_chaplain_theocrat_duchy_possessive: "de l’évêque"

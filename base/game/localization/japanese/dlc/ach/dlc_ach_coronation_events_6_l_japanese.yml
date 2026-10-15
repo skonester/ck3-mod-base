@@ -209,7 +209,7 @@
  coronation_events.6110.desc_crowns: "王冠"
  coronation_events.6110.desc_regalia: "レガリア"
  coronation_events.6110.desc_2: "には、祝福の念が込められている。[ROOT.Char.GetFaith.PriestNeuterPlural]が儀式的な所作で私に美しい衣服を着せ、"
- coronation_events.6110.desc_st_peter: "天の王国への鍵を持つ者、聖ペテロへ祈りを捧げる。"
+ coronation_events.6110.desc_st_peter: "天の王国への鍵を持つ者、聖ペトロへ祈りを捧げる。"
  coronation_events.6110.desc_samuel: "預言者サミュエルへ祈りを捧げる。"
  coronation_events.6110.desc_generic: "[ROOT.Char.GetFaith.KnowledgeGodName]、"
  coronation_events.6110.desc_old_artifact: "\n\n美しい[crowning_artifact.GetName]は永遠に[ROOT.Char.GetPrimaryTitle.GetNameNoTier]のものとなるのだろうか？最高級の礼装である[old_title_artifact.GetName]がすでにあるというのに。"

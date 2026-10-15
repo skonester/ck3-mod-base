@@ -770,7 +770,7 @@
  trait_faith_warrior_desc: "この人物は大聖戦に参加した。"
  trait_faith_warrior_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]は大聖戦に参加した。"
  trait_saint: "聖者"
- trait_venerated_ancestor: "尊敬される先祖"
+ trait_venerated_ancestor: "祖霊"
  trait_wali: "ワリ"
  trait_waliyya: "ワリヤ"
  trait_divus: "ディウス"

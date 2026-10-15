@@ -63,7 +63,7 @@
  bookmark.1069.c: "信仰以外の問題に対処しなければ…"
  bookmark.1069.c_flavor: "何もしないことが最善策という場合もある。"
  bookmark.1070.t: "ノルマン人のシチリア支配"
- bookmark.1070.desc: "公爵の生活は、盗賊の生活よりも好ましい…だが、王の生活の方が私には合っている。\n\n私は神と聖ペテロの恩寵により、[GetTitleByKey('d_apulia').GetNameNoTier]と[GetTitleByKey('d_calabria').GetNameNoTier]を支配している。だが盗賊時代の#EMP 旧友#!の力を借りれば、シチリア全土を支配することもできるだろう。教皇や皇帝がどう思おうと関係ない。\n\nさあ、仕事に取り掛かるとしよう。"
+ bookmark.1070.desc: "公爵の生活は、盗賊の生活よりも好ましい…だが、王の生活の方が私には合っている。\n\n私は神と聖ペトロの恩寵により、[GetTitleByKey('d_apulia').GetNameNoTier]と[GetTitleByKey('d_calabria').GetNameNoTier]を支配している。だが盗賊時代の#EMP 旧友#!の力を借りれば、シチリア全土を支配することもできるだろう。教皇や皇帝がどう思おうと関係ない。\n\nさあ、仕事に取り掛かるとしよう。"
  bookmark.1070.a: "シチリアすべて、そしてそれ以外の土地も全部手に入れてやろう！"
  bookmark.1070.b: "帝国には手を出さないでおこう。"
  bookmark.1070.c: "教皇も皇帝も、領土を維持すればいい…"

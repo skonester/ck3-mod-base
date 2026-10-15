@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "会議では、聖職者の叙任権を教会と王権のいずれが握るべきかが審議され、最後に採決が行われる。"
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "到着"
- pam_investiture_council_events.0001.desc: "到着すると、[arrival_host.GetTitledFirstName]が入口で温かく出迎えてくれた。その奥の広間は、すでに高位聖職者や諸侯たちでざわめいている。まもなく、聖職者の任命をめぐる重大な問題について、一同で議論が交わされる。"
+ pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName]が入口で私を温かく出迎えてくれた。その向こうでは、高位聖職者や諸侯たちが忙しなく動いている。まもなく、聖職者の任命をめぐる重大な問題が議題に上る。"
  pam_investiture_council_events.0001.a: "この場に列席できることを光栄に思う。"
  pam_investiture_council_events.0001.a.tt: "ほかの出席者が到着し次第、討議が始まる。"
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "そうあるべきだ。"
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "討議の始まり"
- pam_investiture_council_events.0003.desc: "討議はついに、教会と王権を対立させてきた争点へと移る。誰が聖職者を叙任するのか——その問いを前に、集った者たちは静まり返る。この場の一人ひとりの声が、その決着を左右する。"
+ pam_investiture_council_events.0003.desc: "議場が静まり返る。評議会が、教会と王権を対立させてきた問題、すなわち聖職者を叙任するのはどちらなのかという問題について審議を始めたのだ。この場にいる一人一人の意見が、裁定を左右することになる。"
  pam_investiture_council_events.0003.a: "時は来た。"
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "しかるべき相手への一言"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "失策により、#N 5#!人が王権側に回る。"
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "叙任権会議への招集"
- pam_investiture_council_events.0004.desc: "聖職者の任命をめぐる問題に決着をつけるべく、叙任権会議が開かれるとの報せが届いた。だが、今いる場所は会議の場から遠く離れている。今の務めを放り出し、馬を飛ばして会議に駆けつけることもできる。あるいは、私抜きで成り行きに任せてもよい。"
+ pam_investiture_council_events.0004.desc: "聖職者の任命について裁定するため、叙任権会議が開かれるとの知らせが届いた。だが、そこに辿り着くまでには何日も馬を走らせなければならない。すべてを投げ出して急いで駆けつけ、自分の意見を述べることもできるが、私抜きで、高位聖職者たちに判断を委ねることもできる。"
  pam_investiture_council_events.0004.a: "すべてを投げ出して、会議へ向かおう。"
  pam_investiture_council_events.0004.b: "私抜きで決めてもらおう。"
  pam_investiture_council_haste_modifier: "叙任権会議への急行"

@@ -57,7 +57,7 @@
  pam_clergy_events.0060.t.head_of_faith: "[new_prelate.GetFaith.ReligiousHeadName] z dynastii [new_prelate.GetDynasty.GetNameNoTooltip]"
  pam_clergy_events.0060.t.antipope: "Dynastia [new_prelate.GetDynasty.GetNameNoTooltip] zgłasza roszczenie do tytułu o nazwie [new_prelate.GetFaith.ReligiousHeadTitleName|l]"
  pam_clergy_events.0060.t.archbishop: "Dynastia [new_prelate.GetDynasty.GetNameNoTooltip] sięga po pastorał"
- pam_clergy_events.0060.desc.intro: "Pragnęliśmy przewodzić chrześcijaństwu, czy to z tronu, czy z ambony. Teraz wolą [new_prelate.GetFaith.HighGodNamePossessive] jest wynieść na szczyt chwały dynastię [new_prelate.GetDynasty.GetName].\n\n"
+ pam_clergy_events.0060.desc.intro: "Nasz ród od dawna pragnie przewodzić chrześcijaństwu. Teraz wolą [new_prelate.GetFaith.HighGodNamePossessive] jest wynieść na szczyt chwały dynastię [new_prelate.GetDynasty.GetName].\n\n"
  pam_clergy_events.0060.desc.pope: "[new_prelate.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))], dostępuje wyniesienia na tron Świętego Piotra, wikariusza [new_prelate.GetFaith.HighGodNamePossessive] na ziemi."
  pam_clergy_events.0060.desc.head_of_faith: "[new_prelate.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))], posiada obszar o nazwie [prelate_title.GetDefinitiveName]."
  pam_clergy_events.0060.desc.hof_outro: "Królowie i cesarze to tylko dzieci w cieniu świętości ich [new_prelate.Custom('GetMotherFatherPossessive')|U]. Niezliczeni [new_prelate.GetFaith.BishopMalePlural|l] są teraz na rozkazach dynastii [new_prelate.GetDynasty.GetNameNoTooltip]."

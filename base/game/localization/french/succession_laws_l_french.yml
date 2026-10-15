@@ -288,7 +288,7 @@
  #PAM
  clerical_appointment_law: "Nomination des religieux"
  clerical_appointment_law_subname: "$clerical_appointment_succession_law$"
- clerical_appointment_law_effects: "\nUn type de [appointment_succession_law|El] utilisé par les [governments|El] [Concept('ecclesiastical', 'ecclésiastiques')|E] [christians|El] et [Concept('theocratic', 'théocratiques')|E]. Sous la $clerical_appointment_law|l$, le [title|El] et les [holdings|El] associées seront hérités par le candidat ayant le [candidate_score|El] le plus élevé.\n\nTout [adult|El] de la même [faith|El] parmi la [close_family|El], la [house|E], les [councillors|El], les détenteurs de [court_position|El], les [vassals|El] ou le [clergy|El] de la [clerical_region|El] du [holder|El] peut s’efforcer d’atteindre le titre en dépensant de la [piety|El].\n"
+ clerical_appointment_law_effects: "\nUn type de [appointment_succession_law|El] utilisé par les [governments|El] [Concept('ecclesiastical', 'ecclésiastiques')|E] et [Concept('theocratic', 'théocratiques')|E]. Sous la $clerical_appointment_law|l$, le [title|El] et les [holdings|El] associées seront hérités par le candidat ayant le [candidate_score|El] le plus élevé.\n\nTout [adult|El] de la même [faith|El] parmi la [close_family|El], la [house|E], les [councillors|El], les détenteurs de [court_position|El], les [vassals|El] ou le [clergy|El] de la [clerical_region|El] du [holder|El] peut s’efforcer d’atteindre le titre en dépensant de la [piety|El].\n"
  clerical_appointment_succession_law: "Le candidat avec le score le plus élevé hérite"
  theocratic_elective_succession_law: "Élection théocratique"
  theocratic_elective_succession_law_subname: "Collège des cardinaux"

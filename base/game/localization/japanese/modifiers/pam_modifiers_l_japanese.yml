@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "割れた鐘の教訓"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "この伯爵領の石工たちは、鐘の鋳造失敗という恥をそそぐため、より慎重に作業している。"
  pam_cathedral_bell_bronze_torture_implements_modifier: "青銅の拷問具"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "鋳造に失敗した聖堂の鐘の青銅屑は、改鋳されて恐怖の道具に作り直され、鐘職人がその最初の犠牲者になった。職人たちは今や、失敗の代償を知っている。"
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "鋳造に失敗した聖堂の鐘の青銅くずが、恐怖をもたらす道具へと鋳造し直され、その鐘職人が最初の犠牲者となった。"
  pam_cathedral_treadwheel_crane_modifier: "踏車式クレーン"
  pam_cathedral_treadwheel_crane_modifier_desc: "聖堂の建設現場で使われていた巨大な踏車式クレーンが首都に設置された。"
  pam_cathedral_cantoria_scam_modifier: "暴かれた策略"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "この人物は、最近の新たな聖人の宣言に触発されている。"
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "すべての総主教座を巡った者"
- pam_pilgrim_of_every_holy_site_modifier_desc: "この人物は、自らの信仰のすべての聖地で祈りの夜を過ごした。"
+ pam_pilgrim_of_every_holy_site_modifier_desc: "この人物は、所属する宗派のすべての聖地を夜を徹して見守った。"
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "守られし絆"
  tenet_harmonious_society_five_bonds_modifier_desc: "君臣、父子、夫婦、長幼、朋友。この人物は、この五倫のうちの一つを正しく保っている。"
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "叙階の系譜"
- tenet_apostolic_succession_episcopate_modifier_desc: "この人物の信仰では、先任の司教から途切れることなく続く系譜を通じて各司教が叙階される。これは古くから尊ばれてきた正統性の源である。"
+ tenet_apostolic_succession_episcopate_modifier_desc: "この人物の宗派では、各司教は途切れることなく連なる歴代の司教たちによって叙任され、それが歴史に裏打ちされた正統性の源となっている。"
  modifier_definition_value_per_theocratic_vassal: "\t#weak [theocratic_vassal|E]1人につき増加（最大[EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')]）#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "信徒の聖歌"
- tenet_divine_liturgy_choirs_modifier_desc: "この人物の教会では、何世代にもわたって変わることなく、同じ時刻に同じ言葉が歌われている。"
+ tenet_divine_liturgy_choirs_modifier_desc: "この人物の教会では、何世代にもわたって変わることなく、同じ時刻に同じ言葉を歌っている。"
  modifier_definition_value_per_held_temple: "\t#weak 領有する[temple_holding|E]1つにつき増加（最大[EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')]）#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "見事な司式"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "名高き聖遺物"
  pam_holy_weapon_3_artifact_modifier_desc: "その名声は、すでに各地に知れ渡っている。信仰に篤い者たちは、それを目にして心を奮い立たせる。"
  pam_holy_weapon_4_artifact_modifier: "神意の器"
- pam_holy_weapon_4_artifact_modifier_desc: "これを携える者は神の意志を遂行する者とみなされ、その傍らで戦う者たちも、それに鼓舞され、より勇猛に戦う。"
+ pam_holy_weapon_4_artifact_modifier_desc: "この武器の持ち主は神の意志を遂行すると信じられており、そのために周囲の騎手たちもいっそう激しく戦う。"
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "分裂派の後援者"
  pam_house_schismatic_sponsor_modifier_desc: "この一族は失敗に終わった[challenger_hof|E]を支援した。"

@@ -12,7 +12,7 @@
  statecraft_ongoing.4010.citizenry: "граждане"
  #GOVERNANCE
  governance_ongoing.1040.blacksmithsguild: "Гильдия кузнецов"
- governance_ongoing.1040.merchantsguild: "Купеческая гильдия"
+ governance_ongoing.1040.merchantsguild: "Торговая гильдия"
  governance_ongoing.1055.outofwedlock: " вне брака"
  governance_ongoing.1055.null: ""
  governance_ongoing.1062.gardener: "садовод"

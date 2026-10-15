@@ -84,5 +84,5 @@
  ep3_laamp_peasant_war: "農民の反乱"
  ep3_laamp_peasant_war.peasant_army: "すべての伯爵領の農民が集結して[levies|E]となり、あなたの陣営に加わる"
  ep3_join_war_payment_tt: "[task_contract|E]「[GetTaskContractType('laamp_join_war_contract').GetName]」のため："
- ep3_hire_laamp_mercs_payment_tt: "[TARGET_CHARACTER.GetShortUIName]が[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'あなた', TARGET_CHARACTER.GetHerHis )]自身の[mercenary|E]契約を完了したため："
+ ep3_hire_laamp_mercs_payment_tt: "[TARGET_CHARACTER.GetShortUIName]が[CharYourHerHis( TARGET_CHARACTER )]自身の[mercenary|E]契約を完了したため："
  ep3_hire_laamp_mercs_payment_later_tt: "[mercenary|E][adventurer|E]である[THIS.Char.GetShortUIName|U]は、[THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUINamePossessive]の他の[wars|E]に引き続き参戦する"

@@ -28,7 +28,7 @@
  evidence_artifact_tear: "An den Händen des Hauptmanns befinden sich überall kleine Schnitte. Ich frage mich, woher sie kommen."
  damage_artifact_tear_down: "eingerissen"
  evidence_artifact_tear_down: "Der Hauptmann hat einen Kratzer auf der Wange und [ROOT.Var('captain_gender').GetCharacter.Custom('DE_PRO_POS_S_3P')]e Kleidung ist zerzaust. Das ist alles sehr verdächtig …"
- damage_artifact_threw_up: "mit Erbrochenem beschmutzt"
+ damage_artifact_threw_up: "beschmiert"
  evidence_artifact_threw_up: "Meiner scharfen Beobachtungsgabe ist aufgefallen, dass an den Zähnen und im Mundwinkel des Hauptmanns eine Art #EMP klebrige Substanz#! hängt."
  damage_artifact_unspeakable: "auf unaussprechliche Weise besudelt"
  evidence_artifact_unspeakable: "Die aufgeknöpfte Hose des Hauptmanns und die Haarsträhnen, die aus [ROOT.Var('captain_gender').GetCharacter.Custom('DE_PRO_POS_S_3P')]em Helm ragen, lassen mich hinterfragen, #EMP wer#! diese unaussprechlichen Dinge getan haben könnte."

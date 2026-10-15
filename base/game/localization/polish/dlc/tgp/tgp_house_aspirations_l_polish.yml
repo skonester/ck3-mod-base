@@ -66,7 +66,7 @@
  house_aspiration_parameter_service_house_cheaper_influence_candidacy_investments: "Koszt pkt [Concept('influence', 'wpływu')|E] za interakcję #high „$influence_candidacy_interaction$”#!: #P -10%#!"
  house_aspiration_parameter_service_house_governor_efficiency_bonus: "[governor_efficiency|E] dla członków [Concept('house', 'rodu')|E]: [governor_efficiency_i|E] #P +[EmptyScope.ScriptValue('service_house_governor_efficiency_bonus_value')|0%]#!"
  house_aspiration_parameter_service_house_improved_educator_outcome_chance: "Członkowie [Concept('house', 'rodu')|E] spisują się lepiej w roli [Concept('guardians', 'opiekunów')|E]"
- service_house_power: "[house_aspiration|E] – służba"
+ service_house_power: "[house_aspiration|El]: służba "
  #House Aspiration - Strength
  house_aspiration_parameter_strength_train_with_troops_decision: "Odblokowuje [Concept('decision', 'decyzję')|E] #high „Natchnij żołnierzy”#!"
  #House Aspiration - Prosperity

@@ -70,7 +70,7 @@
  tribute_mission.1005.t.ai.bunga_mas: "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip|l]"
  tribute_mission.1005.t.bunga_mas: "$tribute_mission_header$ złote kwiaty osoby znanej jako [tributary_scope.GetTitledFirstNameNoTooltip]"
  tribute_mission.1005.t.gold: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] złoto"
- tribute_mission.1005.t.herd: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] stado"
+ tribute_mission.1005.t.herd: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] gromada"
  tribute_mission.1005.t.concubine: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] kwiaty"
  tribute_mission.1005.t.eunuch: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] spryt"
  tribute_mission.1005.t.artifact: "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] artefakty"

@@ -167,7 +167,7 @@
  diarch_request_imperial_expedition_interaction.tt.access_to_cb: "強力な[casus_belli|E]「[imperial_expedition_cb|E]」の使用回数を#EMP 1#!回得る"
  diarch_request_imperial_expedition_interaction.tt.governors_as_allies: "[war|E]の標的となる[ruler|E]に隣接するすべての[governor|E]が[ally|E]として招集され、軍務官は遠方からでも参戦する可能性がある"
  diarch_request_imperial_expedition_interaction.tt.target_behaviour_explanation: "[war|E]は[realm|E]に隣接している、または[de_jure|E]に[emperor|E]が所有しているどの[duchies|E]も対象にすることができる"
- diarch_request_imperial_expedition_interaction.tt.post_war: "[actor.GetShortUIName]が勝利すると、[Select_CString( actor.IsLocalPlayer, 'あなた', actor.GetSheHe )]は以下のいずれかが可能：\n$EFFECT_LIST_BULLET$征服した領土を自分のものにする#WEAK （[recipient.GetShortUIName]の怒りを買う）#!\n$EFFECT_LIST_BULLET$領土を引き渡し、[influence|E]を得る#WEAK （奪った[counties|E]の数に応じて増加）#!"
+ diarch_request_imperial_expedition_interaction.tt.post_war: "[actor.GetShortUIName]が勝利すると、[CharYouSheHe(actor)]は以下のいずれかが可能：\n$EFFECT_LIST_BULLET$征服した領土を自分のものにする#WEAK （[recipient.GetShortUIName]の怒りを買う）#!\n$EFFECT_LIST_BULLET$領土を引き渡し、[influence|E]を得る#WEAK （奪った[counties|E]の数に応じて増加）#!"
  ALLY_IN_IMPERIAL_EXPEDITION: "[imperial_expedition_cb|E]を支援する義務を負っている：$VALUE|=+0$"
  diarch_demand_despotate_interaction: "自分の専制公領を要求"
  diarch_demand_despotate_interaction_desc: "私も[recipient.GetTitleAsNameNoTooltip]ではないのか？私の言葉が絶対的な法である土地があってしかるべきだろう？"

@@ -8,7 +8,7 @@
  blotsven.0001.b.tt: "Porzucasz tę szansę na uszczęśliwienie bogów."
  # Eskil barges in
  blotsven.0002.t: "Wrzeszczący misjonarz"
- blotsven.0002.desc: "Na krótko przed rozpoczęciem rytuału jakieś zamieszanie przerywa mi złożenie przysięgi na żelazny pierścień. Pojawia się jakaś grupa ludzi, a do naszego świętego kręgu wpada mężczyzna.\n\n– Stać! W imię [eskil.GetFaith.HighGodNamePossessive]! – krzyczy, wymachując gorączkowo rękami.\n\nWznosi dłonie nad głowę i wrzeszczy ku niebu, prosząc o porażenie tych, którzy dopuszczają się tego pogańskiego czynu. Jak na rozkaz zaczyna padać deszcz, a przecinająca niebo błyskawica sprawia, że mimowolnie mrugam."
+ blotsven.0002.desc: "Na krótko przed rozpoczęciem rytuału jakieś zamieszanie przerywa mi złożenie przysięgi na żelazny pierścień. Do naszego świętego kręgu wpada czerwony na twarzy, wrzeszczący mężczyzna ze swoimi zwolennikami.\n\n– Stać! W imię [eskil.GetFaith.HighGodNamePossessive]! – krzyczy, wymachując gorączkowo rękami. – Niech niebiosa porażą tych, którzy popierają ten nikczemny czyn!\n\nJak na rozkaz zaczyna padać deszcz, a horyzont przecina straszliwa błyskawica."
  blotsven.0002.a: "Podnieś najbliższy kamień i rzuć nim w mężczyznę."
  blotsven.0002.a.tt: "Kamienowanie misjonarzy nie jest niczym niezwykłym."
  blotsven.0002.b: "Weź topór i wyceluj w jego głowę."

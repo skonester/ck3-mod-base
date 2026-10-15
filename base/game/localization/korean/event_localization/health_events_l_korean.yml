@@ -243,7 +243,7 @@
  health.3001.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E]이 [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.b: "[low_skill_option.GetFirstNameNoTooltip](은)는 최소한 열성적이긴 해."
  health.3001.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E]이 [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
- health.3001.c: "[mystic_option.GetFirstNameNoTooltip](은)는 \"대체 의약학\"을 좀 안다고 하는군."
+ health.3001.c: "[mystic_option.GetFirstNameNoTooltip](은)는 \"대체의학\"을 좀 안다고 하는군."
  health.3001.c.aptitude: "[mystic_option.GetUINamePossessive|U] [aptitude|E]이 [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]임"
  health.3001.d.two: "어느 쪽이든 그다지 인상깊진 않군."
  health.3001.d.more: "모두 그다지 인상깊지 않군."

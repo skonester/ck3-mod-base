@@ -74,7 +74,7 @@
  natural_disaster_flood_sub_region_disaster_neighbours: "$natural_disaster_earthquake_sub_region_disaster_neighbours$"
  natural_disaster_vassal_recovery_start_tt: "[ruler.GetName]は[great_project|E]「[great_project.GetName]」を開始した"
  # Great Project
- great_project_type_great_project_earthquake: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]で地震救援"
+ great_project_type_great_project_earthquake: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('epicenter_county').Title.GetNameNoTierNoTooltip]の地震救援"
  great_project_type_great_project_earthquake_desc: "[earthquake|E]の影響を抑える措置を講じねばならない。領国と民を守るため、統治者は[great_project_contributions|E]を行い、他の[situation_participant_groups|E]を呼び集めて救援活動を支援させなければならない。"
  great_project_type_great_project_earthquake_contribution_recovery: "生存者の治療"
  great_project_type_great_project_earthquake_contribution_cleanup: "がれき除去"
@@ -83,7 +83,7 @@
  great_project_type_great_project_earthquake_contribution_aid: "被災者支援"
  great_project_type_great_project_earthquake_contribution_minister_sends_aid: "[GetCourtPositionType( 'minister_bureaucrat_court_position' ).GetNameNoTooltip]を派遣する"
  great_project_type_great_project_earthquake_contribution_memorial: "記念の要塞"
- great_project_type_great_project_flood: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]で洪水救援"
+ great_project_type_great_project_flood: "[great_project.MakeScope.Var('situation').Situation.MakeScope.Var('river_region').GeographicalRegion.GetNameNoTooltip]の洪水救援"
  great_project_type_great_project_flood_desc: "[flood|E]の影響を抑える措置を講じねばならない。領国と民を守るため、統治者は[great_project_contributions|E]を行い、他の[situation_participant_groups|E]を呼び集めて救援活動を支援させなければならない。"
  great_project_type_great_project_flood_contribution_recovery: "生存者の治療"
  great_project_type_great_project_flood_contribution_drainage: "土地排水"

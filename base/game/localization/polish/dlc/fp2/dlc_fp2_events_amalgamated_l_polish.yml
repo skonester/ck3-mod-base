@@ -519,7 +519,7 @@
  fp2_struggle.2007.t: "Zamek godny Iberii"
  fp2_struggle.2007.desc.main: "są gotowe do zagospodarowania – stwierdza [fp2_2007_scoped_steward.GetCouncilTitleFirstName] z mojej rady. – Z twoimi funduszami moglibyśmy zabezpieczyć tereny znane jako [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] przed naszymi wrogami przy #emphasis znacznie#! obniżonych kosztach. [2007_vassal_sponsor.GetTitledFirstName] składa właśnie petycję o budowę. [ROOT.Char.Custom('FortifiedBuilding')|U] ma powstać w stylu, którym cechuje się [fp2_2007_foreign_faith.GetName|l]. [2007_vassal_sponsor.GetTitledFirstName] oferuje przy tym trochę własnych monet, aby przekonać cię do swoich racji. Inni wasale wymagają jednak uwzględnienia opinii lokalnych architektów naszej wiary. Niezależnie od tego, kogo wybierzesz, będzie to świetna okazja do wzmocnienia całego państwa.\n\nJedynym problemem będzie to, #EMP kto#! zostanie wybrany do realizacji tej złotej inwestycji…"
  fp2_struggle.2007.desc.a: "„Twoje ziemie $fp2_struggle.2007.desc.main$"
- fp2_struggle.2007.desc.b: "„Ziemie, którymi włada [fp2_2007_castle_holder.GetTitledFirstName] $fp2_struggle.2007.desc.main$"
+ fp2_struggle.2007.desc.b: "„Ziemie, którymi włada [fp2_2007_castle_holder.GetTitledFirstName], $fp2_struggle.2007.desc.main$"
  fp2_struggle.2007.a: "Zostanie zatrudniony architekt-[ROOT.Char.GetFaith.GetAdherentNameNoTooltip]."
  fp2_struggle.2007.a.castile: "[ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|U]? [fp2_2007_foreign_faith.GetAdherentNamePluralNoTooltip|U]? Potrzeby mi jest architekt-[fp2_2007_allegedprotocastilean.GetAdherentNameNoTooltip]!"
  fp2_struggle.2007.a.notif: "Na terenie [fp2_2007_free_real_estate.GetAdjective] rozpocznie się budowa zamku."

@@ -140,7 +140,7 @@
  if_you_lose_cd_third: "Wenn [CHARACTER.GetShortUIName] den [war|E] verliert:"
  if_you_lose_cd_global: "Wenn [CHARACTER.GetShortUIName] den [war|E] verliert:"
  japanese_korean_child_learned_chinese_title: "Vorankommen mit den Klassikern"
- japanese_korean_child_learned_chinese_effect: "Die neuen sprachlichen Fähigkeiten von [child_learned_chinese.GetFirstNameNoTooltip] werden [child_learned_chinese.Custom('DE_PRO_PER_S_3P_A')] auf ein Leben am Hof vorbereiten."
+ japanese_korean_child_learned_chinese_effect: "Die neue sprachlichen Fähigkeiten von [CharMyFirstNames(child_learned_chinese)|U] werden [child_learned_chinese.Custom('DE_PRO_PER_S_3P_A')] auf ein Leben am Hof vorbereiten."
  # Move Shogunate Court
  tgp_japan_move_shogunate_court_decision: "Den [ROOT.Char.GetHouse.GetBaseNameNoTooltip]-Hof verlegen"
  tgp_japan_move_shogunate_court_decision_desc: "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] ist der alte Hauptsitz: In diesem neuen Zeitalter ist es an der Zeit, einen echten [ROOT.Char.GetHouse.GetBaseName]-Hof einzurichten. Der Umzug in eine weiter entfernte Provinz ermöglicht es uns zudem, unsere Autorität fernab der hineinpfuschenden Bürokraten und Tempel auszuüben."

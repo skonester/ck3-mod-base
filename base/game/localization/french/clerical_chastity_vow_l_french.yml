@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "Renier le vœu de chasteté"
  renounce_clerical_chastity_vow_decision_confirm: "Renier le vœu"
  renounce_clerical_chastity_vow_decision_desc: "J’ai fait ce vœu parce qu’un prêtre m’a imposé la chasteté. Je peux m’en passer, mais rompre une promesse sacrée me coûtera de la [piety|El] et pèsera sur ma conscience."
- renounce_clerical_chastity_vow_decision_tooltip: "Mettez fin au vœu avant son expiration. Vous perdez de la [piety|El], subissez du [stress|El] et réduisez l’[clergy_opinion|El] à votre égard pendant 10 ans."
+ renounce_clerical_chastity_vow_decision_tooltip: "Mettez prématurément fin à votre vœu. Vous perdez de la [piety|El], obtenez du [stress|El] et réduisez l’[clergy_opinion|El] à votre égard pendant 10 ans."
  renounce_clerical_chastity_vow_toast: "Vœu renié"
  renounce_clerical_chastity_vow_toast_desc: "Vous reniez le vœu de chasteté."
  clerical_chastity_vow.0001.toast_released: "Le vœu a pris fin"

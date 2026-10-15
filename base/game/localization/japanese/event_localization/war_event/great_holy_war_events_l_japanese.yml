@@ -3,7 +3,7 @@
  great_holy_war.0011.muslim.t: "新たなるジハード"
  great_holy_war.0011.pagans.t: "古き神々の怒り"
  great_holy_war.0011.fallback.t: "戦う[awakening_faith.GetAdherentNamePlural]"
- great_holy_war.0011.catholic.rome.desc: "聖ペテロの殉教地であり、教皇座が置かれていたローマが異教徒の手に落ちた。これに対して亡命中の[ghw_first_sponsor.GetTitledFirstName]聖下は、永遠なる都を取り戻すために、キリスト教諸侯による大同盟の結成を呼びかけた。"
+ great_holy_war.0011.catholic.rome.desc: "聖ペトロの殉教地であり、教皇座が置かれていたローマが異教徒の手に落ちた。これに対して亡命中の[ghw_first_sponsor.GetTitledFirstName]聖下は、永遠なる都を取り戻すために、キリスト教諸侯による大同盟の結成を呼びかけた。"
  great_holy_war.0011.christian.europe.desc: "西方教会の中心地が異教徒の包囲下に置かれている！必死になったキリスト教諸侯たちは、[ghw_first_sponsor.GetTitledFirstName]の神聖さをもって、異教徒を[awakening_faith.WarGodName]の名において追放するために正義の同盟を築くという[ghw_first_sponsor.GetHerHis]の意志を宣言するように[ghw_first_sponsor.GetHerHis|U]を説得した。"
  great_holy_war.0011.christian.byzantion.desc: "東のローマ帝国。ビザンティウム… 東方のムハンマドの異教徒に対する堅固な防壁が陥落しようとしている。この悲惨な状況に[ghw_first_sponsor.GetTitledFirstName]聖下は、キリスト教徒の連合軍による全面的な侵攻を行うことができるとの認識を示した。"
  great_holy_war.0011.catholic.jerusalem.desc: "聖地へと巡礼するキリスト教徒は、その旅の途上で様々な危険に直面している。\n\n[ghw_first_sponsor.GetTitledFirstName]聖下は、キリストの名と信仰心の下、巡礼者とイェルサレムを守るためにはキリスト教徒の連合軍による全面的な侵攻を行うことができるとの認識を示した。"

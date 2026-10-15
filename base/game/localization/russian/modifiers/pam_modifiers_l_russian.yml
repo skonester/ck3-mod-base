@@ -73,7 +73,7 @@
  pam_cathedral_bell_cracked_lesson_modifier: "Уроки треснувшего колокола"
  pam_cathedral_bell_cracked_lesson_modifier_desc: "Каменщики этого графства работают более вдумчиво после того, как опозорились с отливкой неисправного колокола."
  pam_cathedral_bell_bronze_torture_implements_modifier: "Использование бронзы для пыток"
- pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Куски от неудачно выплавленного колокола собора были переделаны в инструменты устрашения. И первым их на себе опробовал мастер, занимавшийся отливкой колокола. Теперь ремесленники знают цену провала."
+ pam_cathedral_bell_bronze_torture_implements_modifier_desc: "Куски от неудачно выплавленного колокола собора были переделаны в инструменты устрашения. И первым их на себе опробовал мастер, занимавшийся отливкой колокола."
  pam_cathedral_treadwheel_crane_modifier: "Ступальный кран"
  pam_cathedral_treadwheel_crane_modifier_desc: "В столице был возведён большой ступальный кран для строительной площадки собора."
  pam_cathedral_cantoria_scam_modifier: "Раскрытая уловка"
@@ -144,17 +144,17 @@
  pam_dulia_new_saint_modifier_desc: "Этот персонаж вдохновлён причислением другого человека к лику святых."
  # The Pentarchy - granted for completing a pilgrimage to every holy site of one's own faith
  pam_pilgrim_of_every_holy_site_modifier: "Паломник всех святынь"
- pam_pilgrim_of_every_holy_site_modifier_desc: "Этот персонаж посетил каждую святыню, которую признаёт его конфессия."
+ pam_pilgrim_of_every_holy_site_modifier_desc: "Этот персонаж посетил каждую святыню своей конфессии."
  # Harmonious Society - one instance for each of the five relationships currently kept in good standing
  tenet_harmonious_society_five_bonds_modifier: "Сохранённые узы"
  tenet_harmonious_society_five_bonds_modifier_desc: "Правитель и подданный, родитель и дитя, муж и жена, старший и младший, друг и друг. Этот персонаж поддерживает одно из этих взаимоотношений в гармонии."
  # Apostolic Succession - scales with the ruler's theocratic vassals, retallied yearly
  tenet_apostolic_succession_episcopate_modifier: "Апостольское преемство"
- tenet_apostolic_succession_episcopate_modifier_desc: "Этот персонаж принадлежит к конфессии, в которой преемственность епископов восходит к первым апостолам через непрерывную череду рукоположений, что придаёт им легитимность."
+ tenet_apostolic_succession_episcopate_modifier_desc: "В конфессии этого персонажа епископы посвящаются в сан на основе непрерывной цепи прошлых епископов — древнего источника признанной власти."
  modifier_definition_value_per_theocratic_vassal: "\t#weak Увеличивается с каждым [Concept('theocratic_vassal', 'теократическим вассалом')|E] (максимум [EmptyScope.ScriptValue('pam_apostolic_succession_bishop_cap_value')])#!"
  # Divine Liturgy - scales with the temples the character holds, retallied yearly
  tenet_divine_liturgy_choirs_modifier: "Хоры верных"
- tenet_divine_liturgy_choirs_modifier_desc: "В каждой церкви, принадлежащей этому персонажу, в одно и то же время поются одни и те же слова, и так было всегда на памяти ныне живущих."
+ tenet_divine_liturgy_choirs_modifier_desc: "В церквях этого персонажа из поколения в поколение поют одни и те же слова в одно и то же время."
  modifier_definition_value_per_held_temple: "\t#weak Увеличивается с каждым [Concept('temple_holding', 'храмовым владением')|E] (максимум [EmptyScope.ScriptValue('pam_divine_liturgy_temple_cap_value')])#!"
  # Divine Liturgy personal tenet - scales with the court chaplain's learning, retallied yearly
  tenet_divine_liturgy_officiant_modifier: "Должные церемонии"
@@ -179,7 +179,7 @@
  pam_holy_weapon_3_artifact_modifier: "Известная реликвия"
  pam_holy_weapon_3_artifact_modifier_desc: "Слава опережает её. Фанатики воодушевляются при виде её."
  pam_holy_weapon_4_artifact_modifier: "Инструмент Провидения"
- pam_holy_weapon_4_artifact_modifier_desc: "Обладатель этой реликвии служит проводником воли бога, а его спутники сражаются с ещё большим рвением."
+ pam_holy_weapon_4_artifact_modifier_desc: "Согласно преданиям, обладатель этого оружия исполняет волю своего бога, и мчащиеся рядом всадники разят врагов с удвоенной силой."
  # Challenge Head of Faith war aftermath
  pam_house_schismatic_sponsor_modifier: "Покровитель-схизматик"
  pam_house_schismatic_sponsor_modifier_desc: "Этот дом поддержал [Concept('challenger_hof', 'соперничающего главу конфессии')|E], который потерпел неудачу."

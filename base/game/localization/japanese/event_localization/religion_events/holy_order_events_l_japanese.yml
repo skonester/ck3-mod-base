@@ -3,7 +3,7 @@
  holy_order.hired_message: "[holy_order.GetName]が[actor.GetUIName]によって招集された"
  holy_order_hired_by_enemy_message: "敵対する騎士修道会"
  holy_order.hired_by_enemy: "[holy_order.GetName]が[actor.GetUIName]によって招集され、我々に敵対している"
- holy_order.destroyed_message: "[title.GetName]が壊滅した"
+ holy_order.destroyed_message: "[title.GetName|U]が壊滅した"
  holy_order_expanded: "騎士修道会の拡大"
  holy_order.new_lease: "[holy_order.GetName]は[former_holder.GetTitledFirstName]に[barony.GetName]を貸与されている"
  monastic_holy_order_expanded: "修道会の拡大"

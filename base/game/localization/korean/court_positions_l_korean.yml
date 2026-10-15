@@ -360,7 +360,7 @@
  court_physician_not_employed_or_away_tt: "[GetCourtPositionType('court_physician_court_position').GetName()](을)를 보유하지 않거나 곁에 있지 않음"
  hire_physician_decision: "의사 구인"
  hire_physician_decision_tooltip: "수하들이 [GetCourtPositionType('court_physician_court_position').GetName()]에 적합한 후보자를 여럿 천거할 것입니다."
- hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourt')]의 병들고 상처 입은 이들을 돌보려면 $court_physician_court_position$의 존재가 필수이다. 수하들에게 적합한 후보자를 모아오라고 지시해야겠다."
+ hire_physician_decision_desc: "[ROOT.Char.Custom('GetCourt')|l]의 병들고 상처 입은 이들을 돌보려면 $court_physician_court_position$의 존재가 필수이다. 수하들에게 적합한 후보자를 모아오라고 지시해야겠다."
  hire_physician_decision_effect_tooltip: "한 무리의 [GetCourtPositionType('court_physician_court_position').GetName()] 지원자를 만날 것이며 돈을 주고 한 명을 고용할 수 있습니다. 단, 고용 이후에는 매달 [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]의 봉급을 지급해야 합니다."
  hire_physician_decision_confirm: "구인 시작"
  antiquarian_employer_custom_effect_description: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'antiquarian_employer_custom_effect_reforge_description', '' )]$BULLET$#V $commission_artifact_decision$#! [decision|E] 잠금 해제\n$BULLET$[sieges|E] 및 [raids|E] 진행 중 [artifacts|E]을 보호함"

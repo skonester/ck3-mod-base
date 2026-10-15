@@ -305,6 +305,6 @@
  pam_mass_rite_conversion_feudalize_discount: "[great_project|E] $great_project_type_pam_mass_rite_conversion$"
  pam_mass_rite_conversion_already_targets_province: "Une autre [GetGreatProjectType('pam_mass_rite_conversion').GetName|Vl] cible déjà ce [county|El]"
  pam_mass_rite_conversion_target_organized_faith: "Ce [county|El] suit une [faith|El] différente de la vôtre"
- pam_mass_rite_conversion_target_unreformed_faith: "[county|E] de [faith|El] [GetDoctrineType('unreformed_faith_doctrine').GetBaseName|l] converti"
+ pam_mass_rite_conversion_target_unreformed_faith: "Ce [county|El] suit une [faith|El] [GetDoctrineType('unreformed_faith_doctrine').GetBaseName|l]"
  pam_mass_rite_conversion_contributor_rite: "A le même [rite|El] que le propriétaire du projet"
- pam_mass_rite_conversion_founder_clergy_tt: "Doit détenir un [clerical_title|El], avoir un [government|El] [ecclesiastical|El], être membre du [clergy|El] ou avoir comme [puppet|El] un [archbishop|El] ou supérieur"
+ pam_mass_rite_conversion_founder_clergy_tt: "Doit détenir un [clerical_title|El], avoir un [government|El] [ecclesiastical|El], être membre du [clergy|El] ou avoir un [archbishop|El] (ou supérieur) comme [puppet|El]"

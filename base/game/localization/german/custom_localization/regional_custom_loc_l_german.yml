@@ -429,7 +429,7 @@
  flower_type_chinese_primrose: "Chinaprimel"
  flower_type_plum_blossom: "Pflaumenblüte"
  flower_type_cherry_blossom: "Kirschblüte"
- flower_type_japanese_iridaceae: "Schwertlilie"
+ flower_type_japanese_iridaceae: "Iris"
  flower_type_korean_bellflower: "Glockenblume"
  flower_type_korean_rhododendron: "Rhododendron"
  flower_type_hokkaido_alpine: "Hokkaido-Edelweiß"
@@ -466,7 +466,7 @@
  flower_type_chinese_primrose_plural: "Chinaprimeln"
  flower_type_plum_blossom_plural: "Pflaumenblüten"
  flower_type_cherry_blossom_plural: "Kirschblüten"
- flower_type_japanese_iridaceae_plural: "Schwertlilien"
+ flower_type_japanese_iridaceae_plural: "Iris"
  flower_type_korean_bellflower_plural: "Glockenblumen"
  flower_type_korean_rhododendron_plural: "Rhododendren"
  flower_type_hokkaido_alpine_plural: "Hokkaido-Edelweiße"
@@ -677,7 +677,7 @@
  mythical_creature_north_europe_giant_lower: "Riese"
  ##Gotland
  mythical_creature_north_europe_bysn_lower: "Bysn"
- mythical_creature_north_europe_disma_lower: "Goblin"
+ mythical_creature_north_europe_disma_lower: "Goblins"
  #South Europe
  mythical_creature_south_europe_basilisk_lower: "Basilisk"
  mythical_creature_south_europe_lhombri_lower: "L’hombri"

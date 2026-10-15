@@ -44,7 +44,7 @@
  SETTING_SHOW_NUDITY: "显示裸体"
  SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\n设定角色是否会显示裸体。"
  SETTING_BEAUTIFY_DEAD: "已故角色美化"
- SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\n设定已故角色的肖像是否呈现为其全盛时期的样貌，而非被年龄、疾病和伤残折磨后的样貌。"
+ SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\n切换已故角色的肖像：呈现为其壮年的样貌，或被年龄、疾病和伤残折磨后的样貌。"
  SETTING_STYLIZE_DEAD: "已故角色风格化"
  SETTING_STYLIZE_DEAD_TOOLTIP: "#T $SETTING_STYLIZE_DEAD$#!\n设定已故角色的肖像是否呈现为“绘像”风格，以便清晰地辨认这并非他们真实的样貌。\n\n仅在$SETTING_BEAUTIFY_DEAD$启用时才能生效。"
  SETTINGS_CATEGORY_GAME_DLC_MODS: "可下载内容"

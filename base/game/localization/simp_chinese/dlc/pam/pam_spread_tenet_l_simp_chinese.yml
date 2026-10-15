@@ -25,4 +25,4 @@
  pam_spread_tenet_events.0301.t: "敬信念"
  pam_spread_tenet_events.0301.desc: "觥筹交错，人们举杯敬新婚夫妇，以及尚未出生的子嗣。\n\n“也敬[ROOT.Char.GetFaith.HighGodName]，祂将所有灵魂联结在一起！”[pam_spread_listener_1.GetTitledFirstName]补充道，众人低声附和。\n\n这里人心敞开——向着爱，向着希望，向着圣洁之事。此刻说出的话，必将深入人心。"
  pam_spread_tenet_events.0401.t: "守灵时的交谈"
- pam_spread_tenet_events.0401.desc: "哀悼者三三两两地聚拢，低声交谈着关于逝者与那等待着我们所有人的命运。\n\n“死亡终将降临我们每一个人，”[pam_spread_listener_1.GetTitledFirstName]在我肩旁轻声说道，“而我们仍在为琐事争吵不休。”\n\n悲伤，将灵魂撕裂……"
+ pam_spread_tenet_events.0401.desc: "哀悼者三三两两地聚拢，低声交谈着关于逝者与那等待着我们所有人的命运。\n\n“永恒最终会收走我们每一个人，”[pam_spread_listener_1.GetTitledFirstName]在我肩旁轻声说道，“而我们仍在为琐事争吵不休。”\n\n也许，悲伤已经敲开了一个灵魂……"

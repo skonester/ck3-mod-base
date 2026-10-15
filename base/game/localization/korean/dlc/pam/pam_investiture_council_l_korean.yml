@@ -34,7 +34,7 @@
  investiture_council_phase_debate_desc: "공의회는 교회와 왕실 중 누가 성직자 서임권을 가질 것인지 토론한 뒤, 이를 표결에 부칩니다."
  # Arrival flavour (guest) - the host welcomes me
  pam_investiture_council_events.0001.t: "도착"
- pam_investiture_council_events.0001.desc: "내가 도착하자 [arrival_host.GetTitledFirstName](이)가 문간에서 따뜻하게 맞이한다. 그 뒤로 보이는 회관은 이미 고위 성직자들과 기독교권의 제후들로 술렁이고 있다. 곧 성직 서임이라는 중대한 문제가 안건으로 오를 것이다."
+ pam_investiture_council_events.0001.desc: "[arrival_host.GetTitledFirstName](이)가 입구에서 나를 반갑게 맞이한다. 그 뒤편에서는 고위 성직자들과 같은 신앙을 믿는 제후들이 분주히 오가고 있다. 곧 성직자 서임권을 둘러싼 중대한 문제가 공의회에 상정될 것이다."
  pam_investiture_council_events.0001.a: "그들과 함께하게 되어 영광이다."
  pam_investiture_council_events.0001.a.tt: "나머지 참석자들이 모두 도착하면 토론이 시작됨."
  # The council convenes (host)
@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "그렇게 하겠다."
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "토론의 시작"
- pam_investiture_council_events.0003.desc: "공의회가 교회와 왕실을 대립시킨 쟁점, 즉 누가 성직자를 서임할 것인가를 논하기 시작하자 좌중이 조용해진다. 이 자리에 모인 모두의 의견이 그 결정을 좌우할 것이다."
+ pam_investiture_council_events.0003.desc: "교회와 왕권을 대립시켜 온 문제를 논의하는 공의회가 시작되자 장내가 조용해진다. 과연 어느 쪽이 성직자를 서임해야 하는가? 이 자리에 모인 이들의 의견 하나하나가 그 결론에 영향을 미칠 것이다."
  pam_investiture_council_events.0003.a: "때가 되었다."
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "귀에 넣는 한마디"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "실수할 경우 #N 5#!명의 투표자가 왕실 측으로 돌아섬"
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "공의회의 소환"
- pam_investiture_council_events.0004.desc: "성직 서임 문제에 결론을 내리기 위해 서임권 공의회가 소집된다는 소식이 들려온다. 하지만 정작 나는 그곳에서 멀리 떨어져 있다. 하던 일을 모두 접고 서둘러 말을 달려가 내 의견을 보탤 수도 있고, 아니면 나 없이 결론을 내리게 둘 수도 있다."
+ pam_investiture_council_events.0004.desc: "성직 서임권을 결정할 공의회가 열린다는 소식이 전해졌다. 하지만 내가 있는 곳에서 공의회까지는 말을 타고도 여러 날이 걸린다. 하던 일을 모두 제쳐 두고 서둘러 말을 달려가 내 의견을 보탤 수도 있고, 불참한 채 고위 성직자들에게 결정을 맡길 수도 있다."
  pam_investiture_council_events.0004.a: "하던 일을 모두 접고 공의회로 말을 달린다."
  pam_investiture_council_events.0004.b: "나 없이 알아서 결정하게 둔다."
  pam_investiture_council_haste_modifier: "공의회로 서두름"

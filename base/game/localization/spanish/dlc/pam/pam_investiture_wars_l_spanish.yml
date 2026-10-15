@@ -6,7 +6,7 @@
  pam_investiture_conflict_cb_victory_desc_attacker: "Tu victoria obliga a [defender.GetShortUIName] y a su bando a aceptar tu postura respecto a los nombramientos del clero."
  pam_investiture_conflict_cb_victory_desc_defender: "La victoria de [attacker.GetShortUIName] te obliga a ti y a tus partidarios a aceptar su postura sobre los nombramientos del clero."
  pam_investiture_conflict_cb_victory_desc: "Se impone [attacker.GetShortUIName], lo que obliga a [defender.GetShortUIName] y a su bando a aceptar la postura de [attacker.GetShortUIName] sobre los nombramientos del clero."
- pam_investiture_conflict_cb_white_peace_desc: "La disputa sobre los nombramientos del clero termina sin resolución: no ha cedido ninguna de las partes."
+ pam_investiture_conflict_cb_white_peace_desc: "La disputa sobre los nombramientos del clero sigue sin resolverse y cada bando se niega a ceder."
  pam_investiture_conflict_cb_defeat_desc_attacker: "Tu derrota te obliga a ti y a tus partidarios a aceptar la postura de [defender.GetShortUIName] sobre los nombramientos del clero."
  pam_investiture_conflict_cb_defeat_desc_defender: "Te impones, lo que obliga a [attacker.GetShortUIName] y a su bando a aceptar tu postura respecto a los nombramientos del clero."
  pam_investiture_conflict_cb_defeat_desc: "Se impone [defender.GetShortUIName], lo que obliga a [attacker.GetShortUIName] y a su bando a aceptar la postura de [defender.GetShortUIName] respecto a los nombramientos del clero."

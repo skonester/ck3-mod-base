@@ -15,7 +15,7 @@
  relation_heir_son: "fils et héritier"
  relation_son: "fils"
  relation_movement_leader: "chef de mouvement"
- relation_religious_head: "[second.Custom('GetActualBishopTitle')]"
+ relation_religious_head: "[second.Custom('GetActualBishopTitle')|l]"
  relation_capital_archbishop: "[second.Custom('GetActualBishopTitle')]"
  relation_grandson: "petit-fils"
  relation_greatgrandson: "arrière-petit-fils"

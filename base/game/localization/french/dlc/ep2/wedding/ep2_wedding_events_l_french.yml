@@ -41,7 +41,7 @@
  ep2_wedding.0152.t: "Mariage annulé"
  ep2_wedding.0152.desc: "Mon refus laisse les invités bouche bée, et un silence gêné s’installe dans la salle.\n\nL’expression de [spouse_2.GetFirstName] passe du choc à l’indignation. Puis, les invités se mettent à cancaner, mais je n’en ai cure. Je ne peux tout simplement pas épouser [spouse_2.GetFirstNameNoTooltip] !\n\nJ’en subirai les conséquences."
  ep2_wedding.0152.a: "Non veut dire NON."
- ep2_wedding.0153.desc: "Une exclamation de surprise s’élève de la foule, car [spouse_1.GetFirstName] refuse de se marier ! [spouse_2.GetFirstName] semble aussi choqué[spouse_2.Custom('FR_E')] que nous tous. Une frénésie de commérages s’empare de l’assistance, et des querelles éclatent tandis que [spouse_1.GetFirstNameNoTooltip] s’empresse de quitter ce lieu maudit."
+ ep2_wedding.0153.desc: "Un grand cri étouffé s’élève de l’assistance, car [spouse_1.GetFirstName] refuse de se marier ! [spouse_2.GetFirstName] semble aussi abasourdi[spouse_2.Custom('FR_E')] que nous tous. Une vague de murmures s’empare de la foule et les disputes éclatent tandis que [spouse_1.GetFirstNameNoTooltip] se dépêche de quitter cet endroit maudit."
  ep2_wedding.0153.a: "Quelle pagaille !"
  ep2_wedding.0200.t: "Le repas de noces débute"
  ep2_wedding.0200.desc_host: "Toutes les formalités sont accomplies, l’heure est aux célébrations !\n\nJe fais signe aux domestiques d’apporter nourriture et boisson, et de guider les invités vers le lieu de la fête.\n\nQue le banquet de mariage débute !"

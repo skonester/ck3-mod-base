@@ -44,7 +44,7 @@
  SETTING_SHOW_NUDITY: "나체 표시"
  SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\n인물의 나체 표시 여부를 설정합니다."
  SETTING_BEAUTIFY_DEAD: "사망한 인물 미화"
- SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\n사망한 인물을 전성기의 모습으로 표시할지, 나이, 질병, 부상으로 쇠약해진 모습으로 표시할지 설정합니다."
+ SETTING_BEAUTIFY_DEAD_TOOLTIP: "#T $SETTING_BEAUTIFY_DEAD$#!\n사망한 인물의 초상화에 전성기의 모습을 표시할지, 노화와 질병, 부상의 흔적이 남은 모습을 표시할지 전환합니다."
  SETTING_STYLIZE_DEAD: "사망한 인물 양식화"
  SETTING_STYLIZE_DEAD_TOOLTIP: "#T $SETTING_STYLIZE_DEAD$#!\n미화된 사망자 초상화에 '회화풍'을 적용하여 실제 모습을 그대로 나타낸 것이 아님을 한눈에 알아볼 수 있게 할지 설정합니다.\n\n$SETTING_BEAUTIFY_DEAD$가 활성화된 동안에만 적용됩니다."
  SETTINGS_CATEGORY_GAME_DLC_MODS: "다운로드 가능 콘텐츠"

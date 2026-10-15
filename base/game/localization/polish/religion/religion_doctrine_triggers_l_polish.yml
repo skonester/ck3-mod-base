@@ -71,7 +71,7 @@
  THEY_RITE_HAS_DOCTRINE: "[RITE.GetName] – ten obrządek ma [Concept('doctrine', 'doktrynę')|E] „[DOCTRINE_TYPE.GetName(RITE.GetFaith.Self)]”"
  NOT_RITE_THEY_HAS_DOCTRINE: "[RITE.GetName] – ten obrządek #bold nie#! ma [Concept('doctrine', 'doktryny')|E] „[DOCTRINE_TYPE.GetName(RITE.GetFaith.Self)]”"
  IN_RELIGION_FAMILY: "[RELIGION.GetName] to [RELIGION_FAMILY.GetName|l]"
- requires_sinitic_family_trigger: "Należy do [Concept('religious_family', 'rodziny religijnej')|E]: $rf_sinitic$"
+ requires_sinitic_family_trigger: "Jest w sinitycznej [Concept('religious_family', 'grupie religijnej')|E]"
  NOT_IN_RELIGION_FAMILY: "[RELIGION.GetName] to #bold nie#! [RELIGION_FAMILY.GetName|l]"
  HAS_DOCTRINE_PARAMETER: "Ma [Concept('doctrine', 'doktrynę')|E] lub [core_tenet|El] z parametrem $PARAMETER_NAME$"
  NOT_HAS_DOCTRINE_PARAMETER: "#bold Nie#! ma [Concept('doctrine', 'doktryny')|E] ani [Concept('core_tenet', 'dogmatu')|E] z parametrem $PARAMETER_NAME$"

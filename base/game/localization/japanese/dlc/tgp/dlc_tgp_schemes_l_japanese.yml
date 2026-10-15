@@ -89,7 +89,7 @@
  study_confucian_classics_outcome_stress: "$study_confucian_classics_title$ストレスの溜まる勉強"
  tgp_persistent_studies_modifier: "根気強い勉強"
  celestial_movement_power_promote_interaction: "$celestial_movement_power_promote$#weak （工作）#!"
- celestial_movement_power_promote_interaction_desc: "[recipient.GetShortUINamePossessive]の[movement_power_i] [personal_movement_power|E]、または[Select_CString( recipient.IsLocalPlayer, 'あなた', recipient.GetHerHis )]の[movement_possessive|E]の[movement_power_i] [movement_power|E]を一時的に高めようとする"
+ celestial_movement_power_promote_interaction_desc: "[recipient.GetShortUINamePossessive]の[movement_power_i] [personal_movement_power|E]、または[CharYourHerHis( recipient )]の[movement_possessive|E]の[movement_power_i] [movement_power|E]を一時的に高めようとする"
  celestial_movement_power_slander_interaction: "$celestial_movement_power_slander$#weak （工作）#!"
  celestial_movement_power_slander_interaction_desc: "[recipient.GetShortUINamePossessive]の[movement_power_i] [personal_movement_power|E]、または[recipient.GetHerHis]の[movement_possessive|E]の[movement_power_i] [movement_power|E]を一時的に下げようとする"
  celestial_movement_power_promote: "$game_concept_movement_power$を宣伝"

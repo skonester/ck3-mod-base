@@ -14,7 +14,7 @@
  diarchies.0000.diarch_fails_at_mandate.t: "[liege.GetDiarchTitle|U] nie jest w stanie wykonać mandatu"
  diarchies.0000.diarch_skims_mandate.t: "[liege.GetDiarchTitle|U] nadużywa [Concept( 'mandate', 'mandatu' )|E]"
  diarchies.0000.diarch_fails_to_skim_mandate.t: "[liege.GetDiarchTitle|U] bezskutecznie nadużywa [Concept( 'mandate', 'mandatu' )|E]"
- diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U] odmawia wykonywania [Concept( 'mandate', 'mandatu' )|E] przez [Concept( 'personality_trait', 'cechę charakteru' )|E]"
+ diarchies.0000.diarch_rejects_mandate.t: "[liege.GetDiarchTitle|U] odmawia wykonywania [Concept('mandate', 'mandatu')|E] przez [Concept('personality_trait', 'cechę osobowości')|E]"
  diarchies.0000.diarch_lax_with_mandate.t: "[liege.GetDiarchTitle|U] unika wykonywania [Concept( 'mandate', 'mandatu' )|E]"
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.liege: "[diarch.GetSheHe|U] próbował[Select_CString( diarch.IsFemale, 'a', '' )] pozyskać [gold|El]"
  diarchies.0000.diarch_mandate_fail.tt.obtain_gold.split: "[diarch.GetSheHe|U] próbował[Select_CString( diarch.IsFemale, 'a', '' )] pozyskać [gold|El] dla was obu"

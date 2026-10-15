@@ -13,7 +13,7 @@
  greeting_liege_liked_regent_assalam: "As-salāmu ’Alaikum, [second.Custom('ComplimentAdjective')|l][second.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
  greeting_liege_dislike: "An meinen Lehnsherrn,"
  greeting_liege_dislike_regent: "Seid gegrüßt, [second.Custom('ComplimentAdjective')|l][ROOT.Char.Custom('DE_END_ADJ_IND_S_N')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
- greeting_liege_fallback: "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)]"
+ greeting_liege_fallback: "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],"
  greeting_liege_neutral: "[ROOT.Char.Custom2('GreetingLiegeNeutralFlavor', second)]"
  greeting_liege_neutral_plain: "Seid gegrüßt, mein Lehnsherr,"
  greeting_liege_neutral_assalam: "As-salāmu ’Alaikum, mein Lehnsherr,"

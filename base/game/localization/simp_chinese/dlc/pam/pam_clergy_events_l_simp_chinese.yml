@@ -57,7 +57,7 @@
  pam_clergy_events.0060.t.head_of_faith: "[new_prelate.GetDynasty.GetNameNoTooltip][new_prelate.GetFaith.ReligiousHeadName|U]"
  pam_clergy_events.0060.t.antipope: "[new_prelate.GetDynasty.GetNameNoTooltip]宣称[new_prelate.GetFaith.ReligiousHeadTitleName|U]"
  pam_clergy_events.0060.t.archbishop: "[new_prelate.GetDynasty.GetNameNoTooltip]接管牧杖"
- pam_clergy_events.0060.desc.intro: "我们一直寻求引导基督教世界，无论是以御座还是讲坛。如今，[new_prelate.GetFaith.HighGodName|U]决定将[new_prelate.GetDynasty.GetName]擢升至新的高度。\n\n"
+ pam_clergy_events.0060.desc.intro: "我的宗族一直寻求引导基督教世界。如今，[new_prelate.GetFaith.HighGodName|U]决定将[new_prelate.GetDynasty.GetName]擢升至新的高度。\n\n"
  pam_clergy_events.0060.desc.pope: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))][new_prelate.GetFirstName]已登上圣伯多禄之座，成为[new_prelate.GetFaith.HighGodNamePossessive]在尘世的代理人。"
  pam_clergy_events.0060.desc.head_of_faith: "我的[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('new_prelate'))][new_prelate.GetFirstName]持有[prelate_title.GetDefinitiveName]。"
  pam_clergy_events.0060.desc.hof_outro: "国王与皇帝不过是其[Select_CString( new_prelate.IsFemale, '圣母', '圣父' )|U]意志阴影下的孩童。一支由[new_prelate.GetFaith.BishopMalePlural]组成的大军，如今听命于一位[new_prelate.GetDynasty.GetNameNoTooltip]族人。"

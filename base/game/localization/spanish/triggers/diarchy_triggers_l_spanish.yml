@@ -1,8 +1,8 @@
 ﻿l_spanish:
  MY_HAS_DIARCHY_PARAMETER: "Mi tipo de [diarchy|lE] permite esto"
  NOT_MY_HAS_DIARCHY_PARAMETER: "Mi tipo de [diarchy|lE] #bold no#! permite esto"
- THEIR_HAS_DIARCHY_PARAMETER: "La [diarchy|lE] de [CHARACTER.GetShortUIName] permite esto"
- NOT_THEIR_HAS_DIARCHY_PARAMETER: "La [diarchy|lE] de [CHARACTER.GetShortUIName] #bold no#! permite esto"
+ THEIR_HAS_DIARCHY_PARAMETER: "El [diarchy|lE] de [CHARACTER.GetShortUIName] permite esto"
+ NOT_THEIR_HAS_DIARCHY_PARAMETER: "El [diarchy|lE] de [CHARACTER.GetShortUIName] #bold no#! permite esto"
  MY_HAS_DIARCHY_ACTIVE_PARAMETER: "La [scales_of_power|lE] de tu [CHARACTER.GetDiarchyTypeName|l] te favorece bastante"
  NOT_MY_HAS_DIARCHY_ACTIVE_PARAMETER: "La [scales_of_power|lE] de tu [CHARACTER.GetDiarchyTypeName|l] se inclina en tu contra"
  THEIR_HAS_DIARCHY_ACTIVE_PARAMETER: "La [scales_of_power|lE] en la [CHARACTER.GetDiarchyTypeName|l] de [CHARACTER.GetShortUIName] se inclina en contra de [CHARACTER.GetSheHe]"

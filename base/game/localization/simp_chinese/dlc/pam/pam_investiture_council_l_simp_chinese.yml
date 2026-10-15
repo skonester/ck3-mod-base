@@ -43,7 +43,7 @@
  pam_investiture_council_events.0002.a: "理应如此。"
  # Pre-debate flavour (guest)
  pam_investiture_council_events.0003.t: "辩论开始"
- pam_investiture_council_events.0003.desc: "当会议转向那使教会与王权对立的问题——应由谁授予圣职——时，全场静默下来。这里的每一个声音都将参与决定此事。"
+ pam_investiture_council_events.0003.desc: "当会议转向那使教会与王权对立的问题——应由谁授予圣职——时，全场肃静下来。这里的每一个声音都将参与决定此事。"
  pam_investiture_council_events.0003.a: "是时候了。"
  # Post-choice persuasion (clergy voter): a single duel to sway the assembly
  pam_investiture_council_events.0032.t: "正确耳畔的话语"
@@ -77,7 +77,7 @@
  pam_investiture_persuade_tt_backfire_conservative: "失误导致#N 5#!名投票者支持王权。"
  # Player interrupt: busy/travelling when the council convenes
  pam_investiture_council_events.0004.t: "议会召唤你"
- pam_investiture_council_events.0004.desc: "消息传来，叙任权会议即将召开，以解决圣职任命之事，而我却远在外地。我可以放弃手头之事，快马加鞭赶去参加会议，亦可听任此事在没有我的情况下被定夺。"
+ pam_investiture_council_events.0004.desc: "消息传来，叙任权会议即将召开，以解决圣职任命之事，而我距那里尚有数日马程。我可以放弃手头之事，快马加鞭赶去参加会议，也可听任此事在没有我的情况下自行裁决。"
  pam_investiture_council_events.0004.a: "放弃一切事务，赶去参加会议。"
  pam_investiture_council_events.0004.b: "让他们决定吧，我就不去了。"
  pam_investiture_council_haste_modifier: "加速前往续任权会议"

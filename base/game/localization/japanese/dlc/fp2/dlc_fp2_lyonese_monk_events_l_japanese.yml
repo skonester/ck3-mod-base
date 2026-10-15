@@ -89,7 +89,7 @@
  fp2_lyonese_monk.0431.desc.pope.different: "恐らく私の前任者"
  fp2_lyonese_monk.0431.desc.pope.same: "恐らく私"
  fp2_lyonese_monk.0431.desc.outro: "が最初に送った手紙では明瞭ではなかったのだろう。[acolyte.GetFullNameNoTooltip]は、#EMP 分裂主義的な#!教義を掘り返して説いたとして非難されている。これは、忌まわしい異端者たちとともに[pope.GetFaith.NegativeAfterLife2]で焼かれるべき教えである。[acolyte.GetHerHim]を裁判のため#EMP 直ち#!に私の元へ送れ。さもなくば非難を浴びるであろう。"
- fp2_lyonese_monk.0431.a: "聖ペテロの王座を怒らせるのは賢明ではない…"
+ fp2_lyonese_monk.0431.a: "聖ペトロの王座を怒らせるのは賢明ではない…"
  fp2_lyonese_monk.0431.b: "中間地点を探るべきだ。"
  fp2_lyonese_monk.0431.b.tt.success: "[pope.GetTitledFirstNameNoTooltip]は多少軟化した"
  fp2_lyonese_monk.0431.b.tt.failure: "不器用な議論で教皇は激怒した"

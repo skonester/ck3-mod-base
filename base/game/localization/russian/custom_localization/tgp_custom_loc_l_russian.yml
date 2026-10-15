@@ -72,4 +72,4 @@
  BlocReasonBribeInfluence: "из-за щедрого подкупа [influence_i][Concept('influence', 'влиянием')|E]"
  BlocReasonBribeHook: "из-за использованного [hook_i][Concept('hook', 'рычага влияния')|E]"
  BlocReasonKicked: "был исключен [Concept('leading_house', 'основным домом')|E]"
- BlocReasonFollowedLiege: "чтобы вступить в [Concept('bloc', 'блок')|E] [Concept('liege', 'сюзерена')|E] [Concept('house_heads_possessive', 'главы дома')|E]"
+ BlocReasonFollowedLiege: "чтобы вступить в [Concept('bloc', 'блок')|E] [Concept('liege', 'сюзерена')|E] [Concept('house_heads_possessive', 'главы дома')]"

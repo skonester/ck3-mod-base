@@ -7,7 +7,7 @@
  courtier_guest_management.0102.desc: "[courtier.GetTitledFirstName](은)는 [capital.GetNameNoTierNoTooltip]에서 이제 떠나야겠다고 맘먹은 모양이다. 하인들이 [courtier.GetHerHis] 짐을 싸기 시작했으며 [courtier.GetSheHe]가 내게 작별의 인사를 건네더군.\n\n[courtier.GetTitledFirstNameNoTooltip](이)가 떠나면 [courtier_claim.GetName]에 대한 명분도 사라질 것이다. 명분도 공시하고 [courtier.GetHerHim]도 봉신으로 삼고자 한다면, 이번이 떠나는 걸 만류할 마지막 기회이다."
  courtier_guest_management.0102.a: "1년만 시간을 주시오! 그대의 명분을 곧 공시하리다!"
  courtier_guest_management.0102.a.rl.desc: "1년 내로"
- courtier_guest_management.0102.a.stay: "[courtier.GetTitledFirstNamePossessiveNoTooltip] 명분을 공시할 경우"
+ courtier_guest_management.0102.a.stay: "[courtier.GetTitledFirstNamePossessiveNoTooltip] 명분을 공시한 경우"
  courtier_guest_management.0102.a.stay.tt: "[courtier.GetShortUIName|U](이)가 궁정에 머물게 됨"
  courtier_guest_management.0102.a.leave: "[courtier.GetTitledFirstNamePossessiveNoTooltip] 명분을 공시하지 #bold 않는 경우#!"
  courtier_guest_management.0102.b: "그대의 여정이 신속하고 안전하게 이루어지길."

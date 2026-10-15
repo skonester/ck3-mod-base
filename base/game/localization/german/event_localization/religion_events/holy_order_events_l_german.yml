@@ -3,7 +3,7 @@
  holy_order.hired_message: "[holy_order.GetName] wurde von [actor.GetUIName] gerufen"
  holy_order_hired_by_enemy_message: "Feindlicher Kriegerorden"
  holy_order.hired_by_enemy: "[actor.GetUIName] hat den Orden namens [holy_order.GetName] gerufen, der sich uns nun entgegenstellt"
- holy_order.destroyed_message: "[title.GetName] wurde vernichtet"
+ holy_order.destroyed_message: "[title.GetName|U] wurde vernichtet"
  holy_order_expanded: "Kriegerorden breitet sich aus"
  holy_order.new_lease: "Der Orden namens [holy_order.GetName] pachtet jetzt [barony.GetName] von [former_holder.GetTitledFirstName]"
  monastic_holy_order_expanded: "Klosterorden expandiert"

@@ -3,7 +3,7 @@
  holy_order.hired_message: "[actor.GetUIName](이)가 [holy_order.GetName](을)를 소집함"
  holy_order_hired_by_enemy_message: "적대적인 기사수도회"
  holy_order.hired_by_enemy: "[actor.GetUIName](이)가 소집한 [holy_order.GetName](와)과 적대적인 관계가 됨"
- holy_order.destroyed_message: "[title.GetName](이)가 파멸함"
+ holy_order.destroyed_message: "[title.GetName|U](이)가 파멸함"
  holy_order_expanded: "기사수도회 확장"
  holy_order.new_lease: "[holy_order.GetName](이)가 [former_holder.GetTitledFirstName](으)로부터 [barony.GetName](을)를 임차함"
  monastic_holy_order_expanded: "수도회 확장"

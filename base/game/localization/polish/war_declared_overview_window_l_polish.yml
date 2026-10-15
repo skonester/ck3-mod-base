@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "Nie wypełniasz swoich obowiązków seniora. Twoje surowe prawa zostaną wycięte mieczem!"
  war_declared_flavor.claimant: "Jesteś uzurpatorem. Nadszedł czas, aby przywrócić na tron prawowitego monarchę!"
  war_declared_flavor.rival: "Nasza waśń trwa już dość długo. Niech stal rozstrzygnie to, czego nie zdołały słowa!"
- war_declared_flavor.vengeful: "Pamiętam każdą twoją zniewagę. Teraz zapłacisz mi za nie z nawiązką własną krwią!"
+ war_declared_flavor.vengeful: "Wszystkie twoje zniewagi wobec mnie zostały policzone i odpłacę się za nie dziesięciokrotnie – krwią!"
  war_declared_flavor.kinstrife: "To, że łączą nas więzy krwi, nie sprawia, że jest to mniej konieczne. Czy jesteśmy krewnymi, czy nie, nie pozostawiasz mi innej możliwości niż wejście na drogę wojny!"
  war_declared_flavor.callous: "Oszczędź mi swoich błagań. Nie obchodzi mnie twoje cierpienie – dla mnie liczy się tylko to, co ci odbiorę."
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Prawa i zwyczaje są po mojej stronie. Oddaj mi to, co mi się należy, albo staw czoła osądowi miecza!"

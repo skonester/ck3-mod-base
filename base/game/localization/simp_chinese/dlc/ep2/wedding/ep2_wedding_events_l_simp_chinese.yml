@@ -41,7 +41,7 @@
  ep2_wedding.0152.t: "婚礼取消"
  ep2_wedding.0152.desc: "听到我的拒绝，人群发出了惊讶的喘息，然后就是充满不确定性的沉默。\n\n我能看到[spouse_2.GetFirstNamePossessive]的脸色从震惊逐渐变为愤怒，我能听到背后突然爆发的闲言碎语，但我不在乎。我就是不能接受和[spouse_2.GetFirstNameNoTooltip]结婚！\n\n我会接受任何后果。"
  ep2_wedding.0152.a: "不愿就是不愿。"
- ep2_wedding.0153.desc: "人群中爆发出一阵惊呼，因为[spouse_1.GetFirstName]拒绝成婚！[spouse_2.GetFirstName]似乎和我们其他人一样震惊。闲言碎语如狂潮般涌起，内讧随之爆发，而[spouse_1.GetFirstNameNoTooltip]则匆匆逃离了这个受诅咒的地方。"
+ ep2_wedding.0153.desc: "听见[spouse_1.GetFirstName]拒绝成婚，人群中爆发出一阵巨大的抽气声！[spouse_2.GetFirstName]似乎和我们其他人一样震惊。一阵疯狂的闲言碎语随之四起，内讧也爆发开来，而[spouse_1.GetFirstNameNoTooltip]则匆匆逃离这个被诅咒的地方。"
  ep2_wedding.0153.a: "真是一团糟……"
  ep2_wedding.0200.t: "婚宴开始"
  ep2_wedding.0200.desc_host: "礼仪流程终于走完了，现在是时候庆祝了！\n\n我示意仆人端出食物和饮料，并将客人带到宴会地点。\n\n让婚宴开始吧！"

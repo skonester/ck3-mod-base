@@ -31,7 +31,7 @@
  war_declared_flavor.liberty: "主君としての務めも果たさぬくせに、厳しい掟を押しつけるとは。我らの剣で打ち破ってくれる！"
  war_declared_flavor.claimant: "王位を騙る者め。今こそ正統なる君主を復位させる時だ！"
  war_declared_flavor.rival: "この確執も、終わりにする時だ。言葉で決着がつかぬなら、剣で片をつけるまでだ！"
- war_declared_flavor.vengeful: "受けた侮辱を忘れるものか。十倍の報いを受けてもらう——血をもってな！"
+ war_declared_flavor.vengeful: "私に対するお前の侮辱は一つ残らず覚えている。そのすべてを血で十倍返しにしてやろう！"
  war_declared_flavor.kinstrife: "同じ血を引いていようと、なすべきことは変わらぬ。残された道は、戦だけだ！"
  war_declared_flavor.callous: "懇願など聞く気はない。貴様が苦しもうと知ったことか——目当ては貴様から奪うものだけだ。"
  war_declared_flavor.just: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)]法も慣習も我が側にある。我がものとなるべきものを渡せ。さもなくば、剣で決着をつけるまでだ！"

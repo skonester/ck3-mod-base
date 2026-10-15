@@ -27,7 +27,7 @@
  demand_church_succession.0001.flavour.default: "\n\nPozwól, że będę mówić wprost:"
  demand_church_succession.0001.recipient.elderly_childless: "kołyska stojąca przy Twym palenisku jest pusta, a Twój ród kończy się na Tobie. Wierni są cierpliwi – a z czasem czeka na nich spuścizna."
  demand_church_succession.0001.recipient.childless: "nie masz żyjących dzieci. Jeśli z woli [actor.GetFaith.HighGodNamePossessive] to się nie zmieni, Twoje ziemie przysłużą się naszej wierze."
- demand_church_succession.0001.recipient.one_child: "tylko jedno dziecko dzieli Cię od końca wszystkiego. Jeśli z woli [actor.GetFaith.HighGodNamePossessive] umrze, wierni są gotowi, by władać ziemią."
+ demand_church_succession.0001.recipient.one_child: "od wygaśnięcia rodu dzieli cię tylko jedno dziecko. Gdyby trafiło w objęcia [actor.GetFaith.HighGodNamePossessive], wierni są gotowi przejąć władzę."
  demand_church_succession.0001.recipient.default: "mijające lata zazdroszczą każdej obietnicy. Jeśli Twoja nie zostanie spełniona, Twoje ziemie trafią do nas i będą zarządzane w imię [actor.GetFaith.HighGodNamePossessive]."
  demand_church_succession.0001.a: "Tak zostało napisane i tak niechaj się stanie."
  demand_church_succession.0001.b: "W takim razie muszę doczekać się dziecka."

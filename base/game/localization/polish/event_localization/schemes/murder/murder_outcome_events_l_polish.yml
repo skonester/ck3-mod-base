@@ -392,7 +392,7 @@
  murder_outcome_reworked.0000.revealed.failure.1: "\n\nCo gorsza, na światło dzienne wypłynęła wystarczająca ilość dowodów, aby potwierdzić mój udział w zbrodni. Staję się przez to zarówno niedojdą, jak i mordercą."
  murder_outcome_reworked.0000.addendum.house_feud.1: "Niech ród [target.GetHouse.GetBaseName] będzie #EMP przeklęty!#!"
  murder_outcome_reworked.0000.addendum.house_feud.2: "Ród [owner_to_reveal.GetHouse.GetBaseName], a niechby pochłonęła ich czeluść znana jako [target.GetFaith.random_NegativeAfterLife|l]!"
- murder_outcome_reworked.0000.addendum.house_feud.2.2: "I „$murder_outcome_reworked.0000.addendum.house_feud.2$”"
+ murder_outcome_reworked.0000.addendum.house_feud.2.2: "$murder_outcome_reworked.0000.addendum.house_feud.2$"
  murder_outcome_reworked.0000.addendum.house_feud.2.servants: "Służący narzekają: ród [owner_to_reveal.GetHouse.GetBaseName], a niechby pochłonęła ich czeluść znana jako [target.GetFaith.random_NegativeAfterLife|l]!"
  #Memories (Scheme Target)
  murder_outcome_reworked.0000.memories.target.voice_overheard: "\n\nGdy moje życie zanika, słyszę chłodny głos: #EMP – [target.GetTitleAsNameNoTooltip], uznaj to za zemstę za czas, kiedy [bad_memory.GetSecondPerspectiveDescription]. Mam nadzieję, że było warto.#!"

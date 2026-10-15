@@ -20,7 +20,7 @@
  renounce_clerical_chastity_vow_decision: "貞潔の誓いを放棄"
  renounce_clerical_chastity_vow_decision_confirm: "誓いを放棄する"
  renounce_clerical_chastity_vow_decision_desc: "聖職者に貞潔を求められたため、私はこの誓いを立てた。この誓いを捨てることはできるが、神聖な約束を破れば[piety|E]を失い、良心の呵責に苦しむことになる。"
- renounce_clerical_chastity_vow_decision_tooltip: "期限を迎える前に誓いを終了する。[piety|E]を失い、[stress|E]を受け、10年間[clergy_opinion|E]が低下する。"
+ renounce_clerical_chastity_vow_decision_tooltip: "誓いを途中でやめる。[piety|E]を失い、[stress|E]を受け、10年間[clergy_opinion|E]が低下する。"
  renounce_clerical_chastity_vow_toast: "誓いを放棄した"
  renounce_clerical_chastity_vow_toast_desc: "貞潔の誓いを放棄した。"
  clerical_chastity_vow.0001.toast_released: "誓いが終了した"

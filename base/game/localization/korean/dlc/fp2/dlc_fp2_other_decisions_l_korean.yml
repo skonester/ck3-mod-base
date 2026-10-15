@@ -157,7 +157,7 @@
  found_kingdom_toledo_decision_confirm: "톨레도야말로 이베리아의 심장이다!"
  found_kingdom_toledo_decision_tooltip: "[GetTitleByKey('k_toledo').GetNameNoTier]에 기반을 둔 새로운 [GetRiteByKey('mozarabic_church').GetAdjective] [kingdom|E]을 건립함"
  found_kingdom_toledo_culture_tt: "당신의 [culture|E]가 이베리아 [heritage|E]을 보유함"
- found_kingdom_toledo_faith_tt: "당신의 [rite|E]가 [GetRiteByKey('mozarabic_church').GetName](이)거나 해당 [rite|E]에서 파생되었음"
+ found_kingdom_toledo_faith_tt: "당신의 [rite|E]가 [GetRiteByKey('mozarabic_church').GetName](이)거나 해당 교파에서 파생되었음"
  found_kingdom_toledo_duchy_tt: "[GetTitleByKey('d_toledo').GetName](와)과 [Concept( 'de_jure', '규범상' )|E] 국경을 맞댄 [duchy|E]을 [hold|E] 및 [completely_control|E]한 상태이며, 두 개 이상의 [Concept( 'de_jure', '규범상' )|E] [duchy|E]을 보유한 [kingdom|E]의 일부임"
  found_kingdom_toledo_capital_tt: "[GetTitleByKey('c_toledo').GetNameNoTier](이)가 당신의 [realm_capital|E]임"
  fp2_other_decisions.1100.t: "톨레도 왕국"
