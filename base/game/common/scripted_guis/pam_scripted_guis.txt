@@ -134,3 +134,15 @@ pam_know_doctrine = {
 		}
 	}
 }
+
+# Shows the Create Holy Site button to anyone who can create holy sites, with or without By God Alone
+pam_can_create_holy_site_gui = {
+	scope = character
+
+	is_shown = {
+		OR = {
+			has_dlc_feature = by_god_alone
+			can_create_faith_holy_site_authority_trigger = yes
+		}
+	}
+}

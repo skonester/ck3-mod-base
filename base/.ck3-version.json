@@ -1,25 +1,25 @@
 {
-  "version": "1.20.1.1",
+  "version": "1.20.1.2",
   "version_name": "Crozier",
-  "updated": "2026-10-13T17:02:52.000Z",
+  "updated": "2026-10-19T10:36:55.000Z",
   "release_notes": {
-    "title": "1.20.1",
-    "date": "2026-10-13",
-    "file": "release-notes/1_20_1_0_2026-10-13.md",
-    "url": "https://store.steampowered.com/news/app/1158310/view/684141361612459298"
+    "title": "1.20.1.2",
+    "date": "2026-10-21",
+    "file": "release-notes/1_20_1_2_2026-10-21.md",
+    "url": "https://store.steampowered.com/news/app/1158310/view/701031128264343884"
   },
   "depots": {
     "1158311": {
-      "manifest": "3427665867397021772",
-      "updated": "2026-10-13T17:00:06.000Z"
+      "manifest": "2260733246043460979",
+      "updated": "2026-10-19T10:33:46.000Z"
     },
     "1158312": {
-      "manifest": "4546000252156454279",
-      "updated": "2026-10-13T17:01:31.000Z"
+      "manifest": "8601075001277928112",
+      "updated": "2026-10-19T10:35:12.000Z"
     },
     "1158315": {
-      "manifest": "3662024461984455934",
-      "updated": "2026-10-13T17:02:52.000Z"
+      "manifest": "5682269874837924557",
+      "updated": "2026-10-19T10:36:55.000Z"
     },
     "1296730": {
       "manifest": "4673314442703562503",

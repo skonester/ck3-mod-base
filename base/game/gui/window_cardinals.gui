@@ -408,17 +408,13 @@ types CardinalWindow
 
 				expand = {}
 
-				hbox = {
+				text_single = {
 					layoutpolicy_horizontal = expanding
-					spacing = 5
+					autoresize = no
 
-					text_single = {
-						text = "[Character.GetShortUINameNoTooltip|U]"
-						max_width = 280
-						align = nobaseline
-						using = Font_Size_Medium
-					}
-					expand = {}
+					text = "[Character.GetShortUINameNoTooltip|U]"
+					align = nobaseline
+					using = Font_Size_Medium
 				}
 
 				hbox = {
@@ -438,6 +434,7 @@ types CardinalWindow
 									text = "[SuccessionElectionElector.GetElectorCandidate.GetScore]"
 									align = nobaseline
 									min_width = 30
+									max_width = 30
 								}
 
 								text_single = {
@@ -445,6 +442,7 @@ types CardinalWindow
 									text = "[SuccessionElectionElector.GetScoreDiff|+]"
 									align = nobaseline
 									min_width = 35
+									max_width = 35
 								}
 							}
 							using = tooltip_ws
@@ -645,14 +643,17 @@ types CardinalWindow
 		}
 
 		text_single = {
-			min_width = 76
-			margin_right = 0
+			layoutpolicy_horizontal = expanding
+			max_width = 105
+
 			block "papabile_header" {
 				text = "CARDINALS_VIEW_PAPABILE_SCORE_POWERFUL_HEADER"
 				alpha = "[Select_float( EqualTo_string( CardinalVoterCharacterList.GetListOwner.GetKey, 'theocratic_elective_powerful' ), '(float)1.0', '(float)0.5' )]"
 			}
+			elide = left
 			align = nobaseline
 		}
+
 		expand = {}
 
 		hbox = {
@@ -681,6 +682,7 @@ types CardinalWindow
 
 			text_single = {
 				min_width = 30
+				max_width = 30
 				block "papabile_value" {
 					text = "CARDINALS_VIEW_PAPABILE_SCORE_POWERFUL_VALUE"
 					alpha = "[Select_float( EqualTo_string( CardinalVoterCharacterList.GetListOwner.GetKey, 'theocratic_elective_powerful' ), '(float)1.0', '(float)0.5' )]"
