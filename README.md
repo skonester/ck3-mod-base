@@ -1,3 +1,316 @@
+# Crusader Kings III — Modder's Change Reports
+
+This file has two reports:
+
+- **[1.20.0.2 → 1.20.1.1](#crusader-kings-iii--12002--12011-crozier)**, the current version. It covers the post-launch
+  patches to *By God Alone* and is small for modders.
+- **[1.19.0.6 → 1.20.0.2](#crusader-kings-iii--11906-scribe--12002-crozier)**, the big Faith → Rite restructure. If your
+  mod was built for 1.19, read this one first. The same report is also in [1.20.0.2.md](1.20.0.2.md).
+
+---
+
+# Crusader Kings III — 1.20.0.2 → 1.20.1.1 "Crozier"
+
+## Modder's Change Report: Post-Launch Patches
+
+1.20.1.1 is the current version. It sums up four patches released after 1.20.0.2. None of them restructures a
+system. The Faith → Rite model, law groups, governments and holy orders are the same as in 1.20.0.2. The
+changes are bug fixes, balance changes, new Christian Church and Ecumenical Council UI, and some new modding
+hooks. **If your mod already works on 1.20.0.2, it will most likely keep loading.** The main risks are
+full-file overrides of vanilla files, which drop the fixes, and a few removed keys.
+
+| Patch | Released | What it is | Release notes |
+|---|---|---|---|
+| 1.20.0.3 | 2026-10-01 | Hotfix: 9 fixes, including a crash in the Frankokratia Fourth Crusade story | [1_20_0_3_2026-10-01.md](base/release-notes/1_20_0_3_2026-10-01.md) |
+| 1.20.0.4 | 2026-10-06 | Hotfix: 1 fix (interaction recipients broke after artifact interactions, which blocked child education) | [1_20_0_4_2026-10-06.md](base/release-notes/1_20_0_4_2026-10-06.md) |
+| 1.20.1 | 2026-10-13 | Main patch: about 450 changelog lines, including a **User Modding** section | [1_20_1_0_2026-10-13.md](base/release-notes/1_20_1_0_2026-10-13.md) |
+| 1.20.1.1 | 2026-10-13 | Silent localization hotfix, no release notes ([§G](#g-the-12011-hotfix)) | none |
+
+Paradox says that, with *Silk & Silver* coming soon, any further changes will go into **1.21** rather than another
+1.20.x patch.
+
+### Contents
+
+- [A. Summary](#a-summary)
+- [B. Crash & Breakage Risk Chart](#b-crash--breakage-risk-chart)
+- [C. Migration Checklist](#c-migration-checklist-12002--12011)
+- [D. Removed & Renamed Keys](#d-removed--renamed-keys)
+- [E. New Modding Hooks](#e-new-modding-hooks)
+- [F. Changed Vanilla Content Worth Re-merging](#f-changed-vanilla-content-worth-re-merging)
+- [G. The 1.20.1.1 Hotfix](#g-the-12011-hotfix)
+- [H. Balance Values Changed in 1.20.1](#h-balance-values-changed-in-1201)
+- [I. Methodology](#i-methodology)
+
+---
+
+## A. Summary
+
+| | |
+|---|---|
+| **From** | 1.20.0.2 "Crozier" (`base/1.20.0.2`) |
+| **To** | 1.20.1.1 "Crozier" (`base/1.20.1.1`) |
+| **Files changed** | 1,709 (24,912 insertions, 14,289 deletions), 1,114 of them localization |
+| **Script files added or removed** | None. The only added files are 20 `.info` docs, 27 textures and `tests/_tests.info` |
+| **New or removed `common/` folders** | None |
+| **Removed definitions** | 53 holy sites, 2 scripted triggers, 2 trigger-localization keys, 1 event, 3 history characters, 86 English loc keys |
+| **Added definitions** | 17 scripted effects, 13 scripted triggers, 13 script values, 5 scripted GUIs, 3 on-actions, 1 scripted rule, 2 interactions, 3 defines |
+| **Scripted effect / trigger parameter changes** | None. No existing `$PARAM$` signature changed |
+| **Removed GUI types or templates** | None (38 added) |
+| **Removed GUI data functions** | 1: `DomicileWindow.PlayBuildingNotificationSfx` |
+| **Map** | Binaries unchanged. `geographical_region.txt` moved 6 Moravian counties between two `et_1066_*` regions |
+| **Save compatibility** | Not stated in the patch notes. Test with a new game |
+
+Files changed by top-level folder:
+
+| Folder | Added | Removed | Changed |
+|---|---:|---:|---:|
+| `common/` | 14 (`.info` only) | 0 | 323 |
+| `events/` | 0 | 0 | 85 |
+| `gui/` | 0 | 0 | 63 |
+| `history/` | 0 | 0 | 38 |
+| `localization/` (all languages) | 0 | 0 | 1,114 |
+| `gfx/` | 27 | 1 (+1 renamed) | 33 |
+| `map_data/` | 0 | 0 | 2 |
+| `data_binding/` | 0 | 0 | 1 |
+
+---
+
+## B. Crash & Breakage Risk Chart
+
+The risk levels mean the same as in the [1.20.0.2 chart](#2-crash--breakage-risk-chart). Nothing here has been
+confirmed in `error.log` yet. It is an assessment based on the file diff and the patch notes.
+
+### 🔴 High Risk
+
+The diff shows **no new crash paths**. 1.20.1 *fixes* several crashes that mods could trigger:
+
+- A modifier effect or trigger that references a **missing static modifier** no longer crashes.
+- A map icon widget that cannot be created no longer crashes.
+- Also fixed: a crash showing scheme agent slots in the Intrigue window, a crash when a council task invalidates
+  itself or destroys the council, a rare crash when updating dynasty modifiers, and the Frankokratia crash (1.20.0.3).
+
+These fixes are in the engine, so they apply to your mod without any action.
+
+### 🟠 Medium Risk
+
+| # | What your mod does | What happens in 1.20.1.1 | Fix |
+|---|---|---|---|
+| P-M1 | **Full-file overrides of any of the 63 changed `.gui` files**, especially `window_domicile.gui`, `window_pam_christian_church.gui`, `window_cardinals.gui`, `window_intrigue.gui`, `window_title.gui`, `shared/cooltip.gui`, `window_faith.gui`, `window_rite_creation.gui`, `window_personal_beliefs.gui`, `hud.gui`, `shared/mapmodes.gui` | `DomicileWindow.PlayBuildingNotificationSfx` was removed. A 1.20.0.2 copy of `window_domicile.gui` calls a function that no longer exists, which gives GUI errors and a dead building-slot button. Other overrides keep working but lose the new Schism view, map modes and the layout fixes. | Re-merge onto 1.20.1.1. Use `DomicileWindow.PlayBuildingSfx( DomicileBuildingSlot.Self )`, and `PlayConstructionSfx( DomicileBuilding.Self )` for slots under construction. |
+| P-M2 | **Full-file overrides of changed on-action files**: `death.txt`, `game_start.txt`, `title_on_actions.txt`, `religion_on_actions.txt`, `yearly_on_actions.txt`, `childhood_on_actions.txt`, `holy_order_on_actions.txt`, `war_on_actions.txt`, `player_change_on_actions.txt`, `dynastic_cycle_on_actions.txt`, `ecumenical_council_on_actions.txt` | 18 vanilla on-actions changed, including `on_death`, `on_game_start`, `on_title_gain`, `on_title_lost`, `on_rite_created` and `on_rite_updated`. A 1.20.0.2 copy drops fixes such as clergy courtiers for non-Christian Heads of Faith (otherwise Clerical Appointment has no heir) and the new `ce3_theocrat_dynasty_chain_succession`. | Append from your own uniquely named on-action file instead of replacing vanilla files. |
+| P-M3 | **Changes the faith of the Pope or Ecumenical Patriarch from script** (`set_character_faith` on the holder of `k_papal_state` or `k_orthodox`) | The new `can_change_faith` scripted rule is checked on *every* faith change, including script effects. For these holders it returns false and the effect silently does nothing. | Override `common/scripted_rules/00_rules.txt` → `can_change_faith` if your mod needs this, or move the title first. |
+| P-M4 | **Calls `seek_indulgences_has_capital_archbishop_trigger` or `seek_indulgences_landed_clergy_recipient_trigger`** | Both were removed. Unknown trigger, so the enclosing block fails. | Use `actor_has_capital_archbishop_trigger`, which does the same check. Inline the landed-clergy check (`pam_is_investiture_landed_prelate_trigger = yes` plus same faith and same `top_liege`). |
+| P-M5 | **Full-file overrides of changed script files**: 61 scripted effects, 39 scripted triggers, 67 character interactions and 59 decisions changed, mostly in `pam_*` files, `00_religious_*`, `00_puppet_interactions.txt`, `00_game_rule_effects.txt` and `10_religious_decisions.txt` | Your copy loads, but it drops the 1.20.1 fixes and balance changes for those entries. Some of the dropped fixes are game-over bugs, such as reformation not converting adherents. | Override single entries (same key, later file) instead of whole files, then re-check against 1.20.1.1. |
+| P-M6 | **Scripts that convert with `set_character_faith = x.faith` / `set_county_faith = x.faith`** | The patch notes say converting to another character's or county's faith "now also copies the corresponding rite". Vanilla script also added an explicit `set_character_rite = x.rite` / `set_county_rite = x.rite` after these effects (see `on_rite_created`). Mods that set only the faith may still put converts on the Faith's main Rite. | To be safe, add the matching `set_*_rite` after each `set_*_faith`. |
+
+### 🟢 Low Risk
+
+| # | What your mod does | What happens in 1.20.1.1 | Fix |
+|---|---|---|---|
+| P-L1 | References one of the **53 removed holy sites** (`armagh`, `sparta`, `qom`, `shaolin`, `lejre`, `zeeland`, `napata`, … full list in [§D](#d-removed--renamed-keys)) in `holy_sites`/`eminent_holy_sites` or script | Unknown holy site, so log errors and the faith loses that site. Vanilla removed them because the unused definitions *blocked* those baronies (e.g. Meroe) from becoming dynamic holy sites. | Remove the reference, or define the site in your own file. Don't restore all 53: that brings the bug back. |
+| P-L2 | Full-file override of `common/religion/holy_site_types/00_holy_site_types.txt` from 1.20.0.2 | Brings back the 53 unused definitions and the blocked-barony bug. | Re-base on 1.20.1.1. |
+| P-L3 | History references to `character:et_york_867_7`, `character:et_york_1178_1` or `character:saint_0017` | These were duplicates and were removed. Ecgbert of York is now `205223`, Roger of York is `pont_leveque_1`, and Saint Boniface has one entry. | Point to the new IDs. |
+| P-L4 | Fires `heresy_light.0010` | Removed. Light heresy now sends messages through `pam_heresy_send_spread_message_effect` to affected players only. | Remove the call, or use the effect. |
+| P-L5 | Uses the trigger-localization keys `has_lowest_government_authority` or `election_candidate_unfair` | Both removed (the first is now `already_has_lowest_government_authority`). The tooltip shows a raw key. | Use the new key or your own text. |
+| P-L6 | Uses one of the **86 removed English loc keys** (`TENET_ITEM_STATUS_*`, `FAITH_WINDOW_TENET_TOOLTIP`, `PERSONAL_TENET_COOLTIP_EFFECTS`, `PUPPET_INTERACTION_LABEL`, `CLERGY_OF_FAITH_MODIFIER`, `ELECTION_CANDIDATE_UNFAIR`, `city_or_temple_holding_in_domain_req_tt`, `holy_site_*_name` for the removed sites, `heresy_light.0010.*`, …) | The raw key shows in game. | Re-point to the new keys or ship your own. |
+| P-L7 | Uses the textures `gfx/interface/icons/flat_icons/faiths.dds` or `window_college_of_cardinals/arched_stained_glass_yellow.dds` | The first was removed (use `flat_icons/rites.dds`). The second was renamed to `arched_stained_glass_blue_glow.dds`. | Update the paths. |
+| P-L8 | Uses the rites `nabi`, `tabiun` or `sahabah` for custom rulers, conversion or Find Adherent | They are now `history = yes`: they still work in history files, but can't be picked, converted to or targeted. | Expected vanilla behaviour. Use another rite for playable content. |
+| P-L9 | Relies on geographical regions being declared before their parent | No longer required: sub-regions are resolved on demand, and nesting deeper than 20 levels is logged as a probable loop. | Nothing to do. |
+| P-L10 | Your `.mod` descriptor says `supported_version="1.20.*"` | Still correct for 1.20.1.1. | Nothing to do. |
+
+---
+
+## C. Migration Checklist (1.20.0.2 → 1.20.1.1)
+
+- [ ] Diff every vanilla file you ship a full copy of against `base/1.20.1.1` (`git diff base/1.20.0.2 base/1.20.1.1 -- <path>`),
+      and re-merge. Start with `gui/` and `common/on_action/`.
+- [ ] Replace `PlayBuildingNotificationSfx` with `PlayBuildingSfx` in any `window_domicile.gui` override.
+- [ ] Search for `seek_indulgences_has_capital_archbishop_trigger` and `seek_indulgences_landed_clergy_recipient_trigger`.
+- [ ] Search `holy_site` / `eminent_holy_sites` lists for the 53 removed sites ([§D](#d-removed--renamed-keys)).
+- [ ] Search history for `et_york_867_7`, `et_york_1178_1` and `saint_0017`.
+- [ ] Add `set_character_rite` / `set_county_rite` after `set_character_faith` / `set_county_faith` where your mod
+      converts someone to another character's faith.
+- [ ] If you script faith changes for the Pope or Ecumenical Patriarch, check the new `can_change_faith` rule.
+- [ ] Start a new game with `-debug_mode` and read `error.log` ([§25](#25-validating-your-mod)).
+
+---
+
+## D. Removed & Renamed Keys
+
+| Database | Removed | Replacement |
+|---|---|---|
+| `common/religion/holy_site_types` (53) | `armagh` `ava` `awa` `badrinath` `bulguksa` `bumiayu` `cheongju` `colonea` `danai` `donggang` `dongting` `emei` `gaeseong` `goseong` `haguro` `haku` `hangzhou` `heiankyo` `hiei` `ishizuchi` `jianchang` `jiuhua` `koya` `kusinagara` `lejre` `linzi` `magadha` `mogao` `mount_kunyu` `nanhua` `napata` `prambanan` `preah_vihear` `puri` `putuo` `qom` `quanzhou` `quzhou` `sagya` `sarasvati` `shaolin` `shicheng` `shringeri` `siffa` `sittaung` `sparta` `suzhou` `tate` `turpan` `wehale` `yamama` `zeeland` `zhuolu` | None. Vanilla faiths never used them. The baronies can now become dynamic holy sites. |
+| `common/scripted_triggers` | `seek_indulgences_has_capital_archbishop_trigger` | `actor_has_capital_archbishop_trigger` |
+| `common/scripted_triggers` | `seek_indulgences_landed_clergy_recipient_trigger` | Inlined into `seek_indulgences_recipient_trigger` |
+| `common/trigger_localization` | `has_lowest_government_authority` | `already_has_lowest_government_authority` |
+| `common/trigger_localization` | `election_candidate_unfair` | None |
+| `events` | `heresy_light.0010` | `pam_heresy_send_spread_message_effect` (messages) |
+| `history/characters` | `et_york_867_7`, `et_york_1178_1`, `saint_0017` | `205223`, `pont_leveque_1`, the remaining Boniface entry |
+| GUI data function | `DomicileWindow.PlayBuildingNotificationSfx` | `DomicileWindow.PlayBuildingSfx`, `DomicileWindow.PlayConstructionSfx` |
+| GUI data function | `Scheme.GetSchemeCountermeasureProtectingTarget()` | Not removed. 1.20.0.2 vanilla used both forms; 1.20.1.1 uses only the form without `()`. |
+| Texture | `gfx/interface/icons/flat_icons/faiths.dds` | `gfx/interface/icons/flat_icons/rites.dds` |
+| Texture | `gfx/interface/window_college_of_cardinals/arched_stained_glass_yellow.dds` | `arched_stained_glass_blue_glow.dds` (plus new `_green`, `_green_glow`, `_red`, `_red_glow`) |
+
+---
+
+## E. New Modding Hooks
+
+From the 1.20.1 **User Modding** changelog, checked against the diff:
+
+| Feature | Where | Notes |
+|---|---|---|
+| `doctrine_divergence` trigger | Doctrine scope | Compares a doctrine's divergence |
+| `doctrine_in_same_group` trigger | Doctrine scope | Checks whether two doctrines share a doctrine group |
+| `special_interaction = reform_faith` | `common/character_interactions` | Reformation tries to convert *all* followers of the unreformed faith, not only vassals. Used by the new `convert_on_reform_interaction`. |
+| `history = yes` | `common/religion/rite_types` | The rite is history-only: it can't be picked in the Ruler Designer, converted to, or targeted. Used by `nabi`, `tabiun` and `sahabah`. |
+| `historical_glossary = { … }` | `common/religion/tenet_types` | A separate historical-background text for a tenet (takes `desc` / `first_valid` / `triggered_desc`). 35 vanilla tenets use it. Shown through the new `GetHistoricalGlossary` data function. |
+| `construction_soundeffect = "event:/…"` | `common/domiciles/buildings` | Played when you select a building slot that is under construction |
+| `can_change_faith` scripted rule | `common/scripted_rules/00_rules.txt` | Root is the character. Checked on *every* faith change, including `set_character_faith`. |
+| `GetGameConcept( 'key' )` + `game_concept_tooltip` template | GUI | Shows a game-concept tooltip on hover from any widget |
+| `TenetPickableForEditedRite` macro | `data_binding/pam_data_bindings.txt` | Checks whether a tenet can be picked while the mainline rite is being edited (it must be Very Popular) |
+| New GUI data functions | GUI | `GetHistoricalGlossary`, `GetPersonalTenetEffectsDescription`, `GetVirtueOrSinFullDescription`, `GetProjectOwnerDescription`, `PlayBuildingSfx`, `PlayConstructionSfx`, `Min_CFixedPoint` |
+| `.info` documentation | throughout `common/`, `gfx/` | 131 expanded and 20 new `.info` files, e.g. `dynasties`, `dynasty_houses`, `game_concepts`, `scripted_costs`, `casus_belli_groups`, `coat_of_arms/*`, `customization_rules` |
+
+**New defines:**
+
+| Define | File | Default | Purpose |
+|---|---|---|---|
+| `NRite.RITE_CREATION_DESCRIPTION_MAX_LENGTH` | `00_defines.txt` | `400` | Maximum length of a custom Rite or Faith description. Auto-generated descriptions add tenet sentences until they reach this limit. |
+| `NMapIcon.RELIGIOUS_HEADS_VISIBLE_ZOOM_STEPS` | `graphic/00_graphics.txt` | `{ 0 27 }` | Zoom range for the religious-head icons in the Faith map mode |
+| `NJominiPortraits.PATTERN_MASK_MIN_SIZE_PER_QUALITY` | `jomini/portraits.txt` | `{ 128 256 512 1024 }` | Minimum portrait pattern-mask resolution for low/medium/high/ultra |
+
+**New on-actions:**
+
+| On-action | File | Fires from |
+|---|---|---|
+| `ce3_theocrat_dynasty_chain_succession` | `on_action/death.txt` | `on_death`, for theocrat dynasty chain succession |
+| `pam_personal_tenet_status_change_fulfillment_on_action` | `on_action/dlc/pam/pam_on_actions.txt` | Appended to `on_rite_updated`. Adjusts the Spiritual Fulfillment of personal-tenet holders when their rite permits or forbids that tenet. |
+
+`on_rite_updated` also gained a new list scope, **`scope:changed_tenet_status`**: tenets whose status changed
+without being made core or removed from core. It sits alongside `added_tenets`, `removed_tenets`, `added_doctrines`
+and `removed_doctrines`.
+
+**Other new script definitions:**
+
+- **Scripted effects (17):** `give_or_make_temporal_head_of_faith_title`, `make_temporal_head_of_faith_title`,
+  `give_noble_family_title_effect`, `the_christian_church_mass_recalculate_participant_groups_effect`,
+  `pam_enforce_requested_white_peace_effect`, `pam_heresy_send_spread_message_effect`,
+  `pam_notify_player_became_cardinal_effect`, `pam_copy_chalcedonian_saints_to_schism_faiths_effect`,
+  `pam_copy_chalcedonian_added_holy_sites_to_schism_faiths_effect`, `pam_personal_tenet_lost_core_fulfillment_effect`,
+  `pam_personal_tenet_made_core_fulfillment_effect`, `pam_personal_tenet_rite_update_fulfillment_effect`,
+  `pam_personal_tenet_status_change_fulfillment_effect`, `ecumenical_council_current_debate_personal_tenet_fulfillment_effect`,
+  `ecumenical_council_personal_tenet_fulfillment_effect`, `ecumenical_council_log_stance_effect`,
+  `ecumenical_council_sway_stance_tt_effect`
+- **Scripted triggers (13):** `actor_has_capital_archbishop_trigger`, `can_create_faith_holy_site_trigger`,
+  `can_send_make_external_ruler_puppet_trigger`, `influence_clerical_candidacy_any_valid_title_trigger`,
+  `is_valid_cathedral_clerical_region_capital_trigger`, `religion_uses_east_asian_temple_trigger`,
+  `pam_ai_cardinal_candidate_is_immersive_trigger`, `pam_clerical_candidacy_reach_limited_trigger`,
+  `pam_ec_doctrine_extremist_proposer_trigger`, `pam_ec_doctrine_is_nearest_step_trigger`,
+  `pam_ec_is_active_counterplayer_trigger`, `pam_hof_thinks_well_of_canonizer_trigger`,
+  `pam_sway_to_rite_head_of_faith_reclaims_trigger`
+- **Script values (13):** `legend_creation_cost`, `pam_ask_subordinates_for_gold_piety_cost_value`,
+  `schism_mainline_supporters_gui`, `schism_competitor_supporters_gui`, and nine `ecumenical_council_*` values
+  (sway cost multiplier and tier, duel penalty, doctrine pick and step desire, and others)
+- **Scripted GUIs (5):** `pam_great_schism_can_start_gui`, `pam_great_schism_ongoing_gui`, `pam_is_papabile_pious`,
+  `pam_is_papabile_populist`, `pam_is_papabile_powerful`
+- **Character interactions (2):** `convert_on_reform_interaction`, `debug_add_schism_progress`
+- **Modifiers:** `pam_defied_church_peace_modifier` and the opinion modifier `pam_defied_church_peace_opinion`
+  (for defying a Church-imposed white peace)
+- **Events:** `pam_clergy_events.0043`, `pam_interactions_events.0084`, `pam_interactions_events.0085`
+- **Other:** message `event_religious_bad_text`; flavorization `clerical_region_duchy_oriental_christian`
+  (Miaphysite, Armenian Apostolic and Nestorian clerical regions are now *Patriarchates*); 16 new early-Pope
+  name equivalencies (`linus_male`, `anacletus_male`, `evaristus_male`, …), so those Popes get regnal numbers
+- **GUI (38 new types and templates):** Schism view (`vbox_schism_side`, `vbox_schism_supporters`, `hbox_schism_rite`,
+  `tooltip_schism_progress`, `hbox_cooltip_schism_stance`), cardinal papabile scores, the puppet interaction
+  pop-out (`widget_puppet_*`, `Color_Puppet_*` templates), tenet tooltips (`vbox_tenet_popularity_and_status`,
+  `vbox_tenet_sins_and_virtues`, `widget_tenet_trait_and_weight`), `faith_mini_map_mode_icon_selection_container`,
+  `coa_house_sigil`, `widget_organization_item`
+
+---
+
+## F. Changed Vanilla Content Worth Re-merging
+
+If your mod overrides any of these, compare it with 1.20.1.1. These are the files with the most changes:
+
+| File | Lines changed | What changed |
+|---|---:|---|
+| `common/religion/holy_site_types/00_holy_site_types.txt` | 1,482 | 53 unused sites removed |
+| `common/domiciles/buildings/11_ecclesiastical_domicile_buildings.txt` | 1,166 | Sound effects, `construction_soundeffect` |
+| `common/customizable_localization/00_divinity_custom_loc.txt` | 1,012 | Rite-aware wording |
+| `common/religion/tenet_types/00_tenet_types.txt`, `00_pam_tenets.txt` | 1,011 | `historical_glossary` blocks |
+| `common/script_values/pam_values.txt` | 616 | Study Rite, Canonize, Ecumenical Council sway scaling |
+| `events/activities/ecumenical_council_activity/pam_ecumenical_council_events.txt` | 611 | AI opponent, logging, multiplayer fixes |
+| `common/character_interactions/pam_interactions.txt` | 427 | Cooldowns, Negotiate for Land, Sway to My Rite |
+| `common/scripted_effects/pam_effects.txt` | 418 | Personal-tenet fulfillment, Schism, saints |
+| `common/scripted_triggers/pam_scripted_triggers.txt` | 348 | New EC and clerical-candidacy triggers |
+| `common/scripted_effects/00_game_rule_effects.txt` | 333 | Gender Equality and same-sex game rules now apply to every rite |
+| `common/scripted_rules/01_grant_title_rules.txt` | 190 | Theocrats can grant Feudal, Clan and Tribal governments |
+| `common/religion/doctrine_types/20_doctrines.txt` | 181 | `can_pick` / `custom_description` fixes |
+| `common/on_action/death.txt` | 114 | Theocrat dynasty chain succession |
+
+Also changed: 38 history files (867 and 1178 archbishop chains for York, Trier, Koblenz and Salzburg; Aquitaine
+de jure from 877; rite fixes in southern Italy, Paphlagonia, Palermo and Tunis; Sicilian characters before 950),
+85 event files and 63 GUI files.
+
+---
+
+## G. The 1.20.1.1 Hotfix
+
+1.20.1.1 came out the same day as 1.20.1 (2026-10-13) without release notes. Compared with 1.20.1, it changes
+**localization only**:
+
+- 855 files, almost all in `localization/` across every non-English language (mostly `dlc/pam`, `gui` and
+  `custom_localization`). **English localization did not change.**
+- `common/customizable_localization/99_fr_custom_loc.txt` was rewritten for French grammar. It adds
+  `FR_pam_anointment_authority_name_loc_FR_Du`, `FR_pam_anointment_authority_name_loc_FR_Le`,
+  `PamSaintOrAncestorTitleNounPlural` and `Eye_ArticleBlank`.
+- `common/culture/name_equivalency/00_names.txt` adds the French forms `Georges`, `Marc` and `Romain` to the
+  existing name groups.
+- `credits.txt` (3 lines).
+
+There are no script, GUI, define or map changes. Any mod that works on 1.20.1 works on 1.20.1.1.
+
+---
+
+## H. Balance Values Changed in 1.20.1
+
+These matter if your mod rebalances the same systems, or overrides the files that hold them:
+
+| What | 1.20.0.2 | 1.20.1 |
+|---|---|---|
+| Canonize a Saint | 2,000 Piety, 300 Gold | 3,000 Piety, 500 Gold, plus Head of Faith opinion when their approval is needed |
+| Assume the Conqueror's Mantle | 1,000 Piety (`monumental_piety_value`) | 3,000 Piety, aligned with the Become Conqueror requirements |
+| Ask Subordinates for Gold | 100 Piety flat (`medium_piety_value`) | 100–250 Piety, scaling with the Gold requested (`pam_ask_subordinates_for_gold_piety_cost_value`) |
+| Religious Scholar lifestyle XP bonus | up to +50% | up to +25% |
+| Passive rite learning while travelling | 30-day cooldown | 90-day cooldown |
+| Study Rite success: Learning / Piety level / Theologian | ×3 / +5 / +20 | ×2 / +3 / +10 |
+| Beseech De Jure Rights | Cooldown per cleric | 3-year cooldown for the asker |
+| Request White Peace | No minimum | War must have lasted 2 years |
+| Befriend a Head of Faith | 1 Feast | 2 Feasts |
+| Ecumenical Council sways | Flat cost | Scales with the size of the proposed change, up to ×2.5 |
+| Editing the mainline rite | Any tenet | Proposed tenets must be at least Very Popular |
+| Holy Site creation | — | Independent kings and emperors with Paragon of Virtue Piety, if the county follows their faith and the Head of Faith likes them |
+| Plague Spiritual Fulfillment loss | Every outbreak | At most once every 3 years |
+
+See the [full 1.20.1 changelog](base/release-notes/1_20_1_0_2026-10-13.md) for the AI, interface and bug-fix lists.
+
+---
+
+## I. Methodology
+
+- The diff is `git diff base/1.20.0.2 base/1.20.1.1` (tags `9c97d375a` → `9a5d0ff6e`), plus `base/1.20.1` for the
+  1.20.1.1 hotfix.
+- Added and removed keys come from comparing the top-level definitions in every `.txt` under `common/`, `events/`,
+  `history/` and `map_data/` between the two tags. Parameter changes come from comparing the `$PARAM$` sets in every
+  scripted effect, trigger, value and modifier body.
+- GUI types, templates and data functions were compared by extracting `type` / `template` names and
+  `Name(` calls from every `.gui` file.
+- Engine-level triggers and effects (`doctrine_divergence`, `doctrine_in_same_group`, `special_interaction`) come from
+  the official changelog. This repo has no `script_docs` dump to confirm them.
+- Nothing in this report has been checked yet by loading a mod in 1.20.1.1.
+
+---
+---
+
 # Crusader Kings III — 1.19.0.6 "Scribe" → 1.20.0.2 "Crozier"
 
 ## Modder's Change Report & Crash-Risk Guide
