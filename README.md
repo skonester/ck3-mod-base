@@ -1,9 +1,12 @@
 # Crusader Kings III — Modder's Change Reports
 
-This file has two reports:
+The version reports are:
 
-- **[1.20.0.2 → 1.20.1.1](#crusader-kings-iii--12002--12011-crozier)**, the current version. It covers the post-launch
-  patches to *By God Alone* and is small for modders.
+- **[1.20.0.2 → 1.21.0 “Florin”](1.21.md)**, the latest launch-version report. It covers the cumulative
+  *Silk & Silver* update, including districts, Prosperity, tax categories, trade, roads, governments,
+  script/API migrations, removed keys and a migration checklist.
+- **[1.20.0.2 → 1.20.1.1](#crusader-kings-iii--12002--12011-crozier)**, the historical post-launch
+  report for *By God Alone*. Later 1.20.1.2 changes are included in the cumulative [1.21 report](1.21.md).
 - **[1.19.0.6 → 1.20.0.2](#crusader-kings-iii--11906-scribe--12002-crozier)**, the big Faith → Rite restructure. If your
   mod was built for 1.19, read this one first. The same report is also in [1.20.0.2.md](1.20.0.2.md).
 
@@ -13,7 +16,7 @@ This file has two reports:
 
 ## Modder's Change Report: Post-Launch Patches
 
-1.20.1.1 is the current version. It sums up four patches released after 1.20.0.2. None of them restructures a
+This historical report sums up four patches through 1.20.1.1 released after 1.20.0.2. None of them restructures a
 system. The Faith → Rite model, law groups, governments and holy orders are the same as in 1.20.0.2. The
 changes are bug fixes, balance changes, new Christian Church and Ecumenical Council UI, and some new modding
 hooks. **If your mod already works on 1.20.0.2, it will most likely keep loading.** The main risks are
@@ -26,8 +29,8 @@ full-file overrides of vanilla files, which drop the fixes, and a few removed ke
 | 1.20.1 | 2026-10-13 | Main patch: about 450 changelog lines, including a **User Modding** section | [1_20_1_0_2026-10-13.md](base/release-notes/1_20_1_0_2026-10-13.md) |
 | 1.20.1.1 | 2026-10-13 | Silent localization hotfix, no release notes ([§G](#g-the-12011-hotfix)) | none |
 
-Paradox says that, with *Silk & Silver* coming soon, any further changes will go into **1.21** rather than another
-1.20.x patch.
+The subsequent 1.20.1.2 hotfix and the *Silk & Silver* / **1.21 “Florin”** launch are covered in
+[1.21.md](1.21.md). The comparisons below remain specific to their original target versions.
 
 ### Contents
 
